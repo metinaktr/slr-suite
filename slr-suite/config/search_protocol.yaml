@@ -1,0 +1,7 @@
+﻿# Search Protocol
+database: [Scopus, Web of Science]
+keywords:
+  - "artificial intelligence"
+  - "digital transformation"
+date_range: "2015-2025"
+export_format: bibtex

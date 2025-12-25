@@ -1,0 +1,9 @@
+﻿---
+title: "Playground"
+output: html_document
+---
+
+```{r}
+# Kurulum testleri
+sessionInfo()
+```

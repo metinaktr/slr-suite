@@ -1,0 +1,6 @@
+﻿# Screening Criteria
+include:
+  - language: English or Turkish
+  - peer_reviewed: true
+exclude:
+  - document_type: editorial

@@ -1,0 +1,8 @@
+﻿cff-version: 1.2.0
+title: SLR Suite
+message: Please cite this work if you use it.
+authors:
+  - family-names: Akbulut
+    given-names: Metin
+doi: 10.0000/example.doi
+date-released: 2025-12-25

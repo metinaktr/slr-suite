@@ -1,0 +1,9 @@
+﻿# TCCM Codebook
+# T: Theory, C: Context, C: Characteristics, M: Methodology
+categories:
+  - Theory
+  - Context
+  - Characteristics
+  - Methodology
+coding_rules:
+  - rule: One primary category per study

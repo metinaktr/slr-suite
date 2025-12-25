@@ -1,0 +1,24 @@
+﻿name: Publish Quarto to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render site
+        run: quarto render docs/paper/manuscript.qmd
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/paper
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
