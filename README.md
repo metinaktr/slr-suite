@@ -8,7 +8,7 @@ Bu repo, sistematik literatür derlemesi (SLR) için kurgulanmış bir uçtan uc
 - TCCM matrisi
 - Tematik evrim
 - Atıf etkisi
-- SPAR ile gelecek araÅŸtÄ±rma ajandasÄ±
+- SPAR ile gelecek araştırma ajandası
 
 ## Klasör Yapısı
 ```
