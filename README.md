@@ -1,6 +1,6 @@
 ﻿# SLR Suite
 
-Bu repo, sistematik literatÃ¼r derlemesi (SLR) iÃ§in kurgulanmÄ±ÅŸ bir uÃ§tan uca iÅŸ akÄ±ÅŸÄ±nÄ± iÃ§erir:
+Bu repo, sistematik literatür derlemesi (SLR) için kurgulanmış bir uçtan uca iş akışını içerir:
 - Veri edinme ve temizleme
 - Tarama (screening)
 - Bibliyometrik analiz
@@ -10,7 +10,7 @@ Bu repo, sistematik literatÃ¼r derlemesi (SLR) iÃ§in kurgulanmÄ±ÅŸ bir u
 - AtÄ±f etkisi
 - SPAR ile gelecek araÅŸtÄ±rma ajandasÄ±
 
-## KlasÃ¶r YapÄ±sÄ±
+## Klasör Yapısı
 ```
 slr-suite/
 |-- README.md
