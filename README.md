@@ -4,10 +4,10 @@ Bu repo, sistematik literatür derlemesi (SLR) için kurgulanmış bir uçtan uc
 - Veri edinme ve temizleme
 - Tarama (screening)
 - Bibliyometrik analiz
-- VOSviewer dÄ±ÅŸa aktarÄ±m
+- VOSviewer dışa aktarım
 - TCCM matrisi
 - Tematik evrim
-- AtÄ±f etkisi
+- Atıf etkisi
 - SPAR ile gelecek araÅŸtÄ±rma ajandasÄ±
 
 ## Klasör Yapısı
