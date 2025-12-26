@@ -46,6 +46,6 @@ slr-suite/
 |   |-- 00_playground.Rmd
 ```
 
-## HÄ±zlÄ± BaÅŸlangÄ±Ã§
-- R paket ihtiyaÃ§larÄ±nÄ±zÄ± `renv` ile kilitleyebilir,
-- Quarto ile `docs/paper/manuscript.qmd` dosyasÄ±nÄ± render/publish edebilirsiniz.
+## Hızlı Başlangıç
+- R paket ihtiyaçlarınızı `renv` ile kilitleyebilir,
+- Quarto ile `docs/paper/manuscript.qmd` dosyasınızı render/publish edebilirsiniz.
