@@ -1,12 +1,23 @@
-# 07_citation_impact.R
+# 06_thematic_evolution.R
+
 library(bibliometrix)
-library(dplyr)
-library(readr)
+library(ggplot2)
 
 df <- read_csv("data/interim/screened.csv")
 
-cit <- citations(df, field="article", sep=";")
+OUT_DIR <- "data/processed/thematic"
+if (!dir.exists(OUT_DIR)) dir.create(OUT_DIR, recursive=TRUE)
 
-write_csv(as.data.frame(cit$Cited), "data/processed/citation_impact.csv")
+year_min <- min(df$PY, na.rm=TRUE)
+year_max <- max(df$PY, na.rm=TRUE)
+mid <- ceiling(year_min + (year_max-year_min)/2)
 
-message("✔ Citation impact tamamlandı.")
+safe_breaks <- unique(sort(c(year_min, mid, year_max)))
+
+TE <- thematicEvolution(df, field="ID", years=safe_breaks, n=250)
+
+png(file.path(OUT_DIR, "thematic_sankey.png"), width=2000, height=1400, res=200)
+plot(TE)
+dev.off()
+
+message("✔ Tematik evrim tamamlandı.")
