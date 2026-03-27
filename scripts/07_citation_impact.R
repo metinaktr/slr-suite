@@ -1,1 +1,12 @@
-﻿# 07_citation_impact.R # TODO: Implement pipeline step.  # Ä°pucu: config/ iÃ§indeki YAML dosyalarÄ±nÄ± okumak iÃ§in: # library(yaml) # cfg <- yaml::read_yaml('config/search_protocol.yaml') 
+# 07_citation_impact.R
+library(bibliometrix)
+library(dplyr)
+library(readr)
+
+df <- read_csv("data/interim/screened.csv")
+
+cit <- citations(df, field="article", sep=";")
+
+write_csv(as.data.frame(cit$Cited), "data/processed/citation_impact.csv")
+
+message("✔ Citation impact tamamlandı.")
