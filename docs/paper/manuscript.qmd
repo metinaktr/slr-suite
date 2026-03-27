@@ -1,29 +1,29 @@
-﻿---
-title: "SLR Suite: Sistematik Ä°nceleme Ã‡alÄ±ÅŸmasÄ±"
+---
+title: "SLR Suite: Sistematik İnceleme Çalışması"
 author: "Metin Akbulut"
 format:
   pdf: default
   html:
     toc: true
     theme: cosmo
+lang: tr
 ---
 
-## Ã–zet
-Bu dosya, Ã§alÄ±ÅŸma kapsamÄ±nda Ã¼retilecek tÃ¼m bÃ¶lÃ¼mleri barÄ±ndÄ±ran Quarto belgesidir.
+## Özet
+Bu dosya, çalışma kapsamında üretilecek tüm bölümleri barındıran Quarto belgesidir.
 
-## GiriÅŸ
-Buraya Ã§alÄ±ÅŸmanÄ±n motivasyonu, kapsamÄ± ve katkÄ±larÄ± yazÄ±lacak.
+## Giriş
+Buraya çalışmanın motivasyonu, kapsamı ve katkıları yazılacak.
 
-## YÃ¶ntem
-Arama protokolÃ¼ ve tarama kriterleri iÃ§in `config/` iÃ§eriÄŸine bakÄ±nÄ±z.
+## Yöntem
+Arama protokolü ve tarama kriterleri için `config/` içeriğine bakınız.
 
 ## Bulgular
-Bibliyometrik analizler, tematik evrim ve atÄ±f etkisi sonuÃ§larÄ±.
+Bibliyometrik analizler, tematik evrim ve atıf etkisi sonuçları.
 
-## TartÄ±ÅŸma ve Gelecek AraÅŸtÄ±rma AjandasÄ± (SPAR)
-SPAR Ã§erÃ§evesi ile Ã¶neriler.
+## Tartışma ve Gelecek Araştırma Ajandası (SPAR)
+SPAR çerçevesi ile öneriler.
 
-## KaynakÃ§a
+## Kaynakça
 ```{bibliography}
 docs/paper/references.bib
-```
