@@ -1,1 +1,9 @@
-﻿# 04_vosviewer_export.R # TODO: Implement pipeline step.  # Ä°pucu: config/ iÃ§indeki YAML dosyalarÄ±nÄ± okumak iÃ§in: # library(yaml) # cfg <- yaml::read_yaml('config/search_protocol.yaml') 
+# 04_vosviewer_export.R
+
+load("data/processed/biblio/NetMatrix_keywords.rda")
+
+write.csv(NetMatrix,
+          file = "data/processed/biblio/vosviewer_keywords.csv",
+          row.names = TRUE)
+
+message("✔ VOSviewer export tamamlandı.")
