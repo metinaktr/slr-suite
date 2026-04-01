@@ -1,8 +1,10 @@
 name: pages build and deployment
 
+
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 env:
@@ -11,24 +13,29 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     permissions:
       pages: write
       id-token: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      # Render Quarto WEBSITE
+      # index.qmd + _quarto.yml -> docs/paper/_site/index.html
       - name: Render Quarto website
         run: quarto render docs/paper
 
-      - name: Upload _site directory
+      # Upload the GENERATED site (_site) to GitHub Pages
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/paper/_site
 
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
