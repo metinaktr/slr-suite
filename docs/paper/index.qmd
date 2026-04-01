@@ -100,4 +100,4 @@ Bu altyapıyı kullanan çalışmaların,
 - Çalışma yönteminde **SLR‑Suite**’e atıf yapması
 - Geliştirme ve uyarlama önerilerini paylaşması encouragedir.
 
-``
+
