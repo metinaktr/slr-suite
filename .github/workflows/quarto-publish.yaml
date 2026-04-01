@@ -1,8 +1,12 @@
-﻿name: Publish Quarto to GitHub Pages
+name: Publish Quarto to GitHub Pages
 
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build-deploy:
@@ -11,14 +15,24 @@ jobs:
       contents: write
       pages: write
       id-token: write
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - name: Render site
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install TinyTeX (PDF için zorunlu)
+        run: quarto install tinytex
+
+      - name: Render Quarto document
         run: quarto render docs/paper/manuscript.qmd
-      - name: Upload artifact
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/paper
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
