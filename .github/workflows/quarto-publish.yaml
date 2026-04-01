@@ -26,8 +26,8 @@ jobs:
       - name: Install TinyTeX (PDF için zorunlu)
         run: quarto install tinytex
 
-      - name: Render Quarto document
-        run: quarto render docs/paper/manuscript.qmd
+      - name: Render Quarto site
+        run: quarto render docs/paper
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
