@@ -1,12 +1,12 @@
 ---
 title: "SLR Suite: Sistematik İnceleme Çalışması"
 author: "Metin Akbulut"
+lang: tr
 format:
   pdf: default
   html:
     toc: true
     theme: cosmo
-lang: tr
 ---
 
 ## Özet
