@@ -27,7 +27,7 @@ jobs:
         run: quarto install tinytex
 
       - name: Render Quarto site
-        run: quarto render docs/paper
+        run: quarto render docs/paper --output-dir docs/paper
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
