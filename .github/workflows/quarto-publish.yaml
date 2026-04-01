@@ -11,8 +11,9 @@ env:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     permissions:
-      contents: write
+      contents: read
       pages: write
       id-token: write
 
@@ -23,11 +24,11 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install TinyTeX (PDF için zorunlu)
-        run: quarto install tinytex
+      # PDF istemiyoruz, sadece HTML site
+      # TinyTeX bu nedenle deliberately KALDIRILDI
 
-      - name: Render Quarto site
-        run: quarto render docs/paper --output-dir docs/paper
+      - name: Render Quarto website
+        run: quarto render docs/paper
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
