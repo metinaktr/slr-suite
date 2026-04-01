@@ -23,20 +23,15 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Quarto WEBSITE render (HTML)
+      # Quarto WEBSITE render (çıktı docs/paper/_site/)
       - name: Render Quarto site
         run: quarto render docs/paper
 
-      # KÖKTE index.html GARANTİSİ (404'ü bitiren adım)
-      - name: Ensure root index.html
-        run: |
-          cp docs/paper/index.html index.html
-
-      # Pages artefact: kökü yüklüyoruz
+      # ✅ Doğrudan _site deploy ediliyor
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: docs/paper/_site
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
