@@ -9,29 +9,27 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
       pages: write
       id-token: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Quarto WEBSITE render (çıktı docs/paper/_site/)
-      - name: Render Quarto site
+      - name: Render Quarto website
         run: quarto render docs/paper
 
-      # ✅ Doğrudan _site deploy ediliyor
-      - name: Upload Pages artifact
+      - name: Upload _site directory
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/paper/_site
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+``
