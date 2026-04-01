@@ -9,7 +9,16 @@ format:
 ---
 
 ## Özet
-Bu dosya, çalışma kapsamında üretilecek tüm bölümleri barındıran Quarto belgesidir.
+Bu repo, sistematik literatür derlemesi (SLR) için kurgulanmış bir uçtan uca iş akışını içerir:
+
+Veri edinme ve temizleme
+Tarama (screening)
+Bibliyometrik analiz
+VOSviewer dışa aktarım
+TCCM matrisi
+Tematik evrim
+Atıf etkisi
+SPAR ile gelecek araştırma ajandası
 
 ## Giriş
 Buraya çalışmanın motivasyonu, kapsamı ve katkıları yazılacak.
