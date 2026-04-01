@@ -1,103 +1,71 @@
 ---
-title: "SLR-Suite: Uçtan Uca Sistematik Literatür Derlemesi Altyapısı"
+title: "SLR‑Suite"
+subtitle: "An End‑to‑End Infrastructure for Systematic Literature Reviews"
 author: "Metin Akbulut"
-lang: tr
+lang: en
 format:
   html:
-    toc: true
     theme: cosmo
+    toc: false
 ---
 
-## Genel Bakış
-
-Bu repo, **Sistematik Literatür Derlemesi (Systematic Literature Review – SLR)** çalışmalarını
-**uçtan uca**, **tekrar edilebilir** ve **otomasyona açık** biçimde yürütmek amacıyla kurgulanmış
-bir araştırma altyapısı sunmaktadır.
-
-SLR‑Suite, klasik SLR metodolojisini modern **bibliyometrik analiz**, **tematik evrim** ve
-**teori temelli sentez araçları** ile birleştirerek, literatürün hem **nicel** hem de **nitel**
-boyutta derinlemesine incelenmesini hedefler.
+:::{.text-center}
+### Harmonizing the Systematic Review Pipeline  
+**from Data Acquisition to Future Research Agendas**
+:::
 
 ---
 
-## İş Akışı (Pipeline)
+## 🔍 What is SLR‑Suite?
 
-Bu altyapı, bir SLR çalışmasının tüm temel aşamalarını kapsayan aşağıdaki modüler iş akışı
-üzerine kuruludur:
+**SLR‑Suite** is an open, modular and reproducible research infrastructure designed to conduct  
+**Systematic Literature Reviews (SLR)** in an **end‑to‑end**, **transparent**, and **automation‑friendly** manner.
 
-### 1. Veri Edinme ve Temizleme
-- Web of Science ve/veya Scopus gibi akademik veri tabanlarından literatür verilerinin elde edilmesi
-- Yinelenen kayıtların kaldırılması
-- Meta-veri tutarlılığının sağlanması
-
-### 2. Tarama (Screening)
-- Başlık ve özet düzeyinde eleme
-- Dahil etme ve hariç tutma kriterlerinin uygulanması
-- PRISMA ilkelerine uyumlu tarama süreci
-
-### 3. Bibliyometrik Analiz
-- Yayın ve atıf eğilimlerinin incelenmesi
-- Yazar, dergi ve ülke bazlı üretkenlik analizleri
-- Literatürün yapısal özelliklerinin ortaya konması
-
-### 4. VOSviewer Dışa Aktarımı
-- Anahtar kelime ve yazar ağlarının oluşturulması
-- Eş‑kelime (co‑occurrence) ve ortak atıf ağlarının analizi
-- Görsel ağ haritaları ile literatür yapısının keşfi
-
-### 5. TCCM Matrisi (Theory–Context–Characteristics–Methodology)
-- Çalışmaların teorik temellerinin sınıflandırılması
-- Araştırma bağlamlarının (ülke, sektör, kurum vb.) analizi
-- Değişkenler ve yöntemler üzerinden literatür sentezi
-
-### 6. Tematik Evrim Analizi
-- Zaman içinde temaların nasıl evrildiğinin incelenmesi
-- Sankey diyagramları ile tematik geçişlerin görselleştirilmesi
-- Yükselen ve azalan araştırma temalarının belirlenmesi
-
-### 7. Atıf Etkisi Analizi
-- En etkili çalışmaların ve teorilerin tespiti
-- Literatürde entelektüel yapı analizi
-- Bilimsel etki ve bilgi akışının değerlendirilmesi
-
-### 8. SPAR Çerçevesi ile Gelecek Araştırma Ajandası
-- **S**etting (Bağlam)
-- **P**erspective (Bakış açısı)
-- **A**nchoring (Teorik dayanak)
-- **R**igor (Yöntemsel derinlik)
-
-Bu çerçeve aracılığıyla, literatürdeki boşluklar ve
-gelecekteki araştırmalar için sistematik öneriler geliştirilir.
+Inspired by best practices in bibliometrics, scientometrics, and theory‑driven synthesis,  
+SLR‑Suite integrates **quantitative bibliometric analytics** with **qualitative scholarly interpretation**.
 
 ---
 
-## Katkı ve Kullanım Amacı
+## 🚀 Core Workflow
 
-SLR‑Suite aşağıdaki amaçlara hizmet eder:
+SLR‑Suite covers the full lifecycle of a systematic review:
 
-- Akademisyenler için **tekrar edilebilir** ve **şeffaf** SLR süreçleri
-- Doktora ve yüksek lisans tezleri için güçlü bir metodolojik altyapı
-- Disiplinler arası literatür incelemelerinde metodolojik tutarlılık
-- Bibliyometrik ve teori temelli sentezin birlikte yürütülmesi
+- **Data acquisition and preprocessing**  
+  (Scopus, Web of Science, merged corpora)
+
+- **Screening and eligibility filtering**  
+  (PRISMA‑aligned inclusion/exclusion logic)
+
+- **Bibliometric analysis**  
+  (publication trends, authors, sources, countries)
+
+- **VOSviewer export and network modeling**  
+  (co‑occurrence and citation structures)
+
+- **TCCM matrix construction**  
+  *(Theory – Context – Characteristics – Methodology)*
+
+- **Thematic evolution analysis**  
+  (temporal dynamics of research streams)
+
+- **Citation impact and intellectual structure**
+
+- **SPAR‑based future research agenda generation**
 
 ---
 
-## Açıklık ve Tekrar Edilebilirlik
+## ✨ Key Features
 
-Bu proje:
-- Açık bilim (open science) ilkelerine uygundur
-- Otomatik test ve CI süreçleri ile doğrulanmaktadır
-- GitHub Pages üzerinden herkesle paylaşılabilir durumdadır
-
-SLR‑Suite, literatür incelemelerini yalnızca bir “özetleme” faaliyeti olmaktan çıkarıp,
-**analitik**, **yorumlayıcı** ve **gelecek yönelimli** bir araştırma sürecine dönüştürmeyi amaçlar.
+- 🔁 **Reproducible SLR pipelines**
+- 📊 **Bibliometric and conceptual integration**
+- 🧠 **Theory‑driven synthesis (TCCM & SPAR)**
+- 🤖 **Automation‑ready (CI / GitHub Actions)**
+- 🌐 **Web‑published results via GitHub Pages**
 
 ---
 
-## Referans ve Atıf
+## 📦 Installation
 
-Bu altyapıyı kullanan çalışmaların,
-- Çalışma yönteminde **SLR‑Suite**’e atıf yapması
-- Geliştirme ve uyarlama önerilerini paylaşması encouragedir.
-
-
+```bash
+git clone https://github.com/metinaktr/slr-suite.git
+cd slr-suite
