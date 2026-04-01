@@ -11,7 +11,6 @@ env:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-
     permissions:
       contents: read
       pages: write
@@ -24,17 +23,20 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # PDF istemiyoruz, sadece HTML site
-      # TinyTeX bu nedenle deliberately KALDIRILDI
-
-      - name: Render Quarto website
+      # Quarto WEBSITE render (HTML)
+      - name: Render Quarto site
         run: quarto render docs/paper
 
+      # KÖKTE index.html GARANTİSİ (404'ü bitiren adım)
+      - name: Ensure root index.html
+        run: |
+          cp docs/paper/index.html index.html
+
+      # Pages artefact: kökü yüklüyoruz
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/paper
+          path: .
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        
