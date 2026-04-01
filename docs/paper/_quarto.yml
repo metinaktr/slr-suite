@@ -3,6 +3,10 @@ project:
 
 website:
   title: "SLR Suite"
+  navbar:
+    left:
+      - text: "Makale"
+        href: index.html
 
 format:
   html:
