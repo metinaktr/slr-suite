@@ -1,5 +1,5 @@
 ---
-title: "SLR Suite: Sistematik İnceleme Çalışması"
+title: "SLR-Suite: Uçtan Uca Sistematik Literatür Derlemesi Altyapısı"
 author: "Metin Akbulut"
 lang: tr
 format:
@@ -8,30 +8,96 @@ format:
     theme: cosmo
 ---
 
-## Özet
-Bu repo, sistematik literatür derlemesi (SLR) için kurgulanmış bir uçtan uca iş akışını içerir:
+## Genel Bakış
 
-Veri edinme ve temizleme
-Tarama (screening)
-Bibliyometrik analiz
-VOSviewer dışa aktarım
-TCCM matrisi
-Tematik evrim
-Atıf etkisi
-SPAR ile gelecek araştırma ajandası
+Bu repo, **Sistematik Literatür Derlemesi (Systematic Literature Review – SLR)** çalışmalarını
+**uçtan uca**, **tekrar edilebilir** ve **otomasyona açık** biçimde yürütmek amacıyla kurgulanmış
+bir araştırma altyapısı sunmaktadır.
 
-## Giriş
-Buraya çalışmanın motivasyonu, kapsamı ve katkıları yazılacak.
+SLR‑Suite, klasik SLR metodolojisini modern **bibliyometrik analiz**, **tematik evrim** ve
+**teori temelli sentez araçları** ile birleştirerek, literatürün hem **nicel** hem de **nitel**
+boyutta derinlemesine incelenmesini hedefler.
 
-## Yöntem
-Arama protokolü ve tarama kriterleri için `config/` içeriğine bakınız.
+---
 
-## Bulgular
-Bibliyometrik analizler, tematik evrim ve atıf etkisi sonuçları.
+## İş Akışı (Pipeline)
 
-## Tartışma ve Gelecek Araştırma Ajandası (SPAR)
-SPAR çerçevesi ile öneriler.
+Bu altyapı, bir SLR çalışmasının tüm temel aşamalarını kapsayan aşağıdaki modüler iş akışı
+üzerine kuruludur:
 
-## Kaynakça
-```{bibliography}
-docs/paper/references.bib
+### 1. Veri Edinme ve Temizleme
+- Web of Science ve/veya Scopus gibi akademik veri tabanlarından literatür verilerinin elde edilmesi
+- Yinelenen kayıtların kaldırılması
+- Meta-veri tutarlılığının sağlanması
+
+### 2. Tarama (Screening)
+- Başlık ve özet düzeyinde eleme
+- Dahil etme ve hariç tutma kriterlerinin uygulanması
+- PRISMA ilkelerine uyumlu tarama süreci
+
+### 3. Bibliyometrik Analiz
+- Yayın ve atıf eğilimlerinin incelenmesi
+- Yazar, dergi ve ülke bazlı üretkenlik analizleri
+- Literatürün yapısal özelliklerinin ortaya konması
+
+### 4. VOSviewer Dışa Aktarımı
+- Anahtar kelime ve yazar ağlarının oluşturulması
+- Eş‑kelime (co‑occurrence) ve ortak atıf ağlarının analizi
+- Görsel ağ haritaları ile literatür yapısının keşfi
+
+### 5. TCCM Matrisi (Theory–Context–Characteristics–Methodology)
+- Çalışmaların teorik temellerinin sınıflandırılması
+- Araştırma bağlamlarının (ülke, sektör, kurum vb.) analizi
+- Değişkenler ve yöntemler üzerinden literatür sentezi
+
+### 6. Tematik Evrim Analizi
+- Zaman içinde temaların nasıl evrildiğinin incelenmesi
+- Sankey diyagramları ile tematik geçişlerin görselleştirilmesi
+- Yükselen ve azalan araştırma temalarının belirlenmesi
+
+### 7. Atıf Etkisi Analizi
+- En etkili çalışmaların ve teorilerin tespiti
+- Literatürde entelektüel yapı analizi
+- Bilimsel etki ve bilgi akışının değerlendirilmesi
+
+### 8. SPAR Çerçevesi ile Gelecek Araştırma Ajandası
+- **S**etting (Bağlam)
+- **P**erspective (Bakış açısı)
+- **A**nchoring (Teorik dayanak)
+- **R**igor (Yöntemsel derinlik)
+
+Bu çerçeve aracılığıyla, literatürdeki boşluklar ve
+gelecekteki araştırmalar için sistematik öneriler geliştirilir.
+
+---
+
+## Katkı ve Kullanım Amacı
+
+SLR‑Suite aşağıdaki amaçlara hizmet eder:
+
+- Akademisyenler için **tekrar edilebilir** ve **şeffaf** SLR süreçleri
+- Doktora ve yüksek lisans tezleri için güçlü bir metodolojik altyapı
+- Disiplinler arası literatür incelemelerinde metodolojik tutarlılık
+- Bibliyometrik ve teori temelli sentezin birlikte yürütülmesi
+
+---
+
+## Açıklık ve Tekrar Edilebilirlik
+
+Bu proje:
+- Açık bilim (open science) ilkelerine uygundur
+- Otomatik test ve CI süreçleri ile doğrulanmaktadır
+- GitHub Pages üzerinden herkesle paylaşılabilir durumdadır
+
+SLR‑Suite, literatür incelemelerini yalnızca bir “özetleme” faaliyeti olmaktan çıkarıp,
+**analitik**, **yorumlayıcı** ve **gelecek yönelimli** bir araştırma sürecine dönüştürmeyi amaçlar.
+
+---
+
+## Referans ve Atıf
+
+Bu altyapıyı kullanan çalışmaların,
+- Çalışma yönteminde **SLR‑Suite**’e atıf yapması
+- Geliştirme ve uyarlama önerilerini paylaşması encouragedir.
+
+``
