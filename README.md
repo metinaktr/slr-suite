@@ -20,6 +20,8 @@ slr-suite/
 |   |-- workflows/
 |       |-- r-cmd-check.yaml
 |       |-- quarto-publish.yaml
+|-- ci/
+      |--03_biblio_core_ci.R
 |-- config/
 |   |-- search_protocol.yaml
 |   |-- screen_criteria.yaml
