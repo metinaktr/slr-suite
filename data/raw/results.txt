@@ -1,0 +1,2877 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Jia, SZ
+   Chi, OH
+   Lu, L
+AF Jia, Shizhen (Jasper)
+   Chi, Oscar Hengxuan
+   Lu, Lu
+TI Social Robot Privacy Concern (SRPC): Rethinking privacy concerns within
+   the hospitality domain
+SO INTERNATIONAL JOURNAL OF HOSPITALITY MANAGEMENT
+LA English
+DT Article
+DE Social robot; Privacy; Hospitality; Scale development; Communication
+   management theory; Media equation theory
+ID MOBILE PAYMENT; INFORMATION; TECHNOLOGY; ACCEPTANCE; INTERNET; MODEL;
+   TRUST; CONCEPTUALIZATION; ANTHROPOMORPHISM; COMMUNICATION
+AB Understanding privacy needs has become paramount in the evolving landscape of social robots in the hospitality industry. Traditional privacy concerns, dominated by transactional interactions, fail to encapsulate the complexities of human-social robot interaction on service frontlines. Drawing from the communication management theory and the media equation theory, this study conceptualized "Social Robot Privacy Concerns" (SRPC) and discovered its multidimensionality. The SRPC construct is characterized by three key dimensions: (1) Information Privacy Concern, , addressing data management and collection; (2) Interpersonal Privacy Concern, , focusing on the robot's physical presence; and (3) Environmental Privacy Concern, , encompassing broader contexts of government regulations, media influence, and surveillance mechanisms. The findings unveil that these dimensions are pivotal in navigating the challenges posed by service robots implemented in the hospitality industry, necessitating a nuanced approach to understanding and addressing emergent privacy needs. This study also empirically validated the scale to measure the SRPC construct, providing a foundational tool for future research.
+C1 [Jia, Shizhen (Jasper); Chi, Oscar Hengxuan] Univ Florida, Coll Hlth & Human Performance, Dept Tourism Hospitality & Event Management, Gainesville, FL 32611 USA.
+   [Lu, Lu] Temple Univ, Sch Sport Tourism & Hospitality Management, Philadelphia, PA 19122 USA.
+C3 State University System of Florida; University of Florida; Pennsylvania
+   Commonwealth System of Higher Education (PCSHE); Temple University
+RP Jia, SZ (corresponding author), Univ Florida, Coll Hlth & Human Performance, Dept Tourism Hospitality & Event Management, Gainesville, FL 32611 USA.
+EM shizhen.jia@ufl.edu; h.chi@ufl.edu; lu.lu0001@temple.edu
+RI Hengxuan, Oscar/AAB-3200-2022
+CR Alaassar A, 2020, TECHNOL FORECAST SOC, V160, DOI 10.1016/j.techfore.2020.120257
+   Alarcon GM, 2018, PROCEEDINGS OF THE 51ST ANNUAL HAWAII INTERNATIONAL CONFERENCE ON SYSTEM SCIENCES (HICSS), P5384
+   Alashoor, 2018, UNDEFINEDICIS 2018 P
+   Altman I., 1973, Social penetration: The development of interpersonal relationships
+   Altman I., 1975, The Environment and Social Behavior
+   Amelia A, 2022, J SERV MANAGE, V33, P321, DOI 10.1108/JOSM-10-2020-0374
+   [Anonymous], 2018, CBS News
+   Bartneck C., 2021, INTRO ETHICS ROBOTIC, P61, DOI [10.1007/978-3-030-51110-4_8, DOI 10.1007/978-3-030-51110-4_8]
+   Bartneck C, 2009, RO-MAN 2009: THE 18TH IEEE INTERNATIONAL SYMPOSIUM ON ROBOT AND HUMAN INTERACTIVE COMMUNICATION, VOLS 1 AND 2, P1
+   Baruh L, 2017, J COMMUN, V67, P26, DOI 10.1111/jcom.12276
+   Biba J., 2023, What Is a Social Robot? | Built In. Built In
+   Boo HC, 2022, INT J CONTEMP HOSP M, V34, P4052, DOI 10.1108/IJCHM-12-2021-1471
+   Breazeal C, 2016, SPRINGER HANDBOOK OF ROBOTICS, P1935
+   Broadbent E, 2009, INT J SOC ROBOT, V1, P319, DOI 10.1007/s12369-009-0030-6
+   Buchanan T, 2007, J AM SOC INF SCI TEC, V58, P157, DOI 10.1002/asi.20459
+   Bulchand-Gidumal J, 2024, CURR ISSUES TOUR, V27, P2345, DOI 10.1080/13683500.2023.2229480
+   BURGOON JK, 1989, J SOC PERS RELAT, V6, P131, DOI 10.1177/026540758900600201
+   Cairns R, 2022, CNN
+   Calo R., 2016, SSRN Scholarly Paper 2737598
+   Calo R, 2015, CALIF LAW REV, V103, P513
+   Carpenter J., 2003, Culture and human-robot interaction in militarized spaces-google books
+   Cenfetelli RT, 2009, MIS QUART, V33, P689
+   Chatterjee S, 2023, TECHNOL FORECAST SOC, V196, DOI 10.1016/j.techfore.2023.122862
+   Chatterjee S, 2024, INFORM SYST FRONT, V26, P121, DOI 10.1007/s10796-021-10197-7
+   Chi OH, 2021, COMPUT HUM BEHAV, V118, DOI 10.1016/j.chb.2021.106700
+   Child JT, 2011, COMPUT HUM BEHAV, V27, P2017, DOI 10.1016/j.chb.2011.05.009
+   Choi H, 2018, COMPUT HUM BEHAV, V81, P42, DOI 10.1016/j.chb.2017.12.001
+   Choi S, 2019, INT J HOSP MANAG, V82, P32, DOI 10.1016/j.ijhm.2019.03.026
+   Choi TM, 2022, PROD OPER MANAG, V31, P9, DOI 10.1111/poms.13622
+   Christou P, 2020, INT J CONTEMP HOSP M, V32, P3665, DOI 10.1108/IJCHM-05-2020-0423
+   Chung H, 2023, COMPUT HUM BEHAV, V142, DOI 10.1016/j.chb.2022.107640
+   Culnan MJ, 1999, ORGAN SCI, V10, P104, DOI 10.1287/orsc.10.1.104
+   D'Acunto D, 2021, INT J CONTEMP HOSP M, V33, P2773, DOI 10.1108/IJCHM-11-2020-1329
+   de Kervenoael R, 2020, TOURISM MANAGE, V78, DOI 10.1016/j.tourman.2019.104042
+   Dienlin T, 2015, EUR J SOC PSYCHOL, V45, P285, DOI 10.1002/ejsp.2049
+   Ebers M, 2020, ALGORITHMS AND LAW, P1, DOI 10.1017/9781108347846
+   Eyssel F, 2012, BRIT J SOC PSYCHOL, V51, P724, DOI 10.1111/j.2044-8309.2011.02082.x
+   Femenia-Serra F, 2022, CURR ISSUES TOUR, V25, P2212, DOI 10.1080/13683500.2021.1987399
+   Fosch-Villaronga E, 2020, INT J SOC ROBOT, V12, P441, DOI 10.1007/s12369-019-00605-z
+   Frye WD, 2020, INT J HOSP MANAG, V85, DOI 10.1016/j.ijhm.2019.102352
+   Gaudiello I, 2016, COMPUT HUM BEHAV, V61, P633, DOI 10.1016/j.chb.2016.03.057
+   Gunkel DJ, 2012, MACHINE QUESTION: CRITICAL PERSPECTIVES ON AI, ROBOTS, AND ETHICS, P1
+   Haenlein M, 2022, J BUS ETHICS, V178, P867, DOI 10.1007/s10551-022-05060-x
+   Hair JF, 2011, J MARKET THEORY PRAC, V19, P139, DOI 10.2753/MTP1069-6679190202
+   Hair JF Jr, 2020, J BUS RES, V109, P101, DOI 10.1016/j.jbusres.2019.11.069
+   Hair JF Jr, 2017, J ADVERTISING, V46, P163, DOI 10.1080/00913367.2017.1281777
+   Hong WY, 2013, MIS QUART, V37, P275
+   Hsu A., 2022, Hotels say goodbye to daily room cleanings and hello to robots as workers stay scarce
+   Hsu CL, 2016, COMPUT HUM BEHAV, V62, P516, DOI 10.1016/j.chb.2016.04.023
+   Hu YU, 2023, INT J HOSP MANAG, V110, DOI 10.1016/j.ijhm.2023.103437
+   Huang MH, 2018, J SERV RES-US, V21, P155, DOI 10.1177/1094670517752459
+   Hwang J, 2021, INT J HOSP MANAG, V99, DOI 10.1016/j.ijhm.2021.103050
+   International Federation of Robotics, 2023, Germany's Strict Support for Israel, Informed by History
+   Ioannou A, 2021, J TRAVEL RES, V60, P1510, DOI 10.1177/0047287520951642
+   Ivanov S, 2021, Journal of Smart Tourism, V1, P9, DOI [10.52255/smarttourism.2021.1.4.3, 10.52255/smarttourism.2021.1.4.3, DOI 10.52255/SMARTTOURISM.2021.1.4.3]
+   Ivanov S, 2019, J HOSP TOUR TECHNOL, V10, P489, DOI 10.1108/JHTT-08-2018-0087
+   Jayaraman Sandhya, 2024, Computers in Human Behavior: Artificial Humans, V2, DOI [10.1016/j.chbah.2023.100039, 10.1016/j.chbah.2023.100039]
+   Kandampully J, 2015, INT J CONTEMP HOSP M, V27, P379, DOI 10.1108/IJCHM-03-2014-0151
+   Karwatzki S, 2017, J MANAGE INFORM SYST, V34, P369, DOI 10.1080/07421222.2017.1334467
+   Kerr I, 2019, Theoretical Inquiries in Law, V20, P123, DOI 10.1515/til-2019-0005
+   Khalilzadeh J, 2017, COMPUT HUM BEHAV, V70, P460, DOI 10.1016/j.chb.2017.01.001
+   Kim J, 2024, J HOSP MARKET MANAG, V33, P360, DOI 10.1080/19368623.2023.2251157
+   Kim J, 2017, J HOSP TOUR TECHNOL, V8, P337, DOI [10.1108/jhtt-03-2017-0023, 10.1108/JHTT-03-2017-0023]
+   Knani M, 2022, INT J HOSP MANAG, V107, DOI 10.1016/j.ijhm.2022.103317
+   Kokolakis S, 2017, COMPUT SECUR, V64, P122, DOI 10.1016/j.cose.2015.07.002
+   LaBranche L., 2024, AWS Blog
+   Lehto XY, 2023, CORNELL HOSP Q, V64, P74, DOI 10.1177/19389655211063204
+   Liu TT, 2023, INFORM TECHNOL PEOPL, V36, P2234, DOI 10.1108/ITP-05-2021-0365
+   Lutz C., 2023, SAGE HDB HUMAN MACHI, P310
+   Lutz C, 2021, FRONT ROBOT AI, V8, DOI 10.3389/frobt.2021.627958
+   Lutz C, 2020, Human-Machine Communication, V1, P87, DOI [10.30658/hmc.1.6, 10.30658/hmc.1.6, DOI 10.30658/HMC.1.6]
+   MacKenzie SB, 2011, MIS QUART, V35, P293
+   Malhotra NK, 2004, INFORM SYST RES, V15, P336, DOI 10.1287/isre.1040.0032
+   Mathur MB, 2016, COGNITION, V146, P22, DOI 10.1016/j.cognition.2015.09.008
+   McCartney G, 2020, INT J CONTEMP HOSP M, V13, P3835, DOI 10.1108/IJCHM-05-2020-0450
+   Miranda SM, 2016, MIS QUART, V40, P303, DOI 10.25300/MISQ/2016/40.2.02
+   Morgeson FP, 1999, ACAD MANAGE REV, V24, P249, DOI 10.2307/259081
+   Mori M, 2012, IEEE ROBOT AUTOM MAG, V19, P98, DOI 10.1109/MRA.2012.2192811
+   Moriuchi E, 2024, INT J HOSP MANAG, V118, DOI 10.1016/j.ijhm.2023.103682
+   Morosan C, 2016, INT J HOSP MANAG, V53, P17, DOI 10.1016/j.ijhm.2015.11.003
+   Nass C, 1996, INT J HUM-COMPUT ST, V45, P669, DOI 10.1006/ijhc.1996.0073
+   Nass C, 2000, J SOC ISSUES, V56, P81, DOI 10.1111/0022-4537.00153
+   Nass C, 1999, J APPL SOC PSYCHOL, V29, P1093, DOI 10.1111/j.1559-1816.1999.tb00142.x
+   Nissenbaum H, 2004, WASH LAW REV, V79, P119
+   Nissenbaum H., 2009, Privacy in context: Technology, policy, and the integrity of social life, DOI [10.1515/9780804772891, DOI 10.1515/9780804772891]
+   O'Brien RM, 2007, QUAL QUANT, V41, P673, DOI 10.1007/s11135-006-9018-6
+   Ozturk AB, 2017, INT J CONTEMP HOSP M, V29, P2027, DOI [10.1108/IJCHM-04-2016-0192, 10.1108/ijchm-04-2016-0192]
+   Pagallo U, 2018, INFORMATION, V9, DOI 10.3390/info9090230
+   Park SS, 2021, PSYCHOL MARKET, V38, P691, DOI 10.1002/mar.21468
+   Parsons C, 2015, MEDIA COMMUN-LISBON, V3, P1, DOI 10.17645/mac.v3i3.263
+   Pavlou PA, 2011, MIS QUART, V35, P977
+   Perkowsky A., 2024, Report: privacy ranks as top hotel AI adoption concern
+   Petronio S., 2004, Journal of Family Communication, V4, P193, DOI [DOI 10.1080/15267431.2004.9670131, 10.1207/s15327698jfc0403%264_6]
+   Petronio S, 2013, J FAM COMMUN, V13, P6, DOI 10.1080/15267431.2013.743426
+   Reis J, 2020, TECHNOL SOC, V63, DOI 10.1016/j.techsoc.2020.101423
+   Siau K.L., 2017, Midwest Assoc. Inf. (MWAIS)
+   Smith HJ, 2011, MIS QUART, V35, P989
+   Smith HJ, 1996, MIS QUART, V20, P167, DOI 10.2307/249477
+   Song B, 2024, CURR ISSUES TOUR, V27, P3401, DOI 10.1080/13683500.2023.2265029
+   Song B, 2022, INT J HOSP MANAG, V106, DOI 10.1016/j.ijhm.2022.103278
+   Song CS, 2022, J BUS RES, V146, P489, DOI 10.1016/j.jbusres.2022.03.087
+   Stephens S., 2023, Business Wire
+   Toedt D.M., 2022, Insights
+   Tóth Z, 2022, J BUS ETHICS, V178, P895, DOI 10.1007/s10551-022-05050-z
+   Turkle Sherry., 2016, RECLAIMING CONVERSAT
+   Tussyadiah I, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102883
+   van Doorn J, 2017, J SERV RES-US, V20, P43, DOI 10.1177/1094670516679272
+   van Riel ACR, 2017, IND MANAGE DATA SYST, V117, P459, DOI 10.1108/IMDS-07-2016-0286
+   Venkatesh V, 2003, MIS QUART, V27, P425, DOI 10.2307/30036540
+   Waytz A, 2014, J EXP SOC PSYCHOL, V52, P113, DOI 10.1016/j.jesp.2014.01.005
+   Waytz A, 2010, PERSPECT PSYCHOL SCI, V5, P219, DOI 10.1177/1745691610369336
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wu HC, 2018, J HOSP TOUR MANAG, V37, P42, DOI 10.1016/j.jhtm.2018.09.003
+   Xie LS, 2022, INT J HOSP MANAG, V107, DOI 10.1016/j.ijhm.2022.103312
+   Xie Y, 2020, J RETAIL CONSUM SERV, V55, DOI 10.1016/j.jretconser.2020.102119
+   Xu H, 2012, INFORM SYST RES, V23, P1342, DOI 10.1287/isre.1120.0416
+   Yang D, 2022, INT J SOC ROBOT, V14, P589, DOI 10.1007/s12369-021-00809-2
+   Yoganathan V, 2021, TOURISM MANAGE, V85, DOI 10.1016/j.tourman.2021.104309
+   Zhang N, 2022, MIS QUART, V46, P491, DOI 10.25300/MISQ/2022/14861
+   Zlotowski J, 2017, INT J HUM-COMPUT ST, V100, P48, DOI 10.1016/j.ijhcs.2016.12.008
+NR 120
+TC 16
+Z9 20
+U1 24
+U2 54
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0278-4319
+EI 1873-4693
+J9 INT J HOSP MANAG
+JI Int. J. Hosp. Manag.
+PD SEP
+PY 2024
+VL 122
+AR 103853
+DI 10.1016/j.ijhm.2024.103853
+EA JUL 2024
+PG 18
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA A7G5J
+UT WOS:001284184700001
+DA 2026-04-08
+ER
+
+PT J
+AU Manthiou, A
+   Klaus, P
+   Kuppelwieser, VG
+   Reeves, W
+AF Manthiou, Aikaterini
+   Klaus, Phil
+   Kuppelwieser, Volker G.
+   Reeves, William
+TI Man vs machine: examining the three themes of service robotics in
+   tourism and hospitality
+SO ELECTRONIC MARKETS
+LA English
+DT Article
+DE Artificial intelligence; Service robots; Deployment; Acceptance; Ethical
+   considerations
+ID HUMANOID ROBOTS; COMPETITIVE ADVANTAGE; TECHNOLOGICAL-CHANGE;
+   CONCEPTUAL-MODEL; SOCIAL PRESENCE; FUTURE; EXPERIENCE; RAPPORT;
+   ANTHROPOMORPHISM; DETERMINANTS
+AB There is a growing need in the tourism and hospitality literature to harmonise service robots and artificial intelligence's (AI) meaning and foundations, while also offering guidance on future discussions and research. We operationalize MacInnis'Journal of Marketing, 75(4), 136-154, (2011) conceptual contribution to derive insights regarding service robots in the tourism and hospitality domain. This paper adopts an interdisciplinary stance and integrates insights from the tourism, hospitality, philosophy, psychology, sociology, management, robotics, information technology and marketing fields. Service robotics and related tourism and hospitality research follow three basic themes: deployment, acceptance and ethical considerations. The findings on the use of service robotics are subsequently delineated and a summary of the tourism and hospitality field's current research needs is provided.
+C1 [Manthiou, Aikaterini; Kuppelwieser, Volker G.; Reeves, William] NEOMA Business Sch, 1 Rue Marechal Juin, F-76825 Mont St Aignan, France.
+   [Klaus, Phil] Int Univ Monaco, INSEEC Res Ctr, 2 Ave Albert II, MC-98000 Monaco, Monaco.
+C3 NEOMA Business School; OMNES Education; International University of
+   Monaco
+RP Manthiou, A (corresponding author), NEOMA Business Sch, 1 Rue Marechal Juin, F-76825 Mont St Aignan, France.
+EM aikaterini.manthiou@neoma-bs.fr; pklaus@monaco.edu;
+   volker.kuppelwieser@neoma-bs.fr; william.reeves@neoma-bs.fr
+RI Klaus, Philipp/A-4389-2013; Manthiou, Aikaterini/KPB-3091-2024;
+   Kuppelwieser, Volker/K-2091-2016
+OI Klaus, Philipp/0000-0002-1500-064X; Manthiou,
+   Aikaterini/0000-0002-4843-4890; Kuppelwieser, Volker/0000-0002-8795-7037
+CR Acemoglu D, 2018, AM ECON REV, V108, P1488, DOI 10.1257/aer.20160696
+   Acemoglu D, 2011, HBK ECON, V4, P1043, DOI 10.1016/S0169-7218(11)02410-5
+   Acemoglu DaronPascual Restrepo., 2017, ROBOTS JOBS EVIDENCE
+   Adams B, 2000, IEEE INTELL SYST APP, V15, P25, DOI 10.1109/5254.867909
+   ALBA JW, 1987, J CONSUM RES, V13, P411, DOI 10.1086/209080
+   Allen C, 2000, J EXP THEOR ARTIF IN, V12, P251, DOI 10.1080/09528130050111428
+   [Anonymous], 2012, ETHICS MARKETING INT
+   [Anonymous], 2017, Jobs Lost, Jobs Gained: Workforce Transitions in a Time of
+   Arntz M., 2016, OECD Social, Employment and Migration Working Papers, DOI [10.1787/5jlz9h56dvq7-en, DOI 10.1787/5JLZ9H56DVQ7-EN]
+   Asimov I., 1942, RUNAROUND ASTOUNDING, V29, P94
+   Autor DH, 2003, Q J ECON, V118, P1279, DOI 10.1162/003355303322552801
+   Barnes DC, 2015, J BUS RES, V68, P433, DOI 10.1016/j.jbusres.2014.06.005
+   Bartneck C, 2009, INT J SOC ROBOT, V1, P71, DOI 10.1007/s12369-008-0001-3
+   Beaujean M., 2006, MCKINSEY Q, V62
+   Beer J. M., 2010, TECHNOLOGY GIO
+   Belk R, 2017, ROUTLEDGE STUD MARK, P5
+   Bengtsson B., 1999, P 32 ANN HAW INT C S, P1
+   BHARADWAJ SG, 1993, J MARKETING, V57, P83, DOI 10.2307/1252221
+   Bilgihan A, 2011, J HOSP TOUR TECHNOL, V2, P139, DOI 10.1108/17579881111154245
+   Brown SW, 2005, J MARKETING, V69, P1, DOI 10.1509/jmkg.2005.69.4.1
+   Brown Tim., 2010, DEV OUTREACH, V12, P29, DOI [DOI 10.1596/1020-797X_12_1_29, 10.1596/1020-797X_12_1_29]
+   Buhalis D, 2019, J SERV MANAGE, V30, P484, DOI 10.1108/JOSM-12-2018-0398
+   Caic M, 2018, J SERV MANAGE, V29, P178, DOI 10.1108/JOSM-07-2017-0179
+   Calo MR, 2012, INTELL ROBOT AUTON, P187
+   Campbell KS, 2006, J PERS SELL SALES M, V26, P359, DOI 10.2753/PSS0885-3134260403
+   Cath C, 2018, PHILOS T R SOC A, V376, DOI 10.1098/rsta.2018.0080
+   Chan APH, 2019, J TRAVEL TOUR MARK, V36, P458, DOI 10.1080/10548408.2019.1568953
+   Chenet P, 1999, J BUS RES, V46, P133, DOI 10.1016/S0148-2963(98)00017-4
+   Chiacchio F., 2018, The Impact of Industrial Robots on EU Employment and Wages: A Local Labour Market Approach
+   Chong M, 2007, CORP REPUT REV, V10, P201, DOI 10.1057/palgrave.crr.1550051
+   Cunningham P.H., 1999, The Advertising Business, P499
+   DAVIS FD, 1989, MIS QUART, V13, P319, DOI 10.2307/249008
+   De Keyser A, 2020, J SERV RES-US, V23, P433, DOI 10.1177/1094670520928390
+   Decker M, 2017, ROBOT AUTON SYST, V87, P348, DOI 10.1016/j.robot.2016.09.017
+   DeKeyser A., 2015, A framework for understanding and managing the customer experience, P15
+   Delvaux M., 2017, GLOBALCIT Country Report No. 2017/11
+   den Hertog P, 2010, J SERV MANAGE, V21, P490, DOI 10.1108/09564231011066123
+   DENNING T, 2009, P 11 INT C UB COMP O
+   Doney PM, 1997, J MARKETING, V61, P35, DOI 10.2307/1251829
+   Draude C, 2011, AI SOC, V26, P319, DOI 10.1007/s00146-010-0312-4
+   DRUMWRIGHT ME, 1994, J MARKETING, V58, P1, DOI 10.2307/1252307
+   Duffy BR, 2003, ROBOT AUTON SYST, V42, P177, DOI 10.1016/S0921-8890(02)00374-3
+   Eden AmnonH., 2012, SINGULARITY HYPOTHES, DOI DOI 10.1007/978-3-642-32560-1
+   Epley N, 2008, SOC COGNITION, V26, P143, DOI 10.1521/soco.2008.26.2.143
+   Fleming P, 2019, ORGAN STUD, V40, P23, DOI 10.1177/0170840618765568
+   Freeman R., 2016, WHO OWNS THE ROBOTS
+   Frey CB, 2017, TECHNOL FORECAST SOC, V114, P254, DOI 10.1016/j.techfore.2016.08.019
+   Gaglio B, 2006, QUAL HEALTH RES, V16, P723, DOI 10.1177/1049732306286695
+   Giebelhausen M, 2014, J MARKETING, V78, P113, DOI 10.1509/jm.13.0056
+   Giger J, 2007, J TRANSCULT NURS, V18, P95, DOI 10.1177/1043659606298618
+   GIOIA DA, 1990, ACAD MANAGE REV, V15, P584, DOI 10.2307/258683
+   Goos M, 2014, AM ECON REV, V104, P2509, DOI 10.1257/aer.104.8.2509
+   Grandey AA, 2003, ACAD MANAGE J, V46, P86, DOI 10.5465/30040678
+   Gray K, 2012, COGNITION, V125, P125, DOI 10.1016/j.cognition.2012.06.007
+   Haslam N, 2013, NEBR SYM MOTIV, V60, P25, DOI 10.1007/978-1-4614-6959-9_2
+   Hassanein K, 2007, INT J HUM-COMPUT ST, V65, P689, DOI 10.1016/j.ijhcs.2006.11.018
+   Heerink M., 2008, Journal of Physical Agents, V2, P33, DOI DOI 10.14198/JOPHA.2008.2.2.05
+   Heerink M, 2010, INT J SOC ROBOT, V2, P361, DOI 10.1007/s12369-010-0068-5
+   Henn na Hotel, 2020, BRAND CONC
+   Huang MH, 2018, J SERV RES-US, V21, P155, DOI 10.1177/1094670517752459
+   Hubbard F.Patrick., 2014, Fla L Rev, V66, P1803
+   Hutchinson A, 2020, PLOS COMPUT BIOL, V16, DOI [10.1371/journal.pcbi.1007829, 10.1371/journal.pcbi.1007829.r001, 10.1371/journal.pcbi.1007829.r002, 10.1371/journal.pcbi.1007829.r003, 10.1371/journal.pcbi.1007829.r004]
+   IFR, 2018, The workplace of the future
+   Iphofen R, 2021, CONTEMP SOC SCI, V16, P170, DOI 10.1080/21582041.2018.1563803
+   Ivanov S., 2017, Revista Turismo & Desenvolvimento, P1501
+   Ivanov S., 2017, MARK EXP PERSP C
+   Ivanov S, 2019, J HOSP TOUR TECHNOL, V10, P489, DOI 10.1108/JHTT-08-2018-0087
+   Jaworski BJ, 2011, J MARKETING, V75, P211, DOI 10.1509/jmkg.75.4.211
+   JONES TO, 1995, HARVARD BUS REV, V73, P88
+   Kim ES, 2013, J AUTISM DEV DISORD, V43, P1038, DOI 10.1007/s10803-012-1645-2
+   Klaus P, 2020, J SERV MARK, V34, P389, DOI 10.1108/JSM-01-2019-0043
+   Komiak SYX, 2006, MIS QUART, V30, P941
+   Korchut A, 2017, FRONT NEUROL, V8, DOI 10.3389/fneur.2017.00228
+   Kwak SonyaS., 2013, 2013 IEEE RO MAN
+   Larivière B, 2017, J BUS RES, V79, P238, DOI 10.1016/j.jbusres.2017.03.008
+   Lee MK, 2012, ACMIEEE INT CONF HUM, P319
+   Lee WJ, 2020, TOURISM MANAGE, V76, DOI 10.1016/j.tourman.2019.103971
+   Leite I, 2013, INT J SOC ROBOT, V5, P291, DOI 10.1007/s12369-013-0178-y
+   LOBSCHAT L, 2019, J BUSINESS RES
+   MacInnis DJ, 2011, J MARKETING, V75, P136, DOI 10.1509/jmkg.75.4.136
+   MacInnis DJ, 2005, J MARKETING, V69, P1, DOI 10.1509/jmkg.69.1.1.55513
+   Maklan S, 2011, INT J MARKET RES, V53, P771, DOI 10.2501/IJMR-53-6-771-792
+   Maloney W.F. Molina., 2016, Are automation and trade polarizing developing country labor markets, too, DOI 10.1596/1813-9450-7922
+   Manyika J., 2013, Disruptive technologies: Advances that will transform life, business, and the global economy
+   Manyika J., 2017, FUTURE WORKS AUTOMAT
+   Marinova D, 2017, J SERV RES-US, V20, P29, DOI 10.1177/1094670516679273
+   McKinsey & Co, 2018, NOT AI FRONT MOD IMP
+   Mele C, 2015, J ACAD MARKET SCI, V43, P100, DOI 10.1007/s11747-014-0383-8
+   Mende M, 2019, J MARKETING RES, V56, P535, DOI 10.1177/0022243718822827
+   Mesmer-Magnus JR, 2012, ORGAN PSYCHOL REV, V2, P6, DOI 10.1177/2041386611417746
+   Metzler TA, 2016, NURS PHILOS, V17, P36, DOI 10.1111/nup.12101
+   Mori M, 2012, IEEE ROBOT AUTOM MAG, V19, P98, DOI 10.1109/MRA.2012.2192811
+   Mori Masahiro, 1970, ENERGY, V7, P33, DOI 10.1109/MRA.2012.2192811
+   Murphy J, 2017, EUR J TOUR RES, V15, P104
+   Nasrabadi N.M., 2007, Springer google schola, V16, P49901
+   Nomura T, 2016, INT J SOC ROBOT, V8, P21, DOI 10.1007/s12369-015-0293-z
+   Nourbakhsh IR, 2015, FOREIGN AFF, V94, P23
+   Pagallo U, 2013, COMPUT LAW SECUR REV, V29, P501, DOI 10.1016/j.clsr.2013.07.012
+   PARASURAMAN A, 1985, J MARKETING, V49, P41, DOI 10.2307/1251430
+   Price Waterhouse Cooper (PwC), 2018, WILL ROB REALL STEAL
+   Rafaeli A, 2017, J SERV RES-US, V20, P91, DOI 10.1177/1094670516679275
+   Riek Laurel., 2014, P WE ROBOT
+   RIETHER N, 2012, P 7 ACM IEEE INT C H
+   Robertson J, 2010, BODY SOC, V16, P1, DOI 10.1177/1357034X10364767
+   Roongruangsee R., 2016, P 2016 AUSTR NZ MARK
+   Royal Caribbean Press Center, 2019, SHAK THINGS SEA ROYA
+   Seo SH, 2018, INT J SOC ROBOT, V10, P147, DOI 10.1007/s12369-017-0441-8
+   Sharkey N, 2012, INTELL ROBOT AUTON, P267
+   Simon M., 2018, SERIOUS SECURITY PRO
+   Sohn D, 2005, J COMPUT-MEDIAT COMM, V10
+   Stanislovaitis P, 2017, J OPTICS-UK, V19, DOI 10.1088/2040-8986/aa820d
+   Tielman M, 2014, ACMIEEE INT CONF HUM, P407, DOI 10.1145/2559636.2559663
+   Tinwell A, 2011, INT J ARTS TECHNOL, V4, P326, DOI 10.1504/IJART.2011.041485
+   Tung VWS, 2017, INT J CONTEMP HOSP M, V29, P2498, DOI 10.1108/IJCHM-09-2016-0520
+   Turchin A, 2020, AI SOC, V35, P147, DOI 10.1007/s00146-018-0845-5
+   Tussyadiah I.P., 2018, Information and Communication Technologies in Tourism 2018, P308, DOI [DOI 10.1007/978-3-319-72923-7_24, 10.1007/978-3-319-72923-7_24]
+   Tussyadiah I, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102883
+   Tussyadiah I, 2019, ANN TOURISM RES, V78, DOI 10.1016/j.annals.2019.102752
+   Tussyadiah IP, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102886
+   Van der Loos HFM, 2016, SPRINGER HANDBOOK OF ROBOTICS, P1685
+   van Doorn J, 2017, J SERV RES-US, V20, P43, DOI 10.1177/1094670516679272
+   Vermeulen B, 2018, SUSTAINABILITY-BASEL, V10, DOI 10.3390/su10051661
+   Veruggio G, 2016, SPRINGER HANDBOOK OF ROBOTICS, P2135
+   Veruggio G, 2012, INTELL ROBOT AUTON, P347
+   Lu VN, 2020, J SERV THEOR PRACT, V30, P361, DOI 10.1108/JSTP-04-2019-0088
+   Wagner G., 2018, RES HDB DATA SCI LAW, P55, DOI [10.2139/ssrn.3198764, DOI 10.2139/SSRN.3198764]
+   Wainer J, 2007, 2007 RO-MAN: 16TH IEEE INTERNATIONAL SYMPOSIUM ON ROBOT AND HUMAN INTERACTIVE COMMUNICATION, VOLS 1-3, P867
+   WASIELEWSKI PL, 1985, SYMB INTERACT, V8, P207, DOI 10.1525/si.1985.8.2.207
+   Wilson JR, 2017, LECT NOTES ARTIF INT, V10652, P334, DOI 10.1007/978-3-319-70022-9_33
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wirtz J, 2018, J ACAD MARKET SCI, V46, P59, DOI 10.1007/s11747-017-0560-7
+   Wirtz J, 2016, SERV IND J, V36, P757, DOI 10.1080/02642069.2016.1278432
+   Wolfswinkel JF, 2013, EUR J INFORM SYST, V22, P45, DOI 10.1057/ejis.2011.51
+   Wuenderlich N. V., 2017, P 38 INT C INF SYST
+   Zheng KH, 2013, IEEE T SYST MAN CY-S, V43, P843, DOI 10.1109/TSMCA.2012.2216870
+NR 135
+TC 39
+Z9 45
+U1 6
+U2 139
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1019-6781
+EI 1422-8890
+J9 ELECTRON MARK
+JI Electron. Mark.
+PD SEP
+PY 2021
+VL 31
+IS 3
+BP 511
+EP 527
+DI 10.1007/s12525-020-00434-3
+EA AUG 2020
+PG 17
+WC Business; Management
+WE Social Science Citation Index (SSCI)
+SC Business & Economics
+GA WQ8IX
+UT WOS:000558106200001
+DA 2026-04-08
+ER
+
+PT J
+AU Yang, HJ
+   Song, HQ
+   Wang, YC
+   Ma, E
+AF Yang, Huijun
+   Song, Hanqun
+   Wang, Yao-Chin
+   Ma, Emily
+TI Similarity-attraction theory perspective on service employees and
+   service robots' interactions
+SO SERVICE INDUSTRIES JOURNAL
+LA English
+DT Article
+DE Service robots; similarity-attraction theory; enjoyable interaction;
+   helping behavior; positive word-of-mouth
+ID CONGRUITY; IDENTITY; ACCENT; BEHAVIOR; BIAS
+AB Building on the similarity-attraction theory and congruity theory, this research explores how a service robot's ethnic appearance (i.e. congruent vs. incongruent with mainstream ethnicity) and accent (i.e. non-standard vs. standard) influence employees' expected enjoyable interactions and expected service robot helping behavior, leading positive word-of-mouth to work with robots. We tested hypotheses using a scenario-based 2 x 2 between-subjects experimental design with Chinese restaurant employees (Study 1) and UK hotel employees (Study 2). Both studies reveal that the congruity of robots' appearance with the mainstream population leads to employees' expected enjoyable interaction and service robot helping behavior. Enjoyable interaction has positive effects on employees' word-of-mouth. The moderating effect of service robot accents was supported by the Chinese sample, but not by the UK sample. This research contributes to a deeper understanding of human-robot interactions and highlights the importance of involving employees' perceptions of appearance and functional features when designing service robots.
+C1 [Yang, Huijun] Macao Univ Tourism, Fac Innovat Hospitality Management, 6G4X Q3M, Macau, Peoples R China.
+   [Song, Hanqun] Univ Essex, Essex Business Sch, Colchester, England.
+   [Wang, Yao-Chin] Univ Florida, Dept Tourism Hospitality & Event Management, Gainesville, FL USA.
+   [Ma, Emily] Univ Surrey, Sch Hospitality & Tourism Management, Guildford, England.
+C3 Macao University of Tourism; University of Essex; State University
+   System of Florida; University of Florida; University of Surrey
+RP Yang, HJ (corresponding author), Macao Univ Tourism, Fac Innovat Hospitality Management, 6G4X Q3M, Macau, Peoples R China.
+EM june@utm.edu.mo
+RI YANG, June/AHC-4229-2022; Wang, Yao-Chin/T-9434-2019; Ma,
+   Emily/AAH-2229-2020
+OI Wang, Yao-Chin/0000-0001-7949-7977; Ma, Emily/0000-0002-0161-7710
+FU University of Essex, UK
+FX This project was funded by University of Essex, UK.
+CR Ahlqvist W., 2023, STEREOTYPES SOCIAL R
+   AJZEN I, 1974, J PERS SOC PSYCHOL, V29, P374, DOI 10.1037/h0036002
+   Alabed A, 2022, TECHNOL FORECAST SOC, V182, DOI 10.1016/j.techfore.2022.121786
+   Alawi N., 2023, ACCEPTING FAMILIAR E
+   Aly A, 2016, AUTON ROBOT, V40, P193, DOI 10.1007/s10514-015-9444-1
+   Barfield Jessica K., 2023, Paladyn, Journal of Robotics, Intelligent Agents, and Artificial Intelligence, DOI [10.1515/pjbr-2022-0113, 10.1515/pjbr-2022-0113]
+   Barfield JK, 2024, SENSORS-BASEL, V24, DOI 10.3390/s24196421
+   Barfield JK, 2023, LECT NOTES COMPUT SC, V14013, P3, DOI 10.1007/978-3-031-35602-5_1
+   Bartneck C, 2018, ACMIEEE INT CONF HUM, P196, DOI 10.1145/3171221.3171260
+   Belanche D, 2025, SERV IND J, V45, P132, DOI 10.1080/02642069.2023.2176485
+   Bhatia TK, 2018, WORLD ENGLISH, V37, P421, DOI 10.1111/weng.12329
+   BRISLIN RW, 1970, J CROSS CULT PSYCHOL, V1, P185, DOI 10.1177/135910457000100301
+   Buhalis D, 2022, J HOSP TOUR TECHNOL, V13, P386, DOI 10.1108/JHTT-03-2021-0104
+   BYRNE D, 1973, ANNU REV PSYCHOL, V24, P317, DOI 10.1146/annurev.ps.24.020173.001533
+   BYRNE D, 1971, HUM RELAT, V24, P201, DOI 10.1177/001872677102400302
+   Cai RY, 2022, INT J CONTEMP HOSP M, V34, P2807, DOI 10.1108/IJCHM-10-2021-1313
+   Coeckelbergh M, 2021, INT J SOC ROBOT, V13, P31, DOI 10.1007/s12369-020-00707-z
+   Coupland N, 2007, J SOCIOLING, V11, P74, DOI 10.1111/j.1467-9841.2007.00311.x
+   Crump D., 2022, 5MIN DAVID CRUMP ROB
+   Cruz-Maya A, 2017, IEEE ROMAN, P791, DOI 10.1109/ROMAN.2017.8172393
+   Diao WH, 2017, SYSTEM, V71, P87, DOI 10.1016/j.system.2017.09.013
+   Dong J, 2009, MULTILINGUA, V28, P1, DOI 10.1515/mult.2009.001
+   Dong X, 2025, SHIPS OFFSHORE STRUC, DOI 10.1080/17445302.2025.2486222
+   Donnelly M, 2019, SOCIOL RES ONLINE, V24, P496, DOI 10.1177/1360780418816335
+   E Norberg H., 2023, SOCIAL AGENTS STEREO
+   Edwards C, 2019, COMPUT HUM BEHAV, V90, P357, DOI 10.1016/j.chb.2018.08.027
+   Ely RJ, 2012, ORGAN STUD, V33, P341, DOI 10.1177/0170840611435597
+   Finkelstein MA, 2006, SOC BEHAV PERSONAL, V34, P603, DOI 10.2224/sbp.2006.34.6.603
+   Forgas-Coll S, 2023, SERV IND J, V43, P154, DOI 10.1080/02642069.2022.2163995
+   G*Power, 2024, G POWER STAT POWER A
+   Gelbrich K, 2023, PSYCHOL MARKET, V40, P2291, DOI 10.1002/mar.21893
+   Gremler DwayneD., 2000, J SERV RES-US, V3, P82, DOI [DOI 10.1177/109467050031006, 10.1177/109467050031006]
+   Haring KS, 2016, LECT NOTES ARTIF INT, V9979, P392, DOI 10.1007/978-3-319-47437-3_38
+   He GH, 2025, INT J HUM-COMPUT INT, V41, P85, DOI 10.1080/10447318.2023.2295691
+   Heerwegh D, 2009, INT J PUBLIC OPIN R, V21, P111, DOI 10.1093/ijpor/edn054
+   Helmefalk M, 2016, INT J RETAIL DISTRIB, V44, P956, DOI 10.1108/IJRDM-03-2016-0035
+   HOGG MA, 1995, EUR J SOC PSYCHOL, V25, P159, DOI 10.1002/ejsp.2420250204
+   Huang B, 2023, SERV IND J, V43, P806, DOI 10.1080/02642069.2023.2208522
+   Huang D, 2021, INT J HOSP MANAG, V99, DOI 10.1016/j.ijhm.2021.103078
+   Hung K, 2012, TOURISM MANAGE, V33, P855, DOI 10.1016/j.tourman.2011.09.007
+   Hwang J, 2013, APPL ERGON, V44, P459, DOI 10.1016/j.apergo.2012.10.010
+   Ivanov S, 2021, INT J CONTEMP HOSP M, V33, P3926, DOI 10.1108/IJCHM-09-2020-1078
+   Keeling KA, 2013, J RETAILING, V89, P88, DOI 10.1016/j.jretai.2012.11.003
+   Kim S, 2023, J TRAVEL RES, V62, P362, DOI 10.1177/00472875211064636
+   Klüber K, 2022, COMPUT HUM BEHAV, V128, DOI 10.1016/j.chb.2021.107128
+   Ko D, 1997, J WOMENS HIST, V8, P8
+   Ko S, 2023, INT J HUM ROBOT, V20, DOI 10.1142/S0219843623500019
+   Krishna A, 2010, J CONSUM PSYCHOL, V20, P410, DOI 10.1016/j.jcps.2010.06.010
+   Kühne K, 2020, FRONT NEUROROBOTICS, V14, DOI 10.3389/fnbot.2020.593732
+   Le KBQ, 2023, J SERV MANAGE, V34, P176, DOI 10.1108/JOSM-06-2021-0232
+   Lee S, 2014, INT J HOSP MANAG, V40, P49, DOI 10.1016/j.ijhm.2014.03.008
+   Leung Rosanna, 2022, International Hospitality Review, V38, P11, DOI [10.1108/ihr-08-2021-0058, 10.1108/IHR-08-2021-0058]
+   Levon E, 2021, J ENGL LINGUIST, V49, P355, DOI 10.1177/00754242211046316
+   Li MM, 2023, BEHAV INFORM TECHNOL, V42, P2387, DOI 10.1080/0144929X.2022.2125830
+   Li Y, 2024, INT J CONTEMP HOSP M, V36, P3151, DOI 10.1108/IJCHM-06-2023-0845
+   Li Y, 2025, TOURISM MANAGE, V106, DOI 10.1016/j.tourman.2024.104969
+   Liu HY, 2024, J VACAT MARK, V30, P288, DOI 10.1177/13567667221135197
+   Liu X, 2022, ANN TOURISM RES, V92, DOI 10.1016/j.annals.2021.103324
+   Liu Y, 2025, INT J HOSP MANAG, V124, DOI 10.1016/j.ijhm.2024.103951
+   Lu L, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2020.102823
+   Lv XY, 2024, J BUS RES, V176, DOI 10.1016/j.jbusres.2024.114585
+   Ma C, 2024, INT J CONTEMP HOSP M, DOI 10.1108/IJCHM-11-2023-1686
+   Ma E, 2013, CORNELL HOSP Q, V54, P308, DOI 10.1177/1938965513482520
+   Makatchev M, 2013, ACMIEEE INT CONF HUM, P357, DOI 10.1109/HRI.2013.6483610
+   Montoya RM, 2013, J SOC PERS RELAT, V30, P64, DOI 10.1177/0265407512452989
+   Mukherjee S, 2023, SERV IND J, V43, P1083, DOI 10.1080/02642069.2023.2243592
+   NEDERHOF AJ, 1985, EUR J SOC PSYCHOL, V15, P263, DOI 10.1002/ejsp.2420150303
+   Ng E, 2023, PERS REV, V52, P401, DOI 10.1108/PR-03-2023-914
+   Obremski D, 2022, FRONT ROBOT AI, V9, DOI 10.3389/frobt.2022.983955
+   OSGOOD CE, 1955, PSYCHOL REV, V62, P42, DOI 10.1037/h0048153
+   Paluch S, 2022, J SERV MANAGE, V33, P363, DOI 10.1108/JOSM-11-2020-0406
+   Park J, 2021, INT J ENV RES PUB HE, V18, DOI 10.3390/ijerph18126417
+   Parvez MO, 2022, INT J HOSP MANAG, V107, DOI 10.1016/j.ijhm.2022.103336
+   Pendergrass L. A., 2002, PERSONALITY SIMILARI
+   Pitardi V, 2023, INT J INFORM MANAGE, V70, DOI 10.1016/j.ijinfomgt.2022.102489
+   Potinteu A. E., 2023, INSIGHT HUMANS HELPI, DOI DOI 10.31234/OSF.IO/KUH8Z
+   Rumsey C., 2023, BRIEF GUIDE BRIT ACC
+   Santiago J, 2024, TECHNOL FORECAST SOC, V199, DOI 10.1016/j.techfore.2023.123047
+   Shin H, 2022, INT J CONTEMP HOSP M, V34, P2337, DOI 10.1108/IJCHM-09-2021-1171
+   Shin HH, 2020, INT J CONTEMP HOSP M, V32, P2613, DOI 10.1108/IJCHM-09-2019-0798
+   Song H., 2023, INT J CONTEMP HOSP M, P0959
+   Song HQ, 2022, INT J HOSP MANAG, V106, DOI 10.1016/j.ijhm.2022.103301
+   Song HQ, 2019, J HOSP TOUR MANAG, V40, P11, DOI 10.1016/j.jhtm.2019.05.001
+   Song Y, 2022, INT J HOSP MANAG, V103, DOI 10.1016/j.ijhm.2022.103220
+   Spangenberg ER, 2006, J BUS RES, V59, P1281, DOI 10.1016/j.jbusres.2006.08.006
+   Sparrow R, 2020, SCI TECHNOL HUM VAL, V45, P538, DOI 10.1177/0162243919862862
+   Torre I., 2021, VOICE ATTRACTIVENESS, P299, DOI [DOI 10.1007/978-981-15-6627-116, 10.1007/978-981-15-6627-1_16, DOI 10.1007/978-981-15-6627-1_16]
+   Torre I, 2020, IEEE ROMAN, P215, DOI 10.1109/RO-MAN47096.2020.9223449
+   Trovato G, 2015, 2015 24TH IEEE INTERNATIONAL SYMPOSIUM ON ROBOT AND HUMAN INTERACTIVE COMMUNICATION (RO-MAN), P235, DOI 10.1109/ROMAN.2015.7333573
+   Trovato G., 2013, Paladyn, Journal of Behavioral Robotics, V4, P83, DOI 10.2478/pjbr-2013-0006
+   Viglia G, 2022, SERV IND J, V42, P1, DOI 10.1080/02642069.2021.2003341
+   Wang BY, 2025, SHIPS OFFSHORE STRUC, DOI 10.1080/17445302.2025.2503480
+   Wang YC, 2024, INT J CONTEMP HOSP M, V36, P1744, DOI 10.1108/IJCHM-11-2022-1448
+   Wang YC, 2024, INT J CONTEMP HOSP M, V36, P1262, DOI 10.1108/IJCHM-11-2022-1444
+   Wang YC, 2019, J RETAIL CONSUM SERV, V50, P1, DOI 10.1016/j.jretconser.2019.04.011
+   WETZEL CG, 1982, J EXP SOC PSYCHOL, V18, P253, DOI 10.1016/0022-1031(82)90053-1
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Yu HY, 2022, INT J CONTEMP HOSP M, V34, P2971, DOI 10.1108/IJCHM-10-2021-1312
+   Zhang MY, 2021, INT J CONTEMP HOSP M, V33, P3883, DOI 10.1108/IJCHM-11-2020-1256
+   Zhang QN, 2024, Proceedings of the AAAI Symposium Series, V2, P219, DOI [10.1609/aaaiss.v2i1.27675, 10.1609/aaaiss.v2i1.27675, DOI 10.1609/AAAISS.V2I1.27675]
+   Zhang Y, 2022, AUSTRALAS MARK J, V30, P60, DOI 10.1177/1839334921999475
+   Zhao H, 2021, J MULTILING MULTICUL, V42, P882, DOI 10.1080/01434632.2020.1814310
+NR 102
+TC 5
+Z9 5
+U1 20
+U2 39
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 0264-2069
+EI 1743-9507
+J9 SERV IND J
+JI Serv. Ind. J.
+PD MAR 12
+PY 2026
+VL 46
+IS 3-4
+BP 284
+EP 307
+DI 10.1080/02642069.2025.2485972
+EA APR 2025
+PG 24
+WC Management
+WE Social Science Citation Index (SSCI)
+SC Business & Economics
+GA DH3QZ
+UT WOS:001462373700001
+DA 2026-04-08
+ER
+
+PT J
+AU Lin, IY
+   Mattila, AS
+AF Lin, Ingrid Y.
+   Mattila, Anna S.
+TI The Value of Service Robots from the Hotel Guest's Perspective: A
+   Mixed-Method Approach
+SO INTERNATIONAL JOURNAL OF HOSPITALITY MANAGEMENT
+LA English
+DT Article
+DE Attitude; Mixed-method; Perceived value; Qualitative study; Service
+   robot; Structural equation modeling
+ID MODERATING ROLE; SOCIAL ROBOTS; CO-CREATION; TOURISM; PRIVACY;
+   TECHNOLOGIES; ACCEPTANCE; EMPLOYEES; LESSONS; QUALITY
+AB Service robots (SR) are increasingly valued and embraced; they are here to stay. Research on collaborative intelligence to better understand robotic-human partnerships is scarce. To bridge that gap this study aimed to examine the value of SR from the guest's perspective, thus gain a deeper understanding of the co-value creation process in the context of full-service hotels. A mixed-method design was used to capture the depth and breadth of perceived value of SR. Study 1 is a qualitative study probing consumers' sense making regarding SR. Study 2 used structural equation modeling to test the hypotheses derived from Study 1. Results indicate that perceived privacy, functional benefits of SR, and robot appearance positively influence consumers' attitude towards adoption of SR. Functional benefits and novelty had an impact on the individuals' anticipated overall experience. Attitude and anticipated overall experience, in turn, enhanced consumers' acceptance of SR. Implications, limitations, and future research are discussed.
+C1 [Lin, Ingrid Y.] Univ Hawaii Manoa, Sch Travel Ind Management, 2560 Campus Rd,George Hall 346, Honolulu, HI 96822 USA.
+   [Mattila, Anna S.] Penn State Univ, Sch Hospitality Management, 201 Mateer Bldg, University Pk, PA 16802 USA.
+C3 University of Hawaii System; University of Hawaii Manoa; Pennsylvania
+   Commonwealth System of Higher Education (PCSHE); Pennsylvania State
+   University; Pennsylvania State University - University Park
+RP Lin, IY (corresponding author), Univ Hawaii Manoa, Sch Travel Ind Management, 2560 Campus Rd,George Hall 346, Honolulu, HI 96822 USA.
+EM ilin@hawaii.edu; asm6@psu.edu
+RI Lin, Ingrid/L-3899-2014; Mattila, Anna/AAA-2462-2021
+CR AJZEN I, 1991, ORGAN BEHAV HUM DEC, V50, P179, DOI 10.1016/0749-5978(91)90020-T
+   Ajzen I., 2000, Attitudes and the Attitude-Behavior Relation: Reasoned and Automatic Processes, V11, P1, DOI [10.1080/14792779943000116, DOI 10.1080/14792779943000116]
+   Almquist E, 2016, HARVARD BUS REV, V94, P47
+   [Anonymous], 2017, Core textbook
+   [Anonymous], 2018, Brookings
+   [Anonymous], 2009, J AM SOC INF SCI TEC, DOI DOI 10.1002/asi.21066
+   [Anonymous], 1990, Basics of qualitative research: Grounded theory procedures and techniques
+   Beer J.M., 2011, Understanding Robot Acceptance
+   Belanche D, 2020, SERV IND J, V40, P203, DOI 10.1080/02642069.2019.1672666
+   Belanche D, 2021, ELECTRON MARK, V31, P477, DOI 10.1007/s12525-020-00432-5
+   Belanche D, 2020, SMART INNOV SYST TEC, V167, P449, DOI 10.1007/978-981-15-1564-4_42
+   Belk R, 2021, SERV IND J, V41, P860, DOI 10.1080/02642069.2020.1727892
+   Breazeal C, 2005, ARTIF LIFE, V11, P31, DOI 10.1162/1064546053278955
+   Buhalis D, 2019, J SERV MANAGE, V30, P484, DOI 10.1108/JOSM-12-2018-0398
+   Buhalis D, 2019, J TRAVEL TOUR MARK, V36, P563, DOI 10.1080/10548408.2019.1592059
+   Byrne BM, 2013, STRUCTURAL EQUATION, DOI DOI 10.4324/9780203807644
+   Caic M, 2019, J SERV MARK, V33, P463, DOI 10.1108/JSM-02-2018-0080
+   Caic M, 2018, J SERV MANAGE, V29, P178, DOI 10.1108/JOSM-07-2017-0179
+   Carline M., 2007, Executive Summary of Hospitality Industry Self-Service Technology Study
+   Cengiz E., 2007, PROBLEMS PERSPECTIVE, V5, P252, DOI DOI 10.1016/S0022-4359(01)00041-0
+   Chahal H., 2014, Marketing Review, V14, P361, DOI [10.1362/146934714X14185702841280, DOI 10.1362/146934714X14185702841280]
+   Chan APH, 2019, J TRAVEL TOUR MARK, V36, P458, DOI 10.1080/10548408.2019.1568953
+   Chang HL, 2008, TOURISM MANAGE, V29, P980, DOI 10.1016/j.tourman.2007.12.002
+   Charmaz K., 2012, Med Sociol, V6, P1, DOI DOI 10.1002/9781405165518.WBEOSG070
+   Charmaz Kathy., 1996, RETHINKING METHODS P, P27, DOI [10.1016/B978-0-08-044894-7.01581-5, DOI 10.1016/B978-0-08-044894-7.01581-5]
+   Charmaz Kathy., 2014, Constructing Ground Theory, V2nd
+   Choi Y, 2020, J HOSP MARKET MANAG, V29, P613, DOI 10.1080/19368623.2020.1703871
+   Correia A, 2020, CURR ISSUES TOUR, V23, P952, DOI 10.1080/13683500.2019.1574290
+   Darling K, 2015, SSRN Electronic Journal, DOI [10.2139/ssrn.2588669, 10.1093/oso/9780190652951.003.0012, DOI 10.1093/OSO/9780190652951.003.0012, DOI 10.2139/SSRN.2588669, 10.2139/SSRN.2588669, 10.2139/ssrn.2588669]
+   DAVIS FD, 1989, MIS QUART, V13, P319, DOI 10.2307/249008
+   Dinev T, 2006, INFORM SYST RES, V17, P61, DOI 10.1287/isre.1060.0080
+   Fishburn P.C., 1970, UTILITY THEORY DECIS
+   FORNELL C, 1981, J MARKETING RES, V18, P382, DOI [10.2307/3150980, 10.2307/3151312]
+   Goetz J, 2003, RO-MAN 2003: 12TH IEEE INTERNATIONAL WORKSHOP ON ROBOT AND HUMAN INTERACTIVE COMMUNICATION, PROCEEDINGS, P55
+   Gretzel U, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P93, DOI 10.1108/978-1-78756-687-320191005
+   Grönroos C, 2013, J ACAD MARKET SCI, V41, P133, DOI 10.1007/s11747-012-0308-3
+   Gursoy D, 2019, INT J INFORM MANAGE, V49, P157, DOI 10.1016/j.ijinfomgt.2019.03.008
+   Harrison RL, 2013, J BUS RES, V66, P2153, DOI 10.1016/j.jbusres.2012.01.006
+   Heck RH, 2007, EDUC ADMIN QUART, V43, P399, DOI 10.1177/0013161X07306452
+   Hou Y, 2021, TOURISM MANAGE, V83, DOI 10.1016/j.tourman.2020.104242
+   Hu LT, 1999, STRUCT EQU MODELING, V6, P1, DOI 10.1080/10705519909540118
+   Huang MH, 2018, J SERV RES-US, V21, P155, DOI 10.1177/1094670517752459
+   Ivanov S, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P1
+   Ivanov S., 2017, Revista Turismo & Desenvolvimento, P1501
+   Ivanov S, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P7, DOI 10.1108/978-1-78756-687-320191001
+   Ivanov S, 2019, INFORMATION AND COMMUNICATION TECHNOLOGIES IN TOURISM 2019, P237, DOI 10.1007/978-3-030-05940-8_19
+   Ivanov S, 2019, Z TOUR, V11, P25, DOI 10.1515/tw-2019-0003
+   Ivanov S, 2018, TECHNOL SOC, V55, P24, DOI 10.1016/j.techsoc.2018.06.004
+   Ivanov S, 2018, TOURISM, V66, P302
+   Jörling M, 2019, J SERV RES-US, V22, P404, DOI 10.1177/1094670519842334
+   Johnson RB, 2007, J MIX METHOD RES, V1, P112, DOI 10.1177/1558689806298224
+   Kaartemo V, 2018, J CREAT VALUE, V4, P211, DOI [10.1177/2394964318805625, https://doi.org/10.1177/2394964318805625, DOI 10.1177/2394964318805625, 10.1177/2394964318805625]
+   Karantzavelou V., 2020, TRAVEL DAILY NEWS
+   Kazandzhieva V, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P79, DOI 10.1108/978-1-78756-687-320191004
+   Koumelis T., 2020, TRAVEL DAILY NEWS
+   Lambert James, 2019, Technical Report
+   Lee WJ, 2020, TOURISM MANAGE, V76, DOI 10.1016/j.tourman.2019.103971
+   Lin HX, 2020, J HOSP MARKET MANAG, V29, P530, DOI 10.1080/19368623.2020.1685053
+   Liu C, 2020, INF TECHNOL TOUR, V22, P33, DOI 10.1007/s40558-020-00167-1
+   Lukanova G, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P157, DOI 10.1108/978-1-78756-687-320191009
+   Luntz F.I., 1994, POLLING REPORT
+   Lutz C., 2018, Human-Machine Communication: Rethinking Communication, Technology, and Ourselves, P145
+   Lutz C, 2019, MOB MEDIA COMMUN, V7, P412, DOI 10.1177/2050157919843961
+   Mathwick C, 2001, J RETAILING, V77, P39, DOI 10.1016/S0022-4359(00)00045-2
+   Mattila AS, 2001, J RETAILING, V77, P273, DOI 10.1016/S0022-4359(01)00042-2
+   McGuire L., 1999, Australian Services: Marketing and Management
+   Meuter ML, 2005, J MARKETING, V69, P61, DOI 10.1509/jmkg.69.2.61.60759
+   Mori M, 2012, IEEE ROBOT AUTOM MAG, V19, P98, DOI 10.1109/MRA.2012.2192811
+   Murphy J., 2017, [No title captured], V31, P1
+   Najberg A., 2018, ALIBABA LAUNCH NEW S
+   Oh H, 2013, J BUS RES, V66, P692, DOI 10.1016/j.jbusres.2011.09.005
+   Pagallo U, 2013, COMPUT LAW SECUR REV, V29, P501, DOI 10.1016/j.clsr.2013.07.012
+   Papathanassis A, 2011, TOURISM MANAGE, V32, P215, DOI 10.1016/j.tourman.2009.12.005
+   Pinillos R, 2016, ROBOT AUTON SYST, V79, P40, DOI 10.1016/j.robot.2016.01.014
+   Rueben M, 2017, ARXIV PREPRINT ARXIV
+   Sanchez-Fernandez R., 2007, Marketing Theory, V7, P427, DOI DOI 10.1177/1470593107083165
+   Schneider Christie., 2017, 10 reasons why AI-powered, automated customer service is the future
+   Seyitoglu F, 2021, CURR ISSUES TOUR, V24, P1631, DOI 10.1080/13683500.2020.1774518
+   Sheth J.N., 1991, CONSUMPTION VALUES M
+   Siljee J, 2015, PROCEEDINGS OF THE 20TH EUROPEAN CONFERENCE ON PATTERN LANGUAGES OF PROGRAMS (EUROPLOP 2015), DOI 10.1145/2855321.2855374
+   Singer P.W., 2009, Wired for war: the robotics revolution and conflict in the 21st century
+   Smith HJ, 2011, MIS QUART, V35, P989
+   SOLOMON MR, 1985, J MARKETING, V49, P99, DOI 10.2307/1251180
+   Stock RM, 2017, INT CONF PERVAS COMP
+   Tudoran A, 2009, APPETITE, V52, P568, DOI 10.1016/j.appet.2009.01.009
+   Tussyadiah I.P., 2018, Information and Communication Technologies in Tourism 2018, P308, DOI [DOI 10.1007/978-3-319-72923-7_24, 10.1007/978-3-319-72923-7_24]
+   Vargo SL, 2004, J MARKETING, V68, P1, DOI 10.1509/jmkg.68.1.1.24036
+   Vargo SL, 2016, J ACAD MARKET SCI, V44, P5, DOI 10.1007/s11747-015-0456-3
+   Lu VN, 2020, J SERV THEOR PRACT, V30, P361, DOI 10.1108/JSTP-04-2019-0088
+   Weber K, 2001, ANN TOURISM RES, V28, P360, DOI 10.1016/S0160-7383(00)00051-7
+   Wilson J, 2018, HARVARD BUS REV, V96, P115
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Woodruff RB, 1997, J ACAD MARKET SCI, V25, P139, DOI 10.1007/BF02894350
+   Yin R K., QUALITATIVE RES STAR, P218
+   Yu CE, 2020, J HOSP MARKET MANAG, V29, P22, DOI 10.1080/19368623.2019.1592733
+   ZEITHAML VA, 1988, J MARKETING, V52, P2, DOI 10.2307/1251446
+   Zemke DMV, 2020, J HOSP TOUR RES, V44, P1235, DOI 10.1177/1096348020946383
+NR 97
+TC 168
+Z9 192
+U1 13
+U2 267
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0278-4319
+EI 1873-4693
+J9 INT J HOSP MANAG
+JI Int. J. Hosp. Manag.
+PD APR
+PY 2021
+VL 94
+AR 102876
+DI 10.1016/j.ijhm.2021.102876
+EA FEB 2021
+PG 21
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA RA2OQ
+UT WOS:000631257900070
+DA 2026-04-08
+ER
+
+PT J
+AU Roy, SK
+   Singh, G
+   Sadeque, S
+   Gruner, RL
+AF Roy, Sanjit K.
+   Singh, Gaganpreet
+   Sadeque, Saalem
+   Gruner, Richard L.
+TI Customer experience quality with social robots: Does trust matter?
+SO TECHNOLOGICAL FORECASTING AND SOCIAL CHANGE
+LA English
+DT Article
+DE Customer equity drivers; Customer experience; Social robots; Customer
+   trust; Brand equity; Value equity; Artificial neural networks
+ID PARTIAL LEAST-SQUARES; PLS-SEM GUIDELINES; EQUITY DRIVERS; HYBRID SEM;
+   METHOD BIAS; TECHNOLOGY; DETERMINANTS; ACCEPTANCE; COMMERCE; LOYALTY
+AB Although service providers increasingly adopt social robots, much remains to be learned about what influences customers' experiences with robots. To address this issue, this study investigates the relationships among customer equity drivers (i.e., value equity, brand equity and relationship equity), trust in social robots, and trust in service providers. Specifically, we hypothesize that customer equity drivers influence trust in social robots and trust in service providers. We also propose that customer equity drivers influence customer experience quality in the context of social robots and that trust in social robots and trust in service providers mediate these relationships. The study used a two-stage hybrid partial least squares structural equation modelling (PLS-SEM)artificial neural network (ANN) analysis to examine the proposed relationships. Findings show that while all the customer equity drivers influence trust in service providers, only brand and relationship equity influence trust in social robots. Results also suggest that trust in service providers mediates the relationship between customer equity drivers and customer experience quality. In addition, we find that consumers' trust in service providers helps generate trust in social robots. Theoretical and managerial implications are discussed.
+C1 [Roy, Sanjit K.; Sadeque, Saalem] Edith Cowan Univ, Sch Business & Law, 270 Joondalup Dr, Joondalup, WA 6027, Australia.
+   [Singh, Gaganpreet] OP Jindal Global Univ, Sonipat Narela Rd,Near Jagdishpur Village, Sonipat, India.
+   [Gruner, Richard L.] Univ Western Australia, UWA Business Sch, 35 Stirling Highway, Perth, WA 6009, Australia.
+C3 Edith Cowan University; O.P. Jindal Global University; University of
+   Western Australia
+RP Roy, SK (corresponding author), Edith Cowan Univ, Sch Business & Law, 270 Joondalup Dr, Joondalup, WA 6027, Australia.
+EM sanjit.roy@ecu.edu.au; gaganpreet@jgu.edu.in; s.sadeque@ecu.edu.au;
+   richard.gruner@uwa.edu.au
+RI Gruner, Richard/L-6642-2019; Sadeque, Saalem/HHS-7709-2022
+OI Gruner, Richard/0000-0002-5176-8584; 
+CR Aguinis H, 2021, J MANAGE, V47, P823, DOI 10.1177/0149206320969787
+   Ameen N, 2021, COMPUT HUM BEHAV, V114, DOI 10.1016/j.chb.2020.106548
+   Amelia A, 2022, J SERV MANAGE, V33, P321, DOI 10.1108/JOSM-10-2020-0374
+   [Anonymous], 2023, Business Wire
+   Aymerich-Franch Laura, 2020, Innovation in Advertising and Branding Communication, P86
+   Barnes J.G., 2001, SECRETS CUSTOMER REL
+   Barrett M, 2012, ORGAN SCI, V23, P1448, DOI 10.1287/orsc.1100.0639
+   Bawack RE, 2021, INT J INFORM MANAGE, V58, DOI 10.1016/j.ijinfomgt.2021.102309
+   Becker JM, 2012, LONG RANGE PLANN, V45, P359, DOI 10.1016/j.lrp.2012.10.001
+   Becker L, 2020, J ACAD MARKET SCI, V48, P630, DOI 10.1007/s11747-019-00718-x
+   Borghi M, 2022, TECHNOL FORECAST SOC, V182, DOI 10.1016/j.techfore.2022.121844
+   Caic M, 2019, J SERV MARK, V33, P463, DOI 10.1108/JSM-02-2018-0080
+   Cassell J, 2000, COMMUN ACM, V43, P50, DOI 10.1145/355112.355123
+   Chong AYL, 2013, EXPERT SYST APPL, V40, P1240, DOI 10.1016/j.eswa.2012.08.067
+   Collier JE, 2010, J ACAD MARKET SCI, V38, P490, DOI 10.1007/s11747-009-0179-4
+   Corritore CL, 2003, INT J HUM-COMPUT ST, V58, P737, DOI 10.1016/S1071-5819(03)00041-7
+   de Graaf MMA, 2015, COMPUT HUM BEHAV, V43, P1, DOI 10.1016/j.chb.2014.10.030
+   De Keyser A, 2020, J SERV RES-US, V23, P433, DOI 10.1177/1094670520928390
+   Dekimpe MG, 2020, MARKET LETT, V31, P25, DOI 10.1007/s11002-019-09508-5
+   El-Masri M, 2023, INFORM SYST FRONT, V25, P835, DOI 10.1007/s10796-022-10256-7
+   Ennew C., 2007, Consumer Policy Review, V17, P62
+   Ferasso M, 2022, ARTIFICIAL NEURAL NE, P327, DOI [10.1007/978-981-19-6509-8_18, DOI 10.1007/978-981-19-6509-8_18]
+   FORNELL C, 1981, J MARKETING RES, V18, P382, DOI [10.2307/3150980, 10.2307/3151312]
+   Furhat Robotics, 2021, World's most advanced social robots to present at web summit 2021
+   Gao L, 2020, J SERV RES-US, V23, P174, DOI 10.1177/1094670519856119
+   Gasteiger N, 2021, INT J ADV ROBOT SYST, V18, DOI 10.1177/17298814211066740
+   Ghazizadeh M, 2012, COGN TECHNOL WORK, V14, P39, DOI 10.1007/s10111-011-0194-3
+   Goodman JK, 2017, J CONSUM RES, V44, P196, DOI 10.1093/jcr/ucx047
+   Gounaris S.P., 2002, J SERV MARK, V16, P636, DOI DOI 10.1108/08876040210447351
+   Grewal D, 2004, J RETAILING, V80, pIX, DOI 10.1016/j.jretai.2004.10.001
+   Grewal D, 2020, J INTERACT MARK, V51, P9, DOI 10.1016/j.intmar.2020.03.001
+   Haenlein M, 2019, CALIF MANAGE REV, V61, P5, DOI 10.1177/0008125619864925
+   Haesevoets T, 2021, COMPUT HUM BEHAV, V119, DOI 10.1016/j.chb.2021.106730
+   Hair J, 2017, IND MANAGE DATA SYST, V117, P442, DOI 10.1108/IMDS-04-2016-0130
+   Hair JF, 2012, LONG RANGE PLANN, V45, P312, DOI 10.1016/j.lrp.2012.09.011
+   Hao F, 2021, J TRAVEL TOUR MARK, V38, P900, DOI 10.1080/10548408.2021.1997878
+   Hao F, 2022, INT J CONTEMP HOSP M, V34, P113, DOI 10.1108/IJCHM-05-2021-0559
+   Heidenreich S, 2013, INT J INNOV MANAG, V17, DOI 10.1142/S1363919613500217
+   Henkel AP, 2020, J SERV MANAGE, V31, P1131, DOI 10.1108/JOSM-05-2020-0145
+   Henseler J, 2018, QUAL QUANT, V52, P1, DOI 10.1007/s11135-018-0689-6
+   Henseler J, 2015, J ACAD MARKET SCI, V43, P115, DOI 10.1007/s11747-014-0403-8
+   Hew TS, 2016, IND MANAGE DATA SYST, V116, P1557, DOI 10.1108/IMDS-11-2015-0475
+   Huang D, 2021, INT J HOSP MANAG, V99, DOI 10.1016/j.ijhm.2021.103078
+   Jörling M, 2019, J SERV RES-US, V22, P404, DOI 10.1177/1094670519842334
+   Johnson D, 2005, J BUS RES, V58, P500, DOI 10.1016/S0148-2963(03)00140-1
+   Khan RU, 2022, TECHNOL FORECAST SOC, V184, DOI 10.1016/j.techfore.2022.122047
+   Kim H, 2022, TOURISM MANAGE, V92, DOI 10.1016/j.tourman.2022.104537
+   Lankton NK, 2015, J ASSOC INF SYST, V16, P880, DOI 10.17705/1jais.00411
+   Lay K., 2019, Robot that's tuned into dementia
+   Lemke F, 2011, J ACAD MARKET SCI, V39, P846, DOI 10.1007/s11747-010-0219-0
+   Lemon KN, 2016, J MARKETING, V80, P69, DOI 10.1509/jm.15.0420
+   Lemon KN, 2001, MARK MANAG, V10, P20
+   Leong LY, 2020, J BUS RES, V110, P24, DOI 10.1016/j.jbusres.2019.11.056
+   Leroi-Werelds S, 2019, J SERV MANAGE, V30, P650, DOI 10.1108/JOSM-03-2019-0074
+   Liébana-Cabanillas F, 2018, TECHNOL FORECAST SOC, V129, P117, DOI 10.1016/j.techfore.2017.12.015
+   Lindell MK, 2001, J APPL PSYCHOL, V86, P114, DOI 10.1037//0021-9010.86.1.114
+   Liu-Thompkins Y, 2022, J ACAD MARKET SCI, V50, P1198, DOI 10.1007/s11747-022-00892-5
+   MacKenzie SB, 2012, J RETAILING, V88, P542, DOI 10.1016/j.jretai.2012.08.001
+   McKnight D.H., 2011, ACM Transactions on Management Information Systems, V2, P12, DOI [https://doi.org/10.1145/1985347.1985353, DOI 10.1145/1985347.198535, 10.1145/1985347.1985353, DOI 10.1145/1985347.1985353]
+   Mcknight DH, 1998, ACAD MANAGE REV, V23, P473, DOI 10.5465/AMR.1998.926622
+   MOORMAN C, 1993, J MARKETING, V57, P81, DOI 10.2307/1252059
+   MORGAN RM, 1994, J MARKETING, V58, P20, DOI 10.2307/1252308
+   Ng FZX, 2022, J RETAIL CONSUM SERV, V65, DOI 10.1016/j.jretconser.2021.102851
+   Nienaber AM, 2014, INT J INNOV MANAG, V18, DOI 10.1142/S1363919614500054
+   Nitzl C, 2016, IND MANAGE DATA SYST, V116, P1849, DOI 10.1108/IMDS-07-2015-0302
+   Noble SM, 2022, J RETAILING, V98, P199, DOI 10.1016/j.jretai.2022.04.003
+   Ou YC, 2017, J ACAD MARKET SCI, V45, P336, DOI 10.1007/s11747-016-0477-6
+   Park S, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102888
+   Park SS, 2021, PSYCHOL MARKET, V38, P691, DOI 10.1002/mar.21468
+   Pavlou PA, 2003, INT J ELECTRON COMM, V7, P101, DOI 10.1080/10864415.2003.11044275
+   Cuong PH, 2020, EUR J MARKETING, V54, P2257, DOI 10.1108/EJM-04-2018-0228
+   Podsakoff PM, 2012, ANNU REV PSYCHOL, V63, P539, DOI 10.1146/annurev-psych-120710-100452
+   Preacher KJ, 2008, BEHAV RES METHODS, V40, P879, DOI 10.3758/BRM.40.3.879
+   Priyadarshinee P, 2017, COMPUT HUM BEHAV, V76, P341, DOI 10.1016/j.chb.2017.07.027
+   Puntoni S, 2021, J MARKETING, V85, P131, DOI 10.1177/0022242920953847
+   Ramaseshan B, 2013, J BUS IND MARK, V28, P335, DOI 10.1108/08858621311313929
+   REMPEL JK, 1985, J PERS SOC PSYCHOL, V49, P95, DOI 10.1037/0022-3514.49.1.95
+   Richards KA, 2008, IND MARKET MANAG, V37, P120, DOI 10.1016/j.indmarman.2006.08.005
+   Ringle CM, 2014, REV BRASIL MARK, V13, P54, DOI 10.5585/remark.v13i2.2717
+   Roy SK, 2017, J STRATEG MARK, V25, P418, DOI 10.1080/0965254X.2016.1148771
+   Rust R.T., 2005, Customer equity management
+   Rust R.T., 2001, DRIVING CUSTOMER EQU
+   Rust RT, 2004, J MARKETING, V68, P109, DOI 10.1509/jmkg.68.1.109.24030
+   Ryssel R, 2004, J BUS IND MARK, V19, P197, DOI 10.1108/08858620410531333
+   Sarstedt M., 2017, HDB MARKET RES, DOI [DOI 10.1007/978-3-030-80519-7_1, DOI 10.1007/978-3-319-05542-8, 10.1007/978-3-319-05542-8]
+   Sarstedt M., 2017, Partial Least Squares Path Modeling, P197, DOI [DOI 10.1007/978-3-319-64069-3_8, 10.1007/978-3-319-64069-3_9, DOI 10.1007/978-3-319-64069-3_9]
+   Sarstedt M, 2022, PSYCHOL MARKET, V39, P1035, DOI 10.1002/mar.21640
+   Sehribanoglu S, 2022, J STAT MANAG SYST, V25, P585, DOI 10.1080/09720510.2021.1914429
+   Shmueli G, 2019, EUR J MARKETING, V53, P2322, DOI 10.1108/EJM-02-2019-0189
+   Song MM, 2022, J RETAIL CONSUM SERV, V66, DOI 10.1016/j.jretconser.2021.102900
+   Talukder MS, 2020, TECHNOL FORECAST SOC, V150, DOI 10.1016/j.techfore.2019.119793
+   Tenenhaus M, 2005, COMPUT STAT DATA AN, V48, P159, DOI 10.1016/j.csda.2004.03.005
+   Tussyadiah IP, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102886
+   Valenzuela S, 2009, J COMPUT-MEDIAT COMM, V14, P875, DOI 10.1111/j.1083-6101.2009.01474.x
+   Lu VN, 2020, J SERV THEOR PRACT, V30, P361, DOI 10.1108/JSTP-04-2019-0088
+   Vogel V, 2008, J MARKETING, V72, P98, DOI 10.1509/jmkg.72.6.98
+   Wang GQ, 2022, TECHNOL FORECAST SOC, V175, DOI 10.1016/j.techfore.2021.121345
+   Wirtz J, 2023, SERV IND J, V43, P1173, DOI 10.1080/02642069.2023.2226596
+   Wirtz J, 2020, ORGAN DYN, V49, DOI 10.1016/j.orgdyn.2019.04.005
+   Xiong L, 2022, GOV INFORM Q, V39, DOI 10.1016/j.giq.2021.101654
+NR 100
+TC 31
+Z9 37
+U1 20
+U2 112
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 0040-1625
+EI 1873-5509
+J9 TECHNOL FORECAST SOC
+JI Technol. Forecast. Soc. Chang.
+PD JAN
+PY 2024
+VL 198
+AR 123032
+DI 10.1016/j.techfore.2023.123032
+EA NOV 2023
+PG 12
+WC Business; Regional & Urban Planning
+WE Social Science Citation Index (SSCI)
+SC Business & Economics; Public Administration
+GA CC9E8
+UT WOS:001123161100001
+OA Green Submitted, hybrid
+DA 2026-04-08
+ER
+
+PT J
+AU Xu, T
+   Zheng, YH
+   Zhang, JH
+   Wang, ZX
+AF Xu, Tao
+   Zheng, Yu-Hao
+   Zhang, Jinhua
+   Wang, Zixuan
+TI "They" threaten my work: How AI service robots negatively impact
+   frontline hotel employees through organizational dehumanization
+SO INTERNATIONAL JOURNAL OF HOSPITALITY MANAGEMENT
+LA English
+DT Article
+DE AI service robot; Infrastructure capabilities; Organizational
+   dehumanization; Frontline employee passion; Service performance;
+   Frontline employee
+ID COMMON METHOD BIAS; ABUSIVE SUPERVISION; MARKETING CAUSES; MECHANISMS;
+   PERFORMANCE; CONSTRUCTS
+AB This study aims to investigate the potential effects of AI service robots on frontline employees (FLEs) in the hospitality industry. Drawing on coping theory, we established a theoretical model to study the responses of FLEs when they work alongside service robots, which is represented by the variables of infrastructure capability (IC) and service robot performance (SRP). We considered organizational dehumanization (OD) as a state of stress for FLEs resulting from the presence of service robots. The findings of partial least squares structural equation modelling (PLS-SEM) and fuzzy-set qualitative comparative analysis (fsQCA) suggest that OD mediates the positive influence of AI service robot adoption on FLEs' service performance. Simultaneously, the adoption of AI service robots significantly undermines FLE's service passion through OD's mediation. This study provides new insights into the mechanisms of human-robot interaction and suggests practical approaches for the hospitality industry.
+C1 [Xu, Tao; Zheng, Yu-Hao; Wang, Zixuan] Guangxi Minzu Univ, Sch Management, 188 Daxuedong Rd, Nanning 530006, Guangxi, Peoples R China.
+   [Zhang, Jinhua] Univ Plymouth, Plymouth Business Sch, Plymouth PL48AA, England.
+C3 Guangxi Minzu University; University of Plymouth
+RP Zheng, YH (corresponding author), Guangxi Minzu Univ, Sch Management, 188 Daxuedong Rd, Nanning 530006, Guangxi, Peoples R China.
+EM atao10000@126.com; nathan.zheng@foxmail.com;
+   jinhua.zhang@plymouth.ac.uk; 739620647@qq.com
+RI ; 汪, zixuan/LTF-5043-2024
+OI Zheng, Yu-Hao/0000-0003-3858-1157; Zhang, Jinhua/0000-0002-0182-4306; 王,
+   子璇/0009-0001-5912-1857; Xu, Tao/0000-0002-7583-6748
+FU Middle-Aged And Young Teachers' Basic Ability Promotion Project of
+   Guangxi [2022KY0122, 2024KY0138]
+FX This research is funded by The Middle-Aged And Young Teachers' Basic
+   Ability Promotion Project of Guangxi [Grant number: 2022KY0122 and
+   2024KY0138] .
+CR ALDWIN CM, 1987, J PERS SOC PSYCHOL, V53, P337, DOI 10.1037/0022-3514.53.2.337
+   Allied Analytics, 2021, Research and Markets
+   Aslan A, 2012, J HOSP MARKET MANAG, V21, P679, DOI 10.1080/19368623.2012.627255
+   Baldissarri C, 2017, BRIT J SOC PSYCHOL, V56, P250, DOI 10.1111/bjso.12172
+   Baldissarri C, 2014, TPM-TEST PSYCHOM MET, V21, P327, DOI 10.4473/TPM21.3.7
+   Bastian B, 2011, BASIC APPL SOC PSYCH, V33, P295, DOI 10.1080/01973533.2011.614132
+   Becker JM, 2015, MARKET LETT, V26, P643, DOI 10.1007/s11002-014-9299-9
+   Belk RW, 2023, SERV BUS, V17, P1, DOI 10.1007/s11628-023-00528-w
+   Bell CM, 2016, J MANAGE PSYCHOL, V31, P570, DOI 10.1108/JMP-09-2014-0267
+   Bell CM, 2011, RES SOC ISS MAN SER, P167
+   BRISLIN RW, 1970, J CROSS CULT PSYCHOL, V1, P185, DOI 10.1177/135910457000100301
+   Caesens G, 2019, J BUS PSYCHOL, V34, P709, DOI 10.1007/s10869-018-9592-3
+   Caesens G, 2017, EUR J WORK ORGAN PSY, V26, P527, DOI 10.1080/1359432X.2017.1319817
+   Carver CS, 2010, ANNU REV PSYCHOL, V61, P679, DOI 10.1146/annurev.psych.093008.100352
+   Cheah JH, 2018, INT J CONTEMP HOSP M, V30, P3192, DOI [10.1108/IJCHM-10-2017-0649, 10.1108/ijchm-10-2017-0649]
+   Choi Y, 2020, J HOSP MARKET MANAG, V29, P613, DOI 10.1080/19368623.2020.1703871
+   Christoff K, 2014, FRONT HUM NEUROSCI, V8, DOI 10.3389/fnhum.2014.00748
+   Chuang SH, 2013, INT J INFORM MANAGE, V33, P271, DOI 10.1016/j.ijinfomgt.2012.12.003
+   Coombs C, 2021, INT J INFORM MANAGE, V58, DOI 10.1016/j.ijinfomgt.2021.102311
+   Crawford AC, 2022, J SERV RES-US, V25, P194, DOI 10.1177/10946705211027659
+   Del Giudice M, 2023, HUM RESOUR MANAGE R, V33, DOI 10.1016/j.hrmr.2021.100856
+   Diamantopoulos A, 2006, BRIT J MANAGE, V17, P263, DOI 10.1111/j.1467-8551.2006.00500.x
+   Duhachek A, 2005, J CONSUM RES, V32, P41, DOI 10.1086/426612
+   Fiss PC, 2011, ACAD MANAGE J, V54, P393, DOI 10.5465/AMJ.2011.60263120
+   Fraune MR, 2020, COMPUT HUM BEHAV, V105, DOI 10.1016/j.chb.2019.106220
+   Fuchs T, 2019, TOPOI-INT REV PHILOS, V38, P239, DOI 10.1007/s11245-017-9499-z
+   Gratch J, 2022, CURR OPIN PSYCHOL, V47, DOI 10.1016/j.copsyc.2022.101382
+   Hair JF., 2021, PRIMER PARTIAL LEAST, V3rd
+   Haslam N, 2006, PERS SOC PSYCHOL REV, V10, P252, DOI 10.1207/s15327957pspr1003_4
+   Haslam N, 2014, ANNU REV PSYCHOL, V65, P399, DOI 10.1146/annurev-psych-010213-115045
+   Hoel H., 2003, Bullying and emotional abuse in the workplace: International perspectives in research and practice, P203
+   Huang MH, 2018, J SERV RES-US, V21, P155, DOI 10.1177/1094670517752459
+   Hur WM, 2022, J SERV RES-US, V25, P227, DOI 10.1177/1094670520975204
+   International Organization for Standardization, 2021, ISO8373: 2021(E). Robotics-Vocabulary
+   Ivanov S, 2020, INF TECHNOL TOUR, V22, P205, DOI 10.1007/s40558-020-00175-1
+   Kang WY, 2023, J RETAIL CONSUM SERV, V70, DOI 10.1016/j.jretconser.2022.103130
+   Khaliq A, 2022, TECHNOL SOC, V68, DOI 10.1016/j.techsoc.2021.101807
+   Kiewitz C, 2016, J APPL PSYCHOL, V101, P731, DOI 10.1037/apl0000074
+   Kim S, 2021, INT J HOSP MANAG, V93, DOI 10.1016/j.ijhm.2020.102795
+   Kock F, 2021, TOURISM MANAGE, V86, DOI 10.1016/j.tourman.2021.104330
+   Koo B, 2021, INT J HOSP MANAG, V95, DOI 10.1016/j.ijhm.2020.102763
+   Kwak DH, 2021, INFORM MANAGE-AMSTER, V58, DOI 10.1016/j.im.2021.103500
+   Lazarus RS., 1987, European Journal of Personality, V1, P141, DOI DOI 10.1002/PER.2410010304
+   Leyens JP, 2001, EUR J SOC PSYCHOL, V31, P395, DOI 10.1002/ejsp.50
+   Li J, 2019, TOURISM MANAGE, V73, P172, DOI 10.1016/j.tourman.2019.02.006
+   Lopez JM, 2021, ORGAN BEHAV HUM DEC, V164, P52, DOI 10.1016/j.obhdp.2021.01.002
+   Luo AQ, 2019, INT J HOSP MANAG, V77, P31, DOI 10.1016/j.ijhm.2018.06.011
+   Ma ZF, 2011, J MARKETING, V75, P83, DOI 10.1509/jmkg.75.3.83
+   MacKenzie SB, 2012, J RETAILING, V88, P542, DOI 10.1016/j.jretai.2012.08.001
+   Minor K., 2021, Information and Communication Technologies in Tourism 2021, P570
+   Mithas S, 2012, MIS QUART, V36, P205
+   Muhammad L, 2021, INT J HOSP MANAG, V99, DOI 10.1016/j.ijhm.2021.103044
+   Muhammad L, 2020, J RETAIL CONSUM SERV, V52, DOI 10.1016/j.jretconser.2019.101886
+   Pappas IO, 2021, INT J INFORM MANAGE, V58, DOI 10.1016/j.ijinfomgt.2021.102310
+   Podsakoff PM, 2003, J APPL PSYCHOL, V88, P879, DOI 10.1037/0021-9010.88.5.879
+   PRICE LL, 1995, J MARKETING, V59, P83, DOI 10.2307/1252075
+   Ragin CC, 2006, POLIT ANAL, V14, P291, DOI 10.1093/pan/mpj019
+   Ragin CharlesC., 2008, REDESIGNING SOCIAL I
+   Ram Y, 2018, CURR ISSUES TOUR, V21, P760, DOI 10.1080/13683500.2015.1064364
+   Salanova M, 2005, J APPL PSYCHOL, V90, P1217, DOI 10.1037/0021-9010.90.6.1217
+   Sarstedt M, 2019, AUSTRALAS MARK J, V27, P197, DOI 10.1016/j.ausmj.2019.05.003
+   Sarwar A, 2021, INT J CONTEMP HOSP M, V33, P513, DOI 10.1108/IJCHM-01-2020-0051
+   Savela N, 2021, COMPUT HUM BEHAV, V115, DOI 10.1016/j.chb.2020.106585
+   Schepers J, 2012, J MARKETING, V76, P1, DOI 10.1509/jm.11.0112
+   Shuqair S, 2024, INT J HOSP MANAG, V120, DOI 10.1016/j.ijhm.2024.103778
+   Sintayehu Aynalem Sintayehu Aynalem, 2016, Journal of Tourism and Hospitality, V5, P257, DOI 10.4172/2167-0269.1000257
+   Song Y, 2022, INT J HOSP MANAG, V103, DOI 10.1016/j.ijhm.2022.103220
+   Spatola N, 2020, ACMIEEE INT CONF HUM, P61, DOI 10.1145/3371382.3380736
+   Spatola N, 2018, SCI ROBOT, V3, DOI 10.1126/scirobotics.aat5843
+   Stinglhamber F, 2022, CRIM JUSTICE BEHAV, V49, P1600, DOI 10.1177/00938548221087182
+   Viswanathan M, 2012, J RETAILING, V88, P556, DOI 10.1016/j.jretai.2012.10.002
+   Vorobeva D, 2022, J SERV RES-US, V25, P601, DOI 10.1177/10946705221104312
+   Webster C, 2020, TOUR REV, V75, P329, DOI 10.1108/TR-05-2019-0172
+   Woodside AG, 2019, PSYCHOL MARKET, V36, P1046, DOI 10.1002/mar.21255
+   Xu JJ, 2023, INT J HOSP MANAG, V113, DOI 10.1016/j.ijhm.2023.103523
+   Yin ZH, 2024, TOURISM MANAGE, V105, DOI 10.1016/j.tourman.2024.104966
+   Zhang MY, 2021, INT J CONTEMP HOSP M, V33, P3883, DOI 10.1108/IJCHM-11-2020-1256
+   Zhao HR, 2023, CURR ISSUES TOUR, V26, P3318, DOI 10.1080/13683500.2022.2117593
+   Zhou YY, 2021, J SEX MARITAL THER, V47, P571, DOI [10.1115/1.4050735, 10.1080/0092623X.2021.1923598]
+NR 79
+TC 14
+Z9 16
+U1 53
+U2 119
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0278-4319
+EI 1873-4693
+J9 INT J HOSP MANAG
+JI Int. J. Hosp. Manag.
+PD JUL
+PY 2025
+VL 128
+AR 104162
+DI 10.1016/j.ijhm.2025.104162
+EA MAR 2025
+PG 12
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA 1LZ8F
+UT WOS:001468203300001
+DA 2026-04-08
+ER
+
+PT J
+AU Wiastuti, RD
+   Ignacia, SN
+   Angraini, LD
+   Sinuraya, EJ
+AF Wiastuti, Rachel Dyah
+   Ignacia, Stella Nathalia
+   Angraini, Lusiana Dwi
+   Sinuraya, Enos Julvirta
+TI SERVICE ROBOTS IN THE HOTEL INDUSTRY: CUSTOMER ACCEPTANCE AMONG
+   INTERNATIONAL AND LOCAL HOTEL BRAND
+SO TOURISM AND HOSPITALITY MANAGEMENT-CROATIA
+LA English
+DT Article
+DE Novelty value; Perceived privacy; Service robot acceptance; Service
+   robot appearance; Service robots in hotels
+ID HOSPITALITY INDUSTRY; ATTITUDES; TRAVEL; AGE
+AB Purpose - This study aims to explore the customer acceptance of service robots in the hotel industry. Four determinants are analysed: perceived privacy, novelty value, service robots appearance, and attitudes towards service robots. The differences in customer acceptance between international and local hotel brands are also presented, along with the genders' distinctive results. Methodology - The study was conducted in Indonesia, involving 120 respondents who had prior experience staying in the hotel. Data was gathered from May to June 2022 through online questionnaires and analyzed using structural equation modeling with SmartPLS. Findings - Findings show that for international hotel customers, three determinants (perceived privacy, novelty value, and appearance) simultaneously exert a greater influence on customer attitude, compared to local hotel customers. In contrast, the service robots' acceptance of local hotel customers is influenced more by their attitude, than of international hotel customers. Furthermore, male customers have proven that they have a higher value on all constructs in this research, meaning higher acceptance and attitude, compared to their female counterparts. Originality of the research - This study attempts to go beyond the hotel industry as a whole, but is limited to both international and local hotel brands.
+C1 [Wiastuti, Rachel Dyah; Angraini, Lusiana Dwi] Bina Nusantara Univ, Hotel Management Dept, Jakarta, Indonesia.
+   [Ignacia, Stella Nathalia] Roches Global Hospitality Educ Postgrad Studies, Crans Montana, Switzerland.
+   [Angraini, Lusiana Dwi; Sinuraya, Enos Julvirta] Politekn Pariwisata Palembang, Indonesia Hospitality Management Dept, Palembang, Indonesia.
+C3 Universitas Bina Nusantara
+RP Wiastuti, RD (corresponding author), Bina Nusantara Univ, Hotel Management Dept, Jakarta, Indonesia.
+EM rwiastuti@binus.edu; stella.ignacia@hotmail.com;
+   lusiana.angraini@binus.ac.id; enj@poltekpar-palembang.ac.id
+OI Wiastuti, Rachel Dyah/0000-0002-1501-9500
+CR Ab Rahman NAFW, 2022, TOUR HOSP MANAG-CROA, V28, P193, DOI 10.20867/thm.28.1.10
+   Albrecht C., 2021, The Spoon
+   Almeida S, 2022, TOUR HOSP MANAG-CROA, V28, P61, DOI 10.20867/thm.28.1.3
+   António N, 2021, TOUR MANAG STUD, V17, P41, DOI 10.18089/tms.2021.170204
+   Assaker G, 2020, J HOSP MARKET MANAG, V29, P428, DOI 10.1080/19368623.2019.1653807
+   Belanche D, 2020, SERV IND J, V40, P203, DOI 10.1080/02642069.2019.1672666
+   Bianchi G, 2022, TOURISM ECON, V28, P1545, DOI 10.1177/13548166211001180
+   Bowen J, 2018, WORLDW HOSP TOUR THE, V10, P726, DOI [10.1108/whatt-07-2018-0045, 10.1108/WHATT-07-2018-0045]
+   Bowen J, 2017, WORLDW HOSP TOUR THE, V9, P592, DOI 10.1108/WHATT-09-2017-0045
+   Busulwa R., 2021, Hospitality management and digital transformation
+   Chan ESW, 2020, INT J HOSP MANAG, V84, DOI 10.1016/j.ijhm.2019.102324
+   Chang L. Y., 2015, PAC AS C INF SYST PA, V78
+   Choi S., 2021, BOSTON HOSPITALITY R, P1
+   Choi Y, 2020, J HOSP MARKET MANAG, V29, P613, DOI 10.1080/19368623.2020.1703871
+   de Graaf MMA, 2013, ROBOT AUTON SYST, V61, P1476, DOI 10.1016/j.robot.2013.07.007
+   Dinev T, 2013, EUR J INFORM SYST, V22, P295, DOI 10.1057/ejis.2012.23
+   Dzhandzhugazova EA, 2016, The International Journal of Environmental and Science Education, V11, P10387, DOI DOI 10.12973/EJAC.2017.00204A
+   Gonzáles-Santiago MS, 2024, J HOSP TOUR TECHNOL, V15, P285, DOI 10.1108/JHTT-06-2022-0159
+   Hair JF., 2017, International Journal of Multivariate Data Analysis, V1, P107, DOI [10.1504/IJMDA.2017.087624, DOI 10.1504/IJMDA.2017.087624]
+   Han B, 2023, J SERV RES-US, V26, P441, DOI 10.1177/10946705231169674
+   Huang D, 2021, INT J HOSP MANAG, V99, DOI 10.1016/j.ijhm.2021.103078
+   Huang HL, 2022, INT J HOSP MANAG, V107, DOI 10.1016/j.ijhm.2022.103310
+   Ivanov S., 2017, Revista Turismo & Desenvolvimento, P1501
+   Ivanov S, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P7, DOI 10.1108/978-1-78756-687-320191001
+   Katz JE, 2014, BEHAV INFORM TECHNOL, V33, P941, DOI 10.1080/0144929X.2013.783115
+   Kazandzhieva V., 2017, Contemporary Tourism-Traditions and Innovations
+   Kazandzhieva V, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P79, DOI 10.1108/978-1-78756-687-320191004
+   Kim T, 2023, INT J HOSP MANAG, V108, DOI 10.1016/j.ijhm.2022.103358
+   Krupp MM, 2017, ACMIEEE INT CONF HUM, P175, DOI 10.1145/3029798.3038384
+   Ladeira W, 2023, J HOSP MARKET MANAG, V32, P694, DOI 10.1080/19368623.2023.2202168
+   Lau A, 2020, INF TECHNOL TOUR, V22, P497, DOI 10.1007/s40558-020-00193-z
+   Law R., 2005, International Journal of Contemporary Hospitality Management, V17, P170, DOI 10.1108/09596110510582369
+   Lee KH, 2023, CORNELL HOSP Q, V64, P212, DOI 10.1177/19389655221102381
+   Leung R, 2013, CORNELL HOSP Q, V54, P25, DOI 10.1177/1938965512454594
+   Li Y, 2023, J SERV THEOR PRACT, V33, P46, DOI 10.1108/JSTP-06-2022-0127
+   Li Y, 2022, INT J CONSUM STUD, V46, P1241, DOI 10.1111/ijcs.12755
+   Lin IY, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2021.102876
+   Liu C, 2021, INT J CONTEMP HOSP M, V33, P2907, DOI 10.1108/IJCHM-10-2020-1143
+   Lu L, 2019, INT J HOSP MANAG, V80, P36, DOI 10.1016/j.ijhm.2019.01.005
+   Lukanova G, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P157, DOI 10.1108/978-1-78756-687-320191009
+   Lynott PP, 2000, J WOMEN AGING, V12, P5, DOI 10.1300/J074v12n01_02
+   Meidute-Kavaliauskiene I, 2021, SUSTAINABILITY-BASEL, V13, DOI 10.3390/su132212571
+   Memon MA, 2020, Journal of Applied Structural Equation Modeling, V4, pi, DOI [10.47263/jasem.4(2)01, https://doi.org/10.47263/jasem.4(2)01, DOI 10.47263/JASEM.4(2)01, 10.47263/jasem.4(2)01, 10.47263/JASEM.4(2)01]
+   Muolo Danielle, 2016, Business Insider
+   Nichols, 2020, Robotics in business: Everything humans need to know
+   Pia A., 2022, Robot di Hotel
+   Pilepić L, 2020, TOUR HOSP MANAG-CROA, V8, P193, DOI [10.20867/thm.8.1-2.19, 10.20867/thm.8.1-2.19, DOI 10.20867/THM.8.1-2.19]
+   Pillai R, 2020, INT J CONTEMP HOSP M, V32, P3199, DOI 10.1108/IJCHM-04-2020-0259
+   Qin M, 2025, CURR ISSUES TOUR, V28, P36, DOI 10.1080/13683500.2023.2295923
+   Reiss R., 2016, Forbes
+   Revfine, 2022, 8 Examples of Robots Being Used in the Hospitality Industry
+   Savin I, 2022, TECHNOL FORECAST SOC, V174, DOI 10.1016/j.techfore.2021.121280
+   Seo S, 2022, INT J HOSP MANAG, V102, DOI 10.1016/j.ijhm.2022.103166
+   Seyitoglu F, 2020, INT J HOSP MANAG, V91, DOI 10.1016/j.ijhm.2020.102661
+   Sharma V., 2023, COVID19, Tourist Destinations and Prospects for Recovery, P303
+   Sharma V, 2023, COGENT BUS MANAG, V10, DOI 10.1080/23311975.2023.2281053
+   Song B, 2024, CURR ISSUES TOUR, V27, P3401, DOI 10.1080/13683500.2023.2265029
+   Tavitiyaman P, 2022, J CHINA TOUR RES, V18, P64, DOI 10.1080/19388160.2020.1801546
+   Technavio, 2021, Global Mobile Robots Market in Healthcare and Hospitality Sectors 2020-2024
+   Tuomi A, 2021, CORNELL HOSP Q, V62, P232, DOI 10.1177/1938965520923961
+   Victorino L, 2009, CORNELL HOSP Q, V50, P342, DOI 10.1177/1938965509336809
+   Wakelin-Theron N, 2021, TOUR HOSP MANAG-CROA, V27, P385, DOI 10.20867/thm.27.2.7
+   Wiastuti R.D., 2020, African Journal of Hospitality, Tourism and Leisure, V9, P1
+   Wiastuti RD, 2020, Journal of Environmental Management and Tourism, V11, P1435, DOI [10.14505/jemt.11.6(46).14, 10.14505/jemt.11.6(46).14, DOI 10.14505/JEMT.11.6(46).14]
+   Wilson H. James, 2015, HARVARD BUSINESS REV
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wolfgang M., 2017, BCG Global
+   Wu L, 2022, INT J HOSP MANAG, V101, DOI 10.1016/j.ijhm.2021.103122
+   Xie LS, 2022, INT J HOSP MANAG, V107, DOI 10.1016/j.ijhm.2022.103312
+   Xie LS, 2022, J HOSP MARKET MANAG, V31, P962, DOI 10.1080/19368623.2022.2112354
+   Zhong LN, 2022, TOUR REV, V77, P1062, DOI 10.1108/TR-06-2021-0276
+   Zlotowski J, 2015, INT J SOC ROBOT, V7, P347, DOI 10.1007/s12369-014-0267-6
+NR 72
+TC 0
+Z9 0
+U1 4
+U2 25
+PU UNIV RIJEKA, FACULTY TOURISM & HOSPITALITY MANAGEMENT, OPATIJA
+PI OPATIJA
+PA PRIMORSKA 46, P P 97, OPATIJA, 51410, CROATIA
+SN 1330-7533
+EI 1847-3377
+J9 TOUR HOSP MANAG-CROA
+JI Tour. Hosp. Manag.-Croat.
+PY 2024
+VL 30
+IS 3
+BP 375
+EP 388
+DI 10.20867/thm.30.3.6
+PG 14
+WC Hospitality, Leisure, Sport & Tourism
+WE Emerging Sources Citation Index (ESCI)
+SC Social Sciences - Other Topics
+GA H2I7G
+UT WOS:001321732300003
+OA Green Submitted, gold
+DA 2026-04-08
+ER
+
+PT J
+AU Tuomi, A
+   Tussyadiah, IP
+   Stienmetz, J
+AF Tuomi, Aarni
+   Tussyadiah, Iis P.
+   Stienmetz, Jason
+TI Applications and Implications of Service Robots in Hospitality
+SO CORNELL HOSPITALITY QUARTERLY
+LA English
+DT Article
+DE service robots; service encounter; hospitality management; robotization
+ID TECHNOLOGY; CUSTOMERS; ENCOUNTER; EMPLOYEES; FRAMEWORK; TOURISM; FUTURE
+AB Service robots continue to permeate and automate the hospitality sector. In doing so, these technological innovations pose to radically change current service production and delivery practices and, consequently, service management and marketing strategies. This study explores the various impacts of robotization in the sector by offering one of the first empirical accounts on the current state-of-the-art of service robotics as deployed in hospitality service encounters. The results suggest that service robots either support or substitute employees in service encounters. They also offer hospitality businesses a novel point of differentiation, but only if properly integrated as part of wider marketing efforts. Finally, the automation of tasks, processes, and, ultimately, jobs has serious socioeconomic implications both at the microlevel and macrolevel. Consequently, hospitality executives need to consider where and how to apply robotization to strike a balance between operational efficiency and customer expectations. Displaying ethical leadership is key to reaping the benefits of the robot revolution.
+C1 [Tuomi, Aarni] Univ Surrey, Sch Hospitality & Tourism Management, Stag Hill Campus, Guildford GU2 7XH, Surrey, England.
+   [Tussyadiah, Iis P.] Univ Surrey, Sch Hospitality & Tourism Management, Intelligent Syst Serv, Guildford, Surrey, England.
+   [Stienmetz, Jason] MODUL Univ Vienna, Tourism Informat Technol & Digitalizat, Dept Tourism & Serv Management, Vienna, Austria.
+C3 University of Surrey; University of Surrey
+RP Tuomi, A (corresponding author), Univ Surrey, Sch Hospitality & Tourism Management, Stag Hill Campus, Guildford GU2 7XH, Surrey, England.
+EM a.tuomi@surrey.ac.uk
+RI Tussyadiah, Iis/AAK-3216-2021; Tuomi, Aarni/AAK-7168-2021
+OI Tussyadiah, Iis/0000-0003-0729-1712; Tuomi, Aarni/0000-0002-0515-1313
+CR Aguinis H, 2019, STRATEGIC MANAGE J, V40, P1291, DOI 10.1002/smj.3015
+   Arruda W., 2016, Why Consistency Is The Key To Successful Branding
+   Ball S., 2011, HOSP OPERATIONS SYST
+   Belanche D, 2020, SERV IND J, V40, P203, DOI 10.1080/02642069.2019.1672666
+   Bell D., 1973, COMING POSTINDUSTRIA
+   BITNER MJ, 1992, J MARKETING, V56, P57, DOI 10.2307/1252042
+   Blau P.M., 1964, Exchange and power in social life
+   Boden M, 2017, CONNECT SCI, V29, P124, DOI 10.1080/09540091.2016.1271400
+   Bogner A, 2009, RES METHODS SER, P43
+   Bowen DE, 2016, HUM RESOUR MANAGE R, V26, P4, DOI 10.1016/j.hrmr.2015.09.002
+   Bowen J, 2018, WORLDW HOSP TOUR THE, V10, P726, DOI [10.1108/whatt-07-2018-0045, 10.1108/WHATT-07-2018-0045]
+   Bowen J, 2017, WORLDW HOSP TOUR THE, V9, P592, DOI 10.1108/WHATT-09-2017-0045
+   Brewer J.D., 2000, Ethnography
+   Brochado A, 2016, J HOSP TOUR TECHNOL, V7, P347, DOI 10.1108/JHTT-07-2016-0038
+   Bughin J., 2019, Notes From the AI Frontier: Tackling Europe's Gap in Digital and AI
+   Buhalis D, 2005, TOUR RECREAT RES, V30, P7, DOI 10.1080/02508281.2005.11081482
+   Buhalis D, 2019, J TRAVEL TOUR MARK, V36, P563, DOI 10.1080/10548408.2019.1592059
+   Buhalis D, 2018, INT J HOSP MANAG, V71, P41, DOI 10.1016/j.ijhm.2017.11.011
+   Canales K., 2018, THIS FUTURISTIC CAFE
+   Combs C., 2016, DIGITAL PATIENT ADVA
+   CRABTREE BF, 1992, RES METH PR, V3, P93
+   Creswell JohnW., 2017, Qualitative Inquiry and Research Design: Choosing Among Five Approaches
+   Cropanzano R, 2005, J MANAGE, V31, P874, DOI 10.1177/0149206305279602
+   De Keyser A, 2019, J SERV MANAGE, V30, P156, DOI 10.1108/JOSM-03-2018-0082
+   Denzin N.K., 2001, Interpretive interactionism, V2nd
+   Dobberstein A., 2019, REPORT GROWING DOMIN
+   Elo S., 2008, SAGE Open, V4, P1, DOI DOI 10.1111/J.1365-2648.2007.04569.X
+   Fong T, 2003, ROBOT AUTON SYST, V42, P139, DOI 10.1016/S0921-8890(02)00371-8
+   Frey C B., 2016, Technology at work v2. 0: The future is not what it used to be
+   Frey CB, 2017, TECHNOL FORECAST SOC, V114, P254, DOI 10.1016/j.techfore.2016.08.019
+   Froehle CA, 2004, J OPER MANAG, V22, P1, DOI 10.1016/j.jom.2003.12.004
+   Gomber P, 2017, Journal of Business Economics, V87, P537, DOI [10.1007/s11573-017-0852-x, 10.1007/s11573-017-0852-x, DOI 10.1007/S11573-017-0852-X]
+   Gursoy D, 2019, INT J INFORM MANAGE, V49, P157, DOI 10.1016/j.ijinfomgt.2019.03.008
+   Harari YN, 2017, NATURE, V550, P324, DOI 10.1038/550324a
+   Hernandez D., 2018, VEGAS CASINO WORKERS
+   Huang MH, 2018, J SERV RES-US, V21, P155, DOI 10.1177/1094670517752459
+   Huberman A. M., 1997, NEW LANGUAGE QUALITA, P428
+   International Federation of Robotics, 2018, ROB WORKPL FUT POS P
+   International Federation of Robotics, 2017, WORLD ROB 2017
+   International Organization for Standardization, 2019, 299 ISOTC
+   Ivanov S., 2017, Revista Turismo & Desenvolvimento, P1501
+   Ivanov S, 2020, TOURISM ECON, V26, P1065, DOI 10.1177/1354816619879583
+   Ivanov S, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P39, DOI 10.1108/978-1-78756-687-320191002
+   Ivanov S, 2019, J HOSP TOUR TECHNOL, V10, P489, DOI 10.1108/JHTT-08-2018-0087
+   Ivanov S, 2018, TECHNOL SOC, V55, P24, DOI 10.1016/j.techsoc.2018.06.004
+   JONES SRG, 1992, AM J SOCIOL, V98, P451, DOI 10.1086/230046
+   Kawulich Barbara B, 2005, FQS FORUM QUALITATIV, V6
+   KPMG, 2017, ROAD KPMG SURV CORP
+   Kuo CM, 2017, INT J CONTEMP HOSP M, V29, P1305, DOI [10.1108/ijchm-08-2015-0414, 10.1108/IJCHM-08-2015-0414]
+   LANDIS JR, 1977, BIOMETRICS, V33, P159, DOI 10.2307/2529310
+   Larivière B, 2017, J BUS RES, V79, P238, DOI 10.1016/j.jbusres.2017.03.008
+   Li J, 2019, TOURISM MANAGE, V73, P172, DOI 10.1016/j.tourman.2019.02.006
+   Lillicrap D., 2010, Food and Beverage Service, V8th
+   Lin IY, 2010, J HOSP MARKET MANAG, V19, P819, DOI 10.1080/19368623.2010.514547
+   Lincoln Y., 1985, Naturalistic inquiry
+   Liu SQ, 2019, INT J HOSP MANAG, V78, P268, DOI 10.1016/j.ijhm.2018.09.009
+   Liu SQ, 2016, CORNELL HOSP Q, V57, P162, DOI 10.1177/1938965516630424
+   Lu L, 2019, INT J HOSP MANAG, V80, P36, DOI 10.1016/j.ijhm.2019.01.005
+   Mahmud S., 2010, Encyclopedia of research design, P188, DOI 10.4135/9781412961288.n60
+   Manyika J., 2017, FUTURE WORKS AUTOMAT
+   Marinova D, 2017, J SERV RES-US, V20, P29, DOI 10.1177/1094670516679273
+   Mathath A, 2017, ROBOTICS AUTOMATION, P281, DOI [DOI 10.4018/978-1-5225-1759-7.CH091, 10.4018/978-1-4666-8693-9.ch011, DOI 10.4018/978-1-4666-8693-9.CH011]
+   Melis A, 2009, CORPORATE SOCIAL RESPONSIBILITY: A CASE STUDY APPROACH, P9
+   Melissen F., 2014, HOSP EXPERIENCE INTR
+   Mest E., 2017, HOTEL MANAGEMENT, V232, P16
+   Murphy J, 2019, J TRAVEL TOUR MARK, V36, P784, DOI 10.1080/10548408.2019.1571983
+   Murphy J, 2017, EUR J TOUR RES, V15, P104
+   National Restaurant Association, 2016, MAPP TECHN REST LAND
+   Nerstad CGL, 2018, HUM RESOUR MANAGE-US, V57, P1285, DOI 10.1002/hrm.21904
+   Noone BM, 2012, CORNELL HOSP Q, V53, P122, DOI 10.1177/1938965511434112
+   Osawa H., 2017, 26 IEEE INT S ROB HU
+   Ostrom AL, 2015, J SERV RES-US, V18, P127, DOI 10.1177/1094670515576315
+   Palmerini E, 2016, ROBOT AUTON SYST, V86, P78, DOI 10.1016/j.robot.2016.08.026
+   People 1st, 2015, SKILLS PROD PROBL
+   Pesonen, 2017, INFORM COMMUNICATION, P308
+   Porter E., 2018, NY TIMES
+   Roache D., 2018, SAGE ENCY COMMUNICAT, P752
+   Rosenbaum MS, 2015, J BUS RES, V68, P1862, DOI 10.1016/j.jbusres.2015.01.014
+   Schneider T, 2018, Finanzas y desarrollo: publicación trimestral del Fondo Monetario Internacional y del Banco Mundial, V55, P28
+   Strauss AL., 1998, Basics of Qualitative Research
+   Subramony M, 2018, J SERV MANAGE, V29, P956, DOI 10.1108/JOSM-05-2018-0131
+   SURPRENANT CF, 1987, J MARKETING, V51, P86, DOI 10.2307/1251131
+   Troitino C., 2018, Forbes
+   Tung VWS, 2018, INT J CONTEMP HOSP M, V30, P2680, DOI 10.1108/IJCHM-06-2017-0322
+   Tuomi A, 2019, e-Review of Tourism Research, V17, P662
+   UKHospitality, 2017, FOOD SERV MAN MARK R
+   United Nations, 2018, DEC WORK EC GROWTH I
+   Van den Bergh J., 2016, How cool brands stay hot, V3rd
+   Voorhees CM, 2017, J BUS RES, V79, P269, DOI 10.1016/j.jbusres.2017.04.014
+   WEINBERGER S, 2013, NATURE, V493, P604
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Zhu Z, 2013, J RETAILING, V89, P15, DOI 10.1016/j.jretai.2012.10.004
+NR 92
+TC 240
+Z9 282
+U1 8
+U2 176
+PU SAGE PUBLICATIONS INC
+PI THOUSAND OAKS
+PA 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
+SN 1938-9655
+EI 1938-9663
+J9 CORNELL HOSP Q
+JI Cornell Hosp. Q.
+PD MAY
+PY 2021
+VL 62
+IS 2
+BP 232
+EP 247
+AR 1938965520923961
+DI 10.1177/1938965520923961
+EA MAY 2020
+PG 16
+WC Hospitality, Leisure, Sport & Tourism; Management; Sociology
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics; Business & Economics; Sociology
+GA RM3DL
+UT WOS:000576126400001
+OA hybrid
+DA 2026-04-08
+ER
+
+PT J
+AU Choubey, V
+   Chakraborty, D
+   Joshi, Y
+AF Choubey, Vardhan
+   Chakraborty, Debarun
+   Joshi, Yatish
+TI Human-robot trust dynamics: understanding tourist confidence in service
+   robots in tourism & hospitality
+SO ASIA PACIFIC JOURNAL OF TOURISM RESEARCH
+LA English
+DT Article
+DE Service robot; tourist confidence; privacy calculus theory; tourism;
+   trust dynamics
+ID USER ACCEPTANCE; TECHNOLOGY; CONSUMERS; SYSTEMS; ANTHROPOMORPHISM;
+   PRIVACY
+AB The paper aims to investigate the evolving role of service robots in the hospitality industry, particularly in light of the increasing demand for contactless services. The authors propose a mixed-method research approach to explore how tourist trust is formed regarding service robots and what risks tourists perceive when interacting with them. For this, two studies were conducted. Initially, themes were drawn based on qualitative research. Emerging themes were compared with extant literature, and clear mapping with privacy calculus theory, artificially intelligent device use acceptance, and TAM theory were observed. Data was collected from 512 respondents who traveled and availed of hotel services recently. Perceived benefits, Perceived Risks, and enjoyment positively influenced initial trust towards robots. Overall, this research seeks to provide insights into how tourist trust can be cultivated in the context of service robots, ultimately contributing to more effective implementation strategies within the hospitality sector.
+C1 [Choubey, Vardhan] Symbiosis Int, Symbiosis Inst Operat Management, Pune, India.
+   [Chakraborty, Debarun; Joshi, Yatish] Indian Inst Management Nagpur, Nagpur 441108, India.
+C3 Symbiosis International University; Symbiosis Institute of Operations
+   Management (SIOM); Indian Institute of Management (IIM System); Indian
+   Institute of Management Nagpur
+RP Chakraborty, D (corresponding author), Indian Inst Management Nagpur, Nagpur 441108, India.
+EM debarun84@gmail.com
+RI choubey, vardhan/AHE-0722-2022; Chakraborty, Debarun/ABG-7199-2020
+OI Chakraborty, Debarun/0000-0002-0754-1120
+CR Ackerman E., 2016, IEEE Spectrum
+   Adomavicius G, 2005, IEEE T KNOWL DATA EN, V17, P734, DOI 10.1109/TKDE.2005.99
+   AJZEN I, 1991, ORGAN BEHAV HUM DEC, V50, P179, DOI 10.1016/0749-5978(91)90020-T
+   Allam H, 2019, INT J INFORM MANAGE, V45, P211, DOI 10.1016/j.ijinfomgt.2018.11.005
+   Arici HE, 2022, SPAN J MARK-ESIC, V26, P146, DOI 10.1108/SJME-09-2021-0177
+   Ayyildiz AY, 2022, TECHNOL SOC, V70, DOI 10.1016/j.techsoc.2022.101995
+   Belanche D, 2020, SMART INNOV SYST TEC, V167, P449, DOI 10.1007/978-981-15-1564-4_42
+   Buhalis D, 2019, J TRAVEL TOUR MARK, V36, P563, DOI 10.1080/10548408.2019.1592059
+   Chen F, 2023, IEEE INTELL SYST, V38, P5, DOI 10.1109/MIS.2023.3324470
+   Chen Y, 2015, COMPUT HUM BEHAV, V43, P272, DOI 10.1016/j.chb.2014.10.020
+   Cheng XF, 2024, ARKIVOC, P1, DOI [10.24820/ark.5550190.p012.153, 10.1080/00036846.2024.2385756]
+   Chiang AH, 2020, SERV BUS, V14, P439, DOI 10.1007/s11628-020-00423-8
+   Choung H, 2023, INT J HUM-COMPUT INT, V39, P1727, DOI 10.1080/10447318.2022.2050543
+   COHEN J, 1992, PSYCHOL BULL, V112, P155, DOI 10.1037/0033-2909.112.1.155
+   Culnan MJ, 1999, ORGAN SCI, V10, P104, DOI 10.1287/orsc.10.1.104
+   DAVIS FD, 1989, MANAGE SCI, V35, P982, DOI 10.1287/mnsc.35.8.982
+   Della Corte V, 2023, INT J HOSP MANAG, V114, DOI 10.1016/j.ijhm.2023.103587
+   Fuentes-Moraleda L, 2020, TOUR MANAG PERSPECT, V36, DOI 10.1016/j.tmp.2020.100751
+   George D.Mallery., 2003, SPSS WINDOWS STEP ST
+   GOODHUE DL, 1995, MIS QUART, V19, P213, DOI 10.2307/249689
+   Goudey A, 2016, RECH APPL MARKET-ENG, V31, P2, DOI 10.1177/2051570716643961
+   Gursoy D, 2019, INT J INFORM MANAGE, V49, P157, DOI 10.1016/j.ijinfomgt.2019.03.008
+   Hair JF., 2017, Multivariate data analysis: A global perspective, V2
+   Hoffmann S, 2024, TECHNOL FORECAST SOC, V205, DOI 10.1016/j.techfore.2024.123488
+   Huang MH, 2021, J SERV RES-US, V24, P30, DOI 10.1177/1094670520902266
+   Huang MH, 2018, J SERV RES-US, V21, P155, DOI 10.1177/1094670517752459
+   Hwang J, 2022, ASIA PAC J TOUR RES, V27, P891, DOI 10.1080/10941665.2022.2131447
+   Insights E. H., 2023, 6 MAIN ETHICAL CONCE
+   Ivanov S, 2018, TECHNOL SOC, V55, P24, DOI 10.1016/j.techsoc.2018.06.004
+   Kaartemo V, 2018, J CREAT VALUE, V4, P211, DOI [10.1177/2394964318805625, https://doi.org/10.1177/2394964318805625, DOI 10.1177/2394964318805625, 10.1177/2394964318805625]
+   Kao WK, 2023, J HOSP TOUR MANAG, V54, P10, DOI 10.1016/j.jhtm.2022.11.006
+   Kim HY, 2018, J CONSUM RES, V45, P429, DOI 10.1093/jcr/ucy006
+   Kim S, 2021, INT J HOSP MANAG, V93, DOI 10.1016/j.ijhm.2020.102795
+   Kreiner GlenE., 2016, HDB QUALITATIVE ORG, P350
+   Kresse G, 1996, COMP MATER SCI, V6, P15, DOI 10.1016/0927-0256(96)00008-0
+   Lambert J., 2019, ECON OUTLOOK, V43, P58
+   LAUFER RS, 1977, J SOC ISSUES, V33, P22, DOI 10.1111/j.1540-4560.1977.tb01880.x
+   Lee JD, 2004, HUM FACTORS, V46, P50, DOI 10.1518/hfes.46.1.50.30392
+   Leschanowsky A, 2024, COMPUT HUM BEHAV, V159, DOI 10.1016/j.chb.2024.108344
+   Li Y, 2022, INT J CONSUM STUD, V46, P1241, DOI 10.1111/ijcs.12755
+   Lin HX, 2020, J HOSP MARKET MANAG, V29, P530, DOI 10.1080/19368623.2020.1685053
+   Lin IY, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2021.102876
+   Lu L, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2020.102823
+   Lu L, 2019, INT J HOSP MANAG, V80, P36, DOI 10.1016/j.ijhm.2019.01.005
+   Lutz C, 2021, FRONT ROBOT AI, V8, DOI 10.3389/frobt.2021.627958
+   Malhotra NK, 2006, MANAGE SCI, V52, P1865, DOI 10.1287/mnsc.1060.0597
+   Market R., 2023, HOSPITALITY ROBOTS M
+   Martin BAS, 2020, J HOSP TOUR MANAG, V44, P108, DOI 10.1016/j.jhtm.2020.06.004
+   McLean G, 2019, COMPUT HUM BEHAV, V99, P28, DOI 10.1016/j.chb.2019.05.009
+   McLeay F, 2021, J SERV RES-US, V24, P104, DOI 10.1177/1094670520933354
+   MITCHELL ES, 1986, ADV NURS SCI, V8, P18, DOI 10.1097/00012272-198604000-00004
+   Molinillo S, 2023, SERV BUS, V17, P167, DOI 10.1007/s11628-022-00509-5
+   Murphy C, 2017, HUM RESOUR MANAGE R, V27, P291, DOI 10.1016/j.hrmr.2016.08.006
+   Mylrea M, 2023, ENTROPY-SWITZ, V25, DOI 10.3390/e25101429
+   Nam K, 2021, ELECTRON MARK, V31, P553, DOI 10.1007/s12525-020-00442-3
+   Odekerken-Schröder G, 2020, J SERV MANAGE, V31, P1149, DOI 10.1108/JOSM-05-2020-0148
+   Ozturk AB, 2017, INFORM SYST FRONT, V19, P753, DOI 10.1007/s10796-017-9736-4
+   Pandey P, 2021, J RETAIL CONSUM SERV, V61, DOI 10.1016/j.jretconser.2021.102571
+   Park S, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102888
+   Parvez MO, 2022, J HOSP TOUR TECHNOL, V13, P240, DOI 10.1108/JHTT-09-2021-0267
+   Petter S, 2007, MIS QUART, V31, P623
+   Pinillos R, 2016, ROBOT AUTON SYST, V79, P40, DOI 10.1016/j.robot.2016.01.014
+   Pizam A, 2022, INT J HOSP MANAG, V102, DOI 10.1016/j.ijhm.2022.103139
+   Pizzi G, 2021, J BUS RES, V129, P878, DOI 10.1016/j.jbusres.2020.11.006
+   Raji ID, 2019, AIES '19: PROCEEDINGS OF THE 2019 AAAI/ACM CONFERENCE ON AI, ETHICS, AND SOCIETY, P429, DOI 10.1145/3306618.3314244
+   Research G.V., 2023, SERVICE ROBOTICS MAR
+   Sarkar A, 2016, ASIA PAC J MARKET LO, V28, P180, DOI 10.1108/APJML-06-2015-0095
+   Saunders M., 2007, Research Methods for Business Students, VFourth
+   Shin HH, 2020, INT J CONTEMP HOSP M, V32, P2613, DOI 10.1108/IJCHM-09-2019-0798
+   Söllner M, 2016, EUR J INFORM SYST, V25, P274, DOI 10.1057/ejis.2015.17
+   Song B, 2024, CURR ISSUES TOUR, V27, P3401, DOI 10.1080/13683500.2023.2265029
+   Statista, 2023, Generation of Electronic Waste Worldwide in the Years from 2014 to 2019 and a Forecast Until 2030
+   Tussyadiah IP, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102886
+   van Esch P, 2022, ANN TOURISM RES, V97, DOI 10.1016/j.annals.2022.103471
+   Venkatesh V, 2003, MIS QUART, V27, P425, DOI 10.2307/30036540
+   Walsh I, 2015, ORGAN RES METHODS, V18, P581, DOI 10.1177/1094428114565028
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Yang Y, 2022, J HOSP MARKET MANAG, V31, P1, DOI 10.1080/19368623.2021.1926037
+   Zhong L, 2020, ASIA PAC J TOUR RES, V25, P780, DOI 10.1080/10941665.2020.1726421
+NR 79
+TC 6
+Z9 6
+U1 24
+U2 47
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 1094-1665
+EI 1741-6507
+J9 ASIA PAC J TOUR RES
+JI Asia Pac. J. Tour. Res.
+PD SEP 2
+PY 2025
+VL 30
+IS 9
+BP 1141
+EP 1156
+DI 10.1080/10941665.2025.2486015
+EA APR 2025
+PG 16
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA 6PH1W
+UT WOS:001462178000001
+DA 2026-04-08
+ER
+
+PT J
+AU Liu, X
+   Lin, ZB
+   Fang, SJ
+   Zhang, L
+AF Liu, Xin
+   Lin, Zhibin
+   Fang, Shujie
+   Zhang, Lu
+TI No man is an island: Will service robots reduce employee loneliness?
+SO TOURISM MANAGEMENT
+LA English
+DT Article
+DE Service robot; Social presence; Workplace loneliness; Employee-robot
+   rapport; Interpersonal closeness; Need for human interaction
+ID ARTIFICIAL-INTELLIGENCE; SOCIAL PRESENCE; METHOD BIAS; WORKPLACE;
+   TECHNOLOGY; COMMUNITY; FRAMEWORK; VARIABLES; VALIDITY; CHATBOT
+AB Although the application of robotics technology in tourism and hospitality service scenarios has been widely explored, few studies have investigated the impact of service robots on employee workplace loneliness. To address this issue, we conducted two studies: Study 1, consisting of a scenario-based online experiment (Study 1a) and a field experiment (Study 1b); and Study 2, a two-wave survey. The results reveal that the social presence of robots reduces workplace loneliness, with employee-robot rapport and interpersonal closeness serving as partial mediators. The need for human interaction moderates the relationships between robot social presence and employee-robot rapport and interpersonal closeness, as well as the mediating effects. This study clarifies the mechanisms and boundary conditions of the impact of service robots on employee loneliness, extends social presence theory, and contributes to the literature on service robots. It also provides insights for robotics management and human resource management in the tourism and hospitality sector.
+C1 [Liu, Xin] Jinan Univ, Shenzhen Tourism Coll, Shenzhen, Peoples R China.
+   [Liu, Xin] Hong Kong Baptist Univ, Sch Business, Hong Kong, Peoples R China.
+   [Lin, Zhibin] Univ Durham, Business Sch, Durham, England.
+   [Fang, Shujie] Zhengzhou Univ, Sch Management, Zhengzhou, Peoples R China.
+   [Zhang, Lu] Michigan State Univ, Broad Coll Business, Sch Hospitality Business, E Lansing, MI USA.
+C3 Jinan University; Hong Kong Baptist University; Durham University;
+   Zhengzhou University; Michigan State University; Michigan State
+   University's Broad College of Business
+RP Fang, SJ (corresponding author), Zhengzhou Univ, Sch Management, Zhengzhou, Peoples R China.
+EM fangshj6@zzu.edu.cn
+RI Liu, Xin/AAC-6976-2022; Fang, Shujie/GXM-9367-2022; Lin,
+   Zhibin/R-7541-2018
+OI Liu, Xin/0000-0003-2734-0534; Fang, Shujie/0000-0002-2438-434X; 
+FU National Natural Science Foundation of China [72302099]; Fundamental
+   Research Funds for the Central Universities [23JNQMX42]; China
+   Postdoctoral Science Foundation [2023M731312, 2022M722859]; Guangzhou
+   Philosophy and Social Sciences 14th Five-Year Plan Funds [2023GZYB32];
+   Shenzhen Philosophy and Social Sciences Funds [SZ2024B020]; Jinan
+   University Shenzhen Campus Funding Program [JNSZQH2301]; Jinan
+   University Shenzhen Tourism College' s Health Tourism Research Center;
+   Hong Kong Scholars Program [XJ2024059]
+FX This research was supported by the grants from the National Natural
+   Science Foundation of China (No. 72302099), the Fundamental Research
+   Funds for the Central Universities (No. 23JNQMX42), China Postdoctoral
+   Science Foundation (No. 2023M731312, No. 2022M722859), Guangzhou
+   Philosophy and Social Sciences "14th Five-Year Plan" Funds (No.
+   2023GZYB32), Shenzhen Philosophy and Social Sciences Funds (No.
+   SZ2024B020) and Jinan University Shenzhen Campus Funding Program (No.
+   JNSZQH2301), and Jinan University Shenzhen Tourism College' s Health
+   Tourism Research Center. This research was also supported by the Hong
+   Kong Scholars Program (No. XJ2024059).
+CR [Anonymous], 2024, Spa Executive Magazine
+   APA, 2024, APA poll finds younger workers feel stressed, lonely and undervalued
+   Araujo T, 2018, COMPUT HUM BEHAV, V85, P183, DOI 10.1016/j.chb.2018.03.051
+   Archer M. S., 2021, Robotics, AI, and humanity, P177, DOI DOI 10.1007/978-3-030-54173-6_15
+   Ayazlar G, 2014, PROCD SOC BEHV, V131, P319, DOI 10.1016/j.sbspro.2014.04.124
+   Barrett M, 2012, ORGAN SCI, V23, P1448, DOI 10.1287/orsc.1100.0639
+   Beane M, 2015, ORGAN SCI, V26, P1553, DOI 10.1287/orsc.2015.1004
+   Belanche D, 2020, SERV IND J, V40, P203, DOI 10.1080/02642069.2019.1672666
+   Berridge C, 2023, FRONT PSYCHOL, V14, DOI 10.3389/fpsyg.2023.1106633
+   Biocca F, 2003, PRESENCE-VIRTUAL AUG, V12, P456, DOI 10.1162/105474603322761270
+   Borghi M, 2024, J TRAVEL RES, V63, P1086, DOI 10.1177/00472875231190610
+   Boukis A, 2023, ANN TOURISM RES, V100, DOI 10.1016/j.annals.2023.103555
+   Christou P, 2020, INT J CONTEMP HOSP M, V32, P3665, DOI 10.1108/IJCHM-05-2020-0423
+   Ciechanowski L, 2019, FUTURE GENER COMP SY, V92, P539, DOI 10.1016/j.future.2018.01.055
+   Cognitive Market Research, 2024, Global Hospitality Robot Market Report 2024
+   Cohen J., 1988, Statistical Power Analysis for the Behavioral Sciences, DOI [10.4324/9780203771587, DOI 10.4324/9780203771587]
+   Cui G., 2021, Education and Information Technologies, V18, P1
+   Dabholkar P. A., 1999, Handbook of services marketing and management, P103
+   Dabholkar PA, 2002, J ACAD MARKET SCI, V30, P184, DOI 10.1177/0092070302303001
+   de Kervenoael R, 2020, TOURISM MANAGE, V78, DOI 10.1016/j.tourman.2019.104042
+   Dedeoglu B. B., 2024, International Hospitality Review., V38, P143
+   Ding L, 2021, INT J CONTEMP HOSP M, V33, P2950, DOI 10.1108/IJCHM-09-2020-1038
+   Dubois D, 2016, J MARKETING RES, V53, P712, DOI 10.1509/jmr.13.0312
+   Edwards C, 2016, COMMUN STUD, V67, P227, DOI 10.1080/10510974.2015.1121899
+   Erdil O, 2011, PROCD SOC BEHV, V24, DOI 10.1016/j.sbspro.2011.09.091
+   Fan SX, 2025, J INT BUS STUD, V56, P230, DOI 10.1057/s41267-023-00658-3
+   Fernandes T, 2021, J BUS RES, V122, P180, DOI 10.1016/j.jbusres.2020.08.058
+   Flavián C, 2024, J BUS RES, V175, DOI 10.1016/j.jbusres.2024.114545
+   FORNELL C, 1981, J MARKETING RES, V18, P382, DOI [10.2307/3150980, 10.2307/3151312]
+   Gallup, 2024, State of the Global Workplace
+   GEISSER S, 1974, BIOMETRIKA, V61, P101, DOI 10.1093/biomet/61.1.101
+   Go E, 2019, COMPUT HUM BEHAV, V97, P304, DOI 10.1016/j.chb.2019.01.020
+   Green RD, 2008, COMPUT HUM BEHAV, V24, P2456, DOI 10.1016/j.chb.2008.02.019
+   Gremler DwayneD., 2000, J SERV RES-US, V3, P82, DOI [DOI 10.1177/109467050031006, 10.1177/109467050031006]
+   Guan XH, 2025, CURR ISSUES TOUR, V28, P3302, DOI 10.1080/13683500.2024.2392748
+   Hair JF., 2017, ADV ISSUES PARTIAL L
+   Hayes A.F., 2017, Introduction to Mediation, Moderation, and Conditional Process Analysis, DOI DOI 10.5585/REMARK.V13I4.2739
+   Heerink M, 2010, INT J SOC ROBOT, V2, P361, DOI 10.1007/s12369-010-0068-5
+   Henseler J, 2015, J ACAD MARKET SCI, V43, P115, DOI 10.1007/s11747-014-0403-8
+   Hoang C, 2022, TOURISM MANAGE, V93, DOI 10.1016/j.tourman.2022.104611
+   Holthöwer J, 2023, J ACAD MARKET SCI, V51, P767, DOI 10.1007/s11747-022-00862-x
+   Hu YO, 2021, J HOSP TOUR RES, V45, P1022, DOI 10.1177/10963480211011533
+   Huang MH, 2018, J SERV RES-US, V21, P155, DOI 10.1177/1094670517752459
+   Jones VK, 2021, FRONT PUBLIC HEALTH, V9, DOI 10.3389/fpubh.2021.750736
+   Jordan EJ, 2021, CURR ISSUES TOUR, V24, P1, DOI 10.1080/13683500.2019.1702001
+   Jung YS, 2022, INT J ENV RES PUB HE, V19, DOI 10.3390/ijerph19095228
+   Kelly P, 2019, ROBOTS, ARTIFICIAL INTELLIGENCE, AND SERVICE AUTOMATION IN TRAVEL, TOURISM AND HOSPITALITY, P57, DOI 10.1108/978-1-78756-687-320191003
+   Kim H, 2022, TOURISM MANAGE, V92, DOI 10.1016/j.tourman.2022.104537
+   Kock Florian, 2021, Tourism Management, V86, DOI 10.1016/j.tourman.2021.104330
+   Kong HY, 2023, INT J CONTEMP HOSP M, V35, P2157, DOI 10.1108/IJCHM-03-2022-0354
+   Kong HY, 2021, INT J CONTEMP HOSP M, V33, P717, DOI 10.1108/IJCHM-07-2020-0789
+   Koo B, 2021, INT J HOSP MANAG, V95, DOI 10.1016/j.ijhm.2020.102763
+   Kuriakose V, 2023, INT J CONTEMP HOSP M, V35, P2465, DOI 10.1108/IJCHM-01-2022-0142
+   Lacity MC, 2016, MIT SLOAN MANAGE REV, V58, P41
+   Lam LW, 2012, INT J HUM RESOUR MAN, V23, P4265, DOI 10.1080/09585192.2012.665070
+   Leatherdale ST, 2019, INT J SOC RES METHOD, V22, P19, DOI 10.1080/13645579.2018.1488449
+   Lei SI, 2021, INT J CONTEMP HOSP M, V33, P3977, DOI 10.1108/IJCHM-12-2020-1399
+   Leung XY, 2023, INT J HOSP MANAG, V108, DOI 10.1016/j.ijhm.2022.103380
+   Li JM, 2024, INT J HOSP MANAG, V117, DOI 10.1016/j.ijhm.2023.103654
+   Li J, 2019, TOURISM MANAGE, V73, P172, DOI 10.1016/j.tourman.2019.02.006
+   Liang XD, 2022, TOURISM MANAGE, V92, DOI 10.1016/j.tourman.2022.104564
+   Lin MZ, 2024, INT J HOSP MANAG, V119, DOI 10.1016/j.ijhm.2024.103703
+   Liu J, 2023, ANN TOURISM RES, V103, DOI 10.1016/j.annals.2023.103668
+   Liu X., 2024, Nankai Business Review, P1
+   Liu X, 2024, INT J HOSP MANAG, V123, DOI 10.1016/j.ijhm.2024.103936
+   Liu X, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2021.102862
+   Lv XY, 2024, J BUS RES, V176, DOI 10.1016/j.jbusres.2024.114585
+   Ma E, 2022, TOURISM MANAGE, V93, DOI 10.1016/j.tourman.2022.104610
+   Mackinnon A, 1999, PERS INDIV DIFFER, V27, P405, DOI 10.1016/S0191-8869(98)00251-7
+   Mallmann GL, 2021, BEHAV INFORM TECHNOL, V40, P427, DOI 10.1080/0144929X.2019.1702100
+   Min H, 2015, INT J HOSP MANAG, V50, P105, DOI 10.1016/j.ijhm.2015.07.006
+   Moerman CJ, 2019, J CHILD HEALTH CARE, V23, P596, DOI 10.1177/1367493518803031
+   Odekerken-Schröder G, 2022, J SERV MANAGE, V33, P246, DOI 10.1108/JOSM-10-2020-0372
+   Oh HJ, 2014, COMPUT HUM BEHAV, V30, P69, DOI 10.1016/j.chb.2013.07.053
+   Ozcelik H, 2018, ACAD MANAGE J, V61, P2343, DOI 10.5465/amj.2015.1066
+   Paluch S, 2022, J SERV MANAGE, V33, P363, DOI 10.1108/JOSM-11-2020-0406
+   Park J, 2019, INT J HOSP MANAG, V83, P190, DOI 10.1016/j.ijhm.2018.10.014
+   Parvez MO, 2022, INT J HOSP MANAG, V107, DOI 10.1016/j.ijhm.2022.103336
+   Phillips C, 2023, J SERV MANAGE, V34, P770, DOI 10.1108/JOSM-03-2022-0091
+   Pitardi V, 2024, TOURISM MANAGE, V105, DOI 10.1016/j.tourman.2024.104939
+   Pizam A, 2022, INT J HOSP MANAG, V102, DOI 10.1016/j.ijhm.2022.103139
+   Podsakoff PM, 2012, ANNU REV PSYCHOL, V63, P539, DOI 10.1146/annurev-psych-120710-100452
+   Prentice C, 2020, J HOSP MARKET MANAG, V29, P377, DOI 10.1080/19368623.2019.1647124
+   Qiu HL, 2022, INT J CONTEMP HOSP M, V34, P1374, DOI 10.1108/IJCHM-08-2021-0960
+   Qiu HL, 2020, J HOSP MARKET MANAG, V29, P247, DOI 10.1080/19368623.2019.1645073
+   Richardson JC, 2017, COMPUT HUM BEHAV, V71, P402, DOI 10.1016/j.chb.2017.02.001
+   Shin D, 2018, COMPUT HUM BEHAV, V78, P64, DOI 10.1016/j.chb.2017.09.012
+   Short J., 1976, SOCIAL PSYCHOL TELEC
+   Shum C, 2024, INT J HOSP MANAG, V120, DOI 10.1016/j.ijhm.2024.103762
+   Singh S, 2021, J HOSP TOUR MANAG, V49, P528, DOI 10.1016/j.jhtm.2021.10.014
+   Skubis I, 2024, APPL SCI-BASEL, V14, DOI 10.3390/app142411823
+   Song Y, 2022, INT J HOSP MANAG, V103, DOI 10.1016/j.ijhm.2022.103220
+   Tan KL, 2024, CURR ISSUES TOUR, V27, P2151, DOI 10.1080/13683500.2023.2224550
+   Tang PM, 2023, J APPL PSYCHOL, V108, P1766, DOI 10.1037/apl0001103
+   Tussyadiah I, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102883
+   van Doorn J, 2017, J SERV RES-US, V20, P43, DOI 10.1177/1094670516679272
+   Vangelisti AL, 1997, J SOC PERS RELAT, V14, P679, DOI 10.1177/0265407597145006
+   Wang JW, 2024, J TRAVEL TOUR MARK, V41, P1244, DOI 10.1080/10548408.2024.2408335
+   Wetzels M, 2009, MIS QUART, V33, P177, DOI 10.2307/20650284
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wong AKF, 2025, J HOSP TOUR RES, V49, P1014, DOI 10.1177/10963480241271084
+   Wright SL, 2006, NEW ZEAL J PSYCHOL, V35, P59
+   Xie LS, 2022, J HOSP MARKET MANAG, V31, P962, DOI 10.1080/19368623.2022.2112354
+   Xu JJ, 2023, INT J HOSP MANAG, V113, DOI 10.1016/j.ijhm.2023.103523
+   Yang X, 2025, BEHAV INFORM TECHNOL, V44, P2257, DOI 10.1080/0144929X.2023.2295032
+   Yoganathan V, 2021, TOURISM MANAGE, V85, DOI 10.1016/j.tourman.2021.104309
+   Yu HY, 2022, INT J CONTEMP HOSP M, V34, P2971, DOI 10.1108/IJCHM-10-2021-1312
+   Zhang LX, 2023, J HOSP TOUR MANAG, V57, P74, DOI 10.1016/j.jhtm.2023.09.004
+   Zhang XT, 2023, J HOSP MARKET MANAG, V32, P264, DOI 10.1080/19368623.2023.2166186
+NR 109
+TC 13
+Z9 13
+U1 77
+U2 260
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0261-5177
+EI 1879-3193
+J9 TOURISM MANAGE
+JI Tourism Manage.
+PD AUG
+PY 2025
+VL 109
+AR 105151
+DI 10.1016/j.tourman.2025.105151
+EA FEB 2025
+PG 16
+WC Environmental Studies; Hospitality, Leisure, Sport & Tourism; Management
+WE Social Science Citation Index (SSCI)
+SC Environmental Sciences & Ecology; Social Sciences - Other Topics;
+   Business & Economics
+GA X4X3T
+UT WOS:001425393700001
+OA Green Submitted
+DA 2026-04-08
+ER
+
+PT J
+AU Hu, Y
+   Min, HK
+AF Hu, Yaou
+   Min, Hyounae Kelly
+TI Enhancing customer perceived control and trust through data privacy
+   choices in interactions with service robots
+SO INFORMATION TECHNOLOGY & TOURISM
+LA English
+DT Article
+DE Customer choice; Perceived privacy control; Trust; Privacy knowledge;
+   Human-robot interaction
+ID INTENTION; SATISFACTION; HOSPITALITY; INFORMATION; AWARENESS; INTERNET;
+   IMPACT
+AB This research aims to address the customer uncontrollable privacy paradox posed by service robots in the tourism and hospitality context through the theoretical lens of the integrative choice model and the personal control theory. It examines the impact of offering a data privacy choice on customers' interaction intentions with service robots and its underlying mechanism. Additionally, customers' actual privacy knowledge is identified as a boundary condition. A mixed-method approach was employed in two studies. Study 1 used text analysis on qualitative data, while Study 2 employed a scenario-based experimental design and a quantitative approach to analyze data through modeling and hypothesis testing. This research reveals that compared with not having a choice, the option to erase data empowers customers with a higher level of perceived privacy control. This effect, in turn, increases trust in the service robot and subsequent intention to interact with the service robot. However, as consumers' privacy knowledge increases, this mediational effect is mitigated. This research offers theoretical and practical insights into managing customer privacy when interacting with service robots in the tourism and hospitality context.
+C1 [Hu, Yaou] Thompson Rivers Univ, Fac Adventure Culinary Arts & Tourism, Tourism Management Dept, Kamloops, BC, Canada.
+   [Min, Hyounae Kelly] Calif State Polytech Univ Pomona, Collins Coll Hospitality Management, Pomona, CA USA.
+C3 Thompson Rivers University; California State University System;
+   California State Polytechnic University Pomona
+RP Hu, Y (corresponding author), Thompson Rivers Univ, Fac Adventure Culinary Arts & Tourism, Tourism Management Dept, Kamloops, BC, Canada.
+EM yhu@tru.ca; min@cpp.edu
+CR Acquisti A, 2023, ROUTL HANDB COMMUN S, P257, DOI 10.4324/9781003244677-30
+   Arcand M, 2007, ONLINE INFORM REV, V31, P661, DOI 10.1108/14684520710832342
+   AVERILL JR, 1973, PSYCHOL BULL, V80, P286, DOI 10.1037/h0034845
+   Barth S, 2022, TELEMAT INFORM, V68, DOI 10.1016/j.tele.2022.101782
+   Boo HC, 2022, INT J CONTEMP HOSP M, V34, P4052, DOI 10.1108/IJCHM-12-2021-1471
+   Brecht F, 2012, ECIS 2012 P
+   Buhalis D, 2022, J HOSP TOUR TECHNOL, V13, P386, DOI 10.1108/JHTT-03-2021-0104
+   Castelo N, 2023, J CONSUM RES, V50, P848, DOI 10.1093/jcr/ucad023
+   Chang CC, 2008, CYBERPSYCHOL BEHAV, V11, P321, DOI 10.1089/cpb.2007.0059
+   Chang Y, 2018, GOV INFORM Q, V35, P445, DOI 10.1016/j.giq.2018.04.002
+   Cutright KM, 2023, Consumer Psychology Review, V6, P33, DOI [10.1002/arcp.1083, 10.1002/arcp.1083, DOI 10.1002/ARCP.1083]
+   Das A, 2018, IEEE PERVAS COMPUT, V17, P35, DOI 10.1109/MPRV.2018.03367733
+   Dinev T, 2005, INT J ELECTRON COMM, V10, P7, DOI 10.2753/JEC1086-4415100201
+   Dommeyer CJ, 2003, J INTERACT MARK, V17, P34, DOI 10.1002/dir.10053
+   Ermakova T, 2014, P EUR C INF SYST ECI
+   Fan A, 2022, INT J HOSP MANAG, V101, DOI 10.1016/j.ijhm.2021.103112
+   Femenia-Serra F, 2022, CURR ISSUES TOUR, V25, P2212, DOI 10.1080/13683500.2021.1987399
+   Fu SX, 2022, INT J HOSP MANAG, V102, DOI 10.1016/j.ijhm.2022.103174
+   Goel P, 2022, TOUR REV, V77, P1081, DOI 10.1108/TR-03-2021-0138
+   Grewal D, 2007, J ACAD MARKET SCI, V35, P250, DOI 10.1007/s11747-007-0044-2
+   Guo L, 2016, J SERV RES-US, V19, P39, DOI 10.1177/1094670515597213
+   Hayes AF, 2017, INTRO MEDIATION MODE
+   Henseler J, 2015, J ACAD MARKET SCI, V43, P115, DOI 10.1007/s11747-014-0403-8
+   HUI MK, 1991, J CONSUM RES, V18, P174, DOI 10.1086/209250
+   International Organization for Standardization, 2021, ISO 83732021ROBOTICS
+   Ioannou A, 2021, J TRAVEL RES, V60, P1510, DOI 10.1177/0047287520951642
+   Ioannou A, 2020, INT J INFORM MANAGE, V54, DOI 10.1016/j.ijinfomgt.2020.102122
+   Kim J, 2024, J HOSP MARKET MANAG, V33, P360, DOI 10.1080/19368623.2023.2251157
+   Law R, 2018, J HOSP MARKET MANAG, V27, P626, DOI 10.1080/19368623.2018.1423251
+   Lee J., 2002, J SERVICE MARKETING, V16, P553, DOI [DOI 10.1108/08876040210443418, 10.1108/08876040210443418]
+   Lee JD, 2004, HUM FACTORS, V46, P50, DOI 10.1518/hfes.46.1.50.30392
+   Lee Minah, 2025, IEEE Transactions on Circuits and Systems for Artificial Intelligence, V2, P139, DOI [10.1109/tcasai.2025.3547316, 10.1109/TCASAI.2025.3547316]
+   Lehto XY, 2023, CORNELL HOSP Q, V64, P74, DOI 10.1177/19389655211063204
+   Liyanaarachchi G, 2024, INT J CONTEMP HOSP M, V36, P3823, DOI 10.1108/IJCHM-06-2023-0861
+   Lunardo R, 2009, J RETAIL CONSUM SERV, V16, P434, DOI 10.1016/j.jretconser.2009.06.004
+   Masur PK, 2023, INFORM COMMUN SOC, V26, P584, DOI 10.1080/1369118X.2021.1963460
+   Moon H, 2022, INT J HOSP MANAG, V102, DOI 10.1016/j.ijhm.2022.103171
+   Morosan C, 2015, INT J HOSP MANAG, V47, P120, DOI 10.1016/j.ijhm.2015.03.008
+   Namasivayam K, 2013, INT J HOSP MANAG, V33, P184, DOI 10.1016/j.ijhm.2012.08.002
+   Ng M, 2020, 2020 IEEE EUROPEAN SYMPOSIUM ON SECURITY AND PRIVACY WORKSHOPS (EUROS&PW 2020), P190, DOI 10.1109/EuroSPW51379.2020.00034
+   Noone BM, 2012, CORNELL HOSP Q, V53, P295, DOI 10.1177/1938965512460343
+   Okazaki S, 2020, J RETAILING, V96, P458, DOI 10.1016/j.jretai.2020.05.007
+   Pippo I, 2024, INT J INTERACT DES M, V18, P4765, DOI 10.1007/s12008-024-01735-z
+   Pizam A, 2024, INT J HOSP MANAG, V117, DOI 10.1016/j.ijhm.2023.103641
+   Ponte EB, 2015, TOURISM MANAGE, V47, P286, DOI 10.1016/j.tourman.2014.10.009
+   Song XX, 2024, INF TECHNOL TOUR, V26, P89, DOI 10.1007/s40558-023-00275-8
+   Suh B, 2003, INT J ELECTRON COMM, V7, P135
+   Sun SY, 2025, J HOSP TOUR TECHNOL, V16, P286, DOI 10.1108/JHTT-08-2023-0247
+   Tung VWS, 2017, INT J CONTEMP HOSP M, V29, P2498, DOI 10.1108/IJCHM-09-2016-0520
+   Tussyadiah I, 2019, INFORMATION AND COMMUNICATION TECHNOLOGIES IN TOURISM 2019, P278, DOI 10.1007/978-3-030-05940-8_22
+   Tussyadiah IP, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102886
+   van Doorn J, 2017, J SERV RES-US, V20, P43, DOI 10.1177/1094670516679272
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Xie WJ, 2019, Journal of Interactive Advertising, V19, P187, DOI [10.1080/15252019.2019.1651681, DOI 10.1080/15252019.2019.1651681, 10.1080/15252019.2019.1651681]
+   Xu H, 2011, J ASSOC INF SYST, V12, P798
+NR 55
+TC 1
+Z9 1
+U1 25
+U2 28
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1098-3058
+EI 1943-4294
+J9 INF TECHNOL TOUR
+JI Inf. Technol. Tour.
+PD DEC
+PY 2025
+VL 27
+IS 4
+BP 1111
+EP 1130
+DI 10.1007/s40558-025-00335-1
+EA JUL 2025
+PG 20
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA 9EA0E
+UT WOS:001534688100001
+DA 2026-04-08
+ER
+
+PT J
+AU Xie, LS
+   Lei, SH
+AF Xie, Lishan
+   Lei, Shaohui
+TI The nonlinear effect of service robot anthropomorphism on customers?
+   usage intention: A privacy calculus perspective
+SO INTERNATIONAL JOURNAL OF HOSPITALITY MANAGEMENT
+LA English
+DT Article
+DE Service robot anthropomorphism; Privacy calculus theory; Privacy
+   concern; Usage intention; Information sensitivity; Service
+   personalization
+ID INFORMATION PRIVACY; PERSONALIZATION; TECHNOLOGY; CONSUMERS; ACCEPTANCE;
+   FRAMEWORK; ATTITUDES; INTERNET; PARADOX; IMPACT
+AB Although service robots with anthropomorphic designs are widely used in the tourism and hospitality industry, there are mixed research findings about the effect of service robot anthropomorphism (SRA) on customers' re-sponses. At the same time, when using AI and robotics, companies often need to overcome customers' privacy concerns. Based on privacy calculus theory, this study investigated the nonlinear relationship between SRA and customer privacy concerns. Three empirical studies showed that SRA has a nonlinear effect on customers' privacy concerns, which in turn negatively affects subsequent usage intention. The study also identified the boundary conditions of the nonlinear effects, finding that the negative impacts of SRA are attenuated when (1) information sensitivity is low and (2) service personalization is high. This study is one of the first empirical studies to investigate the nonlinear effect of SRA from the privacy calculus perspective. The practical implications for the tourism and hospitality industry are discussed.
+C1 [Xie, Lishan; Lei, Shaohui] Sun Yat sen Univ, Sch Buiness, Guangzhou 510275, Peoples R China.
+C3 Sun Yat Sen University
+RP Lei, SH (corresponding author), Sun Yat sen Univ, Sch Buiness, Guangzhou 510275, Peoples R China.
+EM mnsxls@mail.sysu.edu.cn; leishh@mail2.sysu.edu.cn
+RI Lei, Shaohui/ITU-7738-2023
+OI Lei, Shaohui/0000-0002-0475-8973
+FU National Natural Science Foundation of China [72072187]; Natural Science
+   Foundation of Guangdong Province, China [2021A1515011439]
+FX Funding This work was supported by the grant from the National Natural
+   Science Foundation of China (No. 72072187) awarded to Lishan Xie and the
+   grant from Natural Science Foundation of Guangdong Province, China (No.
+   2021A1515011439) awarded to Lishan Xie.
+CR Aggarwal P, 2007, J CONSUM RES, V34, P468, DOI 10.1086/518544
+   Aguirre E, 2015, J RETAILING, V91, P34, DOI 10.1016/j.jretai.2014.09.005
+   Akdim K, 2023, INT J CONTEMP HOSP M, V35, P2816, DOI 10.1108/IJCHM-12-2020-1406
+   Bansal G, 2016, INFORM MANAGE-AMSTER, V53, P1, DOI 10.1016/j.im.2015.08.001
+   Barcelos RH, 2018, J INTERACT MARK, V41, P60, DOI 10.1016/j.intmar.2017.10.001
+   Belanche D, 2021, ELECTRON MARK, V31, P477, DOI 10.1007/s12525-020-00432-5
+   Bleier A, 2015, MARKET SCI, V34, P669, DOI 10.1287/mksc.2015.0930
+   Blut M, 2021, J ACAD MARKET SCI, V49, P632, DOI 10.1007/s11747-020-00762-y
+   Brislin R.W., 1986, Field Methods in Cross-Cultural Research, P137
+   Chellappa R. K., 2005, Information Technology & Management, V6, P181, DOI 10.1007/s10799-005-5879-y
+   Choi Y, 2020, J HOSP MARKET MANAG, V29, P613, DOI 10.1080/19368623.2020.1703871
+   Christou P, 2020, INT J CONTEMP HOSP M, V32, P3665, DOI 10.1108/IJCHM-05-2020-0423
+   Chuah SHW, 2021, COMPUT HUM BEHAV, V123, DOI 10.1016/j.chb.2021.106870
+   Crolic C, 2022, J MARKETING, V86, P132, DOI 10.1177/00222429211045687
+   Culnan MJ, 2003, J SOC ISSUES, V59, P323, DOI 10.1111/1540-4560.00067
+   Dinev T, 2006, INFORM SYST RES, V17, P61, DOI 10.1287/isre.1060.0080
+   Fu SX, 2022, INT J HOSP MANAG, V102, DOI 10.1016/j.ijhm.2022.103174
+   Gray K, 2012, COGNITION, V125, P125, DOI 10.1016/j.cognition.2012.06.007
+   Gursoy D, 2019, INT J INFORM MANAGE, V49, P157, DOI 10.1016/j.ijinfomgt.2019.03.008
+   Ha QA, 2021, INT J HUM-COMPUT INT, V37, P512, DOI 10.1080/10447318.2020.1834728
+   Hayes A.F., 2017, Introduction to Mediation, Moderation, and Conditional Process Analysis, DOI DOI 10.5585/REMARK.V13I4.2739
+   Hong WY, 2021, J BUS ETHICS, V168, P539, DOI 10.1007/s10551-019-04237-1
+   Huang MH, 2021, J SERV RES-US, V24, P30, DOI 10.1177/1094670520902266
+   Hur JD, 2015, J CONSUM RES, V42, P340, DOI 10.1093/jcr/ucv017
+   Inman JJ, 2017, J RETAILING, V93, P7, DOI 10.1016/j.jretai.2016.12.006
+   Jörling M, 2019, J SERV RES-US, V22, P404, DOI 10.1177/1094670519842334
+   Kang Q, 2022, INT J HOSP MANAG, V104, DOI 10.1016/j.ijhm.2022.103244
+   Keh HT, 2018, J SERV RES-US, V21, P474, DOI 10.1177/1094670518779456
+   Kim D, 2019, COMPUT HUM BEHAV, V92, P273, DOI 10.1016/j.chb.2018.11.022
+   Kim S, 2011, J CONSUM RES, V38, P94, DOI 10.1086/658148
+   Lee CH, 2011, TOURISM MANAGE, V32, P987, DOI 10.1016/j.tourman.2010.08.011
+   Lin IY, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2021.102876
+   Lu L, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2020.102823
+   Lwin MO, 2016, INTERNET RES, V26, P919, DOI 10.1108/IntR-05-2014-0134
+   Malhotra NK, 2004, INFORM SYST RES, V15, P336, DOI 10.1287/isre.1040.0032
+   Marinova D, 2017, J SERV RES-US, V20, P29, DOI 10.1177/1094670516679273
+   Martin K, 2016, J BUS ETHICS, V137, P551, DOI 10.1007/s10551-015-2565-9
+   Mende M, 2019, J MARKETING RES, V56, P535, DOI 10.1177/0022243718822827
+   Miao F, 2022, J MARKETING, V86, P67, DOI 10.1177/0022242921996646
+   Mori M, 2012, IEEE ROBOT AUTOM MAG, V19, P98, DOI 10.1109/MRA.2012.2192811
+   Morosan C, 2016, INT J CONTEMP HOSP M, V28, P1968, DOI 10.1108/IJCHM-07-2015-0349
+   Novak TP, 2019, J ACAD MARKET SCI, V47, P216, DOI 10.1007/s11747-018-0608-3
+   Park SS, 2021, PSYCHOL MARKET, V38, P691, DOI 10.1002/mar.21468
+   Phelps JosephE., 2001, J INTERACT MARK, V15, P2, DOI DOI 10.1002/DIR.1019
+   Pizzi G, 2021, J BUS RES, V129, P878, DOI 10.1016/j.jbusres.2020.11.006
+   Powers A., 2006, P 1 ACM SIGCHISIGART, P218, DOI [10.1145/1121241.1121280, DOI 10.1145/1121241.1121280]
+   Prakash A, 2015, INT J SOC ROBOT, V7, P309, DOI 10.1007/s12369-014-0269-4
+   Puntoni S, 2021, J MARKETING, V85, P131, DOI 10.1177/0022242920953847
+   Qiu HL, 2020, J HOSP MARKET MANAG, V29, P247, DOI 10.1080/19368623.2019.1645073
+   Robbin A, 2001, J GOV INFORM, V28, P493, DOI 10.1016/S1352-0237(02)00343-X
+   Seyitoglu F, 2021, CURR ISSUES TOUR, V24, P1631, DOI 10.1080/13683500.2020.1774518
+   Smith HJ, 2011, MIS QUART, V35, P989
+   Smith HJ, 1996, MIS QUART, V20, P167, DOI 10.2307/249477
+   Stangl B, 2017, J BUS RES, V74, P168, DOI 10.1016/j.jbusres.2016.10.030
+   Stroessner SJ, 2019, INT J SOC ROBOT, V11, P305, DOI 10.1007/s12369-018-0502-7
+   Tam KY, 2006, MIS QUART, V30, P865
+   Tan X, 2012, INTERNET RES, V22, P211, DOI 10.1108/10662241211214575
+   Uysal E, 2022, J ACAD MARKET SCI, V50, P1153, DOI 10.1007/s11747-022-00856-9
+   van Pinxteren MME, 2019, J SERV MARK, V33, P507, DOI 10.1108/JSM-01-2018-0045
+   Van Slyke C, 2006, J ASSOC INF SYST, V7, P415, DOI 10.17705/1jais.00092
+   Venkatesh V, 2003, MIS QUART, V27, P425, DOI 10.2307/30036540
+   Vlachos E, 2016, INTERACT STUD, V17, P390, DOI 10.1075/is.17.3.04vla
+   Walters ML, 2008, AUTON ROBOT, V24, P159, DOI 10.1007/s10514-007-9058-3
+   Wang L, 2020, J ENTERP INF MANAG, V33, P353, DOI 10.1108/JEIM-05-2019-0121
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wright SA, 2019, J BUS ETHICS, V156, P123, DOI 10.1007/s10551-017-3553-z
+   Xie Y, 2020, J RETAIL CONSUM SERV, V55, DOI 10.1016/j.jretconser.2020.102119
+   Xu H, 2011, DECIS SUPPORT SYST, V51, P42, DOI 10.1016/j.dss.2010.11.017
+   Zhou YY, 2022, J BUS ETHICS, V178, P849, DOI 10.1007/s10551-022-05045-w
+NR 69
+TC 89
+Z9 95
+U1 32
+U2 342
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0278-4319
+EI 1873-4693
+J9 INT J HOSP MANAG
+JI Int. J. Hosp. Manag.
+PD OCT
+PY 2022
+VL 107
+AR 103312
+DI 10.1016/j.ijhm.2022.103312
+EA AUG 2022
+PG 9
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA 3Z3SK
+UT WOS:000844337400006
+DA 2026-04-08
+ER
+
+PT J
+AU Sharma, A
+   Mattila, A
+AF Sharma, Amit
+   Mattila, Anna
+TI Rights and Responsibilities of Hospitality Service Robots
+SO JOURNAL OF HOSPITALITY & TOURISM RESEARCH
+LA English
+DT Article; Early Access
+DE service robot; robot rights; robot responsibility; hospitality service
+   robots; robot; artificial intelligence (AI)
+ID ANTHROPOMORPHISM
+AB This research paper addresses the evolving question of whether-and with what consequences-hospitality service robots should be afforded rights and responsibilities, amid their growing adoption and anthropomorphic design. Moreover, the paper outlines arguments about how the hospitality and tourism industries would be affected if service robots were eventually afforded rights and responsibilities. Arguments regarding robots' rights and responsibilities are examined through the lens of the stakeholder theory embedded in the context of moral, ethical, and legal aspects related to human-robot interaction. We also propose a framework for future discussions on how hospitality and tourism research can inform decision-making regarding the adoption and incorporation of the rights and responsibilities of service robots. The emphasis of our discussion is on governance and risk-management for the industry for eventually clarifying accountability (liability, safety, data protection, consent), enhancing guest trust, and preparing for imminent regulatory expectations.
+C1 [Sharma, Amit] Penn State Univ, Sch Hospitality Management, Hospitality Management, University Pk, PA 16801 USA.
+   [Sharma, Amit] Univ Johannesburg, Sch Tourism & Hospitality, Johannesburg, GP, South Africa.
+   [Mattila, Anna] Penn State Univ, Sch Hospitality Management, Lodging Management, University Pk, PA USA.
+C3 Pennsylvania Commonwealth System of Higher Education (PCSHE);
+   Pennsylvania State University; Pennsylvania State University -
+   University Park; University of Johannesburg; Pennsylvania Commonwealth
+   System of Higher Education (PCSHE); Pennsylvania State University;
+   Pennsylvania State University - University Park
+RP Sharma, A (corresponding author), Penn State Univ, Sch Hospitality Management, Hospitality Management, University Pk, PA 16801 USA.
+EM Aus22@psu.edu
+RI Mattila, Anna/AAA-2462-2021
+CR ArchDaily, 2025, ArchDaily
+   ASEA Brown Boveri, 2024, Food and beverage solutions
+   Babel F., 2024, COMPANION 2024 ACMIE, P1
+   Barfield Jessica K., 2023, Paladyn, Journal of Robotics, Intelligent Agents, and Artificial Intelligence, DOI [10.1515/pjbr-2022-0113, 10.1515/pjbr-2022-0113]
+   Bartneck C, 2009, INT J SOC ROBOT, V1, P71, DOI 10.1007/s12369-008-0001-3
+   Bartneck C, 2008, INTERACT STUD, V9, P415, DOI 10.1075/is.9.3.04bar
+   Bear Robotics, 2025, Bear Robotics
+   Bi ZM, 2015, IND ROBOT, V42, P264, DOI 10.1108/IR-12-2014-0441
+   Birhane A, 2024, Arxiv, DOI arXiv:2404.10072
+   BLOCK N, 1995, BEHAV BRAIN SCI, V18, P227, DOI 10.1017/S0140525X00038188
+   Bontula A., 2023, INT C SOCIAL ROBOTIC, P204
+   British Standards Institute Standards Development, 2016, BS8611 Robots and robotic devices, guide to the ethical design and application of robots and robotic systems
+   Canham-Clyne A., 2022, Restaurant Dive
+   Cawthorne D., 2022, Foundations of robotics: A multidisciplinary approach with Python and ROS, P473
+   Chaddha R, 2023, INDIAN J ORTHOP, V57, P1707, DOI 10.1007/s43465-023-01004-3
+   Cleveland Clinic, 2025, Technophobia
+   Coeckelbergh M, 2010, ETHICS INF TECHNOL, V12, P209, DOI 10.1007/s10676-010-9235-5
+   Coghlan S., 2019, The Conversation
+   Conti D, 2015, 2015 24TH IEEE INTERNATIONAL SYMPOSIUM ON ROBOT AND HUMAN INTERACTIVE COMMUNICATION (RO-MAN), P555, DOI 10.1109/ROMAN.2015.7333601
+   Cribb M, 2024, INT J HUM RIGHTS, DOI 10.1080/13642987.2024.2314532
+   Dahl DW, 2001, J CONSUM RES, V28, P473, DOI 10.1086/323734
+   Dantas C, 2017, ADV INTELL SYST, V570, P754, DOI 10.1007/978-3-319-56538-5_76
+   Darling K., 2012, P 2012 WE ROBOT INAU, DOI [10.2139/ssrn.2044797, DOI 10.2139/SSRN.2044797]
+   De Angeli A., 2006, CHI 2006 WORKSHOP
+   Dimeas F, 2019, SPR PROC ADV ROBOT, V7, P151, DOI 10.1007/978-3-319-89327-3_12
+   Edwards A., 2024, Computers in Human Behavior: Artificial Humans, V2, DOI [10.1016/j.chbah.2023.100060, DOI 10.1016/J.CHBAH.2023.100060]
+   EISENHARDT KM, 1989, ACAD MANAGE REV, V14, P57, DOI 10.2307/258191
+   European Commission, 2024, Regulation (EU) 2024/1689 on Artificial Intelligence (AI Act)
+   European Commission, 2023, Regulation (EU) 2023/1230 on machinery and repealing Directive 2006/42/EC of the European Parliament and of the Council and Council Directive 73/361/EEC
+   Eyssel F, 2012, BRIT J SOC PSYCHOL, V51, P724, DOI 10.1111/j.2044-8309.2011.02082.x
+   Eyssel F, 2012, J APPL SOC PSYCHOL, V42, P2213, DOI 10.1111/j.1559-1816.2012.00937.x
+   Fosch-Villaronga E, 2023, INT J SOC ROBOT, V15, P1871, DOI 10.1007/s12369-023-00974-6
+   Ghori U., 2023, Social licence and ethical practice, P47
+   Gordon JS, 2022, SOUTHERN J PHILOS, V60, P88, DOI 10.1111/sjp.12450
+   Grace D, 2009, J RETAIL CONSUM SERV, V16, P1, DOI 10.1016/j.jretconser.2008.02.004
+   Grierson G., 1794, Statutes passed in the Parliaments held in Ireland: 1310-1662
+   Gunkel DJ, 2018, ETHICS INF TECHNOL, V20, P87, DOI 10.1007/s10676-017-9442-4
+   Han JY, 2024, INT J HOSP MANAG, V121, DOI 10.1016/j.ijhm.2024.103804
+   Ho V., 2019, The Guardian
+   Holthöwer J, 2023, J ACAD MARKET SCI, V51, P767, DOI 10.1007/s11747-022-00862-x
+   Huang H., 2024, Journal of Hospitality Tourism Research, DOI [10.1177/10963480241233234, DOI 10.1177/10963480241233234]
+   Huang MH, 2024, J MARKETING, V88, P1, DOI 10.1177/00222429231224748
+   Ishwardat S, 2024, Business Ethics and Leadership, V8, P151, DOI [10.61093/bel.8(3).151-172.2024, 10.61093/bel.8(3).151-172.2024, DOI 10.61093/BEL.8(3).151-172.2024, DOI 10.21272/BEL.8(3).151-172.2024]
+   Ivanov S., 2017, [No title captured], P74
+   Ivanov S, 2020, INF TECHNOL TOUR, V22, P505, DOI 10.1007/s40558-020-00187-x
+   Jia SZ, 2024, INT J HOSP MANAG, V122, DOI 10.1016/j.ijhm.2024.103853
+   Jin D, 2024, INT J HOSP MANAG, V122, DOI 10.1016/j.ijhm.2024.103840
+   Jin JN, 2025, J CONSUM PSYCHOL, V35, P185, DOI 10.1002/jcpy.1414
+   Kielland C, 2010, J DAIRY SCI, V93, P2998, DOI 10.3168/jds.2009-2899
+   Kouatli I, 2020, RES ETH ISS ORG, V23, P27
+   Levy D, 2009, INT J SOC ROBOT, V1, P209, DOI 10.1007/s12369-009-0022-6
+   Lewandowska-Tomaszczyk B., 2018, Cognitive infocommunications, theory and applications, P201, DOI [10.1007/978-3-319-95996-2_10, DOI 10.1007/978-3-319-95996-2_10]
+   Lo SY, 2022, INT J SOC ROBOT, V14, P1261, DOI 10.1007/s12369-021-00828-z
+   Markel H., 2011, Science Friday
+   Mays KK, 2025, INT J HUM-COMPUT INT, V41, P3413, DOI 10.1080/10447318.2024.2338332
+   McGraw B., 2021, Journal of Astrological Big Data Ecology
+   Miso Robotics, 2025, Miso
+   Müller VC, 2021, ETHICS INF TECHNOL, V23, P579, DOI 10.1007/s10676-021-09596-w
+   Murphy RR, 2009, IEEE INTELL SYST, V24, P14, DOI 10.1109/MIS.2009.69
+   NAVYA, 2025, Self-driving shuttle for passenger transportation
+   Nevejans N., 2016, European civil law rules in robotics
+   Palumbo G, 2025, INT J DATA SCI ANAL, V20, P247, DOI 10.1007/s41060-024-00541-w
+   Parvez MO, 2024, J HOSP TOUR TECHNOL, V15, P808, DOI 10.1108/JHTT-10-2023-0307
+   Proven Robotics, 2023, How a robot concierge transforms the front desk experience
+   QUINTON A, 1962, J PHILOS, V59, P393, DOI 10.2307/2022957
+   Rademeyer Leon B., 2017, Knowledge Futures: Interdisciplinary Journal of Futures Studies, V1
+   Relayrobotics, 2025, Relay Delivery Robots-leader in delivery robots for hospitals and hotels
+   Roco MC, 2020, J NANOPART RES, V22, DOI 10.1007/s11051-020-05032-0
+   Rowan JR, 2000, J BUS ETHICS, V24, P355, DOI 10.1023/A:1006286315756
+   Sandewall E, 2021, INT J SOC ROBOT, V13, P557, DOI 10.1007/s12369-019-00540-z
+   Seyitoglu F, 2023, TOURISM MANAGE, V96, DOI 10.1016/j.tourman.2022.104710
+   Shah MU, 2022, TECHNOVATION, V114, DOI 10.1016/j.technovation.2022.102460
+   Shamsuddoha M, 2025, AUTOMATION-BASEL, V6, DOI 10.3390/automation6010009
+   Skubis I, 2024, APPL SCI-BASEL, V14, DOI 10.3390/app142411823
+   Soft Bank Robotics America Inc, 2025, Whiz solutions
+   Strand R, 2015, J BUS ETHICS, V127, P65, DOI 10.1007/s10551-013-1792-1
+   Sun YX, 2023, J MARKETING RES, V60, P646, DOI 10.1177/00222437221130721
+   Tavani HT, 2018, INFORMATION, V9, DOI 10.3390/info9040073
+   Van der Loos H. M., 2007, ETHICS DESIGN CONCEP
+   Vitak J., 2023, International Journal of Communication, V17
+   Vozna A, 2025, INTELL ARTIF, V19, P30, DOI [10.1177/17248035241310192, 10.1177/17248035241310192]
+   Wallace Jamie, 2019, Paladyn, Journal of Behavioral Robotics, V10, P66, DOI [10.1515/pjbr-2019-0003, 10.1515/pjbr-2019-0003]
+   Warta SF, 2016, Proceedings of the Human Factors and Ergonomics Society Annual Meeting, V60, P1230, DOI [10.1177/1541931213601287, 10.1177/1541931213601287, DOI 10.1177/1541931213601287]
+   Waytz A, 2010, TRENDS COGN SCI, V14, P383, DOI 10.1016/j.tics.2010.05.006
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wrede B., 2023, Behavioral and Brain Sciences, V46, DOI [10.1017/S0140525X23000605, DOI 10.1017/S0140525X23000605]
+   Wu JC, 2024, SENSORS-BASEL, V24, DOI 10.3390/s24154809
+   Wurah A, 2017, J FUTURES STUD, V22, P61, DOI 10.6531/JFS.2017.22(2).A61
+   Yang KCC, 2015, INT J STRATEG COMMUN, V9, P87, DOI [10.1080/1553118x.2015.1008635, 10.1080/1553118X.2015.1008635, DOI 10.1080/1553118X.2015.1008635]
+   Zhao L, 2025, J MANAGE PSYCHOL, DOI 10.1108/JMP-05-2024-0371
+   Zhao ZZ, 2025, CURR ISSUES TOUR, V28, P3357, DOI 10.1080/13683500.2024.2393666
+   Zhou LX, 2022, INT J CONTEMP HOSP M, V34, P1037, DOI 10.1108/IJCHM-07-2021-0849
+NR 92
+TC 0
+Z9 0
+U1 3
+U2 3
+PU SAGE PUBLICATIONS INC
+PI THOUSAND OAKS
+PA 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
+SN 1096-3480
+EI 1557-7554
+J9 J HOSP TOUR RES
+JI J. Hosp. Tour. Res.
+PD 2025 OCT 23
+PY 2025
+DI 10.1177/10963480251393749
+EA OCT 2025
+PG 17
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA CB8PB
+UT WOS:001662073900001
+OA hybrid
+DA 2026-04-08
+ER
+
+PT J
+AU Liu, Y
+   Wang, XY
+   Du, YY
+   Wang, SY
+AF Liu, Yun
+   Wang, Xingyuan
+   Du, Yingying
+   Wang, Shuyang
+TI Service robots vs. human staff: The effect of service agents and service
+   exclusion on unethical consumer behavior
+SO JOURNAL OF HOSPITALITY AND TOURISM MANAGEMENT
+LA English
+DT Article
+DE Service exclusion; Service robots; Anticipatory guilt; Unethical
+   consumer behavior
+ID SOCIAL-EXCHANGE THEORY; GUILT; RECIPROCITY; RESPONSES; GENDER; ETHICS;
+   CONSUMPTION; SCALE; NORM
+AB Many hotels and restaurants deploy service robots to improve the quality and efficiency of customer service, but this approach inevitably poses some risks and challenges. This study followed recent research on the ethical issues of new technologies and explored how customers react to different service agents (service robots vs. human staff) under service exclusion vs. inclusion. In four experiments, we found that in the hospitality industry, customers exhibited more unethical consumer behavior (UCB) when excluded by human staff (vs. service robots) under service exclusion, but more UCB when served by service robots (vs. human staff) under service inclusion. Moreover, anticipatory guilt mediated the interaction effect of service agents and service exclusion on UCB. In addition, we found that anthropomorphism strengthened UCB toward service robots under service exclusion and weakened UCB toward service robots under service inclusion. The results of the study not only extend theories related to service exclusion, but also provide a deeper understanding of ethical issues in human-robot interactions.
+C1 [Liu, Yun; Wang, Xingyuan; Du, Yingying] Shandong Univ, Sch Management, Jinan 250100, Shandong, Peoples R China.
+   [Wang, Shuyang] Shandong Inst Innovat & Dev, Jinan 250100, Shandong, Peoples R China.
+C3 Shandong University
+RP Wang, XY (corresponding author), Shandong Univ, Sch Management, Jinan 250100, Shandong, Peoples R China.
+EM liu.yun@mail.sdu.edu.cn; wangxingyuan@sdu.edu.cn;
+   yingdu@mail.sdu.edu.cn; wsyplate@126.com
+RI Wang, Shuyang/HOC-8576-2023; Liu, Yun/GYU-9665-2022
+FU Shandong Province Social Science Planning Research Project [22BGLJ02]
+FX Acknowledgment This work was supported by the Shandong Province Social
+   Science Planning Research Project (Grant No. 22BGLJ02) .
+CR Abubakar AM, 2018, PERS REV, V47, P441, DOI 10.1108/PR-07-2016-0153
+   Arli D, 2014, J BUS ETHICS, V123, P385, DOI 10.1007/s10551-013-1846-4
+   Baek TH, 2022, INT J ADVERT, V41, P850, DOI 10.1080/02650487.2021.2011654
+   Bateman CR, 2010, J BUS ETHICS, V95, P393, DOI 10.1007/s10551-010-0386-4
+   BAUMEISTER RF, 1995, PERS SOC PSYCHOL B, V21, P1256, DOI 10.1177/01461672952112002
+   Belanche D, 2021, PSYCHOL MARKET, V38, P2357, DOI 10.1002/mar.21532
+   Bigman YE, 2023, J EXP PSYCHOL GEN, V152, P4, DOI 10.1037/xge0001250
+   Biron M, 2010, HUM RELAT, V63, P875, DOI 10.1177/0018726709347159
+   Blackhart GC, 2009, PERS SOC PSYCHOL REV, V13, P269, DOI 10.1177/1088868309346065
+   Blau P M., 1968, INT ENCY SOCIAL SCI, V7, P452
+   Blut M, 2021, J ACAD MARKET SCI, V49, P632, DOI 10.1007/s11747-020-00762-y
+   Bossuyt S, 2016, INT J RES MARK, V33, P225, DOI 10.1016/j.ijresmar.2015.12.005
+   Chen CW, 2016, BUS ETHICS, V25, P345, DOI 10.1111/beer.12122
+   Cohen TR, 2011, J PERS SOC PSYCHOL, V100, P947, DOI 10.1037/a0022641
+   Cropanzano R, 2005, J MANAGE, V31, P874, DOI 10.1177/0149206305279602
+   Cropanzano R, 2017, ACAD MANAG ANN, V11, P479, DOI 10.5465/annals.2015.0099
+   de Kervenoael R, 2020, TOURISM MANAGE, V78, DOI 10.1016/j.tourman.2019.104042
+   De Keyser A, 2022, J SERV MANAGE, V33, P165, DOI 10.1108/JOSM-12-2021-0488
+   Du SL, 2021, J BUS RES, V129, P961, DOI 10.1016/j.jbusres.2020.08.024
+   Duhachek A, 2012, J MARKETING RES, V49, P928, DOI 10.1509/jmr.10.0244
+   Epley N, 2007, PSYCHOL REV, V114, P864, DOI 10.1037/0033-295X.114.4.864
+   Fan XQ, 2021, J HOSP TOUR MANAG, V49, P538, DOI 10.1016/j.jhtm.2021.11.006
+   Filieri R, 2022, J SERV RES-US, V25, P614, DOI 10.1177/10946705221103937
+   Fullerton RA, 2004, J BUS RES, V57, P1239, DOI 10.1016/S0148-2963(02)00455-1
+   Gabbiadini A, 2018, AGGRESSIVE BEHAV, V44, P113, DOI 10.1002/ab.21735
+   Garvey AM, 2023, J MARKETING, V87, P10, DOI 10.1177/00222429211066972
+   Giroux M, 2022, J BUS ETHICS, V178, P1027, DOI 10.1007/s10551-022-05056-7
+   Gong XS, 2022, J RETAIL CONSUM SERV, V68, DOI 10.1016/j.jretconser.2022.103005
+   GOULDNER AW, 1960, AM SOCIOL REV, V25, P161, DOI 10.2307/2092623
+   Gray K, 2012, PSYCHOL INQ, V23, P101, DOI 10.1080/1047840X.2012.651387
+   Harris L., 2003, J SERV RES-US, V6, P144, DOI [DOI 10.1177/1094670503257044, 10.1177/1094670503257044]
+   Hayes AF, 2014, BRIT J MATH STAT PSY, V67, P451, DOI 10.1111/bmsp.12028
+   Hayes AndrewF., 2018, METHODOLOGY SOCIAL S, Vsecond
+   Hermann E, 2022, J BUS ETHICS, V179, P43, DOI 10.1007/s10551-021-04843-y
+   Homans G.C., 1961, SOCIAL BEHAV ITS ELE, DOI DOI 10.1525/AA.1961.63.6.02A00180
+   HOMANS GC, 1958, AM J SOCIOL, V63, P597, DOI 10.1086/222355
+   Hwang J, 2022, J HOSP TOUR MANAG, V50, P337, DOI 10.1016/j.jhtm.2022.02.005
+   Hwang J, 2021, J HOSP TOUR MANAG, V48, P561, DOI 10.1016/j.jhtm.2021.08.013
+   Hwang J, 2020, J HOSP TOUR MANAG, V44, P272, DOI 10.1016/j.jhtm.2020.06.003
+   Hwang Y, 2019, INT J HOSP MANAG, V77, P303, DOI 10.1016/j.ijhm.2018.07.010
+   Kandaurova M, 2019, J BUS RES, V100, P571, DOI 10.1016/j.jbusres.2018.10.027
+   Kim H, 2022, TOURISM MANAGE, V92, DOI 10.1016/j.tourman.2022.104537
+   Kim SY, 2019, MARKET LETT, V30, P1, DOI 10.1007/s11002-019-09485-9
+   Kim T, 2023, INT J HOSP MANAG, V108, DOI 10.1016/j.ijhm.2022.103358
+   Kim T, 2023, J ACAD MARKET SCI, V51, P785, DOI 10.1007/s11747-021-00832-9
+   Kouchaki M, 2015, J APPL PSYCHOL, V100, P547, DOI 10.1037/a0038034
+   LaMothe E, 2020, J BUS ETHICS, V167, P157, DOI 10.1007/s10551-019-04408-0
+   Lee J, 2012, J CONSUM RES, V39, P530, DOI 10.1086/664039
+   Liu Y, 2022, TECHNOL SOC, V68, DOI 10.1016/j.techsoc.2021.101810
+   Liu ZQ, 2015, J BUS ETHICS, V128, P411, DOI 10.1007/s10551-014-2061-7
+   Longoni C, 2019, J CONSUM RES, V46, P629, DOI 10.1093/jcr/ucz013
+   Mao YN, 2021, ASIA PAC J MANAG, V38, P1261, DOI 10.1007/s10490-020-09707-z
+   Martin K, 2019, J BUS ETHICS, V160, P835, DOI 10.1007/s10551-018-3921-3
+   Mills P, 2021, J BUS RES, V136, P377, DOI 10.1016/j.jbusres.2021.07.021
+   Nash K, 2018, COMPUT HUM BEHAV, V78, P59, DOI 10.1016/j.chb.2017.09.018
+   NetEase, 2022, STAT
+   Perugini M, 2003, EUR J PERSONALITY, V17, P251, DOI 10.1002/per.474
+   Pitardi V, 2022, J SERV MANAGE, V33, P389, DOI 10.1108/JOSM-12-2020-0435
+   Rawlings E.I., 1970, Altruism and Helping Behavior, P163
+   Riva P, 2015, SOC COGN AFFECT NEUR, V10, P352, DOI 10.1093/scan/nsu053
+   Ruiz-Equihua D, 2023, INT J CONTEMP HOSP M, V35, P1966, DOI 10.1108/IJCHM-05-2022-0597
+   Singh S, 2021, J HOSP TOUR MANAG, V49, P528, DOI 10.1016/j.jhtm.2021.10.014
+   Sinha J, 2019, J CONSUM RES, V46, P791, DOI 10.1093/jcr/ucz021
+   Söderlund M, 2022, J RETAIL CONSUM SERV, V67, DOI 10.1016/j.jretconser.2022.102999
+   Tsiros M, 2004, J CONSUM RES, V31, P476, DOI 10.1086/422124
+   Tunçel N, 2022, INT J CONSUM STUD, V46, P459, DOI 10.1111/ijcs.12693
+   Twenge JM, 2007, J PERS SOC PSYCHOL, V92, P56, DOI 10.1037/0022-3514.92.1.56
+   Umphress EE, 2010, J APPL PSYCHOL, V95, P769, DOI 10.1037/a0019214
+   van Doorn J, 2017, J SERV RES-US, V20, P43, DOI 10.1177/1094670516679272
+   Vitell SJ, 2005, J BUS ETHICS, V62, P267, DOI 10.1007/s10551-005-7058-9
+   Williams KD, 2000, J PERS SOC PSYCHOL, V79, P748, DOI 10.1037/0022-3514.79.5.748
+   Williams KD, 2007, ANNU REV PSYCHOL, V58, P425, DOI 10.1146/annurev.psych.58.110405.085641
+   Wirtz J, 2004, J ACAD MARKET SCI, V32, P159, DOI 10.1177/0092070303261416
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wirtz J, 2010, J ACAD MARKET SCI, V38, P654, DOI 10.1007/s11747-009-0177-6
+   Yoganathan V, 2021, TOURISM MANAGE, V85, DOI 10.1016/j.tourman.2021.104309
+   Yu S., 2022, JCPY J CONSUMER PSYC, V1330, DOI [10.1002/jcpy.1330,2022-11-18, DOI 10.1002/JCPY.1330,2022-11-18]
+   Zhang SL, 2022, J HOSP TOUR MANAG, V52, P170, DOI 10.1016/j.jhtm.2022.06.014
+   Zhao BC, 2020, BUS ETHICS, V29, P602, DOI 10.1111/beer.12284
+NR 79
+TC 52
+Z9 54
+U1 22
+U2 244
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1447-6770
+EI 1839-5260
+J9 J HOSP TOUR MANAG
+JI J. Hosp. Tour. Manag.
+PD JUN
+PY 2023
+VL 55
+BP 401
+EP 415
+DI 10.1016/j.jhtm.2023.05.015
+EA MAY 2023
+PG 15
+WC Hospitality, Leisure, Sport & Tourism; Management
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics; Business & Economics
+GA J1IQ2
+UT WOS:001007215700001
+DA 2026-04-08
+ER
+
+PT J
+AU Gonzalez-Jimenez, H
+   Pinto, DC
+AF Gonzalez-Jimenez, Hector
+   Costa Pinto, Diego
+TI Can AI robots foster social inclusion? Exploring the role of immersive
+   augmentation in hospitality
+SO INTERNATIONAL JOURNAL OF CONTEMPORARY HOSPITALITY MANAGEMENT
+LA English
+DT Article
+DE Artificial intelligence; Augmented reality; Disability inclusion;
+   Hospitality; Immersive technologies; Perceived ethicality; Service
+   robots; Social responsibility
+ID SERVICE ROBOTS; CONSUMERS; DISABILITY; PERCEPTIONS; EXPERIENCES;
+   FAMILIARITY; IMPACT; RETAIL
+AB PurposeGrounded on the X Reality framework and human-machine collaboration, this study aims to explore the potential of immersive augmentation through artificial intelligence (AI) service robots for promoting social inclusion in the hospitality industry.Design/methodology/approachThree experimental studies across diverse hospitality contexts examine the effects of immersive augmentation using inclusive-AI service robots compared to standard-AI robots. The studies also uncover the underlying process of perceived ethicality and the moderating role of customers' familiarity with AI.FindingsThe results indicate that immersive augmentation through inclusive-AI service robots generates higher levels of supportive tipping behavior (Studies 1 and 3), superior buying intentions (Study 2) and an increased likelihood for customers to pay a premium price (Study 2). These effects are mediated by perceived ethicality (Studies 1-3). However, the impact of immersive augmentation for social inclusion is contingent upon customers' familiarity with AI: customers with high familiarity with AI exhibit lower levels of supportive tipping behavior (Study 3).Research limitations/implicationsThe findings emphasize the importance of perceived ethicality and customers' familiarity with AI in determining the effectiveness of immersive augmentation for social inclusion in hospitality.Originality/valueThis study contributes to the literature by exploring the potential of immersive augmentation using AI service robots for social inclusion in hospitality. It offers novel insights by highlighting the importance of perceived ethicality and customers' familiarity with AI. The findings provide valuable guidance for hospitality managers seeking to leverage AI technology to foster social inclusion.
+C1 [Gonzalez-Jimenez, Hector] ESCP Business Sch, Madrid, Spain.
+   [Costa Pinto, Diego] Univ Nova Lisboa, NOVA Informat Management Sch NOVA IMS, Lisbon, Portugal.
+C3 heSam Universite; ESCP Business School; Universidade Nova de Lisboa
+RP Gonzalez-Jimenez, H (corresponding author), ESCP Business Sch, Madrid, Spain.
+EM hegonzalez@escp.eu
+RI COSTA PINTO, Diego/B-7755-2015; Gonzalez-Jimenez, Hector/ABG-9816-2020
+OI COSTA PINTO, Diego/0000-0003-4418-9450; 
+FU National funds through FCT (Foundation for Science and Technology)
+   [UIDB/04152/2020]
+FX This work was partially supported by national funds through FCT
+   (Foundation for Science and Technology), under the project -
+   UIDB/04152/2020 (DOI: 10.54499/UIDB/04152/2020) - Information Management
+   Research Centre (MagIC)/NOVA IMS).
+CR Abdelhakim AS, 2023, TOUR MANAG PERSPECT, V45, DOI 10.1016/j.tmp.2022.101049
+   AccorGroup, 2023, INTEGRATION PEOPLE D
+   Aichner T, 2021, HUM SOC SCI COMMUN, V8, DOI 10.1057/s41599-021-00707-y
+   Akdim K, 2023, INT J CONTEMP HOSP M, V35, P2816, DOI 10.1108/IJCHM-12-2020-1406
+   Andrade AD, 2016, MIS QUART, V40, P405, DOI 10.25300/misq/2016/40.2.06
+   Arsel Z, 2022, J CONSUM RES, V48, P920, DOI 10.1093/jcr/ucab057
+   Belanche D, 2021, PSYCHOL MARKET, V38, P2357, DOI 10.1002/mar.21532
+   Belanche D, 2020, SERV IND J, V40, P203, DOI 10.1080/02642069.2019.1672666
+   Belk R, 2021, SERV IND J, V41, P860, DOI 10.1080/02642069.2020.1727892
+   Benedicktus RL, 2010, J RETAILING, V86, P322, DOI 10.1016/j.jretai.2010.04.002
+   Blut M, 2021, J ACAD MARKET SCI, V49, P632, DOI 10.1007/s11747-020-00762-y
+   Boxall K, 2018, INT J CONTEMP HOSP M, V30, P539, DOI 10.1108/IJCHM-09-2016-0491
+   Caic M, 2018, J SERV MANAGE, V29, P178, DOI 10.1108/JOSM-07-2017-0179
+   Chernev A, 2015, J CONSUM RES, V41, P1412, DOI 10.1086/680089
+   Chi OHX, 2022, J TRAVEL RES, V61, P170, DOI 10.1177/0047287520971054
+   Chi OH, 2021, COMPUT HUM BEHAV, V118, DOI 10.1016/j.chb.2021.106700
+   Danker J, 2023, BRIT J LEARN DISABIL, V51, P135, DOI 10.1111/bld.12500
+   de Kervenoael R, 2020, TOURISM MANAGE, V78, DOI 10.1016/j.tourman.2019.104042
+   De Pascale A, 2023, J TRAVEL RES, V62, P517, DOI 10.1177/00472875211073976
+   Diallo MF, 2017, J BUS ETHICS, V141, P435, DOI 10.1007/s10551-015-2663-8
+   Vila TD, 2015, TOURISM MANAGE, V47, P261, DOI 10.1016/j.tourman.2014.10.008
+   Edwards Steven M., 2001, Journal of Interactive Advertising, V2, P10, DOI 10.1080/15252019.2001.10722054
+   Ferguson G, 2017, TOURISM MANAGE, V62, P218, DOI 10.1016/j.tourman.2017.05.001
+   Flavián C, 2022, J SERV MANAGE, V33, P293, DOI 10.1108/JOSM-10-2020-0378
+   Forbes, 2022, ROBOTS MACHINES MAKI
+   Forbes, 2022, TOXIC TRAVEL CHAOS I
+   Förster J, 2009, J EXP PSYCHOL GEN, V138, P383, DOI 10.1037/a0015748
+   Gao YL, 2016, J BUS ETHICS, V136, P575, DOI 10.1007/s10551-014-2536-6
+   Gaur L, 2021, INT J CONTEMP HOSP M, V33, P4079, DOI 10.1108/IJCHM-11-2020-1246
+   Gursoy D., 2024, INT J CONTEMP HOSP M
+   Han B, 2023, J SERV RES-US, V26, P441, DOI 10.1177/10946705231169674
+   Hayes A.F., 2017, Introduction to Mediation, Moderation, and Conditional Process Analysis, DOI DOI 10.5585/REMARK.V13I4.2739
+   He XH, 2022, TOURISM MANAGE, V90, DOI 10.1016/j.tourman.2021.104470
+   Heerink M, 2010, INT J SOC ROBOT, V2, P361, DOI 10.1007/s12369-010-0068-5
+   Hersh MA, 2016, J TRAVEL RES, V55, P380, DOI 10.1177/0047287514546225
+   Holthöwer J, 2023, J ACAD MARKET SCI, V51, P767, DOI 10.1007/s11747-022-00862-x
+   Hopp T, 2016, J CURR ISS RES AD, V37, P113, DOI [10.1080/10641734.2016.1171179, 10.1080/10641734.2016.1171179, DOI 10.1080/10641734.2016.1171179]
+   Horowitz MC, 2024, AI SOC, V39, P1721, DOI 10.1007/s00146-023-01666-5
+   Huang MH, 2022, J RETAILING, V98, P209, DOI 10.1016/j.jretai.2021.03.001
+   Huang MH, 2021, J SERV RES-US, V24, P30, DOI 10.1177/1094670520902266
+   Kalargyrou V, 2018, INT J CONTEMP HOSP M, V30, P3632, DOI 10.1108/IJCHM-06-2017-0362
+   Karakas F, 2013, J BUS ETHICS, V113, P663, DOI 10.1007/s10551-013-1691-5
+   Khoa D, 2023, INT J CONTEMP HOSP M, V35, P2202, DOI 10.1108/IJCHM-04-2022-0434
+   Kim H, 2022, TOURISM MANAGE, V92, DOI 10.1016/j.tourman.2022.104537
+   Kim SE, 2012, INT J CONTEMP HOSP M, V24, P451, DOI 10.1108/09596111211217905
+   Komiak SYX, 2006, MIS QUART, V30, P941
+   KUHFELD WF, 1994, J MARKETING RES, V31, P545, DOI 10.2307/3151882
+   Kuo PJ, 2014, INT J CONTEMP HOSP M, V26, P164, DOI 10.1108/IJCHM-01-2013-0022
+   Li SH, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2021.102880
+   Liu YY, 2023, J HOSP TOUR MANAG, V54, P42, DOI 10.1016/j.jhtm.2022.10.007
+   Liu-Thompkins Y, 2022, J ACAD MARKET SCI, V50, P1198, DOI 10.1007/s11747-022-00892-5
+   Lu J, 2017, COMPUT HUM BEHAV, V75, P130, DOI 10.1016/j.chb.2017.05.002
+   Luchs MG, 2010, J MARKETING, V74, P18, DOI 10.1509/jmkg.74.5.18
+   Ma E, 2022, TOURISM MANAGE, V93, DOI 10.1016/j.tourman.2022.104610
+   Markovic S, 2018, J BUS ETHICS, V148, P721, DOI 10.1007/s10551-015-2985-6
+   Medina FJ, 2017, IND RELAT CONF MAN, P139, DOI 10.1007/978-3-319-66393-7_9
+   Mende M, 2019, J MARKETING RES, V56, P535, DOI 10.1177/0022243718822827
+   Noble SM, 2022, J RETAILING, V98, P199, DOI 10.1016/j.jretai.2022.04.003
+   Paavola J., 2001, Review of Social Economy, V59, P227, DOI 10.1080/00346760110036175
+   Park SS, 2021, PSYCHOL MARKET, V38, P691, DOI 10.1002/mar.21468
+   Pedersen CL, 2021, PSYCHOL MARKET, V38, P470, DOI 10.1002/mar.21448
+   Pinto DC, 2019, J CLEAN PROD, V233, P1366, DOI 10.1016/j.jclepro.2019.06.094
+   Puntoni S, 2021, J MARKETING, V85, P131, DOI 10.1177/0022242920953847
+   Rauschnabel PA, 2022, COMPUT HUM BEHAV, V133, DOI 10.1016/j.chb.2022.107289
+   Reis J, 2020, TECHNOL SOC, V63, DOI 10.1016/j.techsoc.2020.101423
+   Romero J, 2021, INT J CONTEMP HOSP M, V33, P4057, DOI 10.1108/IJCHM-10-2020-1214
+   Say AL, 2021, J CONSUM BEHAV, V20, P1562, DOI 10.1002/cb.1967
+   Schaefer Anja., 2005, J MACROMARKETING, V25, P76, DOI DOI 10.1177/0276146705274987
+   Schepers J, 2022, J SERV RES-US, V25, P565, DOI 10.1177/10946705221107704
+   Small J, 2012, TOURISM MANAGE, V33, P941, DOI 10.1016/j.tourman.2011.09.015
+   Luu TT, 2019, INT J HOSP MANAG, V80, P25, DOI 10.1016/j.ijhm.2019.01.004
+   Turja T, 2019, INT J SOC ROBOT, V11, P679, DOI 10.1007/s12369-019-00526-x
+   van Doorn J, 2017, J SERV RES-US, V20, P43, DOI 10.1177/1094670516679272
+   Viglia G, 2020, ANN TOURISM RES, V80, DOI 10.1016/j.annals.2020.102858
+   Lu VN, 2020, J SERV THEOR PRACT, V30, P361, DOI 10.1108/JSTP-04-2019-0088
+   White K, 2011, J MARKETING RES, V48, P472, DOI 10.1509/jmkr.48.3.472
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   World Economic Forum, 2023, The Future of Jobs 2023
+   Yin DX, 2023, TOURISM MANAGE, V97, DOI 10.1016/j.tourman.2023.104745
+   Zhang H, 2022, PSYCHOL MARKET, V39, P2171, DOI 10.1002/mar.21721
+NR 80
+TC 27
+Z9 28
+U1 37
+U2 179
+PU EMERALD GROUP PUBLISHING LTD
+PI Leeds
+PA Floor 5, Northspring 21-23 Wellington Street, Leeds, W YORKSHIRE,
+   ENGLAND
+SN 0959-6119
+EI 1757-1049
+J9 INT J CONTEMP HOSP M
+JI Int. J. Contemp. Hosp. Manag.
+PD OCT 14
+PY 2024
+VL 36
+IS 11
+SI SI
+BP 3889
+EP 3905
+DI 10.1108/IJCHM-09-2023-1459
+EA JUL 2024
+PG 17
+WC Hospitality, Leisure, Sport & Tourism; Management
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics; Business & Economics
+GA J4S8E
+UT WOS:001257183800001
+OA Green Submitted
+DA 2026-04-08
+ER
+
+PT J
+AU Moliner-Tena, MA
+   Callarisa-Fiol, LJ
+   Sánchez-García, J
+   Rodríguez-Artola, RM
+AF Moliner-Tena, Miguel Angel
+   Callarisa-Fiol, Luis Jose
+   Sanchez-Garcia, Javier
+   Rodriguez-Artola, Rosa Maria
+TI Service robots and memorable customer experience: The influence of
+   perceived anthropomorphism
+SO FUTURE BUSINESS JOURNAL
+LA English
+DT Article
+DE Anthropomorphism; Memorable customer experience; Human-robot
+   interaction; Satisfaction
+ID IMPLEMENTATION; TOURISM; BIAS
+AB The aim of this paper is to examine the influence of perceived anthropomorphism of service robots on the memorable customer experience (MCE) and the mediating role of HRI satisfaction. Two research questions and five hypotheses are proposed. An experiment has been designed in a natural environment with two service robots with different anthropomorphic features. Findings showed that MCE increases when a service robot is placed in a service scenario augmenting front-line employees, compared to a situation without a service robot. The results also showed that the main antecedent of MCE was perceived anthropomorphism, while HRI satisfaction did not mediate the anthropomorphism-MCE relationship.
+C1 [Moliner-Tena, Miguel Angel; Callarisa-Fiol, Luis Jose; Sanchez-Garcia, Javier; Rodriguez-Artola, Rosa Maria] Univ Jaume 1, Dept Business Adm & Mkt, Castellon de La Plana, Spain.
+C3 Universitat Jaume I
+RP Moliner-Tena, MA (corresponding author), Univ Jaume 1, Dept Business Adm & Mkt, Castellon de La Plana, Spain.
+EM amoliner@uji.es; callaris@uji.es; jsanchez@uji.es; artola@uji.es
+RI Fiol, Luis/Q-1609-2018; Sanchez, Javier/K-3721-2012; Rodri­guez-Artola,
+   Rosa/Q-6044-2018; Moliner, Miguel Angel/L-8002-2015
+OI Moliner, Miguel Angel/0000-0001-9274-4151
+FU Ministerio de Ciencia e Innovacin
+FX Not applicable.
+CR ARMSTRONG JS, 1977, J MARKETING RES, V14, P396, DOI 10.2307/3150783
+   Bagozzi RichardP., 1980, CAUSAL MODELS MARKET
+   Bagozzi RP., 1988, J. Acad. Market. Sci., V16, P74, DOI [10.1007/BF02723327, DOI 10.1007/BF02723327]
+   Becker M, 2023, SERV BUS, V17, P137, DOI 10.1007/s11628-022-00499-4
+   Belanche D, 2020, SERV IND J, V40, P203, DOI 10.1080/02642069.2019.1672666
+   Bentler P.M., 2006, EQS structural equations model program (Version 6.1) [Computer software]
+   Blaurock M, 2022, INT J CONSUM STUD, V46, P1877, DOI 10.1111/ijcs.12808
+   Blut M, 2021, J ACAD MARKET SCI, V49, P632, DOI 10.1007/s11747-020-00762-y
+   Byrne B, 2010, INTERNATIONAL HANDBOOK OF PSYCHOLOGY IN EDUCATION, P3
+   Caic M, 2019, J SERV MARK, V33, P463, DOI 10.1108/JSM-02-2018-0080
+   Callarisa-Fiol LJ, 2023, REV MANAG SCI, V17, P2945, DOI 10.1007/s11846-023-00646-9
+   Chan APH, 2019, J TRAVEL TOUR MARK, V36, P458, DOI 10.1080/10548408.2019.1568953
+   Chen CT, 2024, J RETAIL CONSUM SERV, V80, DOI 10.1016/j.jretconser.2024.103936
+   Chiang AH, 2023, SERV BUS, V17, P913, DOI 10.1007/s11628-023-00545-9
+   Chiang AH, 2022, TECHNOL FORECAST SOC, V177, DOI 10.1016/j.techfore.2022.121550
+   Chiang AH, 2020, SERV BUS, V14, P439, DOI 10.1007/s11628-020-00423-8
+   Crolic C, 2022, J MARKETING, V86, P132, DOI 10.1177/00222429211045687
+   Ding AN, 2022, J HOSP TOUR MANAG, V52, P404, DOI 10.1016/j.jhtm.2022.07.018
+   Duffy BR, 2003, ROBOT AUTON SYST, V42, P177, DOI 10.1016/S0921-8890(02)00374-3
+   Epley N, 2007, PSYCHOL REV, V114, P864, DOI 10.1037/0033-295X.114.4.864
+   Fan AL, 2020, J HOSP MARKET MANAG, V29, P269, DOI 10.1080/19368623.2019.1639095
+   Forgas-Coll S, 2022, SERV BUS, V16, P359, DOI 10.1007/s11628-022-00492-x
+   FORNELL C, 1981, J MARKETING RES, V18, P382, DOI [10.2307/3150980, 10.2307/3151312]
+   Hair JF., 2017, Multivariate data analysis: A global perspective, V2
+   Hinsch C, 2020, J RETAIL CONSUM SERV, V53, DOI 10.1016/j.jretconser.2019.101987
+   Hirst W, 2016, CURR DIR PSYCHOL SCI, V25, P36, DOI 10.1177/0963721415622487
+   Huang D, 2021, INT J HOSP MANAG, V99, DOI 10.1016/j.ijhm.2021.103078
+   Hwang J, 2023, J HOSP TOUR TECHNOL, V14, P430, DOI 10.1108/JHTT-09-2021-0254
+   Hwang J, 2021, J HOSP TOUR MANAG, V48, P561, DOI 10.1016/j.jhtm.2021.08.013
+   IFR, 2022, Sales of robots for the service sector grew by 37% Worldwide, World Robotics 2022-Service Robots report released
+   ISO, 2021, Robots and robotics devices-vocabulary
+   Ivanov S, 2023, SERV BUS, V17, P195, DOI 10.1007/s11628-022-00517-5
+   Ivanov S, 2019, INFORMATION AND COMMUNICATION TECHNOLOGIES IN TOURISM 2019, P237, DOI 10.1007/978-3-030-05940-8_19
+   Joreskog K.G., 1996, LISREL 8 USERS REFER
+   Kao WK, 2023, J HOSP TOUR MANAG, V54, P10, DOI 10.1016/j.jhtm.2022.11.006
+   Kim JH, 2018, J TRAVEL RES, V57, P856, DOI 10.1177/0047287517721369
+   Kim KJ, 2013, COMPUT HUM BEHAV, V29, P1799, DOI 10.1016/j.chb.2013.02.009
+   Kim SH, 2022, SERV BUS, V16, P771, DOI 10.1007/s11628-021-00467-4
+   Klaus P, 2013, INT J MARKET RES, V55, P227, DOI 10.2501/IJMR-2013-021
+   Kock N, 2015, INT J E-COLLAB, V11, P1, DOI 10.4018/ijec.2015100101
+   Li Y, 2023, INT J HOSP MANAG, V115, DOI 10.1016/j.ijhm.2023.103603
+   MacKenzie SB, 2012, J RETAILING, V88, P542, DOI 10.1016/j.jretai.2012.08.001
+   Manthiou A, 2020, J RETAIL CONSUM SERV, V57, DOI 10.1016/j.jretconser.2020.102218
+   McLeay F, 2021, J SERV RES-US, V24, P104, DOI 10.1177/1094670520933354
+   Mende M, 2019, J MARKETING RES, V56, P535, DOI 10.1177/0022243718822827
+   Moliner MA., 2023, Corporate Soc Responsab Environ Manag, V30, P324
+   Moliner-Tena MA, 2023, J RETAIL CONSUM SERV, V72, DOI 10.1016/j.jretconser.2023.103290
+   Molinillo S, 2023, SERV BUS, V17, P167, DOI 10.1007/s11628-022-00509-5
+   Mori M, 2012, IEEE ROBOT AUTOM MAG, V19, P98, DOI 10.1109/MRA.2012.2192811
+   Nakanishi J, 2020, SN APPL SCI, V2, DOI 10.1007/s42452-020-2192-7
+   Pekovic S, 2020, J RETAIL CONSUM SERV, V56, DOI 10.1016/j.jretconser.2020.102171
+   PODSAKOFF PM, 1986, J MANAGE, V12, P531, DOI 10.1177/014920638601200408
+   Qiu HL, 2020, J HOSP MARKET MANAG, V29, P247, DOI 10.1080/19368623.2019.1645073
+   Roesler E, 2021, SCI ROBOT, V6, DOI 10.1126/scirobotics.abj5425
+   Rosenthal-von der Pütten AM, 2014, COMPUT HUM BEHAV, V36, P422, DOI 10.1016/j.chb.2014.03.066
+   Schroll R, 2023, J CONSUM PSYCHOL, V33, P561, DOI 10.1002/jcpy.1316
+   Seo S, 2022, INT J HOSP MANAG, V102, DOI 10.1016/j.ijhm.2022.103166
+   Sharma J, 2022, TOUR HOSP MANAG-CROA, V28, P29, DOI 10.20867/thm.28.1.2
+   Stone MJ, 2022, J HOSP TOUR RES, V46, P797, DOI 10.1177/1096348021994171
+   Sung B, 2023, INT J CONSUM STUD, V47, P1772, DOI 10.1111/ijcs.12946
+   Tuomi A, 2021, CORNELL HOSP Q, V62, P232, DOI 10.1177/1938965520923961
+   van Doorn J, 2017, J SERV RES-US, V20, P43, DOI 10.1177/1094670516679272
+   Wang LL, 2023, J ACAD MARKET SCI, V51, P266, DOI 10.1007/s11747-022-00891-6
+   Wang YW, 2022, J RETAIL CONSUM SERV, V68, DOI 10.1016/j.jretconser.2022.103002
+   Williams L, 2020, J RETAIL CONSUM SERV, V57, DOI 10.1016/j.jretconser.2020.102215
+   Ye J, 2007, J MARKETING, V71, P156, DOI 10.1509/jmkg.71.4.156
+   Ye S, 2021, J TRAVEL RES, V60, P1527, DOI 10.1177/0047287520951641
+   Young JE, 2009, INT J SOC ROBOT, V1, P95, DOI 10.1007/s12369-008-0006-y
+   Yu CE, 2020, J HOSP MARKET MANAG, V29, P22, DOI 10.1080/19368623.2019.1592733
+NR 69
+TC 4
+Z9 4
+U1 9
+U2 18
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 2314-7202
+EI 2314-7210
+J9 FUTUR BUS J
+JI Futur. Bus. J.
+PD APR 15
+PY 2025
+VL 11
+IS 1
+AR 75
+DI 10.1186/s43093-025-00502-0
+PG 13
+WC Business
+WE Emerging Sources Citation Index (ESCI)
+SC Business & Economics
+GA 1KL9V
+UT WOS:001467164200001
+OA Green Submitted, gold
+DA 2026-04-08
+ER
+
+PT J
+AU Li, LY
+   Chaiprasit, K
+   Syah, A
+AF Li, Liou-Yuan
+   Chaiprasit, Konakporn
+   Syah, Ahmad
+TI Human-robot synergy in Thailand's MICE cities: A grounded theory inquiry
+   into service robot adoption approach and human workforce empowerment
+SO JOURNAL OF CONVENTION & EVENT TOURISM
+LA English
+DT Article; Early Access
+DE Human-robot coexistence; local workforce; MICE cities; service robots;
+   Thailand's event tourism
+ID TOURISM
+AB This study examines how service robots are transforming work and service provision in Thailand's meetings, incentives, conventions, and exhibitions (MICE) sector through grounded theory. While robotics is often depicted as a job replacement, interviews with 20 industry leaders revealed a framework for human-robot synergy, in which automation facilitates human activity rather than replacing it. This challenges the linear claims of Disruptive Innovation Theory and proposes a Human-Centered Robotic Integration (HuCRI) framework that reconceptualizes service robot adoption by proposing hybrid service models through the Role Allocation Matrix (RAM), which incorporates segmented roles for both robots and humans. Perspectives from Emotional Labor Theory and Hofstede's cultural dimensions are adapted to explain human-robot interactions, demonstrating that emotional authenticity and cultural fluency, crucial for robot acceptance in Thai hospitality industry. Inclusive Innovation theory is embedded by aligning workforce reskilling, SME inclusion, and ethical policy-making with the HuCRI framework. The study offers ethically guided and culturally aware approaches to automation, ensuring that technology enhances rather than undermines service quality, labor dignity, and guest satisfaction. The findings make theoretical and managerial contributions to the development of ethical, inclusive, and context-sensitive automation for service industries disrupted by technology in culturally sensitive environments, such as Thailand.
+C1 [Li, Liou-Yuan; Chaiprasit, Konakporn] Rajamangala Univ Technol Thanyaburi, Dept Business Adm, Thanyaburi, Thailand.
+   [Syah, Ahmad] Univ Florida, Dept Tourism Hospitality & Event Management, Gainesville, FL USA.
+C3 Rajamangala University of Technology Thanyaburi; State University System
+   of Florida; University of Florida
+RP Li, LY (corresponding author), Rajamangala Univ Technol Thanyaburi, Dept Business Adm, Thanyaburi, Thailand.
+EM liou_y@rmutt.ac.th
+FU Rajamangala University of Technology Thanyaburi
+FX This work was funded by Rajamangala University of Technology Thanyaburi.
+CR Ahn YJ, 2016, ASIA PAC J TOUR RES, V21, P328, DOI 10.1080/10941665.2015.1050422
+   Bailey C. R., 2017, GUIDE QUALITATIVE FI
+   Bhargava A, 2021, Journal of Technology in Behavioral Science, V6, P106, DOI [10.1007/s41347-020-00153-8, 10.1007/s41347-020-00153-8, DOI 10.1007/S41347-020-00153-8]
+   Bircan T, 2025, TECHNOL FORECAST SOC, V211, DOI 10.1016/j.techfore.2024.123925
+   Braun V., 2022, Supporting Research in Counselling and Psychotherapy: Qualitative, Quantitative, and Mixed Methods Research, P19, DOI [DOI 10.1007/978-3-031-13942-0_2, 10.1007/978-3-031-13942-02]
+   Bula I., 2020, DIVERSITY INCLUSION
+   Cakmak G, 2024, J CONV EVENT TOUR, V25, P338, DOI 10.1080/15470148.2024.2382873
+   Carcary Marian, 2009, Electronic Journal of Business Research Methods, V7, P11, DOI 10.34190/jbrm.18.2.008
+   Carswell Jesse, 2023, Tourism and Hospitality, V4, P91, DOI [10.3390/tourhosp4010007, 10.3390/tourhosp4010007]
+   Chiengkul W, 2024, J QUAL ASSUR HOSP TO, DOI 10.1080/1528008X.2024.2353586
+   Choi S, 2021, J SERV RES-US, V24, P354, DOI 10.1177/1094670520978798
+   Choi T, 2024, TECHNOL FORECAST SOC, V209, DOI 10.1016/j.techfore.2024.123824
+   Christensen CM, 2015, HARVARD BUS REV, V93, P44
+   Creswell J. W., 2017, RES DESIGN QUALITATI
+   Cutcliffe JR, 2004, J ADV NURS, V45, P126, DOI 10.1046/j.1365-2648.2003.02874.x
+   Dabphet S, 2020, Journal of Community Development Research (Humanities and Social Sciences), V13, P42, DOI 10.14456/jcdr-hs.2020.14
+   Denzin N.K., 2000, HDB QUALITATIVE RES, DOI DOI 10.1177/1474474013487485
+   Dixon J., 2020, EMPLOYMENT CONSEQUEN
+   Dobrosovestnova A, 2022, AI SOC, V37, P487, DOI 10.1007/s00146-021-01208-x
+   Dogan S, 2024, WORLDW HOSP TOUR THE, V16, P543, DOI 10.1108/WHATT-08-2024-0188
+   Eigenstetter M, 2020, IN SY AP IN WE HC, V12199, P254, DOI 10.1007/978-3-030-49907-5_18
+   Fakfare P, 2022, J TRAVEL TOUR MARK, V39, P188, DOI 10.1080/10548408.2022.2061674
+   Fusté-Forné F, 2021, J TOUR FUTURES, V7, P303, DOI 10.1108/JTF-10-2020-0179
+   Gabriel AS, 2023, PERS PSYCHOL, V76, P511, DOI 10.1111/peps.12576
+   Gonzalez-Jimenez H, 2024, INT J CONTEMP HOSP M, V36, P3889, DOI 10.1108/IJCHM-09-2023-1459
+   Goodman L.A., 1961, Annals of Mathematical Statistics, V32, P148, DOI [10.1214/aoms/1177705148, DOI 10.1214/AOMS/1177705148]
+   Guba E. G., 1994, HDB QUALITATIVE RES
+   Harris K., 2018, Bain & Company, V7, P1
+   Ho JC, 2022, TECHNOL ANAL STRATEG, V34, P363, DOI 10.1080/09537325.2021.1901873
+   Hochschild A. R., 1983, MANAGED HEART COMMER
+   Hofstede G., 2001, International Journal of Cross Cultural Management, V1, P11, DOI [DOI 10.1177/147059580111002, 10.1177/147059580111002]
+   Holthöwer J, 2023, J ACAD MARKET SCI, V51, P767, DOI 10.1007/s11747-022-00862-x
+   Ivanov S, 2019, Z TOUR, V11, P25, DOI 10.1515/tw-2019-0003
+   Jembere S, 2023, African Journal of Inter/Multidisciplinary Studies, V5, P1, DOI [10.51415/ajims.v5i1.1162, https://doi.org/10.51415/ajims.v5i1.1162, DOI 10.51415/AJIMS.V5I1.1162, 10.51415/ajims.v5i1.1162]
+   Kaenmuang J, 2023, ABAC Journal, V43, DOI [10.59865/abacj.2023.57, https://doi.org/10.59865/abacj.2023.57, DOI 10.59865/ABACJ.2023.57]
+   Kalkanci B, 2019, PROD OPER MANAG, V28, P2960, DOI 10.1111/poms.13112
+   Kang SE, 2023, INT J HOSP MANAG, V111, DOI 10.1016/j.ijhm.2023.103479
+   Kim SE, 2024, J CONV EVENT TOUR, V25, P362, DOI 10.1080/15470148.2024.2401793
+   Kipnis E, 2022, J SERV RES-US, V25, P667, DOI 10.1177/10946705221110849
+   Kongprasert N, 2015, WORLD CONFERENCE ON TECHNOLOGY, INNOVATION AND ENTREPRENEURSHIP, P167, DOI 10.1016/j.sbspro.2015.06.428
+   Ladeira W, 2023, J HOSP MARKET MANAG, V32, P694, DOI 10.1080/19368623.2023.2202168
+   Lainjo B., 2020, International Journal of Innovation Scientific Research and Review, V5, P4966
+   Lawrence M., 2017, MANAGING AUTOMATION
+   Lazaroiu G, 2023, OECON COPERNIC, V14, P703, DOI 10.24136/oc.2023.020
+   Lee KH, 2023, CORNELL HOSP Q, V64, P212, DOI 10.1177/19389655221102381
+   Lee LYS, 2016, J HOSP TOUR RES, V40, P162, DOI 10.1177/1096348013495695
+   Li LY, 2023, SUSTAINABILITY-BASEL, V15, DOI 10.3390/su151713135
+   Li Y, 2023, J SERV THEOR PRACT, V33, P46, DOI 10.1108/JSTP-06-2022-0127
+   Liu JY, 2024, INT J CONTEMP HOSP M, V36, P1798, DOI 10.1108/IJCHM-01-2023-0004
+   Macrorie R, 2021, URBAN GEOGR, V42, P197, DOI 10.1080/02723638.2019.1698868
+   Maier T, 2020, V2, P1, DOI [10.4135/9781526435606.n34, DOI 10.4135/9781526435606.N34]
+   Marshall C., 2014, DESIGNING QUALITATIV
+   Mendling J, 2018, COMMUN ASSOC INF SYS, V43, P297, DOI 10.17705/1CAIS.04319
+   Merdin-Uygur E, 2023, J RETAIL CONSUM SERV, V70, DOI 10.1016/j.jretconser.2022.103174
+   Miao B, 2025, IEEE ACCESS, V13, P88065, DOI [10.1109/access.2025.3567343, 10.1109/ACCESS.2025.3567343]
+   Mori Masahiro, 1970, ENERGY, V7, P33, DOI 10.1109/MRA.2012.2192811
+   Murphy RR, 2021, Foundations and Trends in Robotics, V9, P130, DOI [10.1561/2300000062, https://doi.org/10.1561/2300000062, DOI 10.1561/2300000062]
+   Nam K, 2021, ELECTRON MARK, V31, P553, DOI 10.1007/s12525-020-00442-3
+   Nyimbili F, 2024, British Journal of Multidisciplinary and Advanced Studies, V5, P90, DOI [10.37745/bjmas.2022.0419, 10.37745/bjmas.2022.0419, DOI 10.37745/BJMAS.2022.0419, DOI 10.37745/BJMAS.2022.0196]
+   Park E, 2024, SAGE OPEN, V14, DOI 10.1177/21582440241258281
+   Park H, 2024, INFORM SYST FRONT, V26, P41, DOI 10.1007/s10796-021-10207-8
+   Park SS, 2021, PSYCHOL MARKET, V38, P691, DOI 10.1002/mar.21468
+   Parvez MO, 2022, INT J HOSP MANAG, V107, DOI 10.1016/j.ijhm.2022.103336
+   Plikas JH, 2024, Fr Artif Int Ethics, P313, DOI 10.1007/978-981-99-9836-4_24
+   Ragnedda M., 2020, ENHANCING DIGITAL EQ, DOI DOI 10.1007/978-3-030-49079-9_5
+   Sachi N. E., 2024, DESIGN MORAL INTERAC
+   Saldana J., 2014, THINKING QUALITATIVE
+   Schmidt S., 2024, HOSPOS PLATFORM SERV
+   Farahani MS, 2024, Qeios, DOI [10.32388/7hwuz2, 10.32388/7HWUZ2, DOI 10.32388/7HWUZ2]
+   Shamim S, 2017, ENERGIES, V10, DOI 10.3390/en10040499
+   Sharfaei S, 2024, TECHNOL FORECAST SOC, V209, DOI 10.1016/j.techfore.2024.123742
+   Singh S, 2021, J HOSP TOUR MANAG, V49, P528, DOI 10.1016/j.jhtm.2021.10.014
+   Studley M, 2021, FRONT ROBOT AI, V8, DOI 10.3389/frobt.2021.634297
+   Syah AM, 2022, International Journal of Professional Business Review, V7, pe0900, DOI [10.26668/businessreview/2022.v7i6.900, https://doi.org/10.26668/businessreview/2022.v7i6.900, DOI 10.26668/BUSINESSREVIEW/2022.V7I6.900]
+   TCEB, 2024, MICE STAT NUMBER EVE
+   TCEB, 2021, ANN REPORT 2020
+   TCEB, 2021, MICE CITIES INITIATI
+   TCEB, 2024, MICE CAPABILITIES DE
+   Tiwari R, 2023, INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT, V07, DOI [10.55041/ijsrem17506, 10.55041/IJSREM17506, DOI 10.55041/IJSREM17506]
+   Tuomi A, 2025, ANN TOURISM RES, V110, DOI 10.1016/j.annals.2024.103863
+   Tuomi A, 2021, INT J CONTEMP HOSP M, V33, P3906, DOI 10.1108/IJCHM-07-2020-0739
+   Vega R. P., 2024, Issues in Information Systems, V25, P442
+   Viardot E, 2023, TECHNOL FORECAST SOC, V194, DOI 10.1016/j.techfore.2023.122680
+   Villani V, 2021, IEEE T AUTOM SCI ENG, V18, P1969, DOI 10.1109/TASE.2020.3027876
+   Wang Mei-Jung Sebrina, 2022, Consumer Behavior in Tourism and Hospitality, V17, P326, DOI [10.1108/cbth-09-2021-0211, 10.1108/CBTH-09-2021-0211]
+   Webster C, 2022, EVENT MANAGE, V26, P1663, DOI 10.3727/152599522X16419948391050
+   Winschiers-Theophilus H, 2019, AI SOC, V34, P419, DOI 10.1007/s00146-017-0739-y
+   World Population Review, 2025, THAILAND CITIES POPU
+   Wu L, 2021, J SERV MANAGE, V32, P783, DOI 10.1108/JOSM-12-2020-0448
+   Xiong W, 2023, TOURISM MANAGE, V94, DOI 10.1016/j.tourman.2022.104631
+   Yam KC, 2021, J APPL PSYCHOL, V106, P1557, DOI 10.1037/apl0000834
+   Yu ST, 2024, J CONV EVENT TOUR, V25, P33, DOI 10.1080/15470148.2023.2278796
+   Zhang XY, 2022, INT J CONTEMP HOSP M, V34, P2004, DOI 10.1108/IJCHM-10-2021-1262
+NR 93
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 1547-0148
+EI 1547-0156
+J9 J CONV EVENT TOUR
+JI J. Conv. Event Tour.
+PD 2026 MAR 5
+PY 2026
+DI 10.1080/15470148.2026.2640846
+EA MAR 2026
+PG 22
+WC Hospitality, Leisure, Sport & Tourism
+WE Emerging Sources Citation Index (ESCI)
+SC Social Sciences - Other Topics
+GA ER9OK
+UT WOS:001708305900001
+DA 2026-04-08
+ER
+
+PT J
+AU Song, B
+   Xu, HD
+   Hu, WN
+   Li, Y
+   Guo, YZ
+AF Song, Bo
+   Xu, Hongda
+   Hu, Wenna
+   Li, Yi
+   Guo, Yingzhi
+TI How to calculate privacy: privacy concerns and service robots' use
+   intention in hospitality
+SO CURRENT ISSUES IN TOURISM
+LA English
+DT Article
+DE Privacy concerns; privacy calculus; human-robot interaction; service
+   robots; perceived risk; perceived benefit
+ID ARTIFICIAL-INTELLIGENCE; MOBILE APPS; PARADOX; PERSONALIZATION; ONLINE;
+   INTERNET; DISCLOSURE; BEHAVIOR; AGE; FACEBOOK
+AB Artificial intelligence in hospitality is increasingly transforming the way we travel. Service robots collect, store, analyze, and act upon a continuous stream of private information as a by-product of human-robot interaction. As such, they invade consumers' virtual and physical space and raise privacy challenges in AI settings. We conduct a survey study(n = 576) and validate a mediating contextualized model of consumers' adoption decisions on service robots in hospitality from privacy concerns. Our findings highlight the interplay between perceived risk and perceived benefit in shaping service robots' adoption decisions is partially mediated by privacy concerns. Our findings also highlight the mechanism of privacy concerns, conceptualized as psychological constructs of collection, control and awareness of privacy practices, as an important addition to the established multiple chain mediating effect. The insights explain how consumers calculate privacy between perceived risk and benefit, and help reconcile a fundamental tension among consumers, how to avail benefits of privacy by improving the privacy awareness and control associated with the collection of private information in hospitality.
+C1 [Song, Bo; Xu, Hongda; Hu, Wenna] Shanghai Normal Univ, Inst Tourism, Shanghai, Peoples R China.
+   [Li, Yi] Chongqing Univ Posts & Telecommun, Sch Econ & Management, Chongqing, Peoples R China.
+   [Song, Bo; Guo, Yingzhi] Fudan Univ, Dept Tourism, Shanghai, Peoples R China.
+C3 Shanghai Normal University; Chongqing University of Posts &
+   Telecommunications; Fudan University
+RP Li, Y (corresponding author), Chongqing Univ Posts & Telecommun, Sch Econ & Management, Chongqing, Peoples R China.
+EM liyi@cqupt.edu.cn
+RI Li, Yi/JTT-3294-2023; SONG, Bo/PNF-4885-2026
+OI Xu, Hongda/0000-0003-0500-6340
+FU National Natural Science Foundation of China [72074053]; National Social
+   Science Fund of China
+FX This work was supported by National Natural Science Foundation of China:
+   [grant no 72074053]; National Social Science Fund of China.
+CR Acquisti A, 2015, SCIENCE, V347, P509, DOI 10.1126/science.aaa1465
+   Alashoor T, 2017, COMMUN ASSOC INF SYS, V41, P62, DOI 10.17705/1CAIS.04104
+   Ariffin SK, 2021, Spanish Journal of Marketing - ESIC, V25, P446, DOI [10.1108/sjme-07-2021-0138, 10.1108/SJME-07-2021-0138, DOI 10.1108/SJME-07-2021-0138]
+   Awad NF, 2006, MIS QUART, V30, P13
+   Bandara R, 2020, J RETAIL CONSUM SERV, V52, DOI 10.1016/j.jretconser.2019.101947
+   Belanche D, 2020, SERV IND J, V40, P203, DOI 10.1080/02642069.2019.1672666
+   Belanche D, 2020, J SERV MANAGE, V31, P267, DOI 10.1108/JOSM-05-2019-0156
+   Belanche D, 2021, ELECTRON MARK, V31, P477, DOI 10.1007/s12525-020-00432-5
+   Belanche D, 2019, IND MANAGE DATA SYST, V119, P1411, DOI 10.1108/IMDS-08-2018-0368
+   Belanger F, 2011, MIS QUART, V35, P1017
+   Belk R, 2021, SERV IND J, V41, P860, DOI 10.1080/02642069.2020.1727892
+   Byrd K, 2021, INT J CONTEMP HOSP M, V33, P3996, DOI 10.1108/IJCHM-07-2020-0721
+   Camilleri MA, 2021, Spanish Journal of Marketing - ESIC, V25, P217, DOI [10.1108/sjme-04-2020-0074, 10.1108/SJME-04-2020-0074, DOI 10.1108/SJME-04-2020-0074]
+   Chatterjee S, 2024, INFORM SYST FRONT, V26, P121, DOI 10.1007/s10796-021-10197-7
+   Chen XG, 2021, NANKAI BUS REV NT, V12, P42, DOI 10.1108/NBRI-12-2019-0071
+   Choi BCF, 2016, INFORM MANAGE-AMSTER, V53, P868, DOI 10.1016/j.im.2016.02.003
+   Choi Y, 2020, J HOSP MARKET MANAG, V29, P613, DOI 10.1080/19368623.2020.1703871
+   Choon MJK, 2018, CAN J COMMUN, V43, P339, DOI 10.22230/cjc.2018v43n2a3267
+   Cuinan MJ, 2009, MIS QUART, V33, P673
+   Culnan MJ, 1999, ORGAN SCI, V10, P104, DOI 10.1287/orsc.10.1.104
+   Culnan MJ, 2003, J SOC ISSUES, V59, P323, DOI 10.1111/1540-4560.00067
+   DAVIS FD, 1989, MIS QUART, V13, P319, DOI 10.2307/249008
+   Dinev T, 2006, INFORM SYST RES, V17, P61, DOI 10.1287/isre.1060.0080
+   Dinev T, 2015, INFORM SYST RES, V26, P639, DOI 10.1287/isre.2015.0600
+   Etemad-Sajadi R, 2022, INT J SOC ROBOT, V14, P1103, DOI 10.1007/s12369-021-00857-8
+   Flavian C, 2021, SERV IND J, V41, P853, DOI 10.1080/02642069.2021.1989177
+   Flavián C, 2022, J SERV MANAGE, V33, P293, DOI 10.1108/JOSM-10-2020-0378
+   Fu SX, 2022, INT J HOSP MANAG, V102, DOI 10.1016/j.ijhm.2022.103174
+   Gabisch JA, 2014, J CONSUM MARK, V31, P13, DOI 10.1108/JCM-10-2013-0737
+   Gonçalves RB, 2022, ELECTRON MARK, V32, P1485, DOI 10.1007/s12525-022-00541-3
+   Greer C, 2012, P 33 INT C INF SYST
+   Heuer T, 2019, INTERACT STUD, V20, P509, DOI 10.1075/is.18063.heu
+   Hirschi A, 2018, CAREER DEV Q, V66, P192, DOI 10.1002/cdq.12142
+   Holder C, 2016, COMPUT LAW SECUR REV, V32, P383, DOI 10.1016/j.clsr.2016.03.001
+   Hong WY, 2013, MIS QUART, V37, P275
+   Huang MH, 2018, J SERV RES-US, V21, P155, DOI 10.1177/1094670517752459
+   Ivanov S, 2020, TOURISM ECON, V26, P1065, DOI 10.1177/1354816619879583
+   Jang HW, 2020, SUSTAINABILITY-BASEL, V12, DOI 10.3390/su12103998
+   Jiang Z, 2013, INFORM SYST RES, V24, P579, DOI 10.1287/isre.1120.0441
+   Kang HN, 2021, BEHAV INFORM TECHNOL, V40, P1755, DOI 10.1080/0144929X.2020.1778787
+   Kang JW, 2019, INT J CONTEMP HOSP M, V31, P734, DOI [10.1108/ijchm-12-2017-0783, 10.1108/IJCHM-12-2017-0783]
+   Kim B, 2020, SUSTAINABILITY-BASEL, V12, DOI 10.3390/su12125163
+   Kim HW, 2007, DECIS SUPPORT SYST, V43, P111, DOI 10.1016/j.dss.2005.05.009
+   Kokolakis S, 2017, COMPUT SECUR, V64, P122, DOI 10.1016/j.cose.2015.07.002
+   Landwehr C, 2012, P IEEE, V100, P1659, DOI 10.1109/JPROC.2012.2189794
+   Lee JM, 2016, COMPUT HUM BEHAV, V63, P453, DOI 10.1016/j.chb.2016.05.056
+   Lee N, 2015, EXPERT SYST APPL, V42, P2764, DOI 10.1016/j.eswa.2014.11.031
+   Li H, 2017, INFORM MANAGE-AMSTER, V54, P1012, DOI 10.1016/j.im.2017.02.005
+   Li H, 2010, J COMPUT INFORM SYST, V51, P62
+   Li PX, 2019, TELEMAT INFORM, V41, P114, DOI 10.1016/j.tele.2019.04.006
+   Lin HX, 2020, J HOSP MARKET MANAG, V29, P530, DOI 10.1080/19368623.2020.1685053
+   Lin IY, 2021, INT J HOSP MANAG, V94, DOI 10.1016/j.ijhm.2021.102876
+   Liu YL, 2021, TELECOMMUN POLICY, V45, DOI 10.1016/j.telpol.2021.102155
+   Liyanaarachchi G, 2021, J RETAIL CONSUM SERV, V60, DOI 10.1016/j.jretconser.2021.102500
+   Lutz C, 2021, FRONT ROBOT AI, V8, DOI 10.3389/frobt.2021.627958
+   Lutz C, 2019, MOB MEDIA COMMUN, V7, P412, DOI 10.1177/2050157919843961
+   Malhotra NK, 2004, INFORM SYST RES, V15, P336, DOI 10.1287/isre.1040.0032
+   Mason R. O., 2017, 4 ETHICAL ISSUES INF, P41
+   Morosan C, 2016, INT J CONTEMP HOSP M, V28, P1968, DOI 10.1108/IJCHM-07-2015-0349
+   Seo KH, 2021, SUSTAINABILITY-BASEL, V13, DOI 10.3390/su13084431
+   Sheehan KB, 2000, J PUBLIC POLICY MARK, V19, P62, DOI 10.1509/jppm.19.1.62.16949
+   Smith HJ, 2011, MIS QUART, V35, P989
+   Smith HJ, 1996, MIS QUART, V20, P167, DOI 10.2307/249477
+   Son JY, 2008, MIS QUART, V32, P503
+   Stewart KA, 2002, INFORM SYST RES, V13, P36, DOI 10.1287/isre.13.1.36.97
+   Tuomi A, 2021, INT J CONTEMP HOSP M, V33, P3906, DOI 10.1108/IJCHM-07-2020-0739
+   Tuomi A, 2021, CORNELL HOSP Q, V62, P232, DOI 10.1177/1938965520923961
+   Tussyadiah I, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102883
+   van Doorn J, 2017, J SERV RES-US, V20, P43, DOI 10.1177/1094670516679272
+   Wang L, 2017, INT J INFORM MANAGE, V37, P1428, DOI 10.1016/j.ijinfomgt.2016.10.006
+   Willems J, 2023, PUBLIC MANAG REV, V25, P2116, DOI 10.1080/14719037.2022.2063934
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wottrich VM, 2018, DECIS SUPPORT SYST, V106, P44, DOI 10.1016/j.dss.2017.12.003
+   Xie LS, 2022, INT J HOSP MANAG, V107, DOI 10.1016/j.ijhm.2022.103312
+   Xu H, 2009, J MANAGE INFORM SYST, V26, P135, DOI 10.2753/MIS0742-1222260305
+   Yang D, 2022, INT J SOC ROBOT, V14, P589, DOI 10.1007/s12369-021-00809-2
+   Yang JJ, 2021, INT J SOC ROBOT, V13, P1397, DOI 10.1007/s12369-020-00724-y
+   Zhong LA, 2021, IND MANAGE DATA SYST, V121, P1325, DOI 10.1108/IMDS-11-2019-0603
+   Zhu MX, 2021, TELEMAT INFORM, V61, DOI 10.1016/j.tele.2021.101601
+NR 79
+TC 23
+Z9 23
+U1 25
+U2 142
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 1368-3500
+EI 1747-7603
+J9 CURR ISSUES TOUR
+JI Curr. Issues Tour.
+PD NOV 1
+PY 2024
+VL 27
+IS 21
+BP 3401
+EP 3417
+DI 10.1080/13683500.2023.2265029
+EA OCT 2023
+PG 17
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA H2Y0M
+UT WOS:001079256000001
+DA 2026-04-08
+ER
+
+PT J
+AU Horng, JS
+   Wang, YC
+   Liu, CH
+   Chou, SF
+   Yu, TY
+   Huang, YC
+   Hu, DC
+AF Horng, Jeou-Shyan
+   Wang, Yao-Chin
+   Liu, Chih-Hsing
+   Chou, Sheng-Fang
+   Yu, Tai-Yi
+   Huang, Yung-Chuan
+   Hu, Da-Chian
+TI Ethics meets service robots: A cross-cultural perspective on how dual
+   luxury-task fit reshapes hotel service differentiation
+SO INTERNATIONAL JOURNAL OF HOSPITALITY MANAGEMENT
+LA English
+DT Article
+DE Service Robots; Ethics; Luxury-Technology Fit; Task-Technology Fit;
+   Service Differentiation; Ethics Position Theory; Dual-Congruity Theory
+ID INFORMATION-TECHNOLOGY; USER ACCEPTANCE; MODEL
+AB This study examines how customers' ethical perceptions of service robots influence hotel service differentiation through the dual mediating mechanisms of luxury-technology fit and task-technology fit. Drawing on the ethics position theory and dual-congruity perspectives, we conducted a cross-cultural investigation comparing hotel customers from Taiwan (n = 556) and the United States (n = 551) to clarify the cultural differences in the mechanisms from their ethical perceptions of service robots to their expected degree of hotel service differentiation. The results reveal that ethical perceptions have a positive influence on performance expectancy and perceived importance across cultures, albeit with varying intensities. While the relationship between ethical perceptions and performance expectancy remains consistent across both cultures, the impact on perceived importance is more substantial in the U.S. than in Taiwan, reflecting the individualistic nature of U.S. culture. Notably, task-technology fit emerged as a significant mediator between performance expectancy and service differentiation in cultural contexts, whereas luxury-technology fit did not demonstrate the expected mediating effect. The mediating role of task-technology fit between perceived importance and service differentiation was particularly pronounced in Taiwan, aligning with its cultural emphasis on practical harmony and contextual adaptation. These findings contribute to the theoretical understanding of technology-enabled service differentiation and provide practical insights for implementing service robots in culturally diverse hospitality contexts.
+C1 [Horng, Jeou-Shyan] Shih Chien Univ, Dept Food & Beverage Management, 70 Dazhi St, Taipei City 104, Taiwan.
+   [Wang, Yao-Chin] Univ Florida, Dept Tourism Hospitality & Event Management, 206F Florida Gym,POB 118208, Gainesville, FL 32611 USA.
+   [Liu, Chih-Hsing; Huang, Yung-Chuan; Hu, Da-Chian] Natl Kaohsiung Univ Sci & Technol, Dept Tourism Management, 415 Jiangong Rd, Kaohsiung 80778, Taiwan.
+   [Chou, Sheng-Fang] Ming Chuan Univ, Dept Hospitality Management, 5 Ming Rd, Gui Shan Dist, Taoyuan 333, Taiwan.
+   [Yu, Tai-Yi] Ming Chuan Univ, Dept Informat Applicat Finance & Insurance, 250 Zhong Shan N Rd,Sect 5, Taipei 111, Taiwan.
+   [Liu, Chih-Hsing] Ming Chuan Univ, Leisure & Recreat Adm, 5 Ming Rd, Gui Shan Dist, Taoyuan 333, Taiwan.
+   [Huang, Yung-Chuan] Ming Chuan Univ, Dept Tourism, 5 De Ming Rd Gui Shan Dist, Taoyuan 333, Taiwan.
+C3 State University System of Florida; University of Florida; National
+   Kaohsiung University of Science & Technology; Ming Chuan University;
+   Ming Chuan University; Ming Chuan University; Ming Chuan University
+RP Wang, YC (corresponding author), Univ Florida, Dept Tourism Hospitality & Event Management, 206F Florida Gym,POB 118208, Gainesville, FL 32611 USA.; Liu, CH; Hu, DC (corresponding author), Natl Kaohsiung Univ Sci & Technol, Dept Tourism Management, 415 Jiangong Rd, Kaohsiung 80778, Taiwan.
+EM t10004@ntnu.edu.tw; wang.yaochin@ufl.edu; samliu@nkust.edu.tw;
+   sfchou@mail.mcu.edu.tw; yti@mail.mcu.edu.tw; huangyc@nkust.edu.tw;
+   894560241@gms.tku.edu.tw
+RI ; Yu, Tai-Yi/GNM-8279-2022; Horng, Jeou-Shyan/AAT-1584-2021; Wang,
+   Yao-Chin/T-9434-2019
+OI Hu, Da Chian/0000-0001-6380-563X; 
+FU National Science and Technology Council, Taiwan [NSTC
+   114-2410-H-158-001]
+FX This work was supported by the National Science and Technology Council,
+   Taiwan [grant numbers: NSTC 114-2410-H-158-001] .
+CR Abdelhakim AS, 2023, TOUR MANAG PERSPECT, V45, DOI 10.1016/j.tmp.2022.101049
+   Agarwal R, 1998, INFORM SYST RES, V9, P204, DOI 10.1287/isre.9.2.204
+   Calli BA, 2023, J HOSP TOUR TECHNOL, V14, P53, DOI 10.1108/JHTT-09-2021-0266
+   Babri M, 2021, J BUS ETHICS, V168, P71, DOI 10.1007/s10551-019-04192-x
+   Baltaci F, 2024, INT J TOUR RES, V26, DOI 10.1002/jtr.2685
+   Barnett A, 2022, DIGIT HEALTH, V8, DOI 10.1177/20552076221104670
+   Blodgett JG, 2001, J ACAD MARKET SCI, V29, P190, DOI 10.1177/03079459994551
+   Byrd K, 2021, INT J CONTEMP HOSP M, V33, P3996, DOI 10.1108/IJCHM-07-2020-0721
+   Byrne B.M., 2001, INT J TEST, V1, P55, DOI [10.1207/S15327574IJT01014, DOI 10.1207/S15327574IJT0101_4, 10.1207/S15327574IJT0101_4]
+   Cain LN, 2024, INT J CONTEMP HOSP M, DOI 10.1108/IJCHM-10-2023-1597
+   Chi OH, 2023, INT J INFORM MANAGE, V70, DOI 10.1016/j.ijinfomgt.2023.102623
+   Chou SCM, 2025, CULT PSYCHOL, V31, P1374, DOI 10.1177/1354067X241285344
+   Cooper B, 2020, J VOCAT BEHAV, V121, DOI 10.1016/j.jvb.2020.103472
+   DAVIS FD, 1989, MIS QUART, V13, P319, DOI 10.2307/249008
+   Dayour F, 2023, SMALL ENTERP RES, V30, P255, DOI 10.1080/13215906.2023.2217800
+   de Boissieu E, 2023, J ORGAN CHANGE MANAG, V36, P1163, DOI 10.1108/JOCM-05-2023-0182
+   Fan H, 2022, COMPUT HUM BEHAV, V133, DOI 10.1016/j.chb.2022.107287
+   FORNELL C, 1981, J MARKETING RES, V18, P382, DOI [10.2307/3150980, 10.2307/3151312]
+   Forsyth DR, 2008, J BUS ETHICS, V83, P813, DOI 10.1007/s10551-008-9667-6
+   Forsyth DR, 2011, INT BUS REV, V20, P353, DOI 10.1016/j.ibusrev.2010.07.008
+   FORSYTH DR, 1980, J PERS SOC PSYCHOL, V39, P175, DOI 10.1037/0022-3514.39.1.175
+   Guo L, 2024, J HOSP TOUR MANAG, V59, P116, DOI 10.1016/j.jhtm.2024.04.008
+   Hair J.F., 2006, Multivariate data analysis, V6th
+   Hair J F., 2021, Partial Least Squares Structural Equation Modeling (PLS-SEM) Using R: A Workbook, P197, DOI DOI 10.1007/978-3-030-80519-7
+   Hair JF Jr, 2020, J BUS RES, V109, P101, DOI 10.1016/j.jbusres.2019.11.069
+   Hair Jr J.F., 2023, Advanced Issues in Partial Least Squares Structural Equation Modeling
+   Han H, 2021, J SUSTAIN TOUR, V29, P1021, DOI 10.1080/09669582.2021.1903019
+   Heerink M, 2010, INT J SOC ROBOT, V2, P361, DOI 10.1007/s12369-010-0068-5
+   Henseler J, 2016, INT MARKET REV, V33, P405, DOI 10.1108/IMR-09-2014-0304
+   Ho YH, 2016, J BUS ETHICS, V134, P299, DOI 10.1007/s10551-014-2431-1
+   Hofstede G., 2001, International Journal of Cross Cultural Management, V1, P11, DOI [DOI 10.1177/147059580111002, 10.1177/147059580111002]
+   Horng JS, 2025, J HOSP MARKET MANAG, V34, P204, DOI 10.1080/19368623.2024.2425673
+   Horpynich H, 2025, J HOSP TOUR TECHNOL, V16, P194, DOI 10.1108/JHTT-03-2024-0189
+   JOHAR JS, 1991, J ADVERTISING, V20, P23, DOI 10.1080/00913367.1991.10673345
+   Khashan MA, 2023, MARK INTELL PLAN, V41, P613, DOI 10.1108/MIP-03-2023-0112
+   Koseoglu MA, 2024, J HOSP TOUR RES, V48, P868, DOI 10.1177/10963480221118814
+   Ku ECS, 2024, CURR ISSUES TOUR, V27, P4165, DOI 10.1080/13683500.2023.2289592
+   Ladeira W, 2023, J HOSP MARKET MANAG, V32, P694, DOI 10.1080/19368623.2023.2202168
+   Leung XY, 2025, J HOSP TOUR RES, V49, P1432, DOI 10.1177/10963480251328575
+   Leung XY, 2023, INT J HOSP MANAG, V108, DOI 10.1016/j.ijhm.2022.103380
+   Li Y, 2024, INT J CONTEMP HOSP M, V36, P3151, DOI 10.1108/IJCHM-06-2023-0845
+   Liao JC, 2024, J RETAIL CONSUM SERV, V76, DOI 10.1016/j.jretconser.2023.103575
+   Lin BY, 2024, J HOSP TOUR RES, V48, P964, DOI 10.1177/10963480231194693
+   Liu JY, 2024, INT J CONTEMP HOSP M, V36, P1798, DOI 10.1108/IJCHM-01-2023-0004
+   Lu L, 2019, INT J HOSP MANAG, V80, P36, DOI 10.1016/j.ijhm.2019.01.005
+   Matthews L., 2017, Partial Least Squares Path Modeling, P219, DOI [DOI 10.1007/978-3-319-64069-3_10, 10.1007/978-3-319-64069-3_10]
+   Mcgrath Quintin P., 2025, AI and Ethics, V5, P921, DOI [10.1007/s43681-024-00433-6, 10.1007/s43681-024-00433-6]
+   Mejia C, 2021, INT J CONTEMP HOSP M, V33, P3223, DOI 10.1108/IJCHM-01-2021-0102
+   Morgan NA, 2004, J MARKETING, V68, P90, DOI 10.1509/jmkg.68.1.90.24028
+   Mukherjee T, 2023, CURR PSYCHOL, V42, P9155, DOI 10.1007/s12144-021-02153-0
+   Pan SY, 2025, TOURISM MANAGE, V106, DOI 10.1016/j.tourman.2024.104994
+   Podsakoff PM, 2012, ANNU REV PSYCHOL, V63, P539, DOI 10.1146/annurev-psych-120710-100452
+   Qiu HL, 2020, J HOSP MARKET MANAG, V29, P247, DOI 10.1080/19368623.2019.1645073
+   Rana NP, 2025, J HOSP MARKET MANAG, V34, P145, DOI 10.1080/19368623.2024.2403640
+   Ratna S, 2018, VINE J INF KNOWL MAN, V48, P579, DOI 10.1108/VJIKMS-05-2018-0035
+   Said N, 2024, INT J CONTEMP HOSP M, V36, P1844, DOI 10.1108/IJCHM-12-2022-1523
+   Samli A.C., 1981, CHANGING MARKETING E, P113
+   Scholtens B, 2007, J BUS ETHICS, V75, P273, DOI 10.1007/s10551-006-9252-9
+   Sestino A., 2023, New Technologies in Luxury Consumption: Evidences from Research and Implications for Marketing Strategies, P67, DOI [10.1007/978-3-031-26082-7_4, DOI 10.1007/978-3-031-26082-7_4]
+   Shin HH, 2022, INT J CONTEMP HOSP M, V34, P1491, DOI 10.1108/IJCHM-06-2021-0798
+   Sirgy M.J., 1986, Self-congruity: Toward a theory of personality and cybernetics
+   Song HQ, 2025, INT J CONTEMP HOSP M, V37, P1497, DOI 10.1108/IJCHM-11-2022-1396
+   Sthapit E, 2024, INT J CONTEMP HOSP M, V36, P1, DOI 10.1108/IJCHM-07-2023-1063
+   Suh B., 2010, 2010 IEEE 2 INT C SO
+   Suh KS, 2011, MIS QUART, V35, P711
+   Tuerlan T, 2021, INT J CONTEMP HOSP M, V33, P2741, DOI 10.1108/IJCHM-11-2020-1257
+   Tuomi A, 2021, CORNELL HOSP Q, V62, P232, DOI 10.1177/1938965520923961
+   Tuskej U, 2013, J BUS RES, V66, P53, DOI 10.1016/j.jbusres.2011.07.022
+   Ulman M, 2021, J COMPUT INFORM SYST, V61, P418, DOI 10.1080/08874417.2019.1688732
+   Venkatesh V, 2003, MIS QUART, V27, P425, DOI 10.2307/30036540
+   Venkatesh V, 2012, MIS QUART, V36, P157
+   Viglia G, 2020, ANN TOURISM RES, V80, DOI 10.1016/j.annals.2020.102858
+   Lu VN, 2020, J SERV THEOR PRACT, V30, P361, DOI 10.1108/JSTP-04-2019-0088
+   Wang DN, 2024, INT J CONTEMP HOSP M, V36, P2194, DOI 10.1108/IJCHM-10-2022-1263
+   Wang YC, 2024, INT J CONTEMP HOSP M, V36, P1744, DOI 10.1108/IJCHM-11-2022-1448
+   Watson GW, 2009, J BUS ETHICS, V87, P463, DOI 10.1007/s10551-008-9953-3
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wu WK, 2022, ASIA PAC J MARKET LO, V34, P1266, DOI 10.1108/APJML-01-2021-0056
+   Wu XJ, 2023, TECHNOL FORECAST SOC, V194, DOI 10.1016/j.techfore.2023.122718
+   Xu T, 2025, INT J HOSP MANAG, V128, DOI [10.1016/j.ijhm.2025.104162, 10.1016/j.ijhm.2025.104162]
+   Yeganeh H, 2023, INT J SOCIOL SOC POL, V43, P980, DOI 10.1108/IJSSP-07-2022-0185
+   Zhang MY, 2021, INT J CONTEMP HOSP M, V33, P3883, DOI 10.1108/IJCHM-11-2020-1256
+   Zhang Q, 2025, J BUS ETHICS, DOI 10.1007/s10551-025-06165-9
+NR 83
+TC 0
+Z9 0
+U1 9
+U2 9
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0278-4319
+EI 1873-4693
+J9 INT J HOSP MANAG
+JI Int. J. Hosp. Manag.
+PD APR
+PY 2026
+VL 134
+AR 104532
+DI 10.1016/j.ijhm.2025.104532
+EA DEC 2025
+PG 14
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA R9244
+UT WOS:001636079700002
+DA 2026-04-08
+ER
+
+PT J
+AU Lin, BY
+   Lee, WJ
+   Wise, N
+   Choi, HC
+AF Lin, Boyu
+   Lee, Woojin
+   Wise, Nicholas
+   Choi, Hwansuk Chris
+TI Consumers' Ethical Perceptions of Autonomous Service Robots in Hotels
+SO JOURNAL OF HOSPITALITY & TOURISM RESEARCH
+LA English
+DT Article
+DE autonomous service robots; consumer perceived ethical issues; data
+   triangulation; robot ethics; service interaction
+ID ARTIFICIAL-INTELLIGENCE; TOURISM; AI
+AB This study empirically and comprehensively explores consumers' ethical perceptions of autonomous service robots (ASRs) in hotels. Under the triangulation approach, this study has identified eight themes of consumer perceived ethical issues (privacy, security, safety, transparency, fairness, socialization, autonomy, and responsibility). Each theme can be explained from two dimensions: ethical issues arise during the interaction (i.e., ubiquitous surveillance, excessive data, unidentified risks, service disclosure, inaccessibility, dehumanization, selection of services, and service recovery), and ethical issues can be raised by the characteristics of ASRs (i.e., privacy infringement, malicious use, malfunctions, untrustworthiness, biased features, job replacement, inflexibility, and self-identified solutions). This study is the first to propose ethical issues of ASRs from two dimensions with different intelligence levels, and to highlight ethical issues during hotel service interactions. The findings contribute to ethics studies of service robots from consumers' perspectives and offer managerial insights to reduce ethical concerns and enhance ASRs usage in hotels.
+C1 [Lin, Boyu; Lee, Woojin; Wise, Nicholas] Arizona State Univ, Phoenix, AZ USA.
+   [Choi, Hwansuk Chris] Univ Guelph, Guelph, ON, Canada.
+   [Lee, Woojin] Arizona State Univ, 411 N Cent Ave, Phoenix, AZ 85004 USA.
+C3 Arizona State University; Arizona State University-Downtown Phoenix;
+   University of Guelph; Arizona State University; Arizona State
+   University-Downtown Phoenix
+RP Lee, WJ (corresponding author), Arizona State Univ, 411 N Cent Ave, Phoenix, AZ 85004 USA.
+EM woojin.lee.1@asu.edu
+RI Lin, Boyu/HTQ-9230-2023; Wise, Nicholas/S-1083-2018
+OI Lin, Boyu/0000-0002-6169-2456; 
+CR [Anonymous], 2019, Ethics Guidelines for Trustworthy AI
+   Arkoff V., 2019, TECHNABOB       0922
+   Belk R, 2021, SERV IND J, V41, P860, DOI 10.1080/02642069.2020.1727892
+   Braun V., 2006, Res. Psychol., V3, P77, DOI [DOI 10.1191/1478088706QP063OA, 10.1191/1478088706qp063oa, DOI 10.1080/14780887.2020.1769238]
+   Buhalis D, 2019, J SERV MANAGE, V30, P484, DOI 10.1108/JOSM-12-2018-0398
+   Castillo D, 2021, SERV IND J, V41, P900, DOI 10.1080/02642069.2020.1787993
+   Chi OH, 2020, J HOSP MARKET MANAG, V29, P757, DOI 10.1080/19368623.2020.1721394
+   Creswell JohnW., 2018, Journal of investigative surgery : the official journal of the Academy of Surgical Research
+   DeMicco F, 2021, J HOSP TOUR RES, V45, P911, DOI 10.1177/10963480211000822
+   DesJardins J.R., 2014, Contemporary Issues in Business Ethics, V6th
+   Fennell D. A., 1995, Journal of Applied Recreation Research, V20, P163
+   Fortune Business Insights, 2022, SERV ROB MARK SIZ SH
+   Hao F, 2023, J HOSP TOUR RES, V47, P1478, DOI 10.1177/10963480221081781
+   Hoare RJ, 2011, J HOSP TOUR RES, V35, P358, DOI 10.1177/1096348010384599
+   Hopkins M, 2018, J MANAG DEV, V37, P503, DOI 10.1108/JMD-02-2018-0045
+   Hu YO, 2021, J HOSP TOUR RES, V45, P1022, DOI 10.1177/10963480211011533
+   Huang MH, 2021, J ACAD MARKET SCI, V49, P30, DOI 10.1007/s11747-020-00749-9
+   Jobin A, 2019, NAT MACH INTELL, V1, P389, DOI 10.1038/s42256-019-0088-2
+   Kang JW, 2018, J HOSP TOUR RES, V42, P1130, DOI 10.1177/1096348017727057
+   Khan MA, 2020, J HOSP TOUR RES, V44, P715, DOI 10.1177/1096348020908636
+   Kim S, 2024, J HOSP TOUR RES, V48, P501, DOI 10.1177/10963480221116060
+   Kimmel A.J., 1988, ETHICS VALUES APPL S
+   Koc E, 2014, TOUR MANAG PERSPECT, V12, P9, DOI 10.1016/j.tmp.2014.06.003
+   Körtner T, 2016, Z GERONTOL GERIATR, V49, P303, DOI 10.1007/s00391-016-1066-5
+   Koseoglu MA, 2024, J HOSP TOUR RES, V48, P868, DOI 10.1177/10963480221118814
+   Leo X, 2020, COMPUT HUM BEHAV, V113, DOI 10.1016/j.chb.2020.106520
+   Mackinnon Barbara., 2014, Ethics: Theory and Contemporary Issues
+   Michaelidou N, 2021, J BUS RES, V124, P684, DOI 10.1016/j.jbusres.2020.03.005
+   Muller V.C., 2020, Stanford Encyclopedia of Philosophy
+   Nadeem W, 2020, J RETAIL CONSUM SERV, V55, DOI 10.1016/j.jretconser.2020.102095
+   Osborne C., 2018, Zdnet
+   Schepers J, 2022, J SERV RES-US, V25, P565, DOI 10.1177/10946705221107704
+   Lu SW, 2022, J HOSP TOUR RES, V46, P1220, DOI 10.1177/1096348020987633
+   Siau K, 2020, J DATABASE MANAGE, V31, P74, DOI 10.4018/JDM.2020040105
+   Technavio, 2021, BUSINESSWIRE
+   Tung VWS, 2018, INT J CONTEMP HOSP M, V30, P2680, DOI 10.1108/IJCHM-06-2017-0322
+   Tussyadiah IP, 2020, ANN TOURISM RES, V81, DOI 10.1016/j.annals.2020.102886
+   Lu VN, 2020, J SERV THEOR PRACT, V30, P361, DOI 10.1108/JSTP-04-2019-0088
+   Wang WY, 2019, J DATABASE MANAGE, V30, P61, DOI 10.4018/JDM.2019010104
+   Wirtz J, 2018, J SERV MANAGE, V29, P907, DOI 10.1108/JOSM-04-2018-0119
+   Wu LR, 2023, J HOSP TOUR RES, V47, P455, DOI 10.1177/10963480211025594
+   Ying TY, 2022, TOURISM MANAGE, V91, DOI 10.1016/j.tourman.2022.104498
+   Yoo J, 2021, J ORGAN END USER COM, V33, P36, DOI 10.4018/JOEUC.20210301.oa3
+   Zemke DMV, 2020, J HOSP TOUR RES, V44, P1235, DOI 10.1177/1096348020946383
+NR 44
+TC 28
+Z9 30
+U1 24
+U2 169
+PU SAGE PUBLICATIONS INC
+PI THOUSAND OAKS
+PA 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
+SN 1096-3480
+EI 1557-7554
+J9 J HOSP TOUR RES
+JI J. Hosp. Tour. Res.
+PD AUG
+PY 2024
+VL 48
+IS 6
+BP 964
+EP 974
+DI 10.1177/10963480231194693
+EA AUG 2023
+PG 11
+WC Hospitality, Leisure, Sport & Tourism
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics
+GA A2U8V
+UT WOS:001079708800001
+DA 2026-04-08
+ER
+
+EF
