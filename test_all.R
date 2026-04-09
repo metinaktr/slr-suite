@@ -3,12 +3,14 @@
 # CI Entry Point for SLR-Suite
 # =====================================
 
-cat(">> Starting CI tests for SLR-Suite\n")
 
-# ----------------------------
+cat(">> Starting CI tests for SLR-Suite\n")
+cat("Working directory:", getwd(), "\n")
+
 # Run CI-safe core pipeline
-# ----------------------------
-source("scripts/ci/03_biblio_core_ci.R")
+source("ci/03_biblio_core_ci.R")
+
+cat("✅ Ccore script sourced successfully\n")
 
 # ----------------------------
 # Validate expected outputs
