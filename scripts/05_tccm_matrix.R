@@ -89,8 +89,10 @@ match_all <- function(text, dict){
       labs <- c(labs, label)
     }
   }
-  if (length(labs)==0) return(NA)
-  paste(unique(labs), collapse="; ")
+  # HATA BURADAYDI: NA yerine NA_character_ kullanıyoruz
+  if (length(labs) == 0) return(NA_character_)
+  
+  paste(unique(labs), collapse = "; ")
 }
 
 # ---- TCCM ----
