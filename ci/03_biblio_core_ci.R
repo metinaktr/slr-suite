@@ -35,6 +35,7 @@ if (!dir.exists(DATA_OUT)) {
 # INPUT CHECK
 # ----------------------------
 files <- list.files(DATA_RAW, full.names = TRUE)
+files
 
 if (length(files) == 0) {
   stop("❌ CI error: No input files found in data/raw/")
@@ -52,6 +53,7 @@ M <- convert2df(
   dbsource = "wos",
   format   = "plaintext"
 )
+
 
 stopifnot(nrow(M) > 0)
 
