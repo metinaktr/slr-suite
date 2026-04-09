@@ -11,8 +11,25 @@ OUT_DIR   <- "data/processed/biblio"
 if (!dir.exists(OUT_DIR)) dir.create(OUT_DIR, recursive = TRUE)
 
 df <- read_csv(FILE_PATH)
+df <- read_csv(FILE_PATH, col_types = cols(.default = "c"))
+df <- as.data.frame(df)
+# 2. Analiz edilecek sütunların karakter (string) olduğundan emin olun
+# bibliometrix'in strsplit hatası verdiği sütunları metne çeviriyoruz
+cols_to_fix <- intersect(c("AU", "DE", "ID", "SO", "TI", "CR"), names(df))
+df[cols_to_fix] <- lapply(df[cols_to_fix], as.character)
 
+
+# 3. Sayısal sütunları zorunlu olarak numerik yapın
+if ("PY" %in% names(df)) df$PY <- as.numeric(as.character(df$PY))
+if ("TC" %in% names(df)) df$TC <- as.numeric(as.character(df$TC))
+
+# 4. Kayıp (NA) değerleri bibliometrix'in sevmediği boşluklara çevirin
+df[is.na(df)] <- ""
+
+# Şimdi analizi çalıştırın
 results <- biblioAnalysis(df)
+
+
 summary_res <- summary(results, k = 50, pause = FALSE)
 
 write_csv(as.data.frame(summary_res$MostProdAuthors), file.path(OUT_DIR, "most_prod_authors.csv"))
