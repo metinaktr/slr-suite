@@ -1,47 +1,108 @@
-# 03_biblio_analysis.R
-rm(list=ls())
-library(bibliometrix)
-library(dplyr)
-library(readr)
-library(ggplot2)
+# ==========================================================
+# SLR-Suite Core Bibliometric Pipeline (CI-Safe)
+# ==========================================================
 
-FILE_PATH <- "data/interim/screened.csv"
-OUT_DIR   <- "data/processed/biblio"
+rm(list = ls())
 
-if (!dir.exists(OUT_DIR)) dir.create(OUT_DIR, recursive = TRUE)
+suppressPackageStartupMessages({
+  library(bibliometrix)
+  library(dplyr)
+  library(stringr)
+  library(readr)
+  library(here)
+})
 
-df <- read_csv(FILE_PATH)
-df <- read_csv(FILE_PATH, col_types = cols(.default = "c"))
-df <- as.data.frame(df)
-# 2. Analiz edilecek sütunların karakter (string) olduğundan emin olun
-# bibliometrix'in strsplit hatası verdiği sütunları metne çeviriyoruz
-cols_to_fix <- intersect(c("AU", "DE", "ID", "SO", "TI", "CR"), names(df))
-df[cols_to_fix] <- lapply(df[cols_to_fix], as.character)
+# ----------------------------
+# PATHS (TRULY CI-SAFE)
+# ----------------------------
+ROOT <- here::here()
+DATA_RAW <- here::here("data", "raw")
+DATA_OUT <- here::here("data", "processed", "ci_run")
 
+if (!dir.exists(DATA_OUT)) {
+  dir.create(DATA_OUT, recursive = TRUE)
+}
 
-# 3. Sayısal sütunları zorunlu olarak numerik yapın
-if ("PY" %in% names(df)) df$PY <- as.numeric(as.character(df$PY))
-if ("TC" %in% names(df)) df$TC <- as.numeric(as.character(df$TC))
+cat("CI root :", ROOT, "\n")
+cat("RAW dir :", DATA_RAW, "\n")
 
-# 4. Kayıp (NA) değerleri bibliometrix'in sevmediği boşluklara çevirin
-df[is.na(df)] <- ""
+# ----------------------------
+# INPUT CHECK
+# ----------------------------
+files <- list.files(
+  DATA_RAW,
+  pattern = "\\.(txt|csv|bib|ris)$",
+  ignore.case = TRUE,
+  full.names = TRUE
+)
 
-# Şimdi analizi çalıştırın
-results <- biblioAnalysis(df)
+if (length(files) == 0) {
+  stop("❌ CI error: No input files found in data/raw/")
+}
 
+cat(">> CI input file:", basename(files[1]), "\n")
 
-summary_res <- summary(results, k = 50, pause = FALSE)
+# ----------------------------
+# DATA IMPORT (ROBUST)
+# ----------------------------
+first_line <- readLines(files[1], n = 1, warn = FALSE)
 
-write_csv(as.data.frame(summary_res$MostProdAuthors), file.path(OUT_DIR, "most_prod_authors.csv"))
-write_csv(as.data.frame(summary_res$MostProdCountries), file.path(OUT_DIR, "most_prod_countries.csv"))
-write_csv(as.data.frame(summary_res$MostRelSources), file.path(OUT_DIR, "most_rel_sources.csv"))
-write_csv(as.data.frame(summary_res$MostCitedPapers), file.path(OUT_DIR, "most_cited_papers.csv"))
+M <- if (grepl("^FN ", first_line)) {
+  convert2df(files[1], dbsource = "wos", format = "plaintext")
+} else {
+  read_csv(files[1], col_types = cols(.default = "c"))
+}
 
-NetMatrix <- biblioNetwork(df, analysis = "co-occurrences", network = "keywords", sep = ";")
-save(NetMatrix, file = file.path(OUT_DIR, "NetMatrix_keywords.rda"))
+names(M) <- toupper(names(M))
+stopifnot(nrow(M) > 0)
 
-png(file.path(OUT_DIR, "biblio_top10.png"), width = 1600, height = 1000, res = 180)
-plot(results, k = 10)
-dev.off()
+# ----------------------------
+# BASIC FILTERING
+# ----------------------------
+D <- M %>%
+  filter(!is.na(PY), PY >= 2015, PY <= 2026)
 
-message("✔ Bibliyometrik analiz tamamlandı.")
+stopifnot(nrow(D) > 0)
+
+# ----------------------------
+# CORE BIBLIOMETRIC CHECK
+# ----------------------------
+results <- biblioAnalysis(D)
+S <- summary(results, k = 10, pause = FALSE)
+
+write_csv(
+  as.data.frame(S$MostProdAuthors),
+  file.path(DATA_OUT, "most_prod_authors.csv")
+)
+
+# ----------------------------
+# MINIMAL CI-TCCM
+# ----------------------------
+txt <- tolower(paste(D$TI, D$AB, D$DE, sep = " "))
+txt[is.na(txt)] <- ""
+
+theory_dict <- list(
+  "Utilitarian"   = "utilitarian",
+  "Deontological" = "duty",
+  "Virtue"        = "virtue",
+  "Care"          = "care",
+  "Rights"        = "right"
+)
+
+match_all <- function(x, dict) {
+  hits <- names(dict)[sapply(dict, function(p) str_detect(x, p))]
+  if (length(hits) == 0) NA_character_ else paste(hits, collapse = ";")
+}
+
+TCCM <- tibble(
+  Title  = D$TI,
+  Year   = D$PY,
+  Theory = vapply(txt, match_all, dict = theory_dict, FUN.VALUE = character(1))
+)
+
+write_csv(
+  TCCM,
+  file.path(DATA_OUT, "TCCM_ci.csv")
+)
+
+message("✅ CI-safe core bibliometric pipeline completed successfully")
