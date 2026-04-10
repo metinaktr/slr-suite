@@ -1,10 +1,8 @@
 name: pages build and deployment
 
-
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 env:
@@ -15,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
+      contents: read        # ✅ ZORUNLU
       pages: write
       id-token: write
 
@@ -25,12 +24,18 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Render Quarto WEBSITE
-      # index.qmd + _quarto.yml -> docs/paper/_site/index.html
+      # Render Quarto website
       - name: Render Quarto website
         run: quarto render docs/paper
 
-      # Upload the GENERATED site (_site) to GitHub Pages
+      # 🔎 KRİTİK KONTROL (debug + güvenlik)
+      - name: Verify _site output
+        run: |
+          ls -la docs/paper
+          ls -la docs/paper/_site
+          test -f docs/paper/_site/index.html
+
+      # Upload generated site
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
