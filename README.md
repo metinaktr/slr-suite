@@ -39,6 +39,7 @@ slr-suite/
 |   |-- 06_thematic_evolution.R
 |   |-- 07_citation_impact.R
 |   |-- 08_future_agenda_SPAR.R
+    |-- 09_prisma_flow.R
 |-- docs/
 |   |-- paper/
 |       |-- manuscript.qmd
