@@ -102,7 +102,8 @@ while (TRUE) {
   cat(" 5 : [ADIM 04] VOSviewer Dışa Aktarım\n")
   cat(" 6 : [ADIM 05] TCCM Matrisi Oluşturma\n")
   cat(" 7 : [ADIM 06] Tematik Evrim Analizi\n")
-  cat(" 8 : [TÜMÜ]    Tüm Pipeline'ı Baştan Sona Çalıştır\n")
+  cat(" 8 : [ADIM 07] Tematik Evrim Analizi\n")
+  cat(" 9 : [TÜMÜ]    Tüm Pipeline'ı Baştan Sona Çalıştır\n")
   cat(" 0 : Çıkış\n")
   cat("======================================================\n")
   
@@ -130,6 +131,8 @@ while (TRUE) {
   } else if (choice == 7) {
     run_step(here("scripts", "06_thematic_evolution.R"), "Tematik Evrim")
   } else if (choice == 8) {
+    run_step(here("scripts", "09_prisma_flow.R"), "Tematik Evrim")  
+  } else if (choice == 9) {
     step_files <- list.files(here("scripts"), pattern = "^0.*\\.R$", full.names = TRUE)
     for(s in sort(step_files)) run_step(s, basename(s))
     message("⭐ Tüm süreç başarıyla tamamlandı!")
