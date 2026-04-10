@@ -1,4 +1,4 @@
-on:
+on:pages build and deployment
   push:
     branches: [main]
   workflow_dispatch:
