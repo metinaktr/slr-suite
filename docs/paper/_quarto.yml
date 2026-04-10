@@ -6,7 +6,7 @@ website:
   navbar:
     left:
       - text: "Makale"
-        href: /
+        href: /index.html
 
 format:
   html:
