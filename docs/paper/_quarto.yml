@@ -6,9 +6,10 @@ website:
   navbar:
     left:
       - text: "Makale"
-        href: index.html
+        href: /
 
 format:
   html:
     theme: cosmo
     toc: true
+    lang: en
