@@ -102,7 +102,7 @@ while (TRUE) {
   cat(" 5 : [ADIM 04] VOSviewer Dışa Aktarım\n")
   cat(" 6 : [ADIM 05] TCCM Matrisi Oluşturma\n")
   cat(" 7 : [ADIM 06] Tematik Evrim Analizi\n")
-  cat(" 8 : [ADIM 07] Tematik Evrim Analizi\n")
+  cat(" 8 : [ADIM 07] PRISMA 2020 Flow Diagram\n")
   cat(" 9 : [TÜMÜ]    Tüm Pipeline'ı Baştan Sona Çalıştır\n")
   cat(" 0 : Çıkış\n")
   cat("======================================================\n")
