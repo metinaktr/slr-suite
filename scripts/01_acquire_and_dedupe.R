@@ -2,27 +2,54 @@
 # 01_acquire_and_dedupe.R (WoS Plaintext Etiketli Format İçin)
 # ==============================================================================
 
-library(bibliometrix) # Plaintext formatını tabloya çevirmek için şart
-library(dplyr)
-library(readr)
-library(here)
+rm(list = ls())
 
-# 1. Dizin Ayarları
-# ----------------------------
-ROOT <- getwd()
-RAW_DIR     <- file.path(ROOT, "data", "raw")
-INTERIM_DIR <- file.path(ROOT, "data", "interim")
+suppressPackageStartupMessages({
+  library(bibliometrix)
+  library(dplyr)
+  library(readr)
+  library(here)
+})
 
-cat(">> Adım 1: Plain Text (Etiketli) WoS verisi işleniyor...\n")
+cat(">>> 01_acquire_and_dedupe başlatıldı\n")
 
-if (!dir.exists(INTERIM_DIR)) dir.create(INTERIM_DIR, recursive = TRUE)
+
+# --------------------------------------------------
+# 1. Mod Tespiti (CI mi Yerel mi?)
+# --------------------------------------------------
+CI_MODE <- tolower(Sys.getenv("CI")) == "true"
+
+
+# --------------------------------------------------
+# 2. DİNAMİK DİZİNLER (İŞİN ÖZÜ BURASI)
+# --------------------------------------------------
+ROOT_DIR    <- here::here()
+RAW_DIR     <- here::here("data", "raw")
+INTERIM_DIR <- here::here("data", "interim")
+
+
+cat(">> Adım 1: Plain Text (Etiketli) Veri işleniyor...\n")
+
+cat(">>> Proje kökü:", ROOT_DIR, "\n")
+cat(">>> RAW dizini :", RAW_DIR, "\n")
+
+
+if (!dir.exists(INTERIM_DIR)) {
+  dir.create(INTERIM_DIR, recursive = TRUE)
+}
+
 
 # 2. Dosya Listeleme
 # ----------------------------
-input_files <- list.files(RAW_DIR, full.names = TRUE, pattern = "\\.(txt|csv)$", ignore.case = TRUE)
-input_files <- input_files[!file.info(input_files)$isdir]
+input_files <- list.files(
+  "data/raw",
+  pattern = "\\.(txt|csv|bib|ris)$",
+  full.names = TRUE
+)
 
-if (length(input_files) == 0) stop("❌ Hata: data/raw klasöründe dosya bulunamadı!")
+if (length(input_files) == 0) {
+  stop("❌ CI error: No input files found in data/raw/")
+}
 
 # 3. WoS Plaintext Okuma Fonksiyonu
 # ----------------------------
