@@ -1,7 +1,15 @@
 # 08_future_agenda_SPAR.R
 
-library(readr)
-library(dplyr)
+rm(list = ls())
+
+suppressPackageStartupMessages({
+  library(bibliometrix)
+  library(dplyr)
+  library(readr)
+  library(here)
+})
+
+
 
 tccm <- read_csv("data/processed/tccm/TCCM_matrix.csv")
 
