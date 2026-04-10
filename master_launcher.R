@@ -103,7 +103,8 @@ while (TRUE) {
   cat(" 6 : [ADIM 05] TCCM Matrisi Oluşturma\n")
   cat(" 7 : [ADIM 06] Tematik Evrim Analizi\n")
   cat(" 8 : [ADIM 07] PRISMA 2020 Flow Diagram\n")
-  cat(" 9 : [TÜMÜ]    Tüm Pipeline'ı Baştan Sona Çalıştır\n")
+  cat(" 9 : [ADIM 08] Thesaurus\n")
+  cat(" 10 : [TÜMÜ]    Tüm Pipeline'ı Baştan Sona Çalıştır\n")
   cat(" 0 : Çıkış\n")
   cat("======================================================\n")
   
@@ -131,12 +132,15 @@ while (TRUE) {
   } else if (choice == 7) {
     run_step(here("scripts", "06_thematic_evolution.R"), "Tematik Evrim")
   } else if (choice == 8) {
-    run_step(here("scripts", "09_prisma_flow.R"), "Tematik Evrim")  
+    run_step(here("scripts", "09_prisma_flow.R"), "Prisma")  
   } else if (choice == 9) {
+    run_step(here("scripts", "vos_thesaurus.R"), "Thesaurus")    
+  } else if (choice == 10) {
     step_files <- list.files(here("scripts"), pattern = "^0.*\\.R$", full.names = TRUE)
     for(s in sort(step_files)) run_step(s, basename(s))
     message("⭐ Tüm süreç başarıyla tamamlandı!")
   } else if (choice == 0) {
+    rm(list = ls()); gc()
     message("Güle güle akademisyen peer!")
     break
   }
