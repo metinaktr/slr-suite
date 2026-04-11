@@ -64,6 +64,24 @@ You can download and run **SLR-Suite** directly from its GitHub repository:
 
 ---
 ---
+---
+
+## ▶️ Starting the Application
+
+After downloading and installing **SLR-Suite**, you can start the application directly from the installation folder.
+
+### Windows Users
+- Navigate to the folder where you installed **SLR-Suite**.
+- Double-click on **SLR_Baslat.bat** to launch the application.
+- The interface will open and guide you through the systematic literature review workflow.
+
+### Notes
+- Make sure all dependencies are installed before running the `.bat` file.
+- If the application does not start, try running the file as **Administrator**.
+- Outputs and logs will be saved in the `results/` and `logs/` directories.
+
+---
+
 
 
 
