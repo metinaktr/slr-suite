@@ -1,4 +1,4 @@
-name: Deploy Quarto Website to GitHub Pages
+name: Build and Deploy Quarto Site to GitHub Pages
 
 on:
   push:
@@ -22,15 +22,14 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render Quarto site
-        run: |
-          quarto render docs
+        run: quarto render docs
 
       - name: Commit rendered HTML
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add docs
-          git commit -m "Render Quarto website" || echo "No changes to commit"
+          git commit -m "Render Quarto website" || echo "No changes"
           git push
 
       - name: Setup Pages
