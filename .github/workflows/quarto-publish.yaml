@@ -21,9 +21,12 @@ jobs:
 
       - name: Render Quarto site
         run: |
+          set -e
           cd docs
-          quarto render
+          quarto render || exit 1
+          echo "==== AFTER RENDER ===="
           ls -la
+          test -d _site || (echo "_site was NOT created" && exit 1)
 
       - uses: actions/configure-pages@v5
 
