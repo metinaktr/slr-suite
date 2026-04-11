@@ -48,8 +48,7 @@ The study selection process follows **PRISMA 2020** guidelines.
 fig-cap: "PRISMA 2020 flow diagram of the study selection process."
 fig-alt: "PRISMA 2020 study selection flow diagram"
 fig-align: center
----
----
+
 
 ## 📥 Installation & Getting Started
 
