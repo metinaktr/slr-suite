@@ -1,16 +1,9 @@
 project:
   type: website
-  output-dir: _site
 
 website:
   title: "SLR Suite"
-  navbar:
-    left:
-      - text: "Makale"
-        href: /index.html
 
 format:
   html:
     theme: cosmo
-    toc: true
-    lang: en
