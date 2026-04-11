@@ -1,0 +1,55 @@
+---
+title: "SLR-Suite"
+subtitle: "An End-to-End Infrastructure for Systematic Literature Reviews"
+author: "Metin Akbulut"
+lang: en
+format:
+  html:
+    theme: cosmo
+    toc: false
+---
+
+:::{.text-center}
+### Harmonizing the Systematic Review Pipeline  
+**from Data Acquisition to Future Research Agendas**
+:::
+
+---
+
+## 🔍 What is SLR-Suite?
+
+**SLR-Suite** is an open, modular and reproducible research infrastructure designed to conduct  
+**Systematic Literature Reviews (SLR)** in an **end-to-end**, **transparent**, and **automation-friendly** manner.
+
+---
+
+## 🚀 Core Workflow
+
+- Data acquisition and preprocessing  
+- Screening and eligibility filtering  
+- Bibliometric analysis  
+- VOSviewer export and network modeling  
+- TCCM matrix construction  
+- Thematic evolution analysis  
+- Citation impact analysis  
+- SPAR-based future research agenda generation
+
+---
+
+## 🧪 Methods
+
+### Study Selection
+
+The study selection process follows **PRISMA 2020** guidelines.
+
+```{figure}
+../data/processed/PRISMA_2020_flow.png
+---
+fig-cap: "PRISMA 2020 flow diagram of the study selection process."
+fig-alt: "PRISMA 2020 study selection flow diagram"
+fig-align: center
+---
+
+
+
+
