@@ -63,8 +63,7 @@ You can download and run **SLR-Suite** directly from its GitHub repository:
    git clone https://github.com/metinaktr/slr-suite.git
 
 ---
----
----
+
 
 ## ▶️ Starting the Application
 
@@ -80,6 +79,7 @@ After downloading and installing **SLR-Suite**, you can start the application di
 - If the application does not start, try running the file as **Administrator**.
 - Outputs and logs will be saved in the `results/` and `logs/` directories.
 
+---
 ---
 
 
