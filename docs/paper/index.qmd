@@ -1,6 +1,6 @@
 ---
-title: "SLR‑Suite"
-subtitle: "An End‑to‑End Infrastructure for Systematic Literature Reviews"
+title: "SLR-Suite"
+subtitle: "An End-to-End Infrastructure for Systematic Literature Reviews"
 author: "Metin Akbulut"
 lang: en
 format:
@@ -16,54 +16,31 @@ format:
 
 ---
 
-## 🔍 What is SLR‑Suite?
+## 🔍 What is SLR-Suite?
 
-**SLR‑Suite** is an open, modular and reproducible research infrastructure designed to conduct  
-**Systematic Literature Reviews (SLR)** in an **end‑to‑end**, **transparent**, and **automation‑friendly** manner.
-
-Inspired by best practices in bibliometrics, scientometrics, and theory‑driven synthesis,  
-SLR‑Suite integrates **quantitative bibliometric analytics** with **qualitative scholarly interpretation**.
+**SLR-Suite** is an open, modular and reproducible research infrastructure designed to conduct  
+**Systematic Literature Reviews (SLR)** in an **end-to-end**, **transparent**, and **automation-friendly** manner.
 
 ---
 
 ## 🚀 Core Workflow
 
-SLR‑Suite covers the full lifecycle of a systematic review:
+- Data acquisition and preprocessing  
+- Screening and eligibility filtering  
+- Bibliometric analysis  
+- VOSviewer export and network modeling  
+- TCCM matrix construction  
+- Thematic evolution analysis  
+- Citation impact analysis  
+- SPAR-based future research agenda generation
 
-- **Data acquisition and preprocessing**  
-  (Scopus, Web of Science, merged corpora)
-
-- **Screening and eligibility filtering**  
-  (PRISMA‑aligned inclusion/exclusion logic)
-
-- **Bibliometric analysis**  
-  (publication trends, authors, sources, countries)
-
-- **VOSviewer export and network modeling**  
-  (co‑occurrence and citation structures)
-
-- **TCCM matrix construction**  
-  *(Theory – Context – Characteristics – Methodology)*
-
-- **Thematic evolution analysis**  
-  (temporal dynamics of research streams)
-
-- **Citation impact and intellectual structure**
-
-- **SPAR‑based future research agenda generation**
-
----
 ---
 
 ## 🧪 Methods
 
 ### Study Selection
 
-The study selection process was conducted following the **PRISMA 2020** guidelines to ensure transparency,
-reproducibility, and methodological rigor throughout the systematic review process.
-
-Records were identified through structured searches in bibliographic databases and subsequently subjected
-to deduplication, title–abstract screening, and eligibility assessment using automated and rule‑based procedures.
+The study selection process follows **PRISMA 2020** guidelines.
 
 ```{figure}
 ../data/processed/PRISMA_2020_flow.png
@@ -72,18 +49,3 @@ fig-cap: "PRISMA 2020 flow diagram of the study selection process."
 fig-alt: "PRISMA 2020 study selection flow diagram"
 fig-align: center
 ---
-## ✨ Key Features
-
-- 🔁 **Reproducible SLR pipelines**
-- 📊 **Bibliometric and conceptual integration**
-- 🧠 **Theory‑driven synthesis (TCCM & SPAR)**
-- 🤖 **Automation‑ready (CI / GitHub Actions)**
-- 🌐 **Web‑published results via GitHub Pages**
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/metinaktr/slr-suite.git
-cd slr-suite
