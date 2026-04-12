@@ -1,89 +1,111 @@
 ---
-title: "SLR-Suite"
-subtitle: "An End-to-End Infrastructure for Systematic Literature Reviews"
-author: "Metin Akbulut"
-lang: en
+title: "SLR Suite"
+subtitle: "A lightweight, web-based support tool for conducting transparent and reproducible Systematic Literature Reviews (SLR)."
+description: "SLR Suite helps researchers structure, document, and transparently report the methodological stages of a systematic literature review."
 format:
   html:
-    theme: cosmo
-    toc: false
+    toc: true
+    toc-depth: 3
+    page-layout: full
 ---
 
-:::{.text-center}
-### Harmonizing the Systematic Review Pipeline  
-**from Data Acquisition to Future Research Agendas**
+## Overview
+
+**SLR Suite** is designed to help researchers **structure, document, and transparently report** the methodological stages of a systematic literature review. The tool focuses on **methodological clarity** rather than analytical interpretation and is intended for academic use in theses, journal articles, and research projects.
+
+::: {.callout-tip}
+**Repository:** https://github.com/metinaktr/slr-suite  
+:::
+
+::: {.callout-important}
+SLR Suite does **not** analyze or interpret literature content. It supports the **documentation of the review methodology**.
 :::
 
 ---
 
-## 🔍 What is SLR-Suite?
+## ✨ Key Highlights
 
-**SLR-Suite** is an open, modular and reproducible research infrastructure designed to conduct  
-**Systematic Literature Reviews (SLR)** in an **end-to-end**, **transparent**, and **automation-friendly** manner.
-
----
-
-## 🚀 Core Workflow
-
-- Data acquisition and preprocessing  
-- Screening and eligibility filtering  
-- Bibliometric analysis  
-- VOSviewer export and network modeling  
-- TCCM matrix construction  
-- Thematic evolution analysis  
-- Citation impact analysis  
-- SPAR-based future research agenda generation
+- 📚 Supports core stages of Systematic Literature Reviews (SLR)
+- 🧩 Improves methodological transparency and traceability
+- 📝 Produces method-section–ready documentation
+- 🌍 Fully web-based — no installation required
+- 🎓 Designed for academic research and graduate education
 
 ---
 
-## 🧪 Methods
+## 🧭 What Is SLR Suite?
 
-### Study Selection
+SLR Suite is an academic support tool developed to assist researchers in explicitly structuring and documenting the workflow of a systematic literature review. It enables users to record how **research questions**, **search strategies**, **inclusion criteria**, **exclusion criteria**, and **review decisions** are defined and applied.
 
-The study selection process follows **PRISMA 2020** guidelines.
+Its primary aim is to enhance:
 
-```{figure}
-../data/processed/PRISMA_2020_flow.png
----
-fig-cap: "PRISMA 2020 flow diagram of the study selection process."
-fig-alt: "PRISMA 2020 study selection flow diagram"
-fig-align: center
-
-
-## 📥 Installation & Getting Started
-
-You can download and run **SLR-Suite** directly from its GitHub repository:
-
-- Repository: [https://github.com/metinaktr/slr-suite](https://github.com/metinaktr/slr-suite)
-
-### Steps
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/metinaktr/slr-suite.git
+- **Reproducibility**
+- **Methodological rigor**
+- **Transparency** of the review process
 
 ---
 
+## 👥 Who Is It For?
 
-## ▶️ Starting the Application
+SLR Suite is suitable for:
 
-After downloading and installing **SLR-Suite**, you can start the application directly from the installation folder.
-
-### Windows Users
-- Navigate to the folder where you installed **SLR-Suite**.
-- Double-click on **SLR_Baslat.bat** to launch the application.
-- The interface will open and guide you through the systematic literature review workflow.
-
-### Notes
-- Make sure all dependencies are installed before running the `.bat` file.
-- If the application does not start, try running the file as **Administrator**.
-- Outputs and logs will be saved in the `results/` and `logs/` directories.
+- Academics and independent researchers
+- PhD and master’s students
+- Authors of systematic reviews or structured literature reviews
+- Research teams seeking transparent and auditable review procedures
 
 ---
+
+## 🔁 End-to-End SLR Workflow (Repository)
+
+This repository provides an end-to-end workflow designed for a systematic literature review (SLR):
+
+- Data acquisition and cleaning
+- Screening
+- Bibliometric analysis
+- VOSviewer export
+- TCCM matrix
+- Thematic evolution
+- Citation impact
+- Future research agenda with SPAR
+
 ---
 
+## 📁 Folder Structure
 
-
-
-
-
+```text
+slr-suite/
+|-- README.md
+|-- LICENSE
+|-- CITATION.cff
+|-- .github/
+|   |-- workflows/
+|       |-- r-cmd-check.yaml
+|       |-- quarto-publish.yaml
+|-- ci/
+|   |-- 03_biblio_core_ci.R
+|-- config/
+|   |-- search_protocol.yaml
+|   |-- screen_criteria.yaml
+|   |-- tccm_codebook.yaml
+|-- data/
+|   |-- raw/
+|   |-- interim/
+|   |-- processed/
+|-- scripts/
+|   |-- 01_acquire_and_dedupe.R
+|   |-- 02_screening.R
+|   |-- 03_biblio_analysis.R
+|   |-- 04_vosviewer_export.R
+|   |-- 05_tccm_matrix.R
+|   |-- 06_thematic_evolution.R
+|   |-- 07_citation_impact.R
+|   |-- 08_future_agenda_SPAR.R
+|   |-- 09_prisma_flow.R
+|-- docs/
+|   |-- paper/
+|       |-- manuscript.qmd
+|       |-- references.bib
+|       |-- figures/
+|-- notebooks/
+|   |-- 00_playground.Rmd
