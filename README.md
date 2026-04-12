@@ -1,4 +1,10 @@
 ﻿# SLR Suite
+
+A lightweight, web-based support tool for conducting transparent and reproducible Systematic Literature Reviews (SLR). 
+
+SLR Suite is designed to help researchers structure, document, and transparently report the methodological stages of a systematic literature review. The tool focuses on methodological clarity rather than analytical interpretation and is intended for academic use in theses, journal articles, and research projects. 
+
+🌐 Live application: https://metinaktr\.github\.io/slr\-suite/ 
 https://metinaktr.github.io/slr-suite/
 
 Bu repo, sistematik literatür derlemesi (SLR) için kurgulanmış bir uçtan uca iş akışını içerir:
