@@ -101,7 +101,7 @@ Accessing the Tool
 
 Open the application directly in your web browser: 
 
- https://metinaktr.github.io/slr-suite/ 
+## https://github.com/metinaktr/slr-suite 
 
 
 No installation, registration, or configuration is required. 
