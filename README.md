@@ -1,4 +1,5 @@
 ﻿# SLR Suite
+https://metinaktr.github.io/slr-suite/
 
 Bu repo, sistematik literatür derlemesi (SLR) için kurgulanmış bir uçtan uca iş akışını içerir:
 - Veri edinme ve temizleme
