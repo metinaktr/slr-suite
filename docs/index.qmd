@@ -73,8 +73,6 @@ This repository provides an end-to-end workflow designed for a systematic litera
 
 ## 📁 Folder Structure
 
-
-```text
 slr-suite/
 |-- README.md
 |-- LICENSE
