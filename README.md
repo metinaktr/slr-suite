@@ -95,7 +95,7 @@ slr-suite/
 
  
 
-🚀 Getting Started 
+## Getting Started 
 
 Accessing the Tool 
 
@@ -116,7 +116,7 @@ Use the generated structure in the methodology section of the study
 
 Cite SLR Suite as a supporting methodological tool 
 
-🧩 #Core Capabilities 
+## Core Capabilities 
 
 Structuring systematic review stages 
 
@@ -128,20 +128,51 @@ Reducing ambiguity in review procedures
 
 SLR Suite can be used alongside established SLR guidelines such as: 
 
-PRISMA 
+## PRISMA 
 
 Kitchenham (2004, 2007) 
 
 Other domain-specific systematic review frameworks 
 
- 📖 How to Cite 
+ ## How to Cite 
 
 If SLR Suite is used in an academic study, citation is recommended to ensure methodological transparency. 
 
-##APA (7th Edition) 
+## APA (7th Edition) 
 
 1     Akbulut, M. (2026). *SLR Suite: A web-based support tool for systematic literature reviews* [Web application]. https://metinaktr.github.io/slr-suite/ 
 
-#In-text citation 
+## In-text citation 
 
 (Akbulut, 2026) 
+ Methodological Positioning 
+
+## SLR Suite: 
+
+✅ Supports the process of systematic reviews 
+
+✅ Enhances documentation and traceability 
+
+❌ Does NOT replace established SLR frameworks 
+
+❌ Does NOT perform screening, coding, synthesis, or analysis automatically 
+
+Researchers are encouraged to clearly state where and how SLR Suite was used in the methodology section of their studies. 
+🤝 Contributing & Feedback 
+
+Suggestions, issue reports, and improvement ideas are welcome. 
+
+You may contribute by: 
+
+> Reporting issues or bugs 
+
+> Suggesting enhancements 
+
+> Referencing SLR Suite in academic publications 
+ 
+
+📄 License & Disclaimer 
+
+SLR Suite is provided as a methodological support tool. All scientific responsibility for the design, execution, and interpretation of the literature review remains with the researcher. 
+
+ SLR Suite aims to make systematic literature reviews more explicit, traceable, and reproducible—especially in academic research contexts. 
