@@ -101,9 +101,8 @@ Accessing the Tool
 
 Open the application directly in your web browser: 
 
-1     https://metinaktr.github.io/slr-suite/ 
+ https://metinaktr.github.io/slr-suite/ 
 
-2      
 
 No installation, registration, or configuration is required. 
 
@@ -117,4 +116,32 @@ Use the generated structure in the methodology section of the study
 
 Cite SLR Suite as a supporting methodological tool 
 
- 
+🧩 #Core Capabilities 
+
+Structuring systematic review stages 
+
+Documenting inclusion and exclusion logic 
+
+Supporting method-section reporting 
+
+Reducing ambiguity in review procedures 
+
+SLR Suite can be used alongside established SLR guidelines such as: 
+
+PRISMA 
+
+Kitchenham (2004, 2007) 
+
+Other domain-specific systematic review frameworks 
+
+ 📖 How to Cite 
+
+If SLR Suite is used in an academic study, citation is recommended to ensure methodological transparency. 
+
+#APA (7th Edition) 
+
+1     Akbulut, M. (2026). *SLR Suite: A web-based support tool for systematic literature reviews* [Web application]. https://metinaktr.github.io/slr-suite/ 
+
+#In-text citation 
+
+(Akbulut, 2026) 
