@@ -4,7 +4,7 @@ A lightweight, web-based support tool for conducting transparent and reproducibl
 
 SLR Suite is designed to help researchers structure, document, and transparently report the methodological stages of a systematic literature review. The tool focuses on methodological clarity rather than analytical interpretation and is intended for academic use in theses, journal articles, and research projects. 
 
-🌐 Live application: https://metinaktr.github.io/slr-suite/
+🌐 Live application: [https://metinaktr.github.io/slr-suite/]
 
 ✨ Key Highlights 
 
@@ -140,7 +140,7 @@ If SLR Suite is used in an academic study, citation is recommended to ensure met
 
 ## APA (7th Edition) 
 
-1     Akbulut, M. (2026). *SLR Suite: A web-based support tool for systematic literature reviews* [Web application]. https://metinaktr.github.io/slr-suite/ 
+1     Akbulut, M. (2026). *SLR Suite: A web-based support tool for systematic literature reviews* [Web application]. [https://metinaktr.github.io/slr-suite/ ](https://github.com/metinaktr/slr-suite/)
 
 ## In-text citation 
 
