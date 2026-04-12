@@ -6,18 +6,55 @@ SLR Suite is designed to help researchers structure, document, and transparently
 
 🌐 Live application: https://metinaktr.github.io/slr-suite/
 
+✨ Key Highlights 
 
-Bu repo, sistematik literatür derlemesi (SLR) için kurgulanmış bir uçtan uca iş akışını içerir:
-- Veri edinme ve temizleme
-- Tarama (screening)
-- Bibliyometrik analiz
-- VOSviewer dışa aktarım
-- TCCM matrisi
-- Tematik evrim
-- Atıf etkisi
-- SPAR ile gelecek araştırma ajandası
+📚 Supports core stages of Systematic Literature Reviews (SLR) 
 
-## Klasör Yapısı
+🧩 Improves methodological transparency and traceability 
+
+📝 Produces method-section–ready documentation 
+
+🌍 Fully web-based — no installation required 
+
+🎓 Designed for academic research and graduate education 
+
+Important: SLR Suite does not analyze or interpret literature content. It supports the documentation of the review methodology. 
+
+🧭 What Is SLR Suite? 
+
+SLR Suite is an academic support tool developed to assist researchers in explicitly structuring and documenting the workflow of a systematic literature review. It enables users to record how research questions, search strategies, inclusion criteria, exclusion criteria, and review decisions are defined and applied. 
+
+Its primary aim is to enhance: 
+
+Reproducibility 
+
+Methodological rigor 
+
+Transparency of the review process 
+
+👥 Who Is It For? 
+
+SLR Suite is suitable for: 
+
+Academics and independent researchers 
+
+PhD and master’s students 
+
+Authors of systematic reviews or structured literature reviews 
+
+Research teams seeking transparent and auditable review procedures 
+
+This repository contains an end-to-end workflow designed for a systematic literature review (SLR):
+- Data acquisition and cleaning
+- Screening
+- Bibliometric analysis
+- VOSviewer export
+- TCCM matrix
+- Thematic evolution
+- Citation impact
+- Future research agenda with SPAR
+
+## Folder Structure
 ```
 slr-suite/
 |-- README.md
@@ -56,6 +93,28 @@ slr-suite/
 |   |-- 00_playground.Rmd
 ```
 
-## Hızlı Başlangıç
-- R paket ihtiyaçlarınızı `renv` ile kilitleyebilir,
-- Quarto ile `docs/paper/manuscript.qmd` dosyasınızı render/publish edebilirsiniz.
+ 
+
+🚀 Getting Started 
+
+Accessing the Tool 
+
+Open the application directly in your web browser: 
+
+1     https://metinaktr.github.io/slr-suite/ 
+
+2      
+
+No installation, registration, or configuration is required. 
+
+Typical Use Workflow 
+
+Define the scope and structure of the literature review 
+
+Document search strategies and selection decisions 
+
+Use the generated structure in the methodology section of the study 
+
+Cite SLR Suite as a supporting methodological tool 
+
+ 
