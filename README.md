@@ -138,7 +138,7 @@ Other domain-specific systematic review frameworks
 
 If SLR Suite is used in an academic study, citation is recommended to ensure methodological transparency. 
 
-#APA (7th Edition) 
+##APA (7th Edition) 
 
 1     Akbulut, M. (2026). *SLR Suite: A web-based support tool for systematic literature reviews* [Web application]. https://metinaktr.github.io/slr-suite/ 
 
