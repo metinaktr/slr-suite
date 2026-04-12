@@ -73,40 +73,40 @@ This repository provides an end-to-end workflow designed for a systematic litera
 
 ## 📁 Folder Structure
 
+
 ```text
 slr-suite/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── .github/
-│   └── workflows/
-│       ├── r-cmd-check.yaml
-│       └── quarto-publish.yaml
-├── ci/
-│   └── 03_biblio_core_ci.R
-├── config/
-│   ├── search_protocol.yaml
-│   ├── screen_criteria.yaml
-│   └── tccm_codebook.yaml
-├── data/
-│   ├── raw/
-│   ├── interim/
-│   └── processed/
-├── scripts/
-│   ├── 01_acquire_and_dedupe.R
-│   ├── 02_screening.R
-│   ├── 03_biblio_analysis.R
-│   ├── 04_vosviewer_export.R
-│   ├── 05_tccm_matrix.R
-│   ├── 06_thematic_evolution.R
-│   ├── 07_citation_impact.R
-│   ├── 08_future_agenda_SPAR.R
-│   └── 09_prisma_flow.R
-├── docs/
-│   └── paper/
-│       ├── manuscript.qmd
-│       ├── references.bib
-│       └── figures/
-└── notebooks/
-    └── 00_playground.Rmd
-
+|-- README.md
+|-- LICENSE
+|-- CITATION.cff
+|-- .github/
+|   |-- workflows/
+|       |-- r-cmd-check.yaml
+|       |-- quarto-publish.yaml
+|-- ci/
+|   |-- 03_biblio_core_ci.R
+|-- config/
+|   |-- search_protocol.yaml
+|   |-- screen_criteria.yaml
+|   |-- tccm_codebook.yaml
+|-- data/
+|   |-- raw/
+|   |-- interim/
+|   |-- processed/
+|-- scripts/
+|   |-- 01_acquire_and_dedupe.R
+|   |-- 02_screening.R
+|   |-- 03_biblio_analysis.R
+|   |-- 04_vosviewer_export.R
+|   |-- 05_tccm_matrix.R
+|   |-- 06_thematic_evolution.R
+|   |-- 07_citation_impact.R
+|   |-- 08_future_agenda_SPAR.R
+|   |-- 09_prisma_flow.R
+|-- docs/
+|   |-- paper/
+|       |-- manuscript.qmd
+|       |-- references.bib
+|       |-- figures/
+|-- notebooks/
+|   |-- 00_playground.Rmd
