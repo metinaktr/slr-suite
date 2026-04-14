@@ -1,65 +1,50 @@
----
-title: "SLR Suite"
-subtitle: "A lightweight, web-based support tool for conducting transparent and reproducible Systematic Literature Reviews (SLR)."
-description: "SLR Suite helps researchers structure, document, and transparently report the methodological stages of a systematic literature review."
-format:
-  html:
-    toc: true
-    toc-depth: 3
-    page-layout: full
----
+﻿# SLR Suite
 
-## Overview
+A lightweight, web-based support tool for conducting transparent and reproducible Systematic Literature Reviews (SLR). 
 
-**SLR Suite** is designed to help researchers **structure, document, and transparently report** the methodological stages of a systematic literature review. The tool focuses on **methodological clarity** rather than analytical interpretation and is intended for academic use in theses, journal articles, and research projects.
+SLR Suite is designed to help researchers structure, document, and transparently report the methodological stages of a systematic literature review. The tool focuses on methodological clarity rather than analytical interpretation and is intended for academic use in theses, journal articles, and research projects. 
 
-::: {.callout-tip}
-**Repository:** https://github.com/metinaktr/slr-suite  
-:::
+🌐 Live application: https://github.com/metinaktr/slr-suite
 
-::: {.callout-important}
-SLR Suite does **not** analyze or interpret literature content. It supports the **documentation of the review methodology**.
-:::
+✨ Key Highlights 
 
----
+📚 Supports core stages of Systematic Literature Reviews (SLR) 
 
-## ✨ Key Highlights
+🧩 Improves methodological transparency and traceability 
 
-- 📚 Supports core stages of Systematic Literature Reviews (SLR)
-- 🧩 Improves methodological transparency and traceability
-- 📝 Produces method-section–ready documentation
-- 🌍 Fully web-based — no installation required
-- 🎓 Designed for academic research and graduate education
+📝 Produces method-section–ready documentation 
 
----
+🌍 Fully web-based — no installation required 
 
-## 🧭 What Is SLR Suite?
+🎓 Designed for academic research and graduate education 
 
-SLR Suite is an academic support tool developed to assist researchers in explicitly structuring and documenting the workflow of a systematic literature review. It enables users to record how **research questions**, **search strategies**, **inclusion criteria**, **exclusion criteria**, and **review decisions** are defined and applied.
+Important: SLR Suite does not analyze or interpret literature content. It supports the documentation of the review methodology. 
 
-Its primary aim is to enhance:
+🧭 What Is SLR Suite? 
 
-- **Reproducibility**
-- **Methodological rigor**
-- **Transparency** of the review process
+SLR Suite is an academic support tool developed to assist researchers in explicitly structuring and documenting the workflow of a systematic literature review. It enables users to record how research questions, search strategies, inclusion criteria, exclusion criteria, and review decisions are defined and applied. 
 
----
+Its primary aim is to enhance: 
 
-## 👥 Who Is It For?
+Reproducibility 
 
-SLR Suite is suitable for:
+Methodological rigor 
 
-- Academics and independent researchers
-- PhD and master’s students
-- Authors of systematic reviews or structured literature reviews
-- Research teams seeking transparent and auditable review procedures
+Transparency of the review process 
 
----
+👥 Who Is It For? 
 
-## 🔁 End-to-End SLR Workflow (Repository)
+SLR Suite is suitable for: 
 
-This repository provides an end-to-end workflow designed for a systematic literature review (SLR):
+Academics and independent researchers 
 
+PhD and master’s students 
+
+Authors of systematic reviews or structured literature reviews 
+
+Research teams seeking transparent and auditable review procedures 
+
+This repository contains an end-to-end workflow designed for a systematic literature review (SLR):
 - Data acquisition and cleaning
 - Screening
 - Bibliometric analysis
@@ -69,10 +54,8 @@ This repository provides an end-to-end workflow designed for a systematic litera
 - Citation impact
 - Future research agenda with SPAR
 
----
-
-## 📁 Folder Structure
-
+## Folder Structure
+```
 slr-suite/
 |-- README.md
 |-- LICENSE
@@ -82,7 +65,7 @@ slr-suite/
 |       |-- r-cmd-check.yaml
 |       |-- quarto-publish.yaml
 |-- ci/
-|   |-- 03_biblio_core_ci.R
+      |--03_biblio_core_ci.R
 |-- config/
 |   |-- search_protocol.yaml
 |   |-- screen_criteria.yaml
@@ -100,7 +83,7 @@ slr-suite/
 |   |-- 06_thematic_evolution.R
 |   |-- 07_citation_impact.R
 |   |-- 08_future_agenda_SPAR.R
-|   |-- 09_prisma_flow.R
+    |-- 09_prisma_flow.R
 |-- docs/
 |   |-- paper/
 |       |-- manuscript.qmd
@@ -108,3 +91,88 @@ slr-suite/
 |       |-- figures/
 |-- notebooks/
 |   |-- 00_playground.Rmd
+```
+
+ 
+
+## Getting Started 
+
+Accessing the Tool 
+
+Open the application directly in your web browser: 
+
+## https://github.com/metinaktr/slr-suite 
+
+
+No installation, registration, or configuration is required. 
+
+Typical Use Workflow 
+
+Define the scope and structure of the literature review 
+
+Document search strategies and selection decisions 
+
+Use the generated structure in the methodology section of the study 
+
+Cite SLR Suite as a supporting methodological tool 
+
+## Core Capabilities 
+
+Structuring systematic review stages 
+
+Documenting inclusion and exclusion logic 
+
+Supporting method-section reporting 
+
+Reducing ambiguity in review procedures 
+
+SLR Suite can be used alongside established SLR guidelines such as: 
+
+## PRISMA 
+
+Kitchenham (2004, 2007) 
+
+Other domain-specific systematic review frameworks 
+
+ ## How to Cite 
+
+If SLR Suite is used in an academic study, citation is recommended to ensure methodological transparency. 
+
+## APA (7th Edition) 
+
+1     Akbulut, M. (2026). *SLR Suite: A web-based support tool for systematic literature reviews* [Web application].https://github.com/metinaktr/slr-suite
+
+## In-text citation 
+
+(Akbulut, 2026) 
+ Methodological Positioning 
+
+## SLR Suite: 
+
+✅ Supports the process of systematic reviews 
+
+✅ Enhances documentation and traceability 
+
+❌ Does NOT replace established SLR frameworks 
+
+❌ Does NOT perform screening, coding, synthesis, or analysis automatically 
+
+Researchers are encouraged to clearly state where and how SLR Suite was used in the methodology section of their studies. 
+🤝 Contributing & Feedback 
+
+Suggestions, issue reports, and improvement ideas are welcome. 
+
+You may contribute by: 
+
+> Reporting issues or bugs 
+
+> Suggesting enhancements 
+
+> Referencing SLR Suite in academic publications 
+ 
+
+📄 License & Disclaimer 
+
+SLR Suite is provided as a methodological support tool. All scientific responsibility for the design, execution, and interpretation of the literature review remains with the researcher. 
+
+ SLR Suite aims to make systematic literature reviews more explicit, traceable, and reproducible—especially in academic research contexts. 
