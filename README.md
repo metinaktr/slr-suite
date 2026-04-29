@@ -52,7 +52,8 @@ This repository contains an end-to-end workflow designed for a systematic litera
 - Thematic evolution
 - Citation impact
 - Future research agenda with SPAR
-
+## DOI
+https://doi.org/10.xxxx/zenodo.xxxxx
 ## Folder Structure
 ```
 slr-suite/
