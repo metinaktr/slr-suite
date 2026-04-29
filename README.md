@@ -164,8 +164,9 @@ You may contribute by:
 > Referencing SLR Suite in academic publications 
  
 
-📄 License & Disclaimer 
+## License & Disclaimer 
 
 SLR Suite is provided as a methodological support tool. All scientific responsibility for the design, execution, and interpretation of the literature review remains with the researcher. 
 
  SLR Suite aims to make systematic literature reviews more explicit, traceable, and reproducible—especially in academic research contexts. 
+ This project is licensed under the MIT License - see the LICENSE file for details.
