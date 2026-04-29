@@ -53,7 +53,7 @@ This repository contains an end-to-end workflow designed for a systematic litera
 - Citation impact
 - Future research agenda with SPAR
 ## DOI
-https://doi.org/10.xxxx/zenodo.xxxxx
+https://doi.org/10.5281/zenodo.19887817
 ## Folder Structure
 ```
 slr-suite/
