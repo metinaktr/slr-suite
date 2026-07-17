@@ -13,6 +13,18 @@ stopifnot(isTRUE(slr_check_dependencies("base")))
 dependency_error <- tryCatch(slr_check_dependencies("not_a_real_package"), error = identity)
 stopifnot(inherits(dependency_error, "slr_dependency_error"))
 
+valid_menu_input <- textConnection("2")
+stopifnot(slr_menu_select(c("Run", "Exit"), input = valid_menu_input) == 2L)
+close(valid_menu_input)
+
+retry_menu_input <- textConnection(c("invalid", "1"))
+stopifnot(slr_menu_select(c("Run", "Exit"), input = retry_menu_input) == 1L)
+close(retry_menu_input)
+
+empty_menu_input <- textConnection(character())
+stopifnot(slr_menu_select(c("Run", "Exit"), input = empty_menu_input) == 2L)
+close(empty_menu_input)
+
 workspace <- tempfile("coverage-pipeline-")
 dir.create(file.path(workspace, "scripts"), recursive = TRUE)
 file.create(file.path(workspace, "slr-suite.Rproj"))
