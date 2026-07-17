@@ -21,7 +21,7 @@ jobs:
       - name: Install Linux system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install --yes libpoppler-cpp-dev
+          sudo apt-get install --yes libglpk-dev libpoppler-cpp-dev
       - uses: r-lib/actions/setup-renv@v2
       - name: Run code-quality gate
         run: Rscript scripts/quality_gate.R
