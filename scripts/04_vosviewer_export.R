@@ -2,9 +2,6 @@
 # 04_vosviewer_export.R
 # VOSviewer Keyword Co-occurrence Export (FINAL & STABLE)
 # ==============================================================================
-
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(bibliometrix)
   library(Matrix)

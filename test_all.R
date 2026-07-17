@@ -3,8 +3,6 @@
 # CI Entry Point for SLR-Suite
 # =====================================
 
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(bibliometrix)
   library(dplyr)

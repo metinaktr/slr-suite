@@ -8,9 +8,6 @@
 # ----------------------------------------------------------
 # This script is NOT intended for full analytical reporting.
 # ==========================================================
-
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(bibliometrix)
   library(dplyr)

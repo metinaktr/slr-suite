@@ -1,9 +1,6 @@
 # ==========================================================
 # SLR-Suite Core Bibliometric Pipeline (CI-Safe)
 # ==========================================================
-
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(bibliometrix)
   library(dplyr)

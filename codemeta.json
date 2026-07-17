@@ -1,0 +1,19 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "SLR Suite",
+  "version": "2.0.0",
+  "description": "An RStudio and Quarto workflow for transparent, traceable, and reproducible systematic literature reviews.",
+  "codeRepository": "https://github.com/metinaktr/slr-suite",
+  "issueTracker": "https://github.com/metinaktr/slr-suite/issues",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "programmingLanguage": "R",
+  "runtimePlatform": "R >= 4.5",
+  "datePublished": "2026-07-17",
+  "identifier": "https://doi.org/10.5281/zenodo.19887817",
+  "author": [{
+    "@type": "Person",
+    "givenName": "Metin",
+    "familyName": "Akbulut"
+  }]
+}

@@ -1,9 +1,6 @@
 # ==============================================================================
 # 01_acquire_and_dedupe.R (WoS Plaintext Etiketli Format İçin)
 # ==============================================================================
-
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(bibliometrix)
   library(dplyr)

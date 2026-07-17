@@ -1,0 +1,8 @@
+if (!requireNamespace("covr", quietly = TRUE)) stop("covr is required for the coverage gate.")
+source_files <- list.files("R", pattern = "\\.R$", full.names = TRUE)
+coverage <- covr::file_coverage(source_files, "tests/coverage.R")
+percent <- round(covr::percent_coverage(coverage), 2)
+cat("Core R coverage:", percent, "%\n")
+if (percent < 70) stop("Coverage gate failed: ", percent, "% is below 70%.")
+dir.create("artifacts/quality", recursive = TRUE, showWarnings = FALSE)
+writeLines(as.character(percent), "artifacts/quality/coverage-percent.txt")
