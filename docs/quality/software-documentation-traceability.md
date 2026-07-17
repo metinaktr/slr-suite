@@ -1,10 +1,10 @@
-# Manuscript–Code Traceability Matrix
+# Software–Documentation Traceability Matrix
 
-This matrix is the authoritative bidirectional map for SLR Suite v2.2.0. Every executable analysis module is described in the manuscript, and every software claim in the manuscript is linked to an implementation and verification path.
+This matrix is the authoritative bidirectional map for SLR Suite v2.2.0. Every executable analysis module is described in the technical documentation, and every documented capability is linked to an implementation and verification path.
 
 ## Executable modules
 
-| Module | Responsibility | Principal input | Principal output | Manuscript location | Verification |
+| Module | Responsibility | Principal input | Principal output | Documentation location | Verification |
 |---|---|---|---|---|---|
 | `R/conditions.R` | Typed errors and assertions | Error context | `slr_*` conditions | Software architecture; Error handling | `tests/testthat/test-errors.R` |
 | `R/pipeline.R` | Step discovery, isolated execution, logging, orchestration | Project root and ordered steps | Run records and pipeline outputs | Software architecture; Orchestration | Pipeline and E2E tests |
@@ -19,9 +19,9 @@ This matrix is the authoritative bidirectional map for SLR Suite v2.2.0. Every e
 | `scripts/09_prisma_flow.R` | Generate PRISMA flow counts and diagram | Raw/interim/processed counts | PRISMA artifact | Module inventory M9 | Syntax and structural gates |
 | `experiments/run_validation.R` | Record deterministic repository invariants and environment | Repository state | CSV checklist and session summary | Experimental validation | Structural validation CI step |
 
-## Manuscript claims
+## Documented capabilities
 
-| Manuscript claim | Repository evidence | Automated check |
+| Documented capability | Repository evidence | Automated check |
 |---|---|---|
 | Exact dependency restoration | `renv.lock`, `.Rprofile`, `renv/` | Clean CI restore on three operating systems |
 | Isolated orchestration | `R/pipeline.R` | `test-e2e-orchestration.R` |
@@ -32,4 +32,4 @@ This matrix is the authoritative bidirectional map for SLR Suite v2.2.0. Every e
 | Reproducibility evidence | `experiments/run_validation.R` | Uploaded per-OS validation artifacts |
 | Versioned publication metadata | `VERSION`, `DESCRIPTION`, `CITATION.cff`, `codemeta.json` | Structural validation and metadata parsing |
 
-Changes to a module, public claim, or verification path must update this matrix in the same pull request.
+Changes to a module, documented capability, or verification path must update this matrix in the same pull request.

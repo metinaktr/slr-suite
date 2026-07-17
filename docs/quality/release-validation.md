@@ -1,4 +1,4 @@
-# Pre-Submission Validation Report
+# Release Validation Report
 
 ## Scope
 
@@ -39,8 +39,8 @@ Local Windows validation on 2026-07-17 passed 12/12 automated tests, the 24-file
 
 ## Residual limitations
 
-The bundled data verifies software mechanics, not search completeness, dual-reviewer agreement, coding validity, or the substantive accuracy of bibliometric interpretation. A real submission dataset must be frozen, licensed for use, and independently checked before empirical claims are added.
+The bundled data verifies software mechanics, not search completeness, inter-rater screening agreement, coding validity, or the substantive accuracy of bibliometric interpretation. A production research dataset must be frozen, licensed for use, and independently checked before empirical claims are added.
 
 ## Sign-off rule
 
-Submission is blocked if any operating-system job fails, Quarto rendering fails, coverage falls below 70%, the manuscript and traceability matrix diverge, or the release tag does not identify the tested commit.
+A release is blocked if any operating-system job fails, Quarto rendering fails, coverage falls below 70%, the documentation and traceability matrix diverge, or the release tag does not identify the tested commit.

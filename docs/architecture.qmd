@@ -29,4 +29,4 @@ Each step runs in a new environment. The launcher does not clear the user's glob
 | M8 | `08_future_agenda_SPAR.R` | Build the SPAR future-agenda table |
 | M9 | `09_prisma_flow.R` | Produce PRISMA flow evidence |
 
-The complete input/output/test mapping is in `docs/submission/manuscript-code-traceability.md`.
+The complete input/output/test mapping is in `docs/quality/software-documentation-traceability.md`.
