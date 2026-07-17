@@ -66,11 +66,26 @@ slr_run_pipeline <- function(root = slr_project_root(), steps = slr_steps(root))
   invisible(do.call(rbind, lapply(steps, slr_run_step, root = root)))
 }
 
+slr_menu_select <- function(labels, title = "SLR Suite", input = stdin()) {
+  if (interactive()) return(menu(labels, title = title))
+
+  cat("\n", title, "\n", sep = "")
+  cat(paste0(seq_along(labels), ") ", labels, collapse = "\n"), "\n")
+  repeat {
+    cat("Select an option [1-", length(labels), "]: ", sep = "")
+    answer <- readLines(con = input, n = 1L, warn = FALSE)
+    if (!length(answer)) return(length(labels))
+    selected <- suppressWarnings(as.integer(trimws(answer[[1]])))
+    if (!is.na(selected) && selected >= 1L && selected <= length(labels)) return(selected)
+    cat("Invalid selection. Enter a number from 1 to ", length(labels), ".\n", sep = "")
+  }
+}
+
 slr_menu <- function(root = slr_project_root()) {
   steps <- slr_steps(root)
   labels <- c("Run complete pipeline", basename(steps), "Run validation experiment", "Exit")
   repeat {
-    selected <- menu(labels, title = "SLR Suite")
+    selected <- slr_menu_select(labels, title = "SLR Suite")
     if (selected == 0L || selected == length(labels)) break
     if (selected == 1L) slr_run_pipeline(root)
     else if (selected == length(labels) - 1L) source(file.path(root, "experiments", "run_validation.R"))

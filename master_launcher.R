@@ -18,7 +18,7 @@ if (identical(command, "menu")) {
     "Commands:\n",
     "  run       Run the complete analysis pipeline\n",
     "  validate  Run the reproducibility experiment\n",
-    "  menu      Open the interactive RStudio menu\n",
+    "  menu      Open the interactive console or RStudio menu\n",
     sep = ""
   ))
 }

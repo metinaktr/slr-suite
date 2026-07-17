@@ -4,7 +4,7 @@ Current version: **2.2.0**
 
 SLR Suite is an RStudio and Quarto workflow for transparent, traceable, and reproducible systematic literature reviews. It connects review protocols, ordered R analysis stages, validation evidence, and manuscript reporting in one versioned project.
 
-## Major improvements since v1.0.0.
+## Major improvements since v1.0.0
 
 - Added a portable UTF-8 RStudio project (`slr-suite.Rproj`) and explicit dependencies (`DESCRIPTION`).
 - Replaced the stateful launcher with isolated orchestration functions in `R/pipeline.R`.
