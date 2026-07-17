@@ -31,12 +31,12 @@ Rscript master_launcher.R run
 
 The launcher never clears the RStudio global workspace and never installs packages during analysis. Pipeline outcomes are appended to `logs/pipeline_runs.csv`; validation evidence is written to `artifacts/validation/`.
 
-## SoftwareX resubmission evidence
+## Software quality evidence
 
-- [Manuscript–code traceability](docs/submission/manuscript-code-traceability.md)
-- [Response to the editor and reviewers](docs/submission/response-to-reviewers.md)
-- [Pre-submission validation report](docs/submission/pre-submission-validation.md)
-- [Resubmission strategy](docs/submission/resubmission-strategy.md)
+- [Software–documentation traceability](docs/quality/software-documentation-traceability.md)
+- [Software quality improvements](docs/quality/software-quality-improvements.md)
+- [Release validation report](docs/quality/release-validation.md)
+- [Maintenance and release strategy](docs/quality/maintenance-strategy.md)
 
 GitHub Actions validates the locked installation, code quality, tests, bundled example, coverage, and structural evidence on Ubuntu, macOS, and Windows.
 

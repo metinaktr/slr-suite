@@ -10,14 +10,14 @@ checks <- list(
   screening_protocol = file.exists(file.path(root, "config", "screen_criteria.yaml")),
   example_input = file.exists(file.path(root, "data", "raw", "results.txt")),
   pipeline_steps = length(slr_steps(root)) >= 9L,
-  manuscript = file.exists(file.path(root, "docs", "paper", "manuscript.qmd")),
+  technical_paper = file.exists(file.path(root, "docs", "paper", "manuscript.qmd")),
   automated_tests = dir.exists(file.path(root, "tests", "testthat")),
   dependency_lock = file.exists(file.path(root, "renv.lock")),
   codemeta = file.exists(file.path(root, "codemeta.json")),
-  response_to_reviewers = file.exists(file.path(root, "docs", "submission", "response-to-reviewers.md")),
-  traceability_matrix = file.exists(file.path(root, "docs", "submission", "manuscript-code-traceability.md")),
-  validation_report = file.exists(file.path(root, "docs", "submission", "pre-submission-validation.md")),
-  resubmission_strategy = file.exists(file.path(root, "docs", "submission", "resubmission-strategy.md"))
+  quality_improvements = file.exists(file.path(root, "docs", "quality", "software-quality-improvements.md")),
+  traceability_matrix = file.exists(file.path(root, "docs", "quality", "software-documentation-traceability.md")),
+  release_validation = file.exists(file.path(root, "docs", "quality", "release-validation.md")),
+  maintenance_strategy = file.exists(file.path(root, "docs", "quality", "maintenance-strategy.md"))
 )
 
 report <- data.frame(

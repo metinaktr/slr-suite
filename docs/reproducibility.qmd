@@ -4,7 +4,7 @@ title: "Reproducibility and Experimental Validation"
 
 ## Protocol
 
-The validation gate checks the RStudio project, dependency manifest and lockfile, review protocol, screening criteria, bundled example input, numbered pipeline stages, automated tests, manuscript, publication metadata, traceability matrix, reviewer response, validation report, and resubmission strategy. GitHub Actions repeats the quality, unit, bundled-data end-to-end, coverage, and structural checks on Ubuntu, macOS, and Windows with R 4.5.1.
+The validation gate checks the RStudio project, dependency manifest and lockfile, review protocol, screening criteria, bundled example input, numbered pipeline stages, automated tests, technical documentation, software metadata, traceability, quality improvements, release validation, and maintenance strategy. GitHub Actions repeats the quality, unit, bundled-data end-to-end, coverage, and structural checks on Ubuntu, macOS, and Windows with R 4.5.1.
 
 ## Recorded evidence
 

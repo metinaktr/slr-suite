@@ -7,14 +7,14 @@ All notable changes to SLR Suite are documented here.
 ### Added
 
 - Added a bidirectional manuscript–code traceability matrix covering all executable modules.
-- Added a point-by-point response to reviewers, pre-submission validation report, and resubmission strategy.
+- Added a software quality improvements summary, release validation report, and maintenance strategy.
 - Added Ubuntu, macOS, and Windows validation jobs with per-platform evidence artifacts.
 - Added pull-request manuscript and documentation rendering before Pages deployment.
 
 ### Changed
 
 - Expanded the manuscript with the complete M1–M9 module inventory, installation contract, typed error behavior, and cross-platform validation method.
-- Extended structural validation to cover dependency locking, publication metadata, and the complete submission evidence package.
+- Extended structural validation to cover dependency locking, software metadata, and the complete quality evidence package.
 
 ## [2.1.0] - 2026-07-17
 
@@ -23,7 +23,7 @@ All notable changes to SLR Suite are documented here.
 - Locked the complete runtime and quality-tool dependency graph with `renv`.
 - Added typed, standardized pipeline errors with preserved parent conditions.
 - Added end-to-end orchestration tests, lint checks, and a 70% coverage quality gate.
-- Added CodeMeta and SoftwareX C1-C9 publication metadata.
+- Added CodeMeta and structured software metadata.
 
 ### Changed
 

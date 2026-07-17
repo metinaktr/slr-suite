@@ -15,16 +15,16 @@ website:
         text: Reproducibility
       - href: paper/manuscript.qmd
         text: Paper
-      - text: Submission evidence
+      - text: Quality evidence
         menu:
-          - href: submission/manuscript-code-traceability.md
-            text: Manuscript–code traceability
-          - href: submission/response-to-reviewers.md
-            text: Response to reviewers
-          - href: submission/pre-submission-validation.md
-            text: Validation report
-          - href: submission/resubmission-strategy.md
-            text: Resubmission strategy
+          - href: quality/software-documentation-traceability.md
+            text: Software–documentation traceability
+          - href: quality/software-quality-improvements.md
+            text: Quality improvements
+          - href: quality/release-validation.md
+            text: Release validation
+          - href: quality/maintenance-strategy.md
+            text: Maintenance strategy
 
 format:
   html:
