@@ -2,7 +2,7 @@
 
 Manuscript: *SLR Suite: A Reproducible RStudio Workflow for Systematic Literature Reviews*
 
-Software release evaluated: v2.1.0
+Software release evaluated: v2.2.0
 
 ## E3. Software maturity and SoftwareX standards — Critical
 
@@ -24,9 +24,9 @@ Software release evaluated: v2.1.0
 
 **Comment.** Raise the software version, apply Semantic Versioning, prepare a changelog, and publish a new release.
 
-**Response.** v2.1.0 was published from the tested `main` commit. Version identifiers are synchronized across project, citation, CodeMeta, and manuscript metadata. The changelog records additions, changes, and comparison links under Semantic Versioning.
+**Response.** v2.2.0 is published from the tested `main` commit. Version identifiers are synchronized across project, citation, CodeMeta, and manuscript metadata. The changelog records additions, changes, and comparison links under Semantic Versioning.
 
-**Files/evidence.** `VERSION`; `DESCRIPTION`; `CITATION.cff`; `codemeta.json`; `CHANGELOG.md`; GitHub Release `v2.1.0`. Manuscript p. 1, “Code metadata”.
+**Files/evidence.** `VERSION`; `DESCRIPTION`; `CITATION.cff`; `codemeta.json`; `CHANGELOG.md`; GitHub Release `v2.2.0`. Manuscript p. 1, “Code metadata”.
 
 ## E6. Verifiable response for every correction — Critical
 

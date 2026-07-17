@@ -1,6 +1,6 @@
 # Manuscript–Code Traceability Matrix
 
-This matrix is the authoritative bidirectional map for SLR Suite v2.1.0. Every executable analysis module is described in the manuscript, and every software claim in the manuscript is linked to an implementation and verification path.
+This matrix is the authoritative bidirectional map for SLR Suite v2.2.0. Every executable analysis module is described in the manuscript, and every software claim in the manuscript is linked to an implementation and verification path.
 
 ## Executable modules
 

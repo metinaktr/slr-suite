@@ -2,7 +2,7 @@
 
 ## Scope
 
-This protocol independently checks release v2.1.0 installation, code quality, the bundled example, complete CI-safe workflow, documentation, and reproducibility evidence. It distinguishes software verification from scientific validation of a review corpus.
+This protocol independently checks release v2.2.0 installation, code quality, the bundled example, complete CI-safe workflow, documentation, and reproducibility evidence. It distinguishes software verification from scientific validation of a review corpus.
 
 ## Controlled environment
 

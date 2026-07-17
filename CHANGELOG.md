@@ -2,7 +2,7 @@
 
 All notable changes to SLR Suite are documented here.
 
-## [Unreleased]
+## [2.2.0] - 2026-07-17
 
 ### Added
 
@@ -57,5 +57,5 @@ All notable changes to SLR Suite are documented here.
 
 [2.0.0]: https://github.com/metinaktr/slr-suite/compare/v1.0.0...v2.0.0
 [2.1.0]: https://github.com/metinaktr/slr-suite/compare/v2.0.0...v2.1.0
-[Unreleased]: https://github.com/metinaktr/slr-suite/compare/v2.1.0...HEAD
+[2.2.0]: https://github.com/metinaktr/slr-suite/compare/v2.1.0...v2.2.0
 [1.0.0]: https://github.com/metinaktr/slr-suite/releases/tag/v1.0.0

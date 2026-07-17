@@ -15,8 +15,8 @@ SLR Suite is an RStudio and Quarto workflow that links systematic-review protoco
 
 | SoftwareX field | Value |
 |---|---|
-| C1 Current code version | v2.1.0 |
-| C2 Permanent link to code | https://github.com/metinaktr/slr-suite/releases/tag/v2.1.0 |
+| C1 Current code version | v2.2.0 |
+| C2 Permanent link to code | https://github.com/metinaktr/slr-suite/releases/tag/v2.2.0 |
 | C3 Reproducible capsule | GitHub Actions runs and downloadable validation artifacts |
 | C4 Legal code license | MIT |
 | C5 Version-control system | Git |
