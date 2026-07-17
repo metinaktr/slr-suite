@@ -1,7 +1,7 @@
 Package: slrsuite
 Type: Project
 Title: Reproducible Systematic Literature Review Workflow
-Version: 2.1.0
+Version: 2.2.0
 Authors@R: person("Metin", "Akbulut", role = c("aut", "cre"))
 Description: An RStudio and Quarto workflow for transparent, traceable, and reproducible systematic literature reviews.
 License: MIT + file LICENSE

@@ -3,6 +3,7 @@ name: Quarto Site
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -29,10 +30,13 @@ jobs:
           test -d _site || (echo "_site was NOT created" && exit 1)
 
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
 
       - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/_site
 
       - uses: actions/deploy-pages@v5
+        if: github.event_name != 'pull_request'

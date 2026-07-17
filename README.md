@@ -1,6 +1,6 @@
 # SLR Suite
 
-Current version: **2.1.0**
+Current version: **2.2.0**
 
 SLR Suite is an RStudio and Quarto workflow for transparent, traceable, and reproducible systematic literature reviews. It connects review protocols, ordered R analysis stages, validation evidence, and manuscript reporting in one versioned project.
 
@@ -30,6 +30,15 @@ Rscript master_launcher.R run
 ```
 
 The launcher never clears the RStudio global workspace and never installs packages during analysis. Pipeline outcomes are appended to `logs/pipeline_runs.csv`; validation evidence is written to `artifacts/validation/`.
+
+## SoftwareX resubmission evidence
+
+- [Manuscript–code traceability](docs/submission/manuscript-code-traceability.md)
+- [Response to the editor and reviewers](docs/submission/response-to-reviewers.md)
+- [Pre-submission validation report](docs/submission/pre-submission-validation.md)
+- [Resubmission strategy](docs/submission/resubmission-strategy.md)
+
+GitHub Actions validates the locked installation, code quality, tests, bundled example, coverage, and structural evidence on Ubuntu, macOS, and Windows.
 
 ## Architecture
 
