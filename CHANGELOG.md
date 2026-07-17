@@ -2,7 +2,7 @@
 
 All notable changes to SLR Suite are documented here.
 
-## [2.0.0] - Unreleased
+## [2.0.0] - 2026-07-17
 
 ### Changed
 
@@ -27,5 +27,5 @@ All notable changes to SLR Suite are documented here.
 
 - Initial public release of SLR Suite.
 
-[2.0.0]: https://github.com/metinaktr/slr-suite/compare/v1.0.0...HEAD
+[2.0.0]: https://github.com/metinaktr/slr-suite/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/metinaktr/slr-suite/releases/tag/v1.0.0
