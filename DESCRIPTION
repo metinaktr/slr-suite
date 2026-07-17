@@ -1,0 +1,19 @@
+Package: slrsuite
+Type: Project
+Title: Reproducible Systematic Literature Review Workflow
+Version: 0.2.0
+Authors@R: person("Metin", "Akbulut", role = c("aut", "cre"))
+Description: An RStudio and Quarto workflow for transparent, traceable, and reproducible systematic literature reviews.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    bibliometrix,
+    dplyr,
+    here,
+    readr,
+    stringr,
+    tidyr
+Suggests:
+    testthat (>= 3.0.0),
+    yaml
+Config/testthat/edition: 3

@@ -1,0 +1,17 @@
+---
+title: "Reproducibility and Experimental Validation"
+---
+
+## Protocol
+
+The validation gate checks the RStudio project, dependency manifest, review protocol, screening criteria, bundled example input, numbered pipeline stages, automated tests, and manuscript. GitHub Actions repeats these checks on supported R versions.
+
+## Recorded evidence
+
+`experiments/run_validation.R` produces:
+
+- `artifacts/validation/structural_validation.csv`, with one Boolean result per check;
+- `artifacts/validation/session_summary.txt`, with R version, platform, UTC timestamp, and pass count;
+- `logs/pipeline_runs.csv`, with step status, start time, duration, and error details.
+
+These artifacts connect the documented method to an executable software state. They do not by themselves validate substantive review conclusions, which require domain-specific evaluation and independent replication.
