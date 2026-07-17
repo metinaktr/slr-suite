@@ -9,6 +9,7 @@ All notable changes to SLR Suite are documented here.
 - Added a bidirectional manuscript–code traceability matrix covering all executable modules.
 - Added a point-by-point response to reviewers, pre-submission validation report, and resubmission strategy.
 - Added Ubuntu, macOS, and Windows validation jobs with per-platform evidence artifacts.
+- Added pull-request manuscript and documentation rendering before Pages deployment.
 
 ### Changed
 

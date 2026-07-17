@@ -27,7 +27,7 @@ This protocol independently checks release v2.1.0 installation, code quality, th
 
 ## Recorded results
 
-Local Windows validation on 2026-07-17 passed 12/12 automated tests, the 24-file quality gate, bundled-data E2E execution, all structural checks, and 75.34% core coverage. PR and `main` validation for the v2.1.0 release passed on Ubuntu. The cross-platform matrix added after v2.1.0 is the release-candidate gate; its per-OS GitHub Actions results and downloadable `validation-evidence-*` artifacts are the authoritative independent record.
+Local Windows validation on 2026-07-17 passed 12/12 automated tests, the 24-file quality gate, bundled-data E2E execution, all structural checks, and 75.34% core coverage. The first three-platform release-candidate run ([GitHub Actions run 29580303142](https://github.com/metinaktr/slr-suite/actions/runs/29580303142)) passed on macOS (1 min 7 s), Ubuntu (1 min 23 s), and Windows (3 min 3 s). Its per-OS jobs and downloadable `validation-evidence-*` artifacts are the authoritative independent machine record. Quarto rendering is also required on pull requests before merge; deployment steps run only after a successful render on `main`.
 
 ## Installation rehearsal
 
@@ -43,4 +43,4 @@ The bundled data verifies software mechanics, not search completeness, dual-revi
 
 ## Sign-off rule
 
-Submission is blocked if any operating-system job fails, coverage falls below 70%, the manuscript and traceability matrix diverge, or the release tag does not identify the tested commit.
+Submission is blocked if any operating-system job fails, Quarto rendering fails, coverage falls below 70%, the manuscript and traceability matrix diverge, or the release tag does not identify the tested commit.
