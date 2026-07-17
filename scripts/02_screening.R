@@ -2,9 +2,6 @@
 # 02_screening.R
 # Title–Abstract Screening (DYNAMIC & PIPELINE-SAFE)
 # ==============================================================================
-
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(readr)
   library(dplyr)

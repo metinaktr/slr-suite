@@ -1,0 +1,9 @@
+C1_current_code_version: v2.1.0
+C2_permanent_repository: https://github.com/metinaktr/slr-suite/releases/tag/v2.1.0
+C3_reproducible_capsule: https://github.com/metinaktr/slr-suite/actions
+C4_legal_code_license: MIT
+C5_version_control_system: Git
+C6_languages_tools_services: R, RStudio, Quarto, GitHub Actions, renv
+C7_requirements: R >= 4.5; dependencies locked in renv.lock; Windows, macOS, or Linux
+C8_documentation: https://metinaktr.github.io/slr-suite/
+C9_support: https://github.com/metinaktr/slr-suite/issues

@@ -5,7 +5,7 @@ title: "User Guide"
 ## RStudio setup
 
 1. Clone the repository and open `slr-suite.Rproj` in RStudio.
-2. Install the packages listed in `DESCRIPTION`. The application never installs packages during a run.
+2. Install `renv` once and run `renv::restore()` to recreate the dependency versions recorded in `renv.lock`. The application never installs packages during a run.
 3. Place an exported Web of Science, Scopus, BibTeX, RIS, or CSV file in `data/raw/`.
 4. Review the YAML files in `config/` and record any protocol changes before analysis.
 5. Run `source("master_launcher.R")` for the interactive menu, or use `Rscript master_launcher.R run`.
@@ -15,6 +15,8 @@ Generated analysis files belong under `data/interim/` and `data/processed/`. Exe
 ## Validation
 
 Run `Rscript master_launcher.R validate` before reporting results. The command writes a machine-readable checklist and session summary to `artifacts/validation/`. Run `Rscript tests/testthat.R` for automated tests.
+
+For maintainer-level verification, also run `Rscript scripts/quality_gate.R`, `Rscript test_all.R`, and `Rscript scripts/coverage_gate.R`.
 
 ## Scope
 

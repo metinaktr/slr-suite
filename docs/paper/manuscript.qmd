@@ -11,6 +11,20 @@ format:
 
 SLR Suite is an RStudio and Quarto workflow that links systematic-review protocols, executable analysis stages, validation evidence, and reporting. This software revision replaces a stateful launcher with isolated orchestration functions, adds explicit dependency and project metadata, introduces automated structural tests, and records reproducibility evidence in machine-readable artifacts. The bundled example supports verification of the workflow mechanics; it is not presented as evidence for substantive literature-review conclusions.
 
+## Code metadata
+
+| SoftwareX field | Value |
+|---|---|
+| C1 Current code version | v2.1.0 |
+| C2 Permanent link to code | https://github.com/metinaktr/slr-suite/releases/tag/v2.1.0 |
+| C3 Reproducible capsule | GitHub Actions runs and downloadable validation artifacts |
+| C4 Legal code license | MIT |
+| C5 Version-control system | Git |
+| C6 Languages, tools, and services | R, RStudio, Quarto, GitHub Actions, renv |
+| C7 Requirements and dependencies | R >= 4.5; exact package versions in `renv.lock`; Windows, macOS, or Linux |
+| C8 Documentation | https://metinaktr.github.io/slr-suite/ |
+| C9 Support | Public issue tracker: https://github.com/metinaktr/slr-suite/issues; corresponding-author email supplied at submission |
+
 ## Introduction
 
 Systematic literature reviews require traceable decisions from search design through reporting. Earlier versions of SLR Suite combined scripts and documentation but did not provide a stable RStudio project contract, an explicit validation protocol, or a complete manuscript that described the executable architecture. This revision treats software, documentation, experimentation, and the paper as one research object.
@@ -21,11 +35,11 @@ The system has six layers: orchestration (`R/`), numbered analysis stages (`scri
 
 ## Methods
 
-The validation experiment checks eight repository invariants: RStudio metadata, dependency metadata, search and screening protocols, an example input, at least nine ordered analysis stages, automated tests, and the manuscript. The experiment records the runtime platform, R version, timestamp, and individual pass/fail outcomes. GitHub Actions runs the same validation and test entry points on each proposed change.
+The validation experiment checks eight repository invariants: RStudio metadata, dependency metadata, search and screening protocols, an example input, at least nine ordered analysis stages, automated tests, and the manuscript. The experiment records the runtime platform, R version, timestamp, and individual pass/fail outcomes. GitHub Actions restores the locked environment, parses all R sources, rejects runtime package installation and global-workspace clearing, runs unit and end-to-end tests, enforces core coverage, and uploads validation evidence.
 
 ## Results
 
-The revised repository supplies an RStudio project, reusable orchestration functions, regression tests, a deterministic validation command, CI automation, user documentation, architecture documentation, and this manuscript. Quantitative bibliometric results are intentionally not claimed here until a frozen corpus, preregistered parameter set, and independently checked outputs are available.
+The revised repository supplies an RStudio project, a complete `renv.lock`, typed error conditions, reusable orchestration functions, regression and end-to-end tests, lint and coverage quality gates, a deterministic validation command, CI automation, CodeMeta metadata, user documentation, architecture documentation, and this manuscript. Quantitative bibliometric results are intentionally not claimed here until a frozen corpus, preregistered parameter set, and independently checked outputs are available.
 
 ## Limitations
 

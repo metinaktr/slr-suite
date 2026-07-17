@@ -1,7 +1,4 @@
 # 08_future_agenda_SPAR.R
-
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(bibliometrix)
   library(dplyr)

@@ -1,6 +1,6 @@
 # SLR Suite
 
-Current version: **2.0.0**
+Current version: **2.1.0**
 
 SLR Suite is an RStudio and Quarto workflow for transparent, traceable, and reproducible systematic literature reviews. It connects review protocols, ordered R analysis stages, validation evidence, and manuscript reporting in one versioned project.
 
@@ -17,12 +17,14 @@ SLR Suite is an RStudio and Quarto workflow for transparent, traceable, and repr
 ## Quick start in RStudio
 
 1. Clone this repository and open `slr-suite.Rproj`.
-2. Install the packages declared in `DESCRIPTION`.
+2. Restore the exact dependency set with `install.packages("renv")` and `renv::restore()`.
 3. Put an export file in `data/raw/` and review the YAML protocol files in `config/`.
 4. Run `source("master_launcher.R")` for the menu, or run the commands below in the Terminal pane.
 
 ```sh
 Rscript tests/testthat.R
+Rscript scripts/quality_gate.R
+Rscript scripts/coverage_gate.R
 Rscript master_launcher.R validate
 Rscript master_launcher.R run
 ```

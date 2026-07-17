@@ -4,8 +4,6 @@
 # ==============================================================================
 
 # Hafızayı temizle (Sözlük dosyasını launcher yüklüyorsa burayı silebilirsin)
-# rm(list=ls()) 
-
 library(dplyr)
 library(readr)
 library(stringr)
