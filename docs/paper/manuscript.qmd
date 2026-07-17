@@ -33,13 +33,21 @@ Systematic literature reviews require traceable decisions from search design thr
 
 The system has six layers: orchestration (`R/`), numbered analysis stages (`scripts/`), protocol configuration (`config/`), evidence (`data/`), validation (`tests/` and `experiments/`), and reporting (`docs/`). Pipeline stages execute in isolated environments and append outcome records to a CSV log. Dependencies are declared before execution; the launcher does not mutate the user's global workspace or install packages at runtime.
 
+### Module inventory
+
+The nine ordered analysis modules are: M1 import and deduplication (`01_acquire_and_dedupe.R`); M2 protocol-driven screening (`02_screening.R`); M3 core bibliometric summaries (`03_biblio_analysis.R`); M4 VOSviewer network export (`04_vosviewer_export.R`); M5 theory–context–characteristics–methods matrix construction (`05_tccm_matrix.R`); M6 thematic evolution (`06_thematic_evolution.R`); M7 citation impact (`07_citation_impact.R`); M8 SPAR-oriented future-agenda aggregation (`08_future_agenda_SPAR.R`); and M9 PRISMA flow reporting (`09_prisma_flow.R`). Supporting modules define configuration dictionaries, VOSviewer thesaurus preparation, typed conditions, pipeline orchestration, quality gates, coverage measurement, and deterministic validation. The bidirectional mapping of modules, inputs, outputs, manuscript sections, and tests is maintained in `docs/submission/manuscript-code-traceability.md`.
+
+### Installation and error handling
+
+A user clones a tagged release, opens `slr-suite.Rproj`, installs `renv` once, and calls `renv::restore()` to reconstruct the package versions in `renv.lock`. No analysis stage installs packages. Missing dependencies raise a typed `slr_dependency_error`; missing paths and invalid arguments raise typed path or validation conditions; stage failures preserve the original parent condition and are recorded in the run log before the pipeline stops.
+
 ## Methods
 
-The validation experiment checks eight repository invariants: RStudio metadata, dependency metadata, search and screening protocols, an example input, at least nine ordered analysis stages, automated tests, and the manuscript. The experiment records the runtime platform, R version, timestamp, and individual pass/fail outcomes. GitHub Actions restores the locked environment, parses all R sources, rejects runtime package installation and global-workspace clearing, runs unit and end-to-end tests, enforces core coverage, and uploads validation evidence.
+The validation experiment checks repository invariants covering RStudio metadata, dependency metadata and lockfile, search and screening protocols, example input, ordered analysis stages, tests, manuscript, publication metadata, and submission evidence. It records the runtime platform, R version, timestamp, and individual pass/fail outcomes. GitHub Actions restores the locked environment on Ubuntu, macOS, and Windows with R 4.5.1; parses all R sources; rejects runtime package installation and global-workspace clearing; runs unit and bundled-data end-to-end tests; enforces at least 70% core coverage; and uploads separate validation evidence for each operating system.
 
 ## Results
 
-The revised repository supplies an RStudio project, a complete `renv.lock`, typed error conditions, reusable orchestration functions, regression and end-to-end tests, lint and coverage quality gates, a deterministic validation command, CI automation, CodeMeta metadata, user documentation, architecture documentation, and this manuscript. Quantitative bibliometric results are intentionally not claimed here until a frozen corpus, preregistered parameter set, and independently checked outputs are available.
+The revised repository supplies an RStudio project, a complete `renv.lock`, typed error conditions, reusable orchestration functions, regression and end-to-end tests, lint and coverage quality gates, a deterministic validation command, cross-platform CI automation, CodeMeta metadata, user and architecture documentation, a reviewer-response package, and this manuscript. Local release validation passed 12 automated tests and measured 75.34% coverage of the core orchestration layer. Authoritative platform results are the status and artifacts of the CI matrix attached to the evaluated commit. Quantitative bibliometric results are intentionally not claimed until a frozen corpus, preregistered parameter set, and independently checked outputs are available.
 
 ## Limitations
 
@@ -47,7 +55,7 @@ Structural validation establishes that declared components are present and execu
 
 ## Reproducibility and availability
 
-Open `slr-suite.Rproj`, install dependencies from `DESCRIPTION`, run `Rscript tests/testthat.R`, and then run `Rscript master_launcher.R validate`. Generated validation evidence is written under `artifacts/validation/`. Source code and version history are available from the project repository.
+Open `slr-suite.Rproj`, install `renv` once, run `renv::restore()`, execute `Rscript tests/testthat.R` and `Rscript test_all.R`, and then run `Rscript master_launcher.R validate`. Generated validation evidence is written under `artifacts/validation/`; CI publishes separate evidence bundles for Linux, macOS, and Windows. Source code, the traceability matrix, reviewer response, validation protocol, and version history are available from the project repository.
 
 ## Conclusion
 

@@ -2,6 +2,19 @@
 
 All notable changes to SLR Suite are documented here.
 
+## [Unreleased]
+
+### Added
+
+- Added a bidirectional manuscript–code traceability matrix covering all executable modules.
+- Added a point-by-point response to reviewers, pre-submission validation report, and resubmission strategy.
+- Added Ubuntu, macOS, and Windows validation jobs with per-platform evidence artifacts.
+
+### Changed
+
+- Expanded the manuscript with the complete M1–M9 module inventory, installation contract, typed error behavior, and cross-platform validation method.
+- Extended structural validation to cover dependency locking, publication metadata, and the complete submission evidence package.
+
 ## [2.1.0] - 2026-07-17
 
 ### Added
@@ -43,4 +56,5 @@ All notable changes to SLR Suite are documented here.
 
 [2.0.0]: https://github.com/metinaktr/slr-suite/compare/v1.0.0...v2.0.0
 [2.1.0]: https://github.com/metinaktr/slr-suite/compare/v2.0.0...v2.1.0
+[Unreleased]: https://github.com/metinaktr/slr-suite/compare/v2.1.0...HEAD
 [1.0.0]: https://github.com/metinaktr/slr-suite/releases/tag/v1.0.0
