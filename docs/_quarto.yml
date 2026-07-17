@@ -3,7 +3,20 @@ project:
 
 website:
   title: "SLR Suite"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - href: user-guide.qmd
+        text: User guide
+      - href: architecture.qmd
+        text: Architecture
+      - href: reproducibility.qmd
+        text: Reproducibility
+      - href: paper/manuscript.qmd
+        text: Paper
 
 format:
   html:
     theme: cosmo
+    toc: true

@@ -1,0 +1,9 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+logs/
+artifacts/
+data/interim/
+data/processed/
+docs/_site/

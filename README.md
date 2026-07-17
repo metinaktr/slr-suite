@@ -1,173 +1,60 @@
-﻿# SLR Suite
+# SLR Suite
 
-A lightweight, web-based support tool for conducting transparent and reproducible Systematic Literature Reviews (SLR). 
+Current development version: **2.0.0** (release candidate)
 
-SLR Suite is designed to help researchers structure, document, and transparently report the methodological stages of a systematic literature review. The tool focuses on methodological clarity rather than analytical interpretation and is intended for academic use in theses, journal articles, and research projects. 
+SLR Suite is an RStudio and Quarto workflow for transparent, traceable, and reproducible systematic literature reviews. It connects review protocols, ordered R analysis stages, validation evidence, and manuscript reporting in one versioned project.
 
+## What changed in the E2 redevelopment
 
-✨ Key Highlights 
+- Added a portable UTF-8 RStudio project (`slr-suite.Rproj`) and explicit dependencies (`DESCRIPTION`).
+- Replaced the stateful launcher with isolated orchestration functions in `R/pipeline.R`.
+- Added automated tests and a deterministic validation experiment.
+- Added user, architecture, and reproducibility documentation.
+- Added a Quarto manuscript whose claims match the current software and validation scope.
+- Added CI for R tests, validation artifacts, and Quarto rendering.
+- Removed the Windows-incompatible empty path named `data.`.
 
-📚 Supports core stages of Systematic Literature Reviews (SLR) 
+## Quick start in RStudio
 
-🧩 Improves methodological transparency and traceability 
+1. Clone this repository and open `slr-suite.Rproj`.
+2. Install the packages declared in `DESCRIPTION`.
+3. Put an export file in `data/raw/` and review the YAML protocol files in `config/`.
+4. Run `source("master_launcher.R")` for the menu, or run the commands below in the Terminal pane.
 
-📝 Produces method-section–ready documentation 
-
-🌍 Fully web-based — no installation required 
-
-🎓 Designed for academic research and graduate education 
-
-Important: SLR Suite does not analyze or interpret literature content. It supports the documentation of the review methodology. 
-
-🧭 What Is SLR Suite? 
-
-SLR Suite is an academic support tool developed to assist researchers in explicitly structuring and documenting the workflow of a systematic literature review. It enables users to record how research questions, search strategies, inclusion criteria, exclusion criteria, and review decisions are defined and applied. 
-
-Its primary aim is to enhance: 
-
-Reproducibility 
-
-Methodological rigor 
-
-Transparency of the review process 
-
-👥 Who Is It For? 
-
-SLR Suite is suitable for: 
-
-Academics and independent researchers 
-
-PhD and master’s students 
-
-Authors of systematic reviews or structured literature reviews 
-
-Research teams seeking transparent and auditable review procedures 
-
-This repository contains an end-to-end workflow designed for a systematic literature review (SLR):
-- Data acquisition and cleaning
-- Screening
-- Bibliometric analysis
-- VOSviewer export
-- TCCM matrix
-- Thematic evolution
-- Citation impact
-- Future research agenda with SPAR
-## DOI
-https://doi.org/10.5281/zenodo.19887817
-## Folder Structure
-```
-slr-suite/
-|-- README.md
-|-- LICENSE
-|-- CITATION.cff
-|-- .github/
-|   |-- workflows/
-|       |-- r-cmd-check.yaml
-|       |-- quarto-publish.yaml
-|-- ci/
-      |--03_biblio_core_ci.R
-|-- config/
-|   |-- search_protocol.yaml
-|   |-- screen_criteria.yaml
-|   |-- tccm_codebook.yaml
-|-- data/
-|   |-- raw/
-|   |-- interim/
-|   |-- processed/
-|-- scripts/
-|   |-- 01_acquire_and_dedupe.R
-|   |-- 02_screening.R
-|   |-- 03_biblio_analysis.R
-|   |-- 04_vosviewer_export.R
-|   |-- 05_tccm_matrix.R
-|   |-- 06_thematic_evolution.R
-|   |-- 07_citation_impact.R
-|   |-- 08_future_agenda_SPAR.R
-    |-- 09_prisma_flow.R
-|-- docs/
-|   |-- paper/
-|       |-- manuscript.qmd
-|       |-- references.bib
-|       |-- figures/
-|-- notebooks/
-|   |-- 00_playground.Rmd
+```sh
+Rscript tests/testthat.R
+Rscript master_launcher.R validate
+Rscript master_launcher.R run
 ```
 
- 
+The launcher never clears the RStudio global workspace and never installs packages during analysis. Pipeline outcomes are appended to `logs/pipeline_runs.csv`; validation evidence is written to `artifacts/validation/`.
 
-## Getting Started 
+## Architecture
 
+| Location | Purpose |
+|---|---|
+| `R/` | Reusable orchestration and path handling |
+| `scripts/` | Ordered analysis stages |
+| `config/` | Search, screening, and coding protocols |
+| `data/` | Raw, interim, and processed evidence |
+| `tests/` | Automated regression checks |
+| `experiments/` | Reproducibility validation |
+| `docs/` | User documentation and manuscript |
 
-No installation, registration, or configuration is required. 
+## Scientific scope
 
-Typical Use Workflow 
+SLR Suite supports data preparation and selected bibliometric outputs. It does not replace PRISMA or domain-specific review standards, and it does not validate search completeness, screening reliability, coding validity, or scientific interpretation. Researchers remain responsible for protocol design, screening decisions, synthesis, and conclusions.
 
-Define the scope and structure of the literature review 
+## Documentation and paper
 
-Document search strategies and selection decisions 
+The Quarto site under `docs/` contains the [user guide](docs/user-guide.qmd), [architecture](docs/architecture.qmd), [reproducibility protocol](docs/reproducibility.qmd), and [manuscript](docs/paper/manuscript.qmd).
 
-Use the generated structure in the methodology section of the study 
+## Citation
 
-Cite SLR Suite as a supporting methodological tool 
+Akbulut, M. (2026). *SLR Suite: A reproducible RStudio workflow for systematic literature reviews* [Computer software]. https://github.com/metinaktr/slr-suite
 
-## Core Capabilities 
+DOI: https://doi.org/10.5281/zenodo.19887817
 
-Structuring systematic review stages 
+## License
 
-Documenting inclusion and exclusion logic 
-
-Supporting method-section reporting 
-
-Reducing ambiguity in review procedures 
-
-SLR Suite can be used alongside established SLR guidelines such as: 
-
-## PRISMA 
-
-Kitchenham (2004, 2007) 
-
-Other domain-specific systematic review frameworks 
-
- ## How to Cite 
-
-If SLR Suite is used in an academic study, citation is recommended to ensure methodological transparency. 
-
-## APA (7th Edition) 
-
-1     Akbulut, M. (2026). *SLR Suite: A web-based support tool for systematic literature reviews* [Web application].https://github.com/metinaktr/slr-suite
-
-## In-text citation 
-
-(Akbulut, 2026) 
- Methodological Positioning 
-
-## SLR Suite: 
-
-✅ Supports the process of systematic reviews 
-
-✅ Enhances documentation and traceability 
-
-❌ Does NOT replace established SLR frameworks 
-
-❌ Does NOT perform screening, coding, synthesis, or analysis automatically 
-
-Researchers are encouraged to clearly state where and how SLR Suite was used in the methodology section of their studies. 
-🤝 Contributing & Feedback 
-
-Suggestions, issue reports, and improvement ideas are welcome. 
-
-You may contribute by: 
-
-> Reporting issues or bugs 
-
-> Suggesting enhancements 
-
-> Referencing SLR Suite in academic publications 
- 
-
-## License & Disclaimer 
-
-SLR Suite is provided as a methodological support tool. All scientific responsibility for the design, execution, and interpretation of the literature review remains with the researcher. 
-
- SLR Suite aims to make systematic literature reviews more explicit, traceable, and reproducible—especially in academic research contexts. 
- This project is licensed under the MIT License - see the LICENSE file for details.
+MIT License. See `LICENSE`.

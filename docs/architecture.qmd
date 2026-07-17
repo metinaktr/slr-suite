@@ -1,0 +1,16 @@
+---
+title: "Software Architecture"
+---
+
+SLR Suite separates orchestration, analysis, configuration, evidence, and reporting.
+
+| Layer | Location | Responsibility |
+|---|---|---|
+| Orchestration | `R/pipeline.R`, `master_launcher.R` | Discover and execute isolated pipeline steps; record outcomes |
+| Analysis | `scripts/` | Numbered, independently runnable transformations |
+| Protocol | `config/` | Search, screening, and coding decisions |
+| Evidence | `data/` | Raw input, interim decisions, and processed outputs |
+| Validation | `tests/`, `experiments/` | Regression checks and reproducibility evidence |
+| Reporting | `docs/` | User documentation and manuscript |
+
+Each step runs in a new environment. The launcher does not clear the user's global workspace or install packages. Failures stop the pipeline and are recorded with duration and error text.
