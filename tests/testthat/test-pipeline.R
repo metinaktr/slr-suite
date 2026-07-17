@@ -9,3 +9,9 @@ test_that("project root and numbered steps are discoverable", {
 test_that("missing scripts fail explicitly", {
   expect_error(slr_run_step("not-a-script.R"), "not found")
 })
+
+test_that("console menu accepts a numbered selection", {
+  input <- textConnection("2")
+  on.exit(close(input), add = TRUE)
+  expect_equal(slr_menu_select(c("First", "Exit"), input = input), 2L)
+})
