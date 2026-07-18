@@ -1,6 +1,6 @@
 # =====================================================
 # scripts/config_dictionaries.R
-# TCCM ve Bibliyometrik Analiz Sözlük Yapılandırması
+# TCCM and Bibliometric Analysis Dictionary Configuration
 # =====================================================
 
 TCCM_DICTIONARIES <- list(
@@ -41,4 +41,4 @@ TCCM_DICTIONARIES <- list(
   )
 )
 
-message(">> [CONFIG] Akademik sözlükler başarıyla yüklendi.")
+message(">> [CONFIG] Academic dictionaries were loaded successfully.")
