@@ -42,7 +42,7 @@ TE <- tryCatch({
   return(NULL)
 })
 
-# 4. Visualization (Sankey Diyagramı)
+# 4. Visualization (Sankey Diagram)
 if (!is.null(TE)) {
   png(file.path(OUT_DIR, "thematic_sankey.png"), width=2200, height=1400, res=220)
   # Let's add a label to the Sankey diagram
