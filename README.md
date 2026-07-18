@@ -29,6 +29,25 @@ Rscript master_launcher.R validate
 Rscript master_launcher.R run
 ```
 
+## Start SLR Suite on Windows, Linux, and macOS
+
+The same R codebase runs on all three supported operating systems. Windows includes a clickable launcher; Linux and macOS use the platform Terminal or the shared RStudio project.
+
+| Operating system | How to start SLR Suite |
+|---|---|
+| Windows | Double-click `SLR_Baslat.bat`, then select an option from 1 to 12. The launcher locates `Rscript.exe` automatically when R is installed in its standard location. |
+| Linux | Open a Terminal in the repository directory and run `Rscript master_launcher.R run`. |
+| macOS | Open Terminal in the repository directory and run `Rscript master_launcher.R run`. |
+| Any system with RStudio | Open `slr-suite.Rproj`, then run `source("master_launcher.R")` in the R console to display the interactive menu. |
+
+Before the first run on Linux or macOS, install R and restore the locked dependencies from the repository directory:
+
+```sh
+Rscript -e 'install.packages("renv", repos = "https://cloud.r-project.org"); renv::restore()'
+```
+
+Linux and macOS do not require a separate edition of SLR Suite or a platform-specific download. The `master_launcher.R` entry point and all analysis modules are shared across platforms. Automated GitHub Actions runs verify the project on Ubuntu, macOS, and Windows; their results are available on the repository's **Actions** page.
+
 The launcher never clears the RStudio global workspace and never installs packages during analysis. Pipeline outcomes are appended to `logs/pipeline_runs.csv`; validation evidence is written to `artifacts/validation/`.
 
 ## Software quality evidence
