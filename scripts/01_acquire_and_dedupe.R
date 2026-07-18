@@ -27,8 +27,8 @@ INTERIM_DIR <- here::here("data", "interim")
 
 cat(">> Step 1: Plain Text (Labeled) Data is being processed...\n")
 
-cat(">>> Proje kökü:", ROOT_DIR, "\n")
-cat(">>> RAW dizini :", RAW_DIR, "\n")
+cat(">>> Project root:", ROOT_DIR, "\n")
+cat(">>> RAW directory :", RAW_DIR, "\n")
 
 
 if (!dir.exists(INTERIM_DIR)) {
