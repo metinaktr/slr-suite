@@ -20,7 +20,7 @@ if (!dir.exists(DATA_OUT)) {
 }
 
 if (!file.exists(DATA_IN)) {
-  stop("❌ collection_screened.rds was not found. Run 02_screening.R first.")
+  stop("[ERROR] collection_screened.rds was not found. Run 02_screening.R first.")
 }
 
 M <- readRDS(DATA_IN)
@@ -53,7 +53,7 @@ if (
   (!"DE" %in% names(M) || all(is.na(M$DE))) &&
   (!"ID" %in% names(M) || all(is.na(M$ID)))
 ) {
-  cat("⚠ DE and ID are empty; keywords are being derived from the TI field.\n")
+  cat("[WARN] DE and ID are empty; keywords are being derived from the TI field.\n")
   M$DE <- as.character(M$TI)
 }
 
@@ -63,15 +63,15 @@ if (
 use_id   <- ("ID" %in% names(M)) && any(nzchar(M$ID))
 KW_FIELD <- if (use_id) "ID" else "DE"
 
-cat("✅ Active keyword field:", KW_FIELD, "\n")
+cat("[OK] Active keyword field:", KW_FIELD, "\n")
 
-# For bibliometrix compatibility, keywords are always stored in DE.: keyword'ler DAİMA DE'de bulunur
+# For bibliometrix compatibility, keywords are always stored in DE.
 if (KW_FIELD == "ID") {
   M$DE <- M$ID
 }
 
 if (all(is.na(M$DE))) {
-  stop("❌ No usable keyword field is available.")
+  stop("[ERROR] No usable keyword field is available.")
 }
 
 # ------------------------------------------------------------------
@@ -79,10 +79,10 @@ if (all(is.na(M$DE))) {
 # ------------------------------------------------------------------
 M <- M[grepl(";", M$DE), , drop = FALSE]
 
-cat(">>> Records eligible for co-occurrence analysis", nrow(M), "\n")
+cat(">>> Records eligible for co-occurrence analysis:", nrow(M), "\n")
 
 if (nrow(M) < 2) {
-  stop("❌ Co-occurrence analysis could not be generated: insufficient records.")
+  stop("[ERROR] Co-occurrence analysis could not be generated: insufficient records.")
 }
 
 # ------------------------------------------------------------------
@@ -100,10 +100,10 @@ pair_freq  <- table(pairs)
 valid_pairs <- names(pair_freq[pair_freq >= 2])
 
 if (length(valid_pairs) == 0) {
-  stop("❌ No keyword pair occurs in more than one document.")
+  stop("[ERROR] No keyword pair occurs in more than one document.")
 }
 
-cat("✅ Valid keyword pairs:", length(valid_pairs), "\n")
+cat("[OK] Valid keyword pairs:", length(valid_pairs), "\n")
 
 # ------------------------------------------------------------------
 # 4.3 Keyword frequency filter
@@ -124,11 +124,11 @@ M <- M[!is.na(M$DE), , drop = FALSE]
 cat(">>> Records remaining after frequency filtering:", nrow(M), "\n")
 
 if (nrow(M) < 2) {
-  stop("❌ Insufficient data remain for co-occurrence analysis.")
+  stop("[ERROR] Insufficient data remain for co-occurrence analysis.")
 }
 
 # ------------------------------------------------------------------
-# 5.Required data sanitization for bibliometrix
+# 5. Required data sanitization for bibliometrix
 # ------------------------------------------------------------------
 M$DE <- as.character(M$DE)
 M$DE <- unname(M$DE)
@@ -175,7 +175,7 @@ for (kw in keywords_list) {
 }
 
 # ------------------------------------------------------------------
-# 7. Sparse → Dense (VOSviewer)
+# 7. Sparse to dense conversion (VOSviewer)
 # ------------------------------------------------------------------
 if (inherits(NetMatrix, "dgCMatrix")) {
   cat(">>> Converting the sparse matrix to a dense matrix...\n")
@@ -183,7 +183,7 @@ if (inherits(NetMatrix, "dgCMatrix")) {
 }
 
 if (!is.matrix(NetMatrix)) {
-  stop("❌ The network object is not a matrix.")
+  stop("[ERROR] The network object is not a matrix.")
 }
 
 # ------------------------------------------------------------------
@@ -199,9 +199,9 @@ write.table(
   quote     = FALSE
 )
 
-cat("✅ VOSviewer export completed.\n")
-cat("📁 File:", OUT_FILE, "\n")
-cat("➡ VOSviewer: Create → Map based on network data → Read from file\n")
+cat("[OK] VOSviewer export completed.\n")
+cat("[FILE]", OUT_FILE, "\n")
+cat("VOSviewer: Create > Map based on network data > Read from file\n")
 
 # ------------------------------------------------------------------
 # 9. NETWORK SUMMARY (QUALITY CHECK)
@@ -212,15 +212,15 @@ num_keywords <- nrow(NetMatrix)
 num_links    <- sum(NetMatrix > 0) / 2
 total_weight <- sum(NetMatrix) / 2
 
-cat("🔹 Number of keywords    :", num_keywords, "\n")
-cat("🔹 Number of links    :", num_links, "\n")
-cat("🔹 Total link strength :", total_weight, "\n")
+cat("Number of keywords  :", num_keywords, "\n")
+cat("Number of links     :", num_links, "\n")
+cat("Total link strength :", total_weight, "\n")
 
 # The most central keywords (degree)
 kw_strength <- rowSums(NetMatrix)
 top_kw <- sort(kw_strength, decreasing = TRUE)[1:15]
 
-cat("🔝Top 15 keywords by strength:\n")
+cat("Top 15 keywords by strength:\n")
 print(top_kw)
 
 # ------------------------------------------------------------------
@@ -240,12 +240,12 @@ heatmap(
 # 11. THRESHOLD SENSITIVITY (OPTIONAL)
 # ------------------------------------------------------------------
 
-MIN_EDGE <- 2   # 2, 3 veya 4 denenebilir
+MIN_EDGE <- 2   # Try 2, 3, or 4 for sensitivity analysis.
 
 NetMatrix_thr <- NetMatrix
 NetMatrix_thr[NetMatrix_thr < MIN_EDGE] <- 0
 
-cat("🔸 Eşik sonrası bağ sayısı:",
+cat("Number of links after thresholding:",
     sum(NetMatrix_thr > 0) / 2, "\n")
 
 # ------------------------------------------------------------------
@@ -270,11 +270,11 @@ write.table(
   quote = FALSE
 )
 
-cat("✅ Edge list export edildi\n")
+cat("[OK] Edge list exported.\n")
 
 
 # ------------------------------------------------------------------
-# 9. NETWORK SUMMARY → FILE OUTPUT
+# 9. Network summary file output
 # ------------------------------------------------------------------
 
 summary_file <- file.path(DATA_OUT, "network_summary.txt")
@@ -290,19 +290,19 @@ sink(summary_file)
 
 cat("NETWORK SUMMARY\n")
 cat("=============================\n")
-cat("Keyword sayısı           :", num_keywords, "\n")
-cat("Bağlantı sayısı          :", num_links, "\n")
-cat("Toplam bağ ağırlığı      :", total_weight, "\n\n")
+cat("Number of keywords       :", num_keywords, "\n")
+cat("Number of links          :", num_links, "\n")
+cat("Total link strength      :", total_weight, "\n\n")
 
-cat("En güçlü 20 keyword (strength):\n")
+cat("Top 20 keywords by strength:\n")
 for (i in seq_along(top_kw)) {
   cat(names(top_kw)[i], ":", top_kw[i], "\n")
 }
 
 sink()
 
-cat("✅ Network summary written to file.\n")
-cat("📁 File:", summary_file, "\n")
+cat("[OK] Network summary written to file.\n")
+cat("[FILE]", summary_file, "\n")
 
 # ------------------------------------------------------------------
 # 10. HEATMAP EXPORT (PNG)
@@ -328,5 +328,5 @@ heatmap(
 
 dev.off()
 
-cat("✅ Heatmap file created.\n")
-cat("📁 File:", heatmap_file, "\n")
+cat("[OK] Heatmap file created.\n")
+cat("[FILE]", heatmap_file, "\n")
