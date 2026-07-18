@@ -4,7 +4,7 @@ library(dplyr)
 library(readr)
 
 # 1. Veri Okuma ve Hazırlık
-df <- read_csv("data/interim/screened.csv")
+df <- read_csv("data/interim/collection_screened.csv")
 df <- as.data.frame(df) # bibliometrix için klasik data.frame şart
 
 OUT_DIR <- "data/processed/thematic"

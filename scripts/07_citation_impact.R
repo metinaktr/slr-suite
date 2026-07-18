@@ -3,7 +3,7 @@ library(bibliometrix)
 library(dplyr)
 library(readr)
 
-df <- read_csv("data/interim/screened.csv")
+df <- read_csv("data/interim/collection_screened.csv")
 
 cit <- citations(df, field="article", sep=";")
 

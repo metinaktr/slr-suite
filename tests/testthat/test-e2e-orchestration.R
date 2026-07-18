@@ -15,3 +15,23 @@ test_that("multiple steps execute end to end in isolated environments", {
   expect_true(file.exists(file.path(root, "stage-2.txt")))
   expect_true(file.exists(file.path(root, "logs", "pipeline_runs.csv")))
 })
+
+test_that("screening output contract is shared by downstream modules", {
+  root <- slr_project_root()
+  producer <- paste(
+    readLines(file.path(root, "scripts", "02_screening.R"), warn = FALSE),
+    collapse = "\n"
+  )
+  expect_match(producer, "collection_screened[.]csv")
+
+  consumers <- c(
+    "scripts/05_tccm_matrix.R",
+    "scripts/06_thematic_evolution.R",
+    "scripts/07_citation_impact.R"
+  )
+  content <- vapply(consumers, function(path) {
+    paste(readLines(file.path(root, path), warn = FALSE), collapse = "\n")
+  }, character(1))
+  expect_true(all(grepl("collection_screened[.]csv", content)))
+  expect_false(any(grepl("data/interim/screened[.]csv", content, fixed = FALSE)))
+})
