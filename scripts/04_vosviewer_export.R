@@ -7,10 +7,10 @@ suppressPackageStartupMessages({
   library(Matrix)
 })
 
-cat(">>> VOSviewer Export başlatılıyor...\n")
+cat(">>> Starting VOSviewer export...\n")
 
 # ------------------------------------------------------------------
-# 1. Girdi / Çıktı
+# 1. Input / Output
 # ------------------------------------------------------------------
 DATA_IN  <- "data/interim/collection_screened.rds"
 DATA_OUT <- "data/processed"
@@ -20,13 +20,13 @@ if (!dir.exists(DATA_OUT)) {
 }
 
 if (!file.exists(DATA_IN)) {
-  stop("❌ collection_screened.rds bulunamadı. Önce 02_screening.R çalıştırın.")
+  stop("❌ collection_screened.rds was not found. Run 02_screening.R first.")
 }
 
 M <- readRDS(DATA_IN)
 
 # ------------------------------------------------------------------
-# 2. KORUYUCU TEMİZLİK (HER ŞEY CHARACTER)
+# 2. Defensive cleaning (convert all fields to character)
 # ------------------------------------------------------------------
 safe_char <- function(x, n) {
   if (is.null(x)) return(rep(NA_character_, n))
@@ -47,46 +47,46 @@ if ("DE" %in% names(M)) M$DE <- safe_char(M$DE, n)
 if ("ID" %in% names(M)) M$ID <- safe_char(M$ID, n)
 
 # ------------------------------------------------------------------
-# 3. FALLBACK (DE + ID yoksa)
+# 3. FALLBACK (If DE and ID are unavailable)
 # ------------------------------------------------------------------
 if (
   (!"DE" %in% names(M) || all(is.na(M$DE))) &&
   (!"ID" %in% names(M) || all(is.na(M$ID)))
 ) {
-  cat("⚠ DE ve ID boş → TI alanından keyword türetiliyor\n")
+  cat("⚠ DE and ID are empty; keywords are being derived from the TI field.\n")
   M$DE <- as.character(M$TI)
 }
 
 # ------------------------------------------------------------------
-# 4. TEK AKTİF KEYWORD ALANI (TEK VE SON)
+# 4. Single active keyword field
 # ------------------------------------------------------------------
 use_id   <- ("ID" %in% names(M)) && any(nzchar(M$ID))
 KW_FIELD <- if (use_id) "ID" else "DE"
 
-cat("✅ Aktif keyword alanı:", KW_FIELD, "\n")
+cat("✅ Active keyword field:", KW_FIELD, "\n")
 
-# bibliometrix güvenliği: keyword'ler DAİMA DE'de bulunur
+# For bibliometrix compatibility, keywords are always stored in DE.: keyword'ler DAİMA DE'de bulunur
 if (KW_FIELD == "ID") {
   M$DE <- M$ID
 }
 
 if (all(is.na(M$DE))) {
-  stop("❌ Kullanılabilir keyword alanı yok.")
+  stop("❌ No usable keyword field is available.")
 }
 
 # ------------------------------------------------------------------
-# 4.1 CO-OCCURRENCE İÇİN ASGARİ ŞART
+# 4.1 Minimum requirement for co-occurrence analysis
 # ------------------------------------------------------------------
 M <- M[grepl(";", M$DE), , drop = FALSE]
 
-cat(">>> Co-occurrence için uygun kayıt:", nrow(M), "\n")
+cat(">>> Records eligible for co-occurrence analysis", nrow(M), "\n")
 
 if (nrow(M) < 2) {
-  stop("❌ Co-occurrence üretilemedi: Yetersiz kayıt.")
+  stop("❌ Co-occurrence analysis could not be generated: insufficient records.")
 }
 
 # ------------------------------------------------------------------
-# 4.2 GERÇEK CO-OCCURRENCE FİLTRESİ
+# 4.2 Actual co-occurrence filter
 # ------------------------------------------------------------------
 pairs <- unlist(
   lapply(strsplit(M$DE, ";"), function(x) {
@@ -100,19 +100,19 @@ pair_freq  <- table(pairs)
 valid_pairs <- names(pair_freq[pair_freq >= 2])
 
 if (length(valid_pairs) == 0) {
-  stop("❌ Aynı keyword çifti birden fazla dokümanda tekrar etmiyor.")
+  stop("❌ No keyword pair occurs in more than one document.")
 }
 
-cat("✅ Geçerli keyword çiftleri:", length(valid_pairs), "\n")
+cat("✅ Valid keyword pairs:", length(valid_pairs), "\n")
 
 # ------------------------------------------------------------------
-# 4.3 KEYWORD FREKANS FİLTRESİ
+# 4.3 Keyword frequency filter
 # ------------------------------------------------------------------
 kw_freq <- table(trimws(unlist(strsplit(M$DE, ";"))))
 kw_freq <- sort(kw_freq, decreasing = TRUE)
 
 valid_kw <- names(kw_freq[kw_freq >= 2])
-cat(">>> Geçerli keyword sayısı:", length(valid_kw), "\n")
+cat(">>> Number of valid keywords:", length(valid_kw), "\n")
 
 M$DE <- sapply(strsplit(M$DE, ";"), function(x) {
   x <- intersect(trimws(x), valid_kw)
@@ -121,14 +121,14 @@ M$DE <- sapply(strsplit(M$DE, ";"), function(x) {
 
 M <- M[!is.na(M$DE), , drop = FALSE]
 
-cat(">>> Frekans filtresi sonrası kayıt:", nrow(M), "\n")
+cat(">>> Records remaining after frequency filtering:", nrow(M), "\n")
 
 if (nrow(M) < 2) {
-  stop("❌ Co-occurrence için yeterli veri kalmadı.")
+  stop("❌ Insufficient data remain for co-occurrence analysis.")
 }
 
 # ------------------------------------------------------------------
-# 5. BIBLIOMETRIX İÇİN ZORUNLU STERİLİZASYON
+# 5.Required data sanitization for bibliometrix
 # ------------------------------------------------------------------
 M$DE <- as.character(M$DE)
 M$DE <- unname(M$DE)
@@ -178,12 +178,12 @@ for (kw in keywords_list) {
 # 7. Sparse → Dense (VOSviewer)
 # ------------------------------------------------------------------
 if (inherits(NetMatrix, "dgCMatrix")) {
-  cat(">>> Sparse → dense matrix dönüştürülüyor...\n")
+  cat(">>> Converting the sparse matrix to a dense matrix...\n")
   NetMatrix <- as.matrix(NetMatrix)
 }
 
 if (!is.matrix(NetMatrix)) {
-  stop("❌ Network matrisi matrix değil.")
+  stop("❌ The network object is not a matrix.")
 }
 
 # ------------------------------------------------------------------
@@ -199,28 +199,28 @@ write.table(
   quote     = FALSE
 )
 
-cat("✅ VOSviewer export TAMAMLANDI\n")
-cat("📁 Dosya:", OUT_FILE, "\n")
+cat("✅ VOSviewer export completed.\n")
+cat("📁 File:", OUT_FILE, "\n")
 cat("➡ VOSviewer: Create → Map based on network data → Read from file\n")
 
 # ------------------------------------------------------------------
 # 9. NETWORK SUMMARY (QUALITY CHECK)
 # ------------------------------------------------------------------
 
-# Temel istatistikler
+# Basic statistics
 num_keywords <- nrow(NetMatrix)
 num_links    <- sum(NetMatrix > 0) / 2
 total_weight <- sum(NetMatrix) / 2
 
-cat("🔹 Keyword sayısı      :", num_keywords, "\n")
-cat("🔹 Bağlantı sayısı     :", num_links, "\n")
-cat("🔹 Toplam bağ ağırlığı :", total_weight, "\n")
+cat("🔹 Number of keywords    :", num_keywords, "\n")
+cat("🔹 Number of links    :", num_links, "\n")
+cat("🔹 Total link strength :", total_weight, "\n")
 
-# En merkez keyword’ler (degree)
+# The most central keywords (degree)
 kw_strength <- rowSums(NetMatrix)
 top_kw <- sort(kw_strength, decreasing = TRUE)[1:15]
 
-cat("🔝 En güçlü 15 keyword:\n")
+cat("🔝Top 15 keywords by strength:\n")
 print(top_kw)
 
 # ------------------------------------------------------------------
@@ -301,8 +301,8 @@ for (i in seq_along(top_kw)) {
 
 sink()
 
-cat("✅ Network summary dosyaya yazıldı\n")
-cat("📁 Dosya:", summary_file, "\n")
+cat("✅ Network summary written to file.\n")
+cat("📁 File:", summary_file, "\n")
 
 # ------------------------------------------------------------------
 # 10. HEATMAP EXPORT (PNG)
@@ -328,5 +328,5 @@ heatmap(
 
 dev.off()
 
-cat("✅ Heatmap dosyası oluşturuldu\n")
-cat("📁 Dosya:", heatmap_file, "\n")
+cat("✅ Heatmap file created.\n")
+cat("📁 File:", heatmap_file, "\n")
