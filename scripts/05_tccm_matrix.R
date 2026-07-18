@@ -14,7 +14,7 @@ library(bibliometrix)
 library(here)
 
 # 1. Upload External Dictionary
-# Eğer Launcher üzerinden çalışmıyorsa burada yükle:
+# If it doesn't work through the Launcher, download it here:
 if (!exists("TCCM_DICTIONARIES")) {
   source(here("scripts", "config_dictionaries.R"))
 }
