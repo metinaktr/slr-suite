@@ -1,6 +1,6 @@
 # ==============================================================================
 # 09_prisma_flow.R
-# PRISMA 2020 Flow Diagram - Otomatik Sayım & Görselleştirme
+# PRISMA 2020 Flow Diagram - Automated Counting & Visualization
 # ==============================================================================
 
 library(dplyr)
@@ -16,7 +16,7 @@ PROC_DIR    <- file.path(ROOT, "data", "processed")
 
 if (!dir.exists(PROC_DIR)) dir.create(PROC_DIR, recursive = TRUE)
 
-cat(">> PRISMA 2020 sayımları başlıyor...\n")
+cat(">> PRISMA 2020 surveys are beginning...\n")
 
 # --------------------------------------------------
 # 1. Identification
@@ -32,7 +32,7 @@ records_after_dedup <- nrow(dedup)
 # --------------------------------------------------
 # 2. Screening
 # --------------------------------------------------
-# varsayım: 02_screening.R → collection_screened.csv üretir
+# assumption: 02_screening.R → collection_screened.csv üretir
 screened_file <- file.path(INTERIM_DIR, "collection_screened.csv")
 
 if (!file.exists(screened_file)) {
@@ -47,7 +47,7 @@ records_excluded_title_abstract <- records_after_dedup - nrow(screened)
 # --------------------------------------------------
 # 3. Eligibility (Full-text) – opsiyonel
 # --------------------------------------------------
-# full-text tarama yoksa screening = eligibility kabul edilir
+# If there is no full-text search, "screening" is considered equivalent to "eligibility"
 records_assessed_fulltext <- nrow(screened)
 records_excluded_fulltext <- 0
 
@@ -57,7 +57,7 @@ records_excluded_fulltext <- 0
 records_included <- nrow(screened)
 
 # --------------------------------------------------
-# 5. PRISMA Tablosu (CSV)
+# 5. PRISMA Table (CSV)
 # --------------------------------------------------
 prisma_counts <- tibble(
   Step = c(
@@ -119,4 +119,4 @@ DiagrammeRsvg::export_svg(prisma_diagram) |>
   charToRaw() |>
   rsvg::rsvg_png(file.path(PROC_DIR, "PRISMA_2020_flow.png"))
 
-cat("✅ PRISMA 2020 diyagramı üretildi: data/processed/PRISMA_2020_flow.png\n")
+cat("✅ The PRISMA 2020 diagram has been generated: data/processed/PRISMA_2020_flow.png\n")
