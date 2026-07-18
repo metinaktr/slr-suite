@@ -20,7 +20,7 @@ if (!exists("TCCM_DICTIONARIES")) {
 }
 
 # 2. VERİ YÜKLEME VE HAZIRLIK
-df <- read_csv(here("data", "interim", "screened.csv"))
+df <- read_csv(here("data", "interim", "collection_screened.csv"))
 
 OUT_DIR <- here("data", "processed", "tccm")
 if (!dir.exists(OUT_DIR)) dir.create(OUT_DIR, recursive = TRUE)
