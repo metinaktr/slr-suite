@@ -13,7 +13,7 @@ suppressPackageStartupMessages({
 cat(">> Starting CI tests for SLR-Suite\n")
 
 # --------------------------------------------------
-# DEBUG / CONTEXT (bilgi amaçlı)
+# DEBUG / CONTEXT (for informational purposes)
 # --------------------------------------------------
 cat("getwd() :", getwd(), "\n")
 cat("here()  :", here::here(), "\n")
