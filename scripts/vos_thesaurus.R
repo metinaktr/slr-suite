@@ -4,10 +4,10 @@ library(stringr)
 library(tidyr)
 library(here)
 
-# Screening sonrası veri
+# Post-screening data
 M <- readRDS(here::here("data","interim","collection_screened.rds"))
 
-# Keyword havuzu
+# Keyword pool
 kw <- M %>%
   select(DE, ID) %>%
   pivot_longer(everything(), values_to = "kw") %>%
@@ -21,12 +21,12 @@ kw <- M %>%
       str_squish()
   )
 
-# En sık geçenler
+# Most Frequent Terms
 top_kw <- kw %>%
   count(kw, kw_norm, sort = TRUE) %>%
   filter(n >= 5)
 
-# Thesaurus formatı
+# Thesaurus format
 thesaurus <- top_kw %>%
   transmute(
     label = kw,
@@ -34,10 +34,10 @@ thesaurus <- top_kw %>%
   ) %>%
   distinct()
 
-# Kaydet
+# Save
 write_tsv(
   thesaurus,
   here::here("data","processed","vos_thesaurus.txt")
 )
 
-cat("✅ Thesaurus taslağı üretildi: data/processed/vos_thesaurus.txt\n")
+cat("✅ A thesaurus draft has been created: data/processed/vos_thesaurus.txt\n")
