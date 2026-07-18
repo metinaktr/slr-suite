@@ -8,10 +8,10 @@ suppressPackageStartupMessages({
   library(here)
 })
 
-cat(">>> 02_screening başlatıldı\n")
+cat(">>> 02_Screening has begun\n")
 
 # --------------------------------------------------
-# 1. Dinamik Yollar
+# 1. Dynamic Paths
 # --------------------------------------------------
 INTERIM_DIR <- here::here("data", "interim")
 
@@ -20,16 +20,16 @@ OUT_RDS  <- file.path(INTERIM_DIR, "collection_screened.rds")
 OUT_CSV  <- file.path(INTERIM_DIR, "collection_screened.csv")
 
 if (!file.exists(IN_FILE)) {
-  stop("❌ cleaned_dedup.csv bulunamadı. Önce 01_acquire_and_dedupe.R çalıştırın.")
+  stop("❌ cleaned_dedup.csv was not found. Run 01_acquire_and_dedupe.R first.")
 }
 
 # --------------------------------------------------
-# 2. Veri Yükleme
+# 2. Data Upload
 # --------------------------------------------------
 df <- read_csv(IN_FILE, show_col_types = FALSE)
 names(df) <- toupper(names(df))
 
-cat(">>> Girdi kayıt sayısı:", nrow(df), "\n")
+cat(">>> Number of entries:", nrow(df), "\n")
 
 # --------------------------------------------------
 # 3. Title–Abstract Screening (BASIC)
@@ -40,7 +40,7 @@ screened <- df %>%
     !is.na(AB), nzchar(AB)
   )
 
-cat(">>> Screening sonrası kayıt sayısı:", nrow(screened), "\n")
+cat(">>> Number of registrations following screening:", nrow(screened), "\n")
 
 # --------------------------------------------------
 # 4. KAYIT (PIPELINE STANDARD)
@@ -48,6 +48,6 @@ cat(">>> Screening sonrası kayıt sayısı:", nrow(screened), "\n")
 saveRDS(screened, OUT_RDS)
 write_csv(screened, OUT_CSV)
 
-cat("✅ Screening tamamlandı\n")
+cat("✅ Screening is complete\n")
 cat("📁 RDS :", OUT_RDS, "\n")
 cat("📁 CSV :", OUT_CSV, "\n")
