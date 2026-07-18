@@ -36,7 +36,7 @@ records_after_dedup <- nrow(dedup)
 screened_file <- file.path(INTERIM_DIR, "collection_screened.csv")
 
 if (!file.exists(screened_file)) {
-  stop("❌ Screening çıktısı bulunamadı: collection_screened.csv")
+  stop("❌ No screening results found: collection_screened.csv")
 }
 
 screened <- read_csv(screened_file, show_col_types = FALSE)
@@ -45,7 +45,7 @@ records_screened <- nrow(dedup)
 records_excluded_title_abstract <- records_after_dedup - nrow(screened)
 
 # --------------------------------------------------
-# 3. Eligibility (Full-text) – opsiyonel
+# 3. Eligibility (Full-text) – optional
 # --------------------------------------------------
 # If there is no full-text search, "screening" is considered equivalent to "eligibility"
 records_assessed_fulltext <- nrow(screened)
@@ -81,7 +81,7 @@ prisma_counts <- tibble(
 )
 
 write_csv(prisma_counts, file.path(PROC_DIR, "prisma_counts.csv"))
-cat("✓ prisma_counts.csv oluşturuldu\n")
+cat("✓ prisma_counts.csv has been created\n")
 
 # --------------------------------------------------
 # 6. PRISMA 2020 Flow Diagram (DiagrammeR)
@@ -114,7 +114,7 @@ records_assessed_fulltext,
 records_included
 )) -> prisma_diagram
 
-# Kaydet
+# Save
 DiagrammeRsvg::export_svg(prisma_diagram) |>
   charToRaw() |>
   rsvg::rsvg_png(file.path(PROC_DIR, "PRISMA_2020_flow.png"))
