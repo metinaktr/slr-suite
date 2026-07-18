@@ -1,5 +1,5 @@
 # ==============================================================================
-# 01_acquire_and_dedupe.R (WoS Plaintext Etiketli Format İçin)
+# 01_acquire_and_dedupe.R (For the WoS Plaintext-Tagged Format)
 # ==============================================================================
 suppressPackageStartupMessages({
   library(bibliometrix)
@@ -8,24 +8,24 @@ suppressPackageStartupMessages({
   library(here)
 })
 
-cat(">>> 01_acquire_and_dedupe başlatıldı\n")
+cat(">>> 01_acquire_and_dedupe has been started\n")
 
 
 # --------------------------------------------------
-# 1. Mod Tespiti (CI mi Yerel mi?)
+# 1. Mode Detection (CI or Local?)
 # --------------------------------------------------
 CI_MODE <- tolower(Sys.getenv("CI")) == "true"
 
 
 # --------------------------------------------------
-# 2. DİNAMİK DİZİNLER (İŞİN ÖZÜ BURASI)
+# 2. DYNAMIC ARRAYS (THIS IS THE CRUX OF THE MATTER)
 # --------------------------------------------------
 ROOT_DIR    <- here::here()
 RAW_DIR     <- here::here("data", "raw")
 INTERIM_DIR <- here::here("data", "interim")
 
 
-cat(">> Adım 1: Plain Text (Etiketli) Veri işleniyor...\n")
+cat(">> Step 1: Plain Text (Labeled) Data is being processed...\n")
 
 cat(">>> Proje kökü:", ROOT_DIR, "\n")
 cat(">>> RAW dizini :", RAW_DIR, "\n")
@@ -36,7 +36,7 @@ if (!dir.exists(INTERIM_DIR)) {
 }
 
 
-# 2. Dosya Listeleme
+# 2. File Listing
 # ----------------------------
 input_files <- list.files(
   "data/raw",
@@ -51,53 +51,53 @@ if (length(input_files) == 0) {
 # 3. WoS Plaintext Okuma Fonksiyonu
 # ----------------------------
 read_slr_data <- function(file_path) {
-  message(">> Okunuyor: ", basename(file_path))
+  message(">> Being read: ", basename(file_path))
   
-  # Verinin ilk satırına bakarak formatı anlayalım
+  # Let's look at the first row of the data to understand the format
   first_line <- readLines(file_path, n = 1, warn = FALSE)
   
-  # Eğer dosya "FN " (Web of Science etiketi) ile başlıyorsa bibliometrix kullan
+  # If the file starts with "FN " (Web of Science tag), use Bibliometrix
   if (grepl("^FN ", first_line)) {
-    # convert2df: Alt alta olan etiketli satırları (TI, AU, AB vb.) 
-    # tek bir satırda birleştirerek tabloya dönüştürür [cite: 1, 8, 33, 519]
+    # convert2df: Lines with labels that are one below the other (TI, AU, AB vb.) 
+    # combines them into a single line and converts them into a table [cite: 1, 8, 33, 519]
     df <- convert2df(file = file_path, dbsource = "wos", format = "plaintext")
   } else {
-    # Eğer dosya zaten tabloysa (CSV) standart oku
+    # If the file is already a table (CSV), use the standard read function
     df <- read_csv(file_path, col_types = cols(.default = "c"), trim_ws = TRUE)
   }
   
-  # Sütun isimlerini büyük harf yap (UT, TI, DI standardı için)
+  # Capitalize the column names (for the UT, TI, and DI standards)
   names(df) <- toupper(trimws(names(df)))
   return(df)
 }
 
-# 4. Verileri Birleştir ve Tekilleştir
+# 4. Merge and Dedupe Data
 # ----------------------------
-# bibliometrix bazen list-column dönebilir, bind_rows ile düzeltiyoruz
+# Bibliometrix sometimes returns a list-column; we fix this using `bind_rows`.
 df_list <- lapply(input_files, read_slr_data)
 merged <- bind_rows(lapply(df_list, as.data.frame))
 
-# ID Sütunu Belirleme (WoS Plaintext sonrası UT mutlaka oluşur )
+# Identifying the ID Column (UT is always generated after WoS Plaintext)
 priority_cols <- c("UT", "DI", "TI")
 id_col <- intersect(priority_cols, names(merged))[1]
 
 if (is.na(id_col)) {
-  cat("Mevcut Sütunlar:", paste(names(merged), collapse = ", "), "\n")
-  stop("❌ Hata: Kayıtları ayırmak için gereken kimlik sütunları bulunamadı.")
+  cat("Current Columns:", paste(names(merged), collapse = ", "), "\n")
+  stop("❌ Error: The identity columns required to distinguish the records could not be found.")
 }
 
-cat(">> Tekilleştirme anahtarı:", id_col, "\n")
+cat(">> Deduplication key:", id_col, "\n")
 
-# Tekilleştirme: Mükerrer makaleleri temizle
+# Deduplication: Remove duplicate articles
 dedup <- merged %>%
   filter(!is.na(.data[[id_col]])) %>%
   distinct(.data[[id_col]], .keep_all = TRUE)
 
-# 5. Kayıt
+# 5. Save
 # ----------------------------
 write_csv(dedup, file.path(INTERIM_DIR, "cleaned_dedup.csv"))
 
-cat("✅ İşlem Başarıyla Tamamlandı!\n")
-cat("- Orijinal kayıt sayısı:", nrow(merged), "\n")
-cat("- Tekilleştirilmiş (Benzersiz) kayıt sayısı:", nrow(dedup), "\n")
-cat("- Kayıt konumu: data/interim/cleaned_dedup.csv\n")
+cat("✅ Transaction Completed Successfully!\n")
+cat("- Number of original records:", nrow(merged), "\n")
+cat("- Number of deduplicated (unique) records:", nrow(dedup), "\n")
+cat("- Saving location: data/interim/cleaned_dedup.csv\n")
