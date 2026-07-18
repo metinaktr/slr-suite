@@ -32,7 +32,7 @@ records_after_dedup <- nrow(dedup)
 # --------------------------------------------------
 # 2. Screening
 # --------------------------------------------------
-# assumption: 02_screening.R → collection_screened.csv üretir
+# assumption: 02_screening.R → produces collection_screened.csv
 screened_file <- file.path(INTERIM_DIR, "collection_screened.csv")
 
 if (!file.exists(screened_file)) {
