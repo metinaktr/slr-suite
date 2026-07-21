@@ -30,12 +30,12 @@ print(list.files(RAW_DIR, all.files = TRUE))
 CI_SCRIPT <- here::here("ci", "03_biblio_core_ci.R")
 
 if (!file.exists(CI_SCRIPT)) {
-  stop("❌ CI script not found: ", CI_SCRIPT)
+  stop("[ERROR] CI script not found: ", CI_SCRIPT)
 }
 
 source(CI_SCRIPT)
 
-cat("✅ Core CI script sourced successfully\n")
+cat("[OK] Core CI script sourced successfully.\n")
 
 # --------------------------------------------------
 # Validate expected outputs (WORKDIR-INDEPENDENT)
@@ -49,9 +49,9 @@ missing_files <- expected_files[!file.exists(expected_files)]
 
 if (length(missing_files) > 0) {
   stop(
-    "❌ CI test failed. Missing output files:\n",
+    "[ERROR] CI test failed. Missing output files:\n",
     paste(missing_files, collapse = "\n")
   )
 }
 
-cat("✅ All CI tests passed successfully\n")
+cat("[OK] All CI tests passed successfully.\n")

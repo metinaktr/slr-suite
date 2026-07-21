@@ -1,6 +1,6 @@
 # ==============================================================================
 # 02_screening.R
-# Title–Abstract Screening (DYNAMIC & PIPELINE-SAFE)
+# Title-Abstract Screening (DYNAMIC & PIPELINE-SAFE)
 # ==============================================================================
 suppressPackageStartupMessages({
   library(readr)
@@ -20,7 +20,7 @@ OUT_RDS  <- file.path(INTERIM_DIR, "collection_screened.rds")
 OUT_CSV  <- file.path(INTERIM_DIR, "collection_screened.csv")
 
 if (!file.exists(IN_FILE)) {
-  stop("❌ cleaned_dedup.csv was not found. Run 01_acquire_and_dedupe.R first.")
+  stop("[ERROR] cleaned_dedup.csv was not found. Run 01_acquire_and_dedupe.R first.")
 }
 
 # --------------------------------------------------
@@ -32,7 +32,7 @@ names(df) <- toupper(names(df))
 cat(">>> Number of entries:", nrow(df), "\n")
 
 # --------------------------------------------------
-# 3. Title–Abstract Screening (BASIC)
+# 3. Title-Abstract Screening (BASIC)
 # --------------------------------------------------
 screened <- df %>%
   filter(
@@ -43,11 +43,11 @@ screened <- df %>%
 cat(">>> Number of registrations following screening:", nrow(screened), "\n")
 
 # --------------------------------------------------
-# 4. KAYIT (PIPELINE STANDARD)
+# 4. Save outputs (pipeline standard)
 # --------------------------------------------------
 saveRDS(screened, OUT_RDS)
 write_csv(screened, OUT_CSV)
 
-cat("✅ Screening is complete\n")
-cat("📁 RDS :", OUT_RDS, "\n")
-cat("📁 CSV :", OUT_CSV, "\n")
+cat("[OK] Screening completed.\n")
+cat("[FILE] RDS:", OUT_RDS, "\n")
+cat("[FILE] CSV:", OUT_CSV, "\n")

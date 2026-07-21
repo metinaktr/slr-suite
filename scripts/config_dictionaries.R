@@ -35,8 +35,8 @@ TCCM_DICTIONARIES <- list(
     "Bibliometric"    = c("bibliometric", "systematic review", "\\bslr\\b")
   ),
   "Moderators" = list(
-    "Age"        = c("\bage\b", "young", "old", "elderly"),
-    "Gender"     = c("\bgender\b", "male", "female", "woman", "man"),
+    "Age"        = c("\\bage\\b", "young", "old", "elderly"),
+    "Gender"     = c("\\bgender\\b", "male", "female", "woman", "man"),
     "Culture"    = c("culture", "cultural", "cross[- ]cultural")
   )
 )

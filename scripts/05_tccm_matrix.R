@@ -101,4 +101,4 @@ for (cat_name in names(TCCM_DICTIONARIES)) {
   write_csv(ft, file.path(OUT_DIR, paste0("freq_", tolower(cat_name), ".csv")))
 }
 
-message("✔ The TCCM matrix and frequency tables have been successfully completed.")
+message("[OK] The TCCM matrix and frequency tables were created successfully.")

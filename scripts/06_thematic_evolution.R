@@ -38,7 +38,7 @@ TE <- tryCatch({
                     n = 250, 
                     minFreq = 2)
 }, error = function(e) {
-  message("❌ Error: Thematic evolution could not be calculated. This may be due to insufficient data.")
+  message("[ERROR] Thematic evolution could not be calculated. The dataset may be insufficient.")
   return(NULL)
 })
 
@@ -48,5 +48,5 @@ if (!is.null(TE)) {
   # Let's add a label to the Sankey diagram
   plot(TE)
   dev.off()
-  message("✔ The thematic evolution has been successfully completed.")
+  message("[OK] Thematic evolution completed successfully.")
 }

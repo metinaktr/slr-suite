@@ -17,4 +17,4 @@ spar <- tccm %>%
 
 write_csv(spar, "data/processed/future_agenda_spar.csv")
 
-message("✔ The SPAR recommendation set has been produced.")
+message("[OK] The SPAR-oriented output was created.")
