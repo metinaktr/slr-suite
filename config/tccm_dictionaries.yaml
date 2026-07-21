@@ -1,0 +1,33 @@
+version: 1
+
+dimensions:
+  Theory:
+    Utilitarian Ethics: [utilitarian, utility, 'consequence[- ]based', greatest happiness]
+    Deontological Ethics: [deontolog, 'duty[- ]based', categorical imperative, moral duty]
+    Virtue Ethics: [virtue ethic, aristotle, phronesis, character virtue]
+    Rights-Based Ethics: [human right, autonomy, privacy right, moral rights]
+    Care Ethics: ['ethic(s)? of care', care ethic, empathy, relational ethic]
+    Social Contract Theory: [social contract, contractarian, societal agreement, legitimacy]
+  Context:
+    Tourism: [tourism, hospitality, travel, destination, hotel]
+    Healthcare: [healthcare, hospital, medical, patient]
+    Banking/Finance: ['bank(ing)?', fintech, financial, insurance]
+    SMEs: ['\bsme(s)?\b', small and medium]
+    Public Sector: [public sector, government, municipality]
+    IT/IS: ['\bit\b', 'information systems?', software development]
+  Characteristics:
+    Ethical AI: [fairness, bias, accountability, transparency, responsible ai]
+    Privacy: [privacy, data protection, confidentiality]
+    Trust & Safety: [trust, reliability, integrity, safety]
+    Sustainability: [sustainab, csr, triple bottom line]
+    Dark Side: [surveillance, addiction, autonomy loss]
+  Methodology:
+    Survey: [survey, questionnaire]
+    PLS-SEM: ['pls[- ]sem', partial least squares]
+    Qualitative: [qualitative, interview, content analysis]
+    Experiment: [experiment, lab study]
+    Bibliometric: [bibliometric, systematic review, '\bslr\b']
+  Moderators:
+    Age: ['\bage\b', young, old, elderly]
+    Gender: ['\bgender\b', male, female, woman, man]
+    Culture: [culture, cultural, 'cross[- ]cultural']

@@ -33,9 +33,9 @@ test_that("executable R sources use portable English text", {
     }
   }
 
-  expect_length(
-    violations,
-    0,
+  expect_equal(
+    length(violations),
+    0L,
     info = paste("Non-portable or non-English R source text:", paste(violations, collapse = ", "))
   )
 })

@@ -7,6 +7,7 @@ suppressPackageStartupMessages({
   library(readr)
   library(here)
 })
+source(here::here("R", "document_types.R"))
 
 cat(">>> 01_acquire_and_dedupe has been started\n")
 
@@ -40,7 +41,7 @@ if (!dir.exists(INTERIM_DIR)) {
 # ----------------------------
 input_files <- list.files(
   "data/raw",
-  pattern = "\\.(txt|csv|bib|ris)$",
+  pattern = "\\.txt$",
   full.names = TRUE
 )
 
@@ -62,8 +63,8 @@ read_slr_data <- function(file_path) {
     # into one bibliographic record per row.
     df <- convert2df(file = file_path, dbsource = "wos", format = "plaintext")
   } else {
-    # If the file is already a table (CSV), use the standard read function
-    df <- read_csv(file_path, col_types = cols(.default = "c"), trim_ws = TRUE)
+    # BibexPy combined TXT exports may be delimited rather than WoS-tagged.
+    df <- read_delim(file_path, delim = NULL, col_types = cols(.default = "c"), trim_ws = TRUE)
   }
   
   # Capitalize the column names (for the UT, TI, and DI standards)
@@ -76,6 +77,11 @@ read_slr_data <- function(file_path) {
 # Bibliometrix sometimes returns a list-column; we fix this using `bind_rows`.
 df_list <- lapply(input_files, read_slr_data)
 merged <- bind_rows(lapply(df_list, as.data.frame))
+
+if ("DT" %in% names(merged)) {
+  merged$DT_ORIGINAL <- merged$DT
+  merged$DT <- normalize_document_type(merged$DT)
+}
 
 # Identifying the ID Column (UT is always generated after WoS Plaintext)
 priority_cols <- c("UT", "DI", "TI")

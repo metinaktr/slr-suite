@@ -1,0 +1,31 @@
+---
+title: "FAQ and Troubleshooting"
+---
+
+## Which input files are supported?
+
+SLR Suite directly accepts Web of Science Plain Text (`.txt`). It does not directly parse Scopus CSV. For mixed-source input, use BibexPy to create a harmonized TXT file first.
+
+## Why is my CSV file ignored?
+
+Direct CSV ingestion is disabled to avoid silently mixing incompatible database schemas. Harmonize mixed-source data before running the pipeline.
+
+## Why does screening exclude a record?
+
+Inspect `data/interim/screening_decisions.csv`. The `SCREENING_REASON` column records each configured reason. Review `config/screen_criteria.yaml` before rerunning the step.
+
+## How do I add TCCM terms?
+
+Edit `config/tccm_dictionaries.yaml`. Add patterns under a named label and dimension, then rerun the TCCM module. Invalid structure stops with an explicit error.
+
+## Rscript is not found on Windows
+
+Open `slr-suite.Rproj` in RStudio, or install R and add its `bin` directory to `PATH`. The Windows launcher also searches common R installation folders.
+
+## A package is missing
+
+Run `renv::restore()` once from the project root. Packages are never installed silently during a pipeline run.
+
+## Is automated screening a final eligibility decision?
+
+No. It applies declared rules and creates an audit trail. Researchers remain responsible for eligibility decisions, conflict resolution, and reporting.

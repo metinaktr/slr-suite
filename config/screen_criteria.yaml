@@ -1,6 +1,32 @@
-﻿# Screening Criteria
+version: 1
+
+fields:
+  title: TI
+  abstract: AB
+  language: LA
+  document_type: DT
+  year: PY
+
+required_fields:
+  - title
+  - abstract
+
 include:
-  - language: English or Turkish
-  - peer_reviewed: true
+  languages:
+    - English
+    - Turkish
+  document_types:
+    - Article
+    - Review
+    - Proceedings Paper
+  year:
+    minimum: null
+    maximum: null
+
 exclude:
-  - document_type: editorial
+  document_types:
+    - Editorial Material
+    - Letter
+    - Meeting Abstract
+    - Correction
+  text_patterns: []

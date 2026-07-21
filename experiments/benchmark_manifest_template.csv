@@ -1,0 +1,3 @@
+dataset_id,input_path,records,command
+dataset-a,tests/fixtures/screening_dataset_a.csv,3,Rscript master_launcher.R validate
+dataset-b,tests/fixtures/screening_dataset_b.csv,3,Rscript master_launcher.R validate
