@@ -55,10 +55,18 @@ screen_records <- function(records, criteria) {
     excluded_types <- unlist(criteria$exclude$document_types, use.names = FALSE)
     known <- !is.na(document_type) & nzchar(trimws(document_type))
     if (length(included_types)) {
-      reasons <- add_reason(reasons, known & !tolower(document_type) %in% tolower(included_types), "document type not included")
+      reasons <- add_reason(
+        reasons,
+        known & !tolower(document_type) %in% tolower(included_types),
+        "document type not included"
+      )
     }
     if (length(excluded_types)) {
-      reasons <- add_reason(reasons, known & tolower(document_type) %in% tolower(excluded_types), "excluded document type")
+      reasons <- add_reason(
+        reasons,
+        known & tolower(document_type) %in% tolower(excluded_types),
+        "excluded document type"
+      )
     }
   }
 
@@ -66,10 +74,18 @@ screen_records <- function(records, criteria) {
   if (!is.null(year_column) && year_column %in% names(records)) {
     year <- suppressWarnings(as.integer(records[[year_column]]))
     if (!is.null(criteria$include$year$minimum)) {
-      reasons <- add_reason(reasons, !is.na(year) & year < as.integer(criteria$include$year$minimum), "year below minimum")
+      reasons <- add_reason(
+        reasons,
+        !is.na(year) & year < as.integer(criteria$include$year$minimum),
+        "year below minimum"
+      )
     }
     if (!is.null(criteria$include$year$maximum)) {
-      reasons <- add_reason(reasons, !is.na(year) & year > as.integer(criteria$include$year$maximum), "year above maximum")
+      reasons <- add_reason(
+        reasons,
+        !is.na(year) & year > as.integer(criteria$include$year$maximum),
+        "year above maximum"
+      )
     }
   }
 
@@ -82,7 +98,11 @@ screen_records <- function(records, criteria) {
   excluded_patterns <- unlist(criteria$exclude$text_patterns, use.names = FALSE)
   if (length(excluded_patterns)) {
     pattern <- paste(excluded_patterns, collapse = "|")
-    reasons <- add_reason(reasons, grepl(pattern, combined_text, ignore.case = TRUE, perl = TRUE), "excluded text pattern")
+    reasons <- add_reason(
+      reasons,
+      grepl(pattern, combined_text, ignore.case = TRUE, perl = TRUE),
+      "excluded text pattern"
+    )
   }
 
   records$SCREENING_DECISION <- ifelse(is.na(reasons), "include", "exclude")
