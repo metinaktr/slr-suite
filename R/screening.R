@@ -21,21 +21,22 @@ screen_records <- function(records, criteria) {
   }
 
   reasons <- rep(NA_character_, nrow(records))
-  add_reason <- function(hit, reason) {
+  add_reason <- function(current_reasons, hit, reason) {
     active <- hit & !is.na(hit)
-    reasons[active] <<- ifelse(
-      is.na(reasons[active]), reason,
-      paste(reasons[active], reason, sep = "; ")
+    current_reasons[active] <- ifelse(
+      is.na(current_reasons[active]), reason,
+      paste(current_reasons[active], reason, sep = "; ")
     )
+    current_reasons
   }
 
   for (field_name in required) {
     column <- unname(fields[[field_name]])
     if (!column %in% names(records)) {
-      add_reason(rep(TRUE, nrow(records)), paste0("missing required column: ", column))
+      reasons <- add_reason(reasons, rep(TRUE, nrow(records)), paste0("missing required column: ", column))
     } else {
       values <- trimws(as.character(records[[column]]))
-      add_reason(is.na(values) | !nzchar(values), paste0("missing ", field_name))
+      reasons <- add_reason(reasons, is.na(values) | !nzchar(values), paste0("missing ", field_name))
     }
   }
 
@@ -44,7 +45,7 @@ screen_records <- function(records, criteria) {
   if (!is.null(language_column) && language_column %in% names(records) && length(allowed_languages)) {
     language <- trimws(as.character(records[[language_column]]))
     known <- !is.na(language) & nzchar(language)
-    add_reason(known & !tolower(language) %in% tolower(allowed_languages), "language not included")
+    reasons <- add_reason(reasons, known & !tolower(language) %in% tolower(allowed_languages), "language not included")
   }
 
   type_column <- unname(fields[["document_type"]])
@@ -54,10 +55,10 @@ screen_records <- function(records, criteria) {
     excluded_types <- unlist(criteria$exclude$document_types, use.names = FALSE)
     known <- !is.na(document_type) & nzchar(trimws(document_type))
     if (length(included_types)) {
-      add_reason(known & !tolower(document_type) %in% tolower(included_types), "document type not included")
+      reasons <- add_reason(reasons, known & !tolower(document_type) %in% tolower(included_types), "document type not included")
     }
     if (length(excluded_types)) {
-      add_reason(known & tolower(document_type) %in% tolower(excluded_types), "excluded document type")
+      reasons <- add_reason(reasons, known & tolower(document_type) %in% tolower(excluded_types), "excluded document type")
     }
   }
 
@@ -65,10 +66,10 @@ screen_records <- function(records, criteria) {
   if (!is.null(year_column) && year_column %in% names(records)) {
     year <- suppressWarnings(as.integer(records[[year_column]]))
     if (!is.null(criteria$include$year$minimum)) {
-      add_reason(!is.na(year) & year < as.integer(criteria$include$year$minimum), "year below minimum")
+      reasons <- add_reason(reasons, !is.na(year) & year < as.integer(criteria$include$year$minimum), "year below minimum")
     }
     if (!is.null(criteria$include$year$maximum)) {
-      add_reason(!is.na(year) & year > as.integer(criteria$include$year$maximum), "year above maximum")
+      reasons <- add_reason(reasons, !is.na(year) & year > as.integer(criteria$include$year$maximum), "year above maximum")
     }
   }
 
@@ -81,7 +82,7 @@ screen_records <- function(records, criteria) {
   excluded_patterns <- unlist(criteria$exclude$text_patterns, use.names = FALSE)
   if (length(excluded_patterns)) {
     pattern <- paste(excluded_patterns, collapse = "|")
-    add_reason(grepl(pattern, combined_text, ignore.case = TRUE, perl = TRUE), "excluded text pattern")
+    reasons <- add_reason(reasons, grepl(pattern, combined_text, ignore.case = TRUE, perl = TRUE), "excluded text pattern")
   }
 
   records$SCREENING_DECISION <- ifelse(is.na(reasons), "include", "exclude")
