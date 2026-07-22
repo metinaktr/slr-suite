@@ -9,4 +9,4 @@ cit <- citations(df, field="article", sep=";")
 
 write_csv(as.data.frame(cit$Cited), "data/processed/citation_impact.csv")
 
-message("✔ Citation impact has been completed.")
+message("[OK] Citation impact analysis completed.")

@@ -6,11 +6,19 @@ title: "User Guide"
 
 1. Clone the repository and open `slr-suite.Rproj` in RStudio.
 2. Install `renv` once and run `renv::restore()` to recreate the dependency versions recorded in `renv.lock`. The application never installs packages during a run.
-3. Place an exported Web of Science, Scopus, BibTeX, RIS, or CSV file in `data/raw/`.
+3. Place a Web of Science Plain Text export (`.txt`) in `data/raw/`. SLR Suite does not parse Scopus CSV files directly. For a mixed-source review, combine the Web of Science Plain Text export and Scopus CSV upstream with BibexPy, then place the resulting harmonized TXT file in `data/raw/`.
 4. Review the YAML files in `config/` and record any protocol changes before analysis.
 5. Run `source("master_launcher.R")` for the interactive menu, or use `Rscript master_launcher.R run`.
 
 Generated analysis files belong under `data/interim/` and `data/processed/`. Execution records are written to `logs/pipeline_runs.csv`.
+
+## Configurable screening
+
+Edit `config/screen_criteria.yaml` to define required fields, included languages and normalized document types, optional year bounds, and exclusion patterns. The screening step writes all record-level decisions and reasons to `data/interim/screening_decisions.csv`; it does not replace independent researcher eligibility assessment.
+
+## User dictionary
+
+Edit `config/tccm_dictionaries.yaml` to add or revise TCCM dimensions, labels, and regular-expression patterns. Keep every label under a named dimension and quote patterns containing backslashes. The file is validated when the TCCM module starts.
 
 ## Validation
 

@@ -1,0 +1,4 @@
+dataset_id,records,runs,successful_runs,elapsed_median_seconds,elapsed_q1_seconds,elapsed_q3_seconds,peak_memory_median_mb,peak_memory_q1_mb,peak_memory_q3_mb
+small-20,20,5,5,17.173,16.851,20.755,462.21,462.04,463.67
+medium-208,208,5,5,42.675,42.164,45.227,489.28,489.19,490.24
+large-500,500,5,5,80.131,76.383,80.328,532.08,531.98,532.18

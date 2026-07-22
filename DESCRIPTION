@@ -12,12 +12,12 @@ Imports:
     here,
     readr,
     stringr,
-    tidyr
+    tidyr,
+    yaml
 Suggests:
     covr,
     lintr,
     renv,
-    testthat (>= 3.0.0),
-    yaml
+    testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/Needs/website: quarto

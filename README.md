@@ -18,7 +18,7 @@ SLR Suite is an RStudio and Quarto workflow for transparent, traceable, and repr
 
 1. Clone this repository and open `slr-suite.Rproj`.
 2. Restore the exact dependency set with `install.packages("renv")` and `renv::restore()`.
-3. Put an export file in `data/raw/` and review the YAML protocol files in `config/`.
+3. Put a Web of Science Plain Text file in `data/raw/`. For mixed Web of Science and Scopus data, first use BibexPy to create a harmonized TXT file; native Scopus CSV is not parsed directly.
 4. Run `source("master_launcher.R")` for the menu, or run the commands below in the Terminal pane.
 
 ```sh

@@ -7,6 +7,7 @@ suppressPackageStartupMessages({
   library(readr)
   library(here)
 })
+source(here::here("R", "document_types.R"))
 
 cat(">>> 01_acquire_and_dedupe has been started\n")
 
@@ -18,7 +19,7 @@ CI_MODE <- tolower(Sys.getenv("CI")) == "true"
 
 
 # --------------------------------------------------
-# 2. DYNAMIC ARRAYS (THIS IS THE CRUX OF THE MATTER)
+# 2. Project directories
 # --------------------------------------------------
 ROOT_DIR    <- here::here()
 RAW_DIR     <- here::here("data", "raw")
@@ -40,15 +41,15 @@ if (!dir.exists(INTERIM_DIR)) {
 # ----------------------------
 input_files <- list.files(
   "data/raw",
-  pattern = "\\.(txt|csv|bib|ris)$",
+  pattern = "\\.txt$",
   full.names = TRUE
 )
 
 if (length(input_files) == 0) {
-  stop("❌ CI error: No input files found in data/raw/")
+  stop("[ERROR] No input files were found in data/raw/.")
 }
 
-# 3. WoS Plaintext Okuma Fonksiyonu
+# 3. WoS plaintext reader
 # ----------------------------
 read_slr_data <- function(file_path) {
   message(">> Being read: ", basename(file_path))
@@ -58,12 +59,12 @@ read_slr_data <- function(file_path) {
   
   # If the file starts with "FN " (Web of Science tag), use Bibliometrix
   if (grepl("^FN ", first_line)) {
-    # convert2df: Lines with labels that are one below the other (TI, AU, AB vb.) 
-    # combines them into a single line and converts them into a table [cite: 1, 8, 33, 519]
+    # convert2df combines tagged fields (for example, TI, AU, and AB)
+    # into one bibliographic record per row.
     df <- convert2df(file = file_path, dbsource = "wos", format = "plaintext")
   } else {
-    # If the file is already a table (CSV), use the standard read function
-    df <- read_csv(file_path, col_types = cols(.default = "c"), trim_ws = TRUE)
+    # BibexPy combined TXT exports may be delimited rather than WoS-tagged.
+    df <- read_delim(file_path, delim = NULL, col_types = cols(.default = "c"), trim_ws = TRUE)
   }
   
   # Capitalize the column names (for the UT, TI, and DI standards)
@@ -77,13 +78,18 @@ read_slr_data <- function(file_path) {
 df_list <- lapply(input_files, read_slr_data)
 merged <- bind_rows(lapply(df_list, as.data.frame))
 
+if ("DT" %in% names(merged)) {
+  merged$DT_ORIGINAL <- merged$DT
+  merged$DT <- normalize_document_type(merged$DT)
+}
+
 # Identifying the ID Column (UT is always generated after WoS Plaintext)
 priority_cols <- c("UT", "DI", "TI")
 id_col <- intersect(priority_cols, names(merged))[1]
 
 if (is.na(id_col)) {
   cat("Current Columns:", paste(names(merged), collapse = ", "), "\n")
-  stop("❌ Error: The identity columns required to distinguish the records could not be found.")
+  stop("[ERROR] No supported record identifier column was found (expected UT, DI, or TI).")
 }
 
 cat(">> Deduplication key:", id_col, "\n")
@@ -97,7 +103,7 @@ dedup <- merged %>%
 # ----------------------------
 write_csv(dedup, file.path(INTERIM_DIR, "cleaned_dedup.csv"))
 
-cat("✅ Transaction Completed Successfully!\n")
+cat("[OK] Acquisition and deduplication completed.\n")
 cat("- Number of original records:", nrow(merged), "\n")
 cat("- Number of deduplicated (unique) records:", nrow(dedup), "\n")
 cat("- Saving location: data/interim/cleaned_dedup.csv\n")

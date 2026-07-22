@@ -40,4 +40,4 @@ write_tsv(
   here::here("data","processed","vos_thesaurus.txt")
 )
 
-cat("✅ A thesaurus draft has been created: data/processed/vos_thesaurus.txt\n")
+cat("[OK] A thesaurus draft was created: data/processed/vos_thesaurus.txt\n")

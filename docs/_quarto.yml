@@ -13,6 +13,8 @@ website:
         text: Architecture
       - href: reproducibility.qmd
         text: Reproducibility
+      - href: faq.qmd
+        text: FAQ and troubleshooting
       - href: paper/manuscript.qmd
         text: Paper
       - text: Quality evidence

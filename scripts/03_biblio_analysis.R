@@ -34,7 +34,7 @@ files <- list.files(
 )
 
 if (length(files) == 0) {
-  stop("❌ CI error: No input files found in data/raw/")
+  stop("[ERROR] No input files were found in data/raw/.")
 }
 
 cat(">> CI input file:", basename(files[1]), "\n")
@@ -102,4 +102,4 @@ write_csv(
   file.path(DATA_OUT, "TCCM_ci.csv")
 )
 
-message("✅ CI-safe core bibliometric pipeline completed successfully")
+message("[OK] CI-safe core bibliometric pipeline completed successfully.")
