@@ -2,6 +2,20 @@
 
 All notable changes to SLR Suite are documented here.
 
+## [2.3.0] - 2026-09-08
+
+### Added
+
+- Added configurable YAML-based screening and researcher-editable TCCM dictionaries.
+- Added document-type normalization, benchmark protocols, raw run-level benchmark records, and summary evidence.
+- Added contribution guidance and user-facing FAQ and troubleshooting documentation.
+
+### Changed
+
+- Standardized remaining executable messages and comments in English.
+- Expanded screening tests and quality gates for configurable eligibility rules.
+- Synchronized software version metadata, documentation, validation records, and release links with the evaluated source state.
+
 ## [2.2.0] - 2026-07-17
 
 ### Added
@@ -58,4 +72,5 @@ All notable changes to SLR Suite are documented here.
 [2.0.0]: https://github.com/metinaktr/slr-suite/compare/v1.0.0...v2.0.0
 [2.1.0]: https://github.com/metinaktr/slr-suite/compare/v2.0.0...v2.1.0
 [2.2.0]: https://github.com/metinaktr/slr-suite/compare/v2.1.0...v2.2.0
+[2.3.0]: https://github.com/metinaktr/slr-suite/compare/v2.2.0...v2.3.0
 [1.0.0]: https://github.com/metinaktr/slr-suite/releases/tag/v1.0.0

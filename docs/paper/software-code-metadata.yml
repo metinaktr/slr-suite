@@ -1,5 +1,5 @@
-current_code_version: v2.2.0
-permanent_repository: https://github.com/metinaktr/slr-suite/releases/tag/v2.2.0
+current_code_version: v2.3.0
+permanent_repository: https://github.com/metinaktr/slr-suite/releases/tag/v2.3.0
 reproducibility_evidence: https://github.com/metinaktr/slr-suite/actions
 license: MIT
 version_control: Git

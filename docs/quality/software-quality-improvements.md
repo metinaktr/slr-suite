@@ -1,6 +1,6 @@
 # Software Quality Improvements
 
-SLR Suite v2.2.0 consolidates the following verified improvements as part of its general software engineering lifecycle.
+SLR Suite v2.3.0 consolidates the following verified improvements as part of its general software engineering lifecycle.
 
 ## Architecture and maintainability
 
