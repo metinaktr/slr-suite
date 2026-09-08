@@ -27,7 +27,14 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
-          sudo apt-get install --yes libglpk-dev libpoppler-cpp-dev
+          sudo apt-get install --yes \
+            cmake \
+            libcurl4-openssl-dev \
+            libglpk-dev \
+            libjpeg-dev \
+            libpoppler-cpp-dev \
+            libx11-dev \
+            pandoc
       - uses: r-lib/actions/setup-renv@v2
       - name: Run code-quality gate
         run: Rscript scripts/quality_gate.R

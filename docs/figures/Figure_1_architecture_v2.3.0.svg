@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080">
+  <defs>
+    <marker id="arrow-solid" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c2410c"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 18px Arial, sans-serif; fill: #475569; }
+      .layer-title { font: 700 19px Arial, sans-serif; fill: #0f172a; letter-spacing: .4px; }
+      .node-title { font: 700 16px Arial, sans-serif; fill: #0f172a; }
+      .node-sub { font: 400 13px Arial, sans-serif; fill: #334155; }
+      .file { font: 400 12px Consolas, monospace; fill: #334155; }
+      .small { font: 400 13px Arial, sans-serif; fill: #475569; }
+      .legend { font: 400 13px Arial, sans-serif; fill: #334155; }
+      .layer { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.5; }
+      .entry { fill: #eff6ff; stroke: #2563eb; stroke-width: 1.7; }
+      .module { fill: #ecfdf5; stroke: #047857; stroke-width: 1.7; }
+      .config { fill: #fff7ed; stroke: #c2410c; stroke-width: 1.7; }
+      .data { fill: #f5f3ff; stroke: #6d28d9; stroke-width: 1.7; }
+      .control { fill: #fefce8; stroke: #a16207; stroke-width: 1.5; }
+      .solid { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrow-solid); }
+      .orchestration { fill: none; stroke: #2563eb; stroke-width: 2; stroke-dasharray: 8 6; marker-end: url(#arrow-blue); }
+      .configuration { fill: none; stroke: #c2410c; stroke-width: 2; stroke-dasharray: 4 5; marker-end: url(#arrow-orange); }
+      .bus { fill: none; stroke: #64748b; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1080" fill="#ffffff"/>
+  <text x="65" y="52" class="title">SLR Suite v2.3.0 — Data-Centric Software Architecture</text>
+  <text x="65" y="82" class="subtitle">Explicit separation of orchestration, configuration, analytical modules, file-based data exchange, and reproducibility controls</text>
+
+  <!-- Legend -->
+  <line x1="1250" y1="47" x2="1300" y2="47" class="solid"/>
+  <text x="1312" y="52" class="legend">File-based data flow</text>
+  <line x1="1250" y1="73" x2="1300" y2="73" class="orchestration"/>
+  <text x="1312" y="78" class="legend">Orchestration</text>
+  <line x1="1510" y1="73" x2="1560" y2="73" class="configuration"/>
+  <text x="1572" y="78" class="legend">Configuration dependency</text>
+
+  <!-- Entry and orchestration -->
+  <rect x="55" y="110" width="1690" height="145" rx="18" class="layer"/>
+  <text x="82" y="142" class="layer-title">ENTRY POINTS AND ORCHESTRATION</text>
+  <rect x="95" y="166" width="275" height="62" rx="11" class="entry"/>
+  <text x="232" y="190" text-anchor="middle" class="node-title">User entry points</text>
+  <text x="232" y="212" text-anchor="middle" class="node-sub">Windows launcher · RStudio · Terminal</text>
+  <rect x="485" y="166" width="270" height="62" rx="11" class="entry"/>
+  <text x="620" y="190" text-anchor="middle" class="node-title">master_launcher.R</text>
+  <text x="620" y="212" text-anchor="middle" class="node-sub">Menu · full run · module run · validation</text>
+  <rect x="870" y="166" width="270" height="62" rx="11" class="entry"/>
+  <text x="1005" y="190" text-anchor="middle" class="node-title">R/pipeline.R</text>
+  <text x="1005" y="212" text-anchor="middle" class="node-sub">Discovery · dispatch · isolated execution · logging</text>
+  <rect x="1255" y="166" width="300" height="62" rx="11" class="entry"/>
+  <text x="1405" y="190" text-anchor="middle" class="node-title">R/conditions.R</text>
+  <text x="1405" y="212" text-anchor="middle" class="node-sub">Typed dependency, path, and validation errors</text>
+  <line x1="370" y1="197" x2="485" y2="197" class="orchestration"/>
+  <line x1="755" y1="197" x2="870" y2="197" class="orchestration"/>
+  <line x1="1140" y1="197" x2="1255" y2="197" class="orchestration"/>
+
+  <!-- Configuration -->
+  <rect x="55" y="275" width="1690" height="115" rx="18" class="layer"/>
+  <text x="82" y="307" class="layer-title">VERSION-CONTROLLED CONFIGURATION</text>
+  <rect x="330" y="325" width="365" height="48" rx="9" class="config"/>
+  <text x="512" y="346" text-anchor="middle" class="node-title">config/screen_criteria.yaml</text>
+  <text x="512" y="364" text-anchor="middle" class="node-sub">Eligibility and filtering rules → M2</text>
+  <rect x="1105" y="325" width="365" height="48" rx="9" class="config"/>
+  <text x="1287" y="346" text-anchor="middle" class="node-title">config/tccm_dictionaries.yaml</text>
+  <text x="1287" y="364" text-anchor="middle" class="node-sub">Researcher-defined labels and patterns → M5</text>
+
+  <!-- Modules -->
+  <rect x="55" y="410" width="1690" height="320" rx="18" class="layer"/>
+  <text x="82" y="442" class="layer-title">INDEPENDENT ANALYTICAL MODULES</text>
+  <line x1="1005" y1="228" x2="1005" y2="474" class="orchestration"/>
+  <rect x="178" y="466" width="1444" height="24" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <text x="900" y="483" text-anchor="middle" class="small">Common pipeline interface dispatches the selected module; modules do not call one another directly</text>
+
+  <!-- Row 1 modules -->
+  <g>
+    <rect x="80" y="500" width="300" height="82" rx="11" class="module"/>
+    <text x="230" y="524" text-anchor="middle" class="node-title">M1 · Acquire and deduplicate</text>
+    <text x="230" y="546" text-anchor="middle" class="node-sub">WoS TXT or BibexPy combined TXT</text>
+    <text x="230" y="566" text-anchor="middle" class="file">cleaned_dedup.csv</text>
+  </g>
+  <g>
+    <rect x="415" y="500" width="300" height="82" rx="11" class="module"/>
+    <text x="565" y="524" text-anchor="middle" class="node-title">M2 · Screening support</text>
+    <text x="565" y="546" text-anchor="middle" class="node-sub">Configured eligibility-rule application</text>
+    <text x="565" y="566" text-anchor="middle" class="file">collection_screened.csv · screening_decisions.csv</text>
+  </g>
+  <g>
+    <rect x="750" y="500" width="300" height="82" rx="11" class="module"/>
+    <text x="900" y="524" text-anchor="middle" class="node-title">M3 · Bibliometric analysis</text>
+    <text x="900" y="546" text-anchor="middle" class="node-sub">Selected descriptive summaries</text>
+    <text x="900" y="566" text-anchor="middle" class="file">tables · figures</text>
+  </g>
+  <g>
+    <rect x="1085" y="500" width="300" height="82" rx="11" class="module"/>
+    <text x="1235" y="524" text-anchor="middle" class="node-title">M4 · VOSviewer export</text>
+    <text x="1235" y="546" text-anchor="middle" class="node-sub">Keyword nodes, edges, and summaries</text>
+    <text x="1235" y="566" text-anchor="middle" class="file">VOSviewer network files</text>
+  </g>
+  <g>
+    <rect x="1420" y="500" width="300" height="82" rx="11" class="module"/>
+    <text x="1570" y="524" text-anchor="middle" class="node-title">M5 · TCCM matrix</text>
+    <text x="1570" y="546" text-anchor="middle" class="node-sub">Dictionary-based candidate coding</text>
+    <text x="1570" y="566" text-anchor="middle" class="file">TCCM_matrix.csv · frequencies</text>
+  </g>
+
+  <!-- Row 2 modules -->
+  <g>
+    <rect x="225" y="615" width="300" height="82" rx="11" class="module"/>
+    <text x="375" y="639" text-anchor="middle" class="node-title">M6 · Thematic evolution</text>
+    <text x="375" y="661" text-anchor="middle" class="node-sub">Time-sliced thematic outputs</text>
+    <text x="375" y="681" text-anchor="middle" class="file">thematic_sankey.png</text>
+  </g>
+  <g>
+    <rect x="565" y="615" width="300" height="82" rx="11" class="module"/>
+    <text x="715" y="639" text-anchor="middle" class="node-title">M7 · Citation impact</text>
+    <text x="715" y="661" text-anchor="middle" class="node-sub">Article-level citation summaries</text>
+    <text x="715" y="681" text-anchor="middle" class="file">citation_impact.csv</text>
+  </g>
+  <g>
+    <rect x="905" y="615" width="300" height="82" rx="11" class="module"/>
+    <text x="1055" y="639" text-anchor="middle" class="node-title">M8 · SPAR aggregation</text>
+    <text x="1055" y="661" text-anchor="middle" class="node-sub">Theory-frequency evidence</text>
+    <text x="1055" y="681" text-anchor="middle" class="file">future_agenda_spar.csv</text>
+  </g>
+  <g>
+    <rect x="1245" y="615" width="300" height="82" rx="11" class="module"/>
+    <text x="1395" y="639" text-anchor="middle" class="node-title">M9 · PRISMA flow</text>
+    <text x="1395" y="661" text-anchor="middle" class="node-sub">Available workflow counts</text>
+    <text x="1395" y="681" text-anchor="middle" class="file">CSV · PNG</text>
+  </g>
+
+  <!-- Explicit config dependencies -->
+  <path d="M512 373 L512 486 L565 486 L565 500" class="configuration"/>
+  <path d="M1287 373 L1287 486 L1570 486 L1570 500" class="configuration"/>
+
+  <!-- File-contract boundary -->
+  <rect x="570" y="704" width="660" height="28" rx="8" fill="#ffffff" stroke="#334155" stroke-width="1.5"/>
+  <text x="900" y="723" text-anchor="middle" class="small">Documented file contracts · modules read and write standardized artifacts</text>
+
+  <!-- Data layers -->
+  <rect x="55" y="750" width="1690" height="155" rx="18" class="layer"/>
+  <text x="82" y="782" class="layer-title">FILE-BASED DATA AND EVIDENCE LAYERS</text>
+  <rect x="105" y="815" width="280" height="58" rx="10" class="data"/>
+  <text x="245" y="839" text-anchor="middle" class="node-title">data/raw</text>
+  <text x="245" y="860" text-anchor="middle" class="node-sub">WoS TXT or BibexPy combined TXT</text>
+  <rect x="455" y="815" width="280" height="58" rx="10" class="data"/>
+  <text x="595" y="839" text-anchor="middle" class="node-title">data/interim</text>
+  <text x="595" y="860" text-anchor="middle" class="node-sub">Deduplicated and screened records</text>
+  <rect x="805" y="815" width="280" height="58" rx="10" class="data"/>
+  <text x="945" y="839" text-anchor="middle" class="node-title">data/processed</text>
+  <text x="945" y="860" text-anchor="middle" class="node-sub">Analytical outputs</text>
+  <rect x="1155" y="815" width="280" height="58" rx="10" class="data"/>
+  <text x="1295" y="839" text-anchor="middle" class="node-title">logs</text>
+  <text x="1295" y="860" text-anchor="middle" class="node-sub">Pipeline execution records</text>
+  <rect x="1505" y="815" width="195" height="58" rx="10" class="data"/>
+  <text x="1602" y="839" text-anchor="middle" class="node-title">validation</text>
+  <text x="1602" y="860" text-anchor="middle" class="node-sub">Session evidence</text>
+  <line x1="900" y1="732" x2="900" y2="750" class="solid"/>
+
+  <!-- Reproducibility controls -->
+  <rect x="55" y="925" width="1690" height="105" rx="18" class="layer"/>
+  <text x="82" y="957" class="layer-title">CROSS-CUTTING REPRODUCIBILITY CONTROLS</text>
+  <rect x="145" y="977" width="310" height="36" rx="8" class="control"/>
+  <text x="300" y="1000" text-anchor="middle" class="node-title">renv.lock · locked dependencies</text>
+  <rect x="550" y="977" width="310" height="36" rx="8" class="control"/>
+  <text x="705" y="1000" text-anchor="middle" class="node-title">Unit · orchestration · E2E tests</text>
+  <rect x="955" y="977" width="310" height="36" rx="8" class="control"/>
+  <text x="1110" y="1000" text-anchor="middle" class="node-title">Quality and coverage gates</text>
+  <rect x="1360" y="977" width="310" height="36" rx="8" class="control"/>
+  <text x="1515" y="1000" text-anchor="middle" class="node-title">CI · Ubuntu · macOS · Windows</text>
+</svg>
