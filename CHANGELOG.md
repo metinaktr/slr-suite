@@ -14,6 +14,7 @@ All notable changes to SLR Suite are documented here.
 
 - Standardized remaining executable messages and comments in English.
 - Expanded screening tests and quality gates for configurable eligibility rules.
+- Refreshed the `renv` lockfile with complete dependency metadata for clean cross-platform restoration.
 - Synchronized software version metadata, documentation, validation records, and release links with the evaluated source state.
 
 ## [2.2.0] - 2026-07-17
