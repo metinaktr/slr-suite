@@ -49,9 +49,7 @@ The validation experiment checks repository invariants covering RStudio metadata
 
 The YAML file `config/tccm_dictionaries.yaml` is the researcher-editable source of the TCCM dimensions, labels, and matching patterns. The script `scripts/config_dictionaries.R` does not define a second dictionary. It sources the validation function in `R/dictionaries.R`, reads the YAML file, and exposes its validated `dimensions` section as `TCCM_DICTIONARIES`. For each input row, `scripts/05_tccm_matrix.R` constructs one normalized text string from the title, abstract, author keywords, and Keywords Plus. `match_category()` accepts one record-level string and the labels for one TCCM dimension. The function returns the unique matching labels or `NA`; the module applies it independently to every record and every configured dimension. Each input record therefore produces exactly one row in the final TCCM matrix.
 
-```{r}
-#| label: lst-tccm-record-classification
-#| eval: false
+```r
 source(here::here("scripts", "config_dictionaries.R"))
 
 field_or_empty <- function(records, field) {
