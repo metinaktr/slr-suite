@@ -18,7 +18,9 @@ Edit `config/screen_criteria.yaml` to define required fields, included languages
 
 ## User dictionary
 
-Edit `config/tccm_dictionaries.yaml` to add or revise TCCM dimensions, labels, and regular-expression patterns. Keep every label under a named dimension and quote patterns containing backslashes. The file is validated when the TCCM module starts.
+`config/tccm_dictionaries.yaml` is the single researcher-editable source of TCCM dimensions, labels, and regular-expression patterns. Keep every label under a named dimension and quote patterns containing backslashes. `R/dictionaries.R` defines the reader and structural validation rules; `scripts/config_dictionaries.R` invokes that reader and exposes the validated `dimensions` section as `TCCM_DICTIONARIES`; and `scripts/05_tccm_matrix.R` applies those dictionaries independently to each bibliographic record. The loader script does not contain a second dictionary.
+
+For each input row, the TCCM module combines the title, abstract, author keywords, and Keywords Plus into one normalized record-level string. Each configured dimension is evaluated separately for that string. Matching labels are retained as unique semicolon-separated values, and a record with no matching pattern receives `NA`. Input and output row order is preserved, and the module verifies that the final TCCM matrix contains exactly one row for every input record.
 
 ## Validation
 

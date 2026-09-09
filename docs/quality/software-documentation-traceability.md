@@ -1,6 +1,6 @@
 # Software–Documentation Traceability Matrix
 
-This matrix is the authoritative bidirectional map for SLR Suite v2.3.0. Every executable analysis module is described in the technical documentation, and every documented capability is linked to an implementation and verification path.
+This matrix is the authoritative bidirectional map for SLR Suite v2.3.1. Every executable analysis module is described in the technical documentation, and every documented capability is linked to an implementation and verification path.
 
 ## Executable modules
 
@@ -12,7 +12,7 @@ This matrix is the authoritative bidirectional map for SLR Suite v2.3.0. Every e
 | `scripts/02_screening.R` | Apply configured screening workflow | Deduplicated records and criteria | Screened records | Module inventory M2 | Bundled-data E2E |
 | `scripts/03_biblio_analysis.R` | Core bibliometric summaries | Screened bibliographic data | Descriptive tables | Module inventory M3 | `test_all.R` |
 | `scripts/04_vosviewer_export.R` | Prepare VOSviewer network files | Screened collection | Network exports | Module inventory M4 | Syntax and structural gates |
-| `scripts/05_tccm_matrix.R` | Construct TCCM coding matrix | Screened records and dictionaries | TCCM matrix | Module inventory M5 | Syntax and structural gates |
+| `scripts/05_tccm_matrix.R` and `R/tccm.R` | Construct a record-preserving TCCM coding matrix | Screened records and validated YAML dictionaries | One TCCM matrix row per input record | Module inventory M5 and record-level TCCM classification | `test-tccm-classification.R`, syntax, and structural gates |
 | `scripts/06_thematic_evolution.R` | Analyse thematic change over time | Screened records | Thematic evolution outputs | Module inventory M6 | Syntax and structural gates |
 | `scripts/07_citation_impact.R` | Calculate article citation summaries | Screened records | Citation-impact table | Module inventory M7 | Syntax and structural gates |
 | `scripts/08_future_agenda_SPAR.R` | Aggregate TCCM evidence into a future-agenda table | TCCM matrix | SPAR agenda table | Module inventory M8 | Syntax and structural gates |
