@@ -2,6 +2,17 @@
 
 All notable changes to SLR Suite are documented here.
 
+## [2.3.1] - 2026-09-09
+
+### Changed
+
+- Made record-level TCCM classification explicit through a single-record matching contract and a row-preserving classification function.
+- Expanded the manuscript listing and user documentation to explain how the YAML dictionary is validated, loaded, and applied to each record.
+
+### Added
+
+- Added regression tests for record independence, multiple labels, unmatched and missing text, and input-output row-count preservation.
+
 ## [2.3.0] - 2026-09-08
 
 ### Added
@@ -74,4 +85,5 @@ All notable changes to SLR Suite are documented here.
 [2.1.0]: https://github.com/metinaktr/slr-suite/compare/v2.0.0...v2.1.0
 [2.2.0]: https://github.com/metinaktr/slr-suite/compare/v2.1.0...v2.2.0
 [2.3.0]: https://github.com/metinaktr/slr-suite/compare/v2.2.0...v2.3.0
+[2.3.1]: https://github.com/metinaktr/slr-suite/compare/v2.3.0...v2.3.1
 [1.0.0]: https://github.com/metinaktr/slr-suite/releases/tag/v1.0.0

@@ -12,6 +12,7 @@ library(ggplot2)
 library(stringi)
 library(bibliometrix)
 library(here)
+source(here("R", "tccm.R"))
 
 # 1. Upload External Dictionary
 # If it doesn't work through the Launcher, download it here:
@@ -25,16 +26,8 @@ df <- read_csv(here("data", "interim", "collection_screened.csv"))
 OUT_DIR <- here("data", "processed", "tccm")
 if (!dir.exists(OUT_DIR)) dir.create(OUT_DIR, recursive = TRUE)
 
-# ---- TEXT PROCESSING ----
-norm_txt <- function(x){
-  x %>%
-    tolower() %>%
-    stringi::stri_replace_all_regex("[^\\p{L}\\p{N}\\s-]", " ") %>%
-    str_squish()
-}
-
-# The main block of text to be analyzed
-txt_all <- norm_txt(paste(df$TI, df$AB, df$DE, df$ID))
+# Build exactly one normalized text string for every input record.
+record_text <- build_tccm_record_text(df)
 
 split_keywords <- function(s){
   if (is.na(s) || !nzchar(s)) return(character(0))
@@ -47,19 +40,6 @@ get_chars <- function(de, id, top_k=5){
   kws <- unique(c(split_keywords(de), split_keywords(id)))
   if (length(kws)==0) return(NA_character_)
   paste(head(kws, top_k), collapse="; ")
-}
-
-# ---- DYNAMIC MATCH FUNCTION ----
-match_category <- function(text, dict_list) {
-  found_labels <- c()
-  for (label in names(dict_list)) {
-    patterns <- dict_list[[label]]
-    if (any(str_detect(text, regex(paste(patterns, collapse = "|"), ignore_case = TRUE)))) {
-      found_labels <- c(found_labels, label)
-    }
-  }
-  if (length(found_labels) == 0) return(NA_character_)
-  return(paste(unique(found_labels), collapse = "; "))
 }
 
 # ---- CONSTRUCTION OF THE TCCM MATRIX ----
@@ -75,13 +55,13 @@ TCCM <- tibble(
   Top_Keywords = mapply(get_chars, df$DE, df$ID)
 )
 
-# ADD EVERY CATEGORY IN THE DICTIONARY AS AN AUTOMATIC COLUMN
-for (cat_name in names(TCCM_DICTIONARIES)) {
-  message("--- Processing...: ", cat_name)
-  TCCM[[cat_name]] <- vapply(txt_all, 
-                             function(t) match_category(t, TCCM_DICTIONARIES[[cat_name]]), 
-                             FUN.VALUE = character(1))
-}
+# Apply every configured dimension independently to each record. The resulting
+# assignment table has the same number and order of rows as the input data.
+TCCM <- bind_cols(
+  TCCM,
+  classify_tccm_records(record_text, TCCM_DICTIONARIES)
+)
+stopifnot(nrow(TCCM) == nrow(df))
 
 # Save Result
 write_csv(TCCM, file.path(OUT_DIR, "TCCM_matrix.csv"))

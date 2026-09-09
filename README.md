@@ -1,6 +1,6 @@
 # SLR Suite
 
-Current version: **2.3.0**
+Current version: **2.3.1**
 
 SLR Suite is an RStudio and Quarto workflow for transparent, traceable, and reproducible systematic literature reviews. It connects review protocols, ordered R analysis stages, validation evidence, and manuscript reporting in one versioned project.
 
@@ -81,7 +81,7 @@ The Quarto site under `docs/` contains the [user guide](docs/user-guide.qmd), [a
 
 ## Citation
 
-Akbulut, M. (2026). *SLR Suite: A reproducible RStudio workflow for systematic literature reviews* [Computer software]. https://github.com/metinaktr/slr-suite
+Akbulut, M. (2026). *SLR Suite: A reproducible R workflow for systematic literature reviews* [Computer software]. https://github.com/metinaktr/slr-suite
 
 Archived releases and their version-specific DOIs are listed on Zenodo and in the corresponding GitHub Release notes.
 

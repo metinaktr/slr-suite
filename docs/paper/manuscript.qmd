@@ -1,5 +1,5 @@
 ---
-title: "SLR Suite: A Reproducible RStudio Workflow for Systematic Literature Reviews"
+title: "SLR Suite: A Reproducible R Workflow for Systematic Literature Reviews"
 author: "Metin Akbulut"
 bibliography: references.bib
 format:
@@ -15,8 +15,8 @@ SLR Suite is an RStudio and Quarto workflow that links systematic-review protoco
 
 | Software metadata field | Value |
 |---|---|
-| C1 Current code version | v2.3.0 |
-| C2 Permanent link to code | https://github.com/metinaktr/slr-suite/releases/tag/v2.3.0 |
+| C1 Current code version | v2.3.1 |
+| C2 Permanent link to code | https://github.com/metinaktr/slr-suite/releases/tag/v2.3.1 |
 | C3 Reproducible capsule | GitHub Actions runs and downloadable validation artifacts |
 | C4 Legal code license | MIT |
 | C5 Version-control system | Git |
@@ -44,6 +44,98 @@ A user clones a tagged release, opens `slr-suite.Rproj`, installs `renv` once, a
 ## Methods
 
 The validation experiment checks repository invariants covering RStudio metadata, dependency metadata and lockfile, search and screening protocols, example input, ordered analysis stages, tests, technical documentation, software metadata, and quality evidence. It records the runtime platform, R version, timestamp, and individual pass/fail outcomes. GitHub Actions restores the locked environment on Ubuntu, macOS, and Windows with R 4.5.1; parses all R sources; rejects runtime package installation and global-workspace clearing; runs unit and bundled-data end-to-end tests; enforces at least 70% core coverage; and uploads separate validation evidence for each operating system.
+
+### Record-level TCCM classification
+
+The YAML file `config/tccm_dictionaries.yaml` is the researcher-editable source of the TCCM dimensions, labels, and matching patterns. The script `scripts/config_dictionaries.R` does not define a second dictionary. It sources the validation function in `R/dictionaries.R`, reads the YAML file, and exposes its validated `dimensions` section as `TCCM_DICTIONARIES`. For each input row, `scripts/05_tccm_matrix.R` constructs one normalized text string from the title, abstract, author keywords, and Keywords Plus. `match_category()` accepts one record-level string and the labels for one TCCM dimension. The function returns the unique matching labels or `NA`; the module applies it independently to every record and every configured dimension. Each input record therefore produces exactly one row in the final TCCM matrix.
+
+```r
+source(here::here("scripts", "config_dictionaries.R"))
+
+field_or_empty <- function(records, field) {
+  if (field %in% names(records)) {
+    return(tidyr::replace_na(as.character(records[[field]]), ""))
+  }
+  rep("", nrow(records))
+}
+
+build_record_text <- function(records) {
+  text <- paste(
+    field_or_empty(records, "TI"),
+    field_or_empty(records, "AB"),
+    field_or_empty(records, "DE"),
+    field_or_empty(records, "ID")
+  )
+  text <- stringr::str_to_lower(text)
+  text <- stringi::stri_replace_all_regex(
+    text, "[^\\p{L}\\p{N}\\s-]", " "
+  )
+  stringr::str_squish(text)
+}
+
+match_category <- function(record_text, dimension_dictionary) {
+  stopifnot(length(record_text) == 1L)
+
+  matched_labels <- names(dimension_dictionary)[
+    vapply(
+      dimension_dictionary,
+      function(patterns) {
+        isTRUE(stringr::str_detect(
+          record_text,
+          stringr::regex(
+            paste(patterns, collapse = "|"),
+            ignore_case = TRUE
+          )
+        ))
+      },
+      logical(1)
+    )
+  ]
+
+  if (!length(matched_labels)) NA_character_
+  else paste(unique(matched_labels), collapse = "; ")
+}
+
+classify_tccm_records <- function(record_text, dictionaries) {
+  assignments <- lapply(dictionaries, function(dimension_dictionary) {
+    vapply(
+      seq_along(record_text),
+      function(i) match_category(
+        record_text[[i]], dimension_dictionary
+      ),
+      character(1)
+    )
+  })
+  tibble::as_tibble(assignments)
+}
+
+records <- readr::read_csv(
+  here::here("data", "interim", "collection_screened.csv"),
+  show_col_types = FALSE
+)
+record_text <- build_record_text(records)
+
+TCCM <- tibble::tibble(
+  Authors = field_or_empty(records, "AU"),
+  Year = field_or_empty(records, "PY"),
+  Source = field_or_empty(records, "SO"),
+  Title = field_or_empty(records, "TI"),
+  DOI = field_or_empty(records, "DI")
+)
+
+TCCM <- dplyr::bind_cols(
+  TCCM,
+  classify_tccm_records(record_text, TCCM_DICTIONARIES)
+)
+stopifnot(nrow(TCCM) == nrow(records))
+
+readr::write_csv(
+  TCCM,
+  here::here("data", "processed", "tccm", "TCCM_matrix.csv")
+)
+```
+
+Listing 1. Record-by-record dictionary-based TCCM classification. `classify_tccm_records()` iterates over record indices and calls `match_category()` with one scalar text string at a time. The single-record contract is enforced in `R/tccm.R`, avoiding aggregation across documents.
 
 ## Results
 
