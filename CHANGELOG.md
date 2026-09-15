@@ -2,7 +2,7 @@
 
 All notable changes to SLR Suite are documented here.
 
-## [2.3.2] - Pending publication
+## [2.3.2] - 2026-09-15
 
 - Corrected thematic cut years to avoid duplicate interval boundaries.
 - Added proportional two-period Sankey PNG/SVG export and analytical CSV/RDS outputs.
@@ -10,7 +10,7 @@ All notable changes to SLR Suite are documented here.
 - Extended instrumented coverage to thematic rendering and skip/continuation cases; core coverage reached 80.77% without lowering the 70% threshold.
 - Added explicit macOS XQuartz installation for Cairo SVG export; CI passed on Ubuntu, macOS and Windows.
 - Repeated the nine-stage benchmark five times per collection at commit `2e7cd2854c3aef9073e30ac9e813ba2fef97ddca`; all 15 runs and 135 module executions completed successfully with required outputs verified.
-- This release is being prepared; its final commit, archive DOI and publication date remain pending. The v2.3.1 tag and archive are unchanged.
+- The v2.3.1 tag and archive are unchanged. Benchmark evidence identifies the evaluated source separately from subsequent metadata/documentation commits.
 
 ## [2.3.1] - 2026-09-09
 

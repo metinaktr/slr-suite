@@ -4,7 +4,7 @@ title: "Software Architecture"
 
 SLR Suite separates orchestration, analysis, configuration, evidence, and reporting.
 
-![Data-centric architecture of SLR Suite v2.3.2 preparation. Blue dashed arrows show orchestration, orange dotted arrows show configuration dependencies, and solid arrows show file-based data flow.](figures/Figure_1_architecture_v2.3.2.svg){fig-alt="Data-centric architecture of SLR Suite version 2.3.2 showing entry points, orchestration, version-controlled configuration, nine independent analytical modules, file-based data layers, and cross-cutting reproducibility controls."}
+![Data-centric architecture of SLR Suite v2.3.2. Blue dashed arrows show orchestration, orange dotted arrows show configuration dependencies, and solid arrows show file-based data flow.](figures/Figure_1_architecture_v2.3.2.svg){fig-alt="Data-centric architecture of SLR Suite version 2.3.2 showing entry points, orchestration, version-controlled configuration, nine independent analytical modules, file-based data layers, and cross-cutting reproducibility controls."}
 
 | Layer | Location | Responsibility |
 |---|---|---|

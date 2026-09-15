@@ -1,7 +1,5 @@
 current_code_version: v2.3.2
-release_status: preparation_not_yet_published
-permanent_repository: pending_publication_and_archiving
-planned_release_url: https://github.com/metinaktr/slr-suite/releases/tag/v2.3.2
+permanent_repository: https://github.com/metinaktr/slr-suite/releases/tag/v2.3.2
 benchmark_commit: 2e7cd2854c3aef9073e30ac9e813ba2fef97ddca
 reproducibility_evidence: https://github.com/metinaktr/slr-suite/actions
 license: MIT
