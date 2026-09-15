@@ -2,15 +2,17 @@
 title: "User Guide"
 ---
 
-## Thematic evolution: development update
+## Thematic evolution
 
-The unreleased module produces `data/processed/thematic/thematic_sankey.png`
+The module produces `data/processed/thematic/thematic_sankey.png`
 and `thematic_sankey.svg`, plus analytical node/edge CSV files and an RDS object.
 The static two-period diagram preserves positive lineage-strength weights; it
 is not an interactive HTML chart. At least two distinct valid publication years
 and usable Keywords Plus (`ID`) are required. Single-year input is logged as
 `skipped`; genuine analytical or rendering errors are logged as `failed`.
-These changes are not in archived v2.3.1; a new repeated benchmark is pending.
+These changes are included in the v2.3.2 preparation, not in archived v2.3.1.
+The repeated benchmark at commit `2e7cd2854c3aef9073e30ac9e813ba2fef97ddca`
+completed successfully; see the release preparation record for its scope.
 SVG export uses R's Cairo graphics device. On macOS, install XQuartz if R reports
 missing X11/Cairo libraries; restart R after installation. CI installs XQuartz
 explicitly. Export failures remain real failures, not silently skipped images.
