@@ -2,6 +2,16 @@
 title: "User Guide"
 ---
 
+## Thematic evolution: development update
+
+The unreleased module produces `data/processed/thematic/thematic_sankey.png`
+and `thematic_sankey.svg`, plus analytical node/edge CSV files and an RDS object.
+The static two-period diagram preserves positive lineage-strength weights; it
+is not an interactive HTML chart. At least two distinct valid publication years
+and usable Keywords Plus (`ID`) are required. Single-year input is logged as
+`skipped`; genuine analytical or rendering errors are logged as `failed`.
+These changes are not in archived v2.3.1; a new repeated benchmark is pending.
+
 ## RStudio setup
 
 1. Clone the repository and open `slr-suite.Rproj` in RStudio.

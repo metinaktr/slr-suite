@@ -2,6 +2,13 @@
 
 All notable changes to SLR Suite are documented here.
 
+## [Unreleased]
+
+- Corrected thematic cut years to avoid duplicate interval boundaries.
+- Added proportional two-period Sankey PNG/SVG export and analytical CSV/RDS outputs.
+- Propagated real failures; logged single-year input as skipped, not successful.
+- Not part of the archived v2.3.1 release; repeated benchmark pending.
+
 ## [2.3.1] - 2026-09-09
 
 ### Changed
