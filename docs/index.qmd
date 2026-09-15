@@ -117,7 +117,7 @@ The same R codebase is used on Windows, Linux, and macOS. GitHub Actions verifie
 
 ## Citation
 
-Akbulut, M. (2026). *SLR Suite: A reproducible R workflow for systematic literature reviews* (Version 2.3.1) [Computer software]. https://github.com/metinaktr/slr-suite/releases/tag/v2.3.1
+Akbulut, M. (2026). *SLR Suite: A reproducible R workflow for systematic literature reviews* (Version 2.3.2, in preparation) [Computer software]. https://github.com/metinaktr/slr-suite
 
 Version-specific archival DOI information is provided in the corresponding GitHub Release notes.
 
