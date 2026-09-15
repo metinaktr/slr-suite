@@ -150,3 +150,49 @@ invalid_dictionary_error <- tryCatch(
   error = identity
 )
 stopifnot(inherits(invalid_dictionary_error, "error"))
+
+# Exercise the instrumented thematic functions (do not re-source them here).
+stopifnot(slr_thematic_breaks(c(2020, 2026)) == 2023)
+stopifnot(slr_thematic_breaks(c(2024, 2025)) == 2024)
+single_year <- tryCatch(slr_thematic_breaks(c(2024, 2024)), error = identity)
+stopifnot(inherits(single_year, "slr_not_applicable"))
+invalid_year <- tryCatch(slr_thematic_breaks(c(NA, NA)), error = identity)
+stopifnot(inherits(invalid_year, "error"))
+
+thematic_fixture <- list(
+  Nodes = data.frame(id = c("a", "b", "c", "d"),
+    name = c("first", "second", "third", "fourth"),
+    group = c("2020", "2020", "2021", "2021"),
+    color = c("#336699", "#993333", "#336699", "#993333")),
+  Edges = data.frame(from = c("a", "a", "b"), to = c("c", "d", "d"),
+    lineage_strength = c(0.5, 0.25, 0.75))
+)
+export_folder <- tempfile("coverage-sankey-")
+dir.create(export_folder)
+thematic_before <- serialize(thematic_fixture, NULL)
+exported <- slr_thematic_export(thematic_fixture, file.path(export_folder, "sankey"))
+stopifnot(exported$flows == 3L, exported$total_weight == 1.5)
+stopifnot(identical(thematic_before, serialize(thematic_fixture, NULL)))
+stopifnot(file.info(file.path(export_folder, "sankey.png"))$size > 0)
+stopifnot(file.info(file.path(export_folder, "sankey.svg"))$size > 0)
+fallback <- thematic_fixture
+fallback$Edges$Inc_Weighted <- fallback$Edges$lineage_strength
+fallback$Edges$lineage_strength <- NULL
+stopifnot(slr_thematic_export(fallback, file.path(export_folder, "fallback"))$flows == 3L)
+empty <- thematic_fixture
+empty$Edges$lineage_strength <- 0
+stopifnot(inherits(tryCatch(slr_thematic_export(empty, file.path(export_folder, "empty")),
+  error = identity), "error"))
+overlap <- thematic_fixture
+overlap$Edges$to[1] <- "a"
+stopifnot(inherits(tryCatch(slr_thematic_export(overlap, file.path(export_folder, "overlap")),
+  error = identity), "error"))
+
+skip_script <- file.path(workspace, "scripts", "03_skip.R")
+writeLines("stop(structure(list(message='Not applicable',call=NULL),class=c('slr_not_applicable','error','condition')))",
+  skip_script)
+skip_result <- slr_run_step(skip_script, root = workspace)
+stopifnot(skip_result$status == "skipped")
+continuation <- slr_run_pipeline(root = workspace,
+  steps = c(skip_script, file.path(workspace, "scripts", "01_ok.R")))
+stopifnot(identical(continuation$status, c("skipped", "success")))

@@ -11,6 +11,9 @@ is not an interactive HTML chart. At least two distinct valid publication years
 and usable Keywords Plus (`ID`) are required. Single-year input is logged as
 `skipped`; genuine analytical or rendering errors are logged as `failed`.
 These changes are not in archived v2.3.1; a new repeated benchmark is pending.
+SVG export uses R's Cairo graphics device. On macOS, install XQuartz if R reports
+missing X11/Cairo libraries; restart R after installation. CI installs XQuartz
+explicitly. Export failures remain real failures, not silently skipped images.
 
 ## RStudio setup
 
