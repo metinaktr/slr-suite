@@ -35,6 +35,9 @@ jobs:
             libpoppler-cpp-dev \
             libx11-dev \
             pandoc
+      - name: Install macOS SVG system dependency
+        if: runner.os == 'macOS'
+        run: brew install --cask xquartz
       - uses: r-lib/actions/setup-renv@v2
       - name: Run code-quality gate
         run: Rscript scripts/quality_gate.R

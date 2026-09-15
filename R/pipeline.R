@@ -40,6 +40,11 @@ slr_run_step <- function(script, root = slr_project_root(), log_dir = file.path(
   captured_error <- NULL
   tryCatch(
     sys.source(script, envir = new.env(parent = globalenv()), chdir = FALSE),
+    slr_not_applicable = function(condition) {
+      status <<- "skipped"
+      error_message <<- conditionMessage(condition)
+      message("[SKIPPED] ", basename(script), ": ", error_message)
+    },
     error = function(error) {
       status <<- "failed"
       error_message <<- conditionMessage(error)
